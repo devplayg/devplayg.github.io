@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Developer Playground</title>
-    <link>http://devplayg.com/post/</link>
+    <link>https://devplayg.com/post/</link>
     <description>Recent content in Posts on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 28 Sep 2018 10:02:39 +0900</lastBuildDate>
     
-	<atom:link href="http://devplayg.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>http://devplayg.com/post/hello/</link>
+      <link>https://devplayg.com/post/hello/</link>
       <pubDate>Fri, 28 Sep 2018 10:02:39 +0900</pubDate>
       
-      <guid>http://devplayg.com/post/hello/</guid>
+      <guid>https://devplayg.com/post/hello/</guid>
       <description>hello hugo on go</description>
     </item>
     
