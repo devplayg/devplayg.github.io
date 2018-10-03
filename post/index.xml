@@ -6,27 +6,27 @@
     <description>Recent content in Posts on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Sep 2018 22:51:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 21:36:24 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello ggg</title>
+      <title>Redmine_on_ubuntu</title>
+      <link>https://devplayg.com/post/redmine_on_ubuntu/</link>
+      <pubDate>Wed, 03 Oct 2018 21:36:24 +0900</pubDate>
+      
+      <guid>https://devplayg.com/post/redmine_on_ubuntu/</guid>
+      <description>Ubuntu 16.04 에 Redmine 3.4 설치 환경  Ubuntu 16.04.5 LTS Ruby 2.5.1  root 사용자로 로그인 # su -  필수 라이브러리 설치 # apt-get install git-core subversion imagemagick libmagickwand-dev libcurl4-openssl-dev  데이터베이스 설치 # apt-get install mysql-server libmysqlclient-dev  데이터베이스 설정 # mysql -u root -p  CREATE DATABASE redmine character SET utf8; CREATE user &#39;redmine&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;redmine&#39;; GRANT ALL privileges ON redmine.* TO &#39;redmine&#39;@&#39;localhost&#39;; flush privileges; quit;  RVM(Ruby Version Manager) 설치 # gpg --keyserver hkp://keys.</description>
+    </item>
+    
+    <item>
+      <title>Hello everyone</title>
       <link>https://devplayg.com/post/hello/</link>
       <pubDate>Sat, 29 Sep 2018 22:51:19 +0900</pubDate>
       
       <guid>https://devplayg.com/post/hello/</guid>
-      <description>Hello gitpage.!</description>
-    </item>
-    
-    <item>
-      <title>blah</title>
-      <link>https://devplayg.com/post/blah/</link>
-      <pubDate>Thu, 27 Sep 2018 20:02:48 +0900</pubDate>
-      
-      <guid>https://devplayg.com/post/blah/</guid>
-      <description>First post!</description>
+      <description> Hello gitpage.! asdfasdf asdfasdf </description>
     </item>
     
   </channel>
