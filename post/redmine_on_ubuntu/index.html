@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Redmine_on_ubuntu &middot; Developer Playground</title>
+  <title>Ubuntu 16.04 에 Redmine 3.4 설치 &middot; Developer Playground</title>
 
   
   <link type="text/css" rel="stylesheet" href="https://devplayg.com/css/print.css" media="print">
@@ -51,35 +51,33 @@
 
     <main class="content container">
     <div class="post">
-  <h1>Redmine_on_ubuntu</h1>
+  <h1>Ubuntu 16.04 에 Redmine 3.4 설치</h1>
   <time datetime=2018-10-03T21:36:24&#43;0900 class="post-date">Wed, Oct 3, 2018</time>
   
 
-<h1 id="ubuntu-16-04-에-redmine-3-4-설치">Ubuntu 16.04 에 Redmine 3.4 설치</h1>
-
-<h2 id="환경">환경</h2>
+<h3 id="환경">환경</h3>
 
 <ul>
 <li>Ubuntu 16.04.5 LTS</li>
 <li>Ruby 2.5.1</li>
 </ul>
 
-<h2 id="root-사용자로-로그인">root 사용자로 로그인</h2>
+<h3 id="root-사용자로-로그인">root 사용자로 로그인</h3>
 
 <pre><code># su -
 </code></pre>
 
-<h2 id="필수-라이브러리-설치">필수 라이브러리 설치</h2>
+<h3 id="필수-라이브러리-설치">필수 라이브러리 설치</h3>
 
 <pre><code># apt-get install git-core subversion imagemagick libmagickwand-dev libcurl4-openssl-dev 
 </code></pre>
 
-<h2 id="데이터베이스-설치">데이터베이스 설치</h2>
+<h3 id="데이터베이스-설치">데이터베이스 설치</h3>
 
 <pre><code># apt-get install mysql-server libmysqlclient-dev
 </code></pre>
 
-<h4 id="데이터베이스-설정">데이터베이스 설정</h4>
+<h5 id="데이터베이스-설정">데이터베이스 설정</h5>
 
 <pre><code># mysql -u root -p
 </code></pre>
@@ -91,25 +89,25 @@ flush privileges;
 quit;
 </code></pre>
 
-<h2 id="rvm-ruby-version-manager-설치">RVM(Ruby Version Manager) 설치</h2>
+<h3 id="rvm-ruby-version-manager-설치">RVM(Ruby Version Manager) 설치</h3>
 
 <pre><code># gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 # curl -sSL https://get.rvm.io | bash -s stable --ruby=2.5.1
 </code></pre>
 
-<h4 id="rvm-ruby-version-manager-설정">RVM(Ruby Version Manager) 설정</h4>
+<h5 id="rvm-ruby-version-manager-설정">RVM(Ruby Version Manager) 설정</h5>
 
 <pre><code># echo '[[ -s &quot;/usr/local/rvm/scripts/rvm&quot; ]] &amp;&amp; source &quot;/usr/local/rvm/scripts/rvm&quot;' &gt;&gt; ~/.bashrc
 # source /usr/local/rvm/scripts/rvm
 </code></pre>
 
-<h2 id="phusion-passenger-and-nginx-설치">Phusion Passenger and Nginx 설치</h2>
+<h3 id="phusion-passenger-and-nginx-설치">Phusion Passenger and Nginx 설치</h3>
 
 <pre><code># gem install passenger --no-ri --no-rdoc
 # passenger-install-nginx-module
 </code></pre>
 
-<h4 id="선택-옵션">선택 옵션</h4>
+<h5 id="선택-옵션">선택 옵션</h5>
 
 <ul class="task-list">
 <li><label><input type="checkbox" checked disabled class="task-list-item">  1. This installer will compile and install Nginx with Passenger support.</label></li>
@@ -118,7 +116,7 @@ quit;
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Please specify a prefix directory [/opt/nginx]: <strong>[엔터]</strong></label></li>
 </ul>
 
-<h4 id="nginx-설정">nginx 설정</h4>
+<h5 id="nginx-설정">nginx 설정</h5>
 
 <pre><code># curl https://raw.githubusercontent.com/makevoid/nginx-passenger-ubuntu/master/nginx/nginx.service &gt; /lib/systemd/system/nginx.service
 # systemctl daemon-reload
@@ -127,7 +125,7 @@ quit;
 # vi /opt/nginx/conf/nginx.conf
 </code></pre>
 
-<h6 id="opt-nginx-conf-nginx-conf-파일-내용-중-http-안의-server-섹션-전체를-아래-내용으로-교체">/opt/nginx/conf/nginx.conf 파일 내용 중, &ldquo;http&rdquo; 안의 &ldquo;server&rdquo; 섹션 전체를 아래 내용으로 교체</h6>
+<p>######## /opt/nginx/conf/nginx.conf 파일 내용 중, &ldquo;http&rdquo; 안의 &ldquo;server&rdquo; 섹션 전체를 아래 내용으로 교체</p>
 
 <pre><code>server {
   listen  80;  
@@ -137,12 +135,12 @@ quit;
 }
 </code></pre>
 
-<h2 id="ssl-키-설정">SSL 키 설정</h2>
+<h3 id="ssl-키-설정">SSL 키 설정</h3>
 
 <pre><code># openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
 </code></pre>
 
-<h4 id="ssl-키-정보-설정">SSL 키 정보 설정</h4>
+<h5 id="ssl-키-정보-설정">SSL 키 정보 설정</h5>
 
 <pre><code>Country Name (2 letter code) [AU]:                                
 State or Province Name (full name) [Some-State]:                  
@@ -153,7 +151,7 @@ Common Name (e.g. server FQDN or YOUR name) []: 192.168.100.139
 Email Address []:                                                 
 </code></pre>
 
-<h2 id="redmine-설치">Redmine 설치</h2>
+<h3 id="redmine-설치">Redmine 설치</h3>
 
 <pre><code># mkdir /var/data
 # cd /var/data/
@@ -161,7 +159,7 @@ Email Address []:
 # cd /var/data/redmine
 </code></pre>
 
-<h4 id="redmine-데이터베이스-설정">Redmine 데이터베이스 설정</h4>
+<h5 id="redmine-데이터베이스-설정">Redmine 데이터베이스 설정</h5>
 
 <pre><code># vi config/database.yml
 </code></pre>
@@ -183,14 +181,14 @@ development:
   encoding: utf8
 </code></pre>
 
-<h4 id="redmine-플러그인-설치">Redmine 플러그인 설치</h4>
+<h5 id="redmine-플러그인-설치">Redmine 플러그인 설치</h5>
 
 <pre><code># cd /var/data/redmine
 # gem install bundler --no-ri --no-rdoc
 # bundle install
 </code></pre>
 
-<h4 id="redmine-설정">Redmine 설정</h4>
+<h5 id="redmine-설정">Redmine 설정</h5>
 
 <pre><code># cd /var/data/redmine
 # mkdir -p public/plugin_assets
@@ -198,24 +196,24 @@ development:
 # chmod -R 755 files log tmp public/plugin_assets
 </code></pre>
 
-<h4 id="migrate-database">Migrate database</h4>
+<h5 id="migrate-database">Migrate database</h5>
 
 <pre><code># cd /var/data/redmine
 # bundle exec rake db:migrate
 # bundle exec rake redmine:plugins
 </code></pre>
 
-<h4 id="generate-session-store">Generate session store</h4>
+<h5 id="generate-session-store">Generate session store</h5>
 
 <pre><code># bundle exec rake generate_secret_token 
 </code></pre>
 
-<h2 id="nginx-재시작">nginx 재시작</h2>
+<h3 id="nginx-재시작">nginx 재시작</h3>
 
-<pre><code>systemctl restart nginx
+<pre><code># systemctl restart nginx
 </code></pre>
 
-<h2 id="redmine-접속">Redmine 접속</h2>
+<h3 id="redmine-접속">Redmine 접속</h3>
 
 <pre><code>http://localhost
 </code></pre>
