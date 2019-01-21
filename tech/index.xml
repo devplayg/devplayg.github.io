@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on Developer Playground</title>
+    <link>https://devplayg.com/tech/</link>
+    <description>Recent content in Teches on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 22 Jan 2019 00:09:12 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>https://devplayg.com/tech/ffmpeg/</link>
+      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/ffmpeg/</guid>
+      <description> 여러개의 동영상 합치기 ffmpeg -f concat -i &amp;ldquo;파일목록&amp;rdquo; -c copy &amp;ldquo;결과파일&amp;rdquo;
+ffmpeg -f concat -i list.txt -c copy output.mp4  파일목록 형식
+file 1.mp4 file 2.mp4 file 3.mp4  </description>
+    </item>
+    
+  </channel>
+</rss>
