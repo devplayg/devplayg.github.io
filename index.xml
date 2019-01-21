@@ -2,42 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developer Playground</title>
-    <link>https://devplayg.com/</link>
+    <link>http://devplayg.com/</link>
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 03 Oct 2018 21:36:24 +0900</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Sep 2018 22:51:19 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>2018년 개천절</title>
-      <link>https://devplayg.com/sansoo/%EA%B0%9C%EC%B2%9C%EC%A0%88/</link>
-      <pubDate>Wed, 03 Oct 2018 21:36:24 +0900</pubDate>
-      
-      <guid>https://devplayg.com/sansoo/%EA%B0%9C%EC%B2%9C%EC%A0%88/</guid>
-      <description>지산이 녀석, 벌써 7살이다. &amp;ldquo;8살 형아&amp;rdquo;가 되어간다. 때때로 조금 징징대긴 하지만, 그래도 제법 &amp;ldquo;형아&amp;rdquo;스럽다. 지산이 얼굴은 귀염머슴상이고, 지능도 단순해서 초등학교 가면 여자 또래 아이들이 꽤 좋아하겠다.
-지수는 5살인데, 눈치 백단에 천상 여자다. 핑크핑크, 블링블링~ 이런 옷들을 좋아하고, 밥 먹고 립스틱 바르는 흉내 내는 것을 좋아한다. 이 쪼꼬미도 벌써 이렇게 컸다. 역시 딸이라 아빠한테 잘 앵긴다. 너무 사랑스럽다.
-아침에는 아이들을 데리고 도서관에 갔는데, 공휴일이라 쉰단다. On our way back home, 우리가 나갈 집에 들어올 세입자가 구해지지 않아 부동산에 잠시 들렀다.</description>
-    </item>
     
     <item>
-      <title>Ubuntu 16.04 에 Redmine 3.4 설치</title>
-      <link>https://devplayg.com/post/redmine_on_ubuntu/</link>
-      <pubDate>Wed, 03 Oct 2018 21:36:24 +0900</pubDate>
-      
-      <guid>https://devplayg.com/post/redmine_on_ubuntu/</guid>
-      <description>환경  Ubuntu 16.04.5 LTS Ruby 2.5.1  root 사용자로 로그인 # su -  필수 라이브러리 설치 # apt-get install git-core subversion imagemagick libmagickwand-dev libcurl4-openssl-dev  데이터베이스 설치 # apt-get install mysql-server libmysqlclient-dev  데이터베이스 설정 # mysql -u root -p  CREATE DATABASE redmine character SET utf8; CREATE user &#39;redmine&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;redmine&#39;; GRANT ALL privileges ON redmine.* TO &#39;redmine&#39;@&#39;localhost&#39;; flush privileges; quit;  RVM(Ruby Version Manager) 설치 # gpg --keyserver hkp://keys.</description>
-    </item>
-    
-    <item>
-      <title>Hello everyone</title>
-      <link>https://devplayg.com/post/hello/</link>
+      <title>Hello</title>
+      <link>http://devplayg.com/post/hello/</link>
       <pubDate>Sat, 29 Sep 2018 22:51:19 +0900</pubDate>
       
-      <guid>https://devplayg.com/post/hello/</guid>
-      <description> Hello gitpage.! asdfasdf asdfasdf </description>
+      <guid>http://devplayg.com/post/hello/</guid>
+      <description>Hello gitpage.</description>
     </item>
     
   </channel>
