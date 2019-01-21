@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/music/2018_awards/</loc>
+    <lastmod>2019-01-21T23:39:17+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/post/hello/</loc>
     <lastmod>2018-09-29T22:51:19+09:00</lastmod>
   </url>
@@ -14,7 +19,13 @@
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2018-09-29T22:51:19+09:00</lastmod>
+    <lastmod>2019-01-21T23:39:17+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/music/</loc>
+    <lastmod>2019-01-21T23:39:17+09:00</lastmod>
     <priority>0</priority>
   </url>
   
