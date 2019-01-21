@@ -22,5 +22,14 @@
 아침에는 아이들을 데리고 도서관에 갔는데, 공휴일이라 쉰단다. On our way back home, 우리가 나갈 집에 들어올 세입자가 구해지지 않아 부동산에 잠시 들렀다.</description>
     </item>
     
+    <item>
+      <title>Ubuntu 16.04 에 Redmine 3.4 설치</title>
+      <link>https://devplayg.com/sansoo/redmine_on_ubuntu/</link>
+      <pubDate>Wed, 03 Oct 2018 21:36:24 +0900</pubDate>
+      
+      <guid>https://devplayg.com/sansoo/redmine_on_ubuntu/</guid>
+      <description>환경  Ubuntu 16.04.5 LTS Ruby 2.5.1  root 사용자로 로그인 # su -  필수 라이브러리 설치 # apt-get install git-core subversion imagemagick libmagickwand-dev libcurl4-openssl-dev  데이터베이스 설치 # apt-get install mysql-server libmysqlclient-dev  데이터베이스 설정 # mysql -u root -p  CREATE DATABASE redmine character SET utf8; CREATE user &#39;redmine&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;redmine&#39;; GRANT ALL privileges ON redmine.* TO &#39;redmine&#39;@&#39;localhost&#39;; flush privileges; quit;  RVM(Ruby Version Manager) 설치 # gpg --keyserver hkp://keys.</description>
+    </item>
+    
   </channel>
 </rss>
