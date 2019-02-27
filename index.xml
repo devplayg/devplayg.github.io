@@ -19,7 +19,7 @@
       <guid>https://devplayg.com/tech/ffmpeg/</guid>
       <description> 여러개의 동영상 합치기 ffmpeg -f concat -i &amp;ldquo;파일목록&amp;rdquo; -c copy &amp;ldquo;결과파일&amp;rdquo;
 ffmpeg -f concat -i list.txt -c copy output.mp4  파일목록 형식
-file 1.mp4 file 2.mp4 file 3.mp4  </description>
+file 1.mp4 file 2.mp4 file 3.mp4 file 4.mp4  </description>
     </item>
     
     <item>
