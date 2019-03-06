@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Developer Playground</title>
+    <link>https://devplayg.com/categories/life/</link>
+    <description>Recent content in Life on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>개천절</title>
+      <link>https://devplayg.com/2018/10/oct-3rd/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/2018/10/oct-3rd/</guid>
+      <description>지수는 5살인데, 눈치 백단에 천상 여자다. 핑크핑크, 블링블링~ 이런 옷들을 좋아하고, 밥 먹고 립스틱 바르는 흉내 내는 것을 좋아한다. 이 쪼꼬미도 벌써 이렇게 컸다. 역시 딸이라 아빠한테 잘 앵긴다. 너무 사랑스럽다.</description>
+    </item>
+    
+  </channel>
+</rss>

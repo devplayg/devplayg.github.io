@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Developer Playground</title>
+    <title>Music on Developer Playground</title>
     <link>https://devplayg.com/music/</link>
-    <description>Recent content on Developer Playground</description>
+    <description>Recent content in Music on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 21 Jan 2019 23:39:17 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2019 17:14:41 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2018_awards</title>
+      <title>2018년에 알게된 좋은 노래들</title>
       <link>https://devplayg.com/music/2018_awards/</link>
-      <pubDate>Mon, 21 Jan 2019 23:39:17 +0900</pubDate>
+      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
       
       <guid>https://devplayg.com/music/2018_awards/</guid>
-      <description>루피 - Save</description>
+      <description>2018-Awards
+Dok2 - Still On My Way (Feat. Zion.T) Eric Clapton - I Shot The Sheriff (Live) Mandy Harvey - Try 나플라 - Smile 나플라 - you gon need it 나플라 - 멀쩡해 나플라, 루피 - Rough World 넉살 - 시대 (Feat.</description>
     </item>
     
   </channel>
