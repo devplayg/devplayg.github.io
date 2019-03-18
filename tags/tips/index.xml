@@ -17,7 +17,7 @@
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/go_interface-as-parameter-to-function/</guid>
-      <description>Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors.</description>
+      <description>Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.</description>
     </item>
     
     <item>

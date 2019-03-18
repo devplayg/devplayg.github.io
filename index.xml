@@ -17,7 +17,7 @@
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/go_interface-as-parameter-to-function/</guid>
-      <description>Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors.</description>
+      <description>Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ Go, Javascript, Delphi, Java</description>
       <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ffmpeg/</guid>
-      <description> 여러개의 동영상 합치기 ffmpeg -f concat -i &amp;quot;파일목록&amp;quot; -c copy &amp;quot;결과파일&amp;quot;  ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  </description>
+      <description>여러개의 동영상 합치기 ffmpeg -f concat -i &amp;quot;파일목록&amp;quot; -c copy &amp;quot;결과파일&amp;quot;  ffmpeg -f concat -i list.</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@ Go, Javascript, Delphi, Java</description>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://devplayg.com/2018/10/oct-3rd/</guid>
-      <description>지수는 5살인데, 눈치 백단에 천상 여자다. 핑크핑크, 블링블링~ 이런 옷들을 좋아하고, 밥 먹고 립스틱 바르는 흉내 내는 것을 좋아한다. 이 쪼꼬미도 벌써 이렇게 컸다. 역시 딸이라 아빠한테 잘 앵긴다. 너무 사랑스럽다.</description>
+      <description>지수는 5살인데, 눈치 백단에 천상 여자다. 핑크핑크, 블링블링~ 이런 옷들을 좋아하고, 밥 먹고 립스틱 바르는 흉내 내는 것을 좋아한다.</description>
     </item>
     
   </channel>

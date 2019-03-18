@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go - Interface as Parameter to Function"/>
-<meta name="twitter:description" content="Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors."/>
+<meta name="twitter:description" content="Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v."/>
 
 <meta property="og:title" content="Go - Interface as Parameter to Function" />
-<meta property="og:description" content="Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors." />
+<meta property="og:description" content="Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/go_interface-as-parameter-to-function/" /><meta property="article:published_time" content="2019-03-19T03:06:29&#43;09:00"/>
 <meta property="article:modified_time" content="2019-03-19T03:06:29&#43;09:00"/>
@@ -130,6 +130,8 @@
 </div>
 
         <section class="social">
+	
+	<a href="https://twitter.com/devplayg" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
 	
 	
 	
@@ -247,6 +249,35 @@
   
 
   
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'https-devplayg-github-io';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
     
 
 
