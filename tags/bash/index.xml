@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on DevPlayG</title>
-    <link>https://devplayg.com/tech/</link>
-    <description>Recent content in Tech on DevPlayG</description>
+    <title>Bash on DevPlayG</title>
+    <link>https://devplayg.com/tags/bash/</link>
+    <description>Recent content in Bash on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://devplayg.com/tech/bash-get_current_directory/</guid>
       <description>asdfasdf
 DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  </description>
-    </item>
-    
-    <item>
-      <title>ffmpeg Command</title>
-      <link>https://devplayg.com/tech/ffmpeg/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ffmpeg/</guid>
-      <description>여러개의 동영상 합치기
-ffmpeg -f concat -i &amp;quot;파일목록&amp;quot; -c copy &amp;quot;결과파일&amp;quot; ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-/tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  </description>
     </item>
     
   </channel>

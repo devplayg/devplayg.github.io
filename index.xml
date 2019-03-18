@@ -6,10 +6,20 @@
     <description>Recent content on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Mar 2019 17:14:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash - Get current directory</title>
+      <link>https://devplayg.com/tech/bash-get_current_directory/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/bash-get_current_directory/</guid>
+      <description>asdfasdf
+DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  </description>
+    </item>
     
     <item>
       <title>2018년에 알게된 좋은 노래들</title>
