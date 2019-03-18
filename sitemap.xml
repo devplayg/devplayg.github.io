@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devplayg.com/tech/bash-get_current_directory/</loc>
+    <loc>https://devplayg.com/tech/go_interface-as-parameter-to-function/</loc>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/bash_tips/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/postgres_tips/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
   </url>
   
@@ -57,6 +67,18 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/database/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/db/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/dev/</loc>
     <lastmod>2019-03-03T16:56:17+09:00</lastmod>
     <priority>0</priority>
@@ -64,7 +86,7 @@
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,6 +105,24 @@
   <url>
     <loc>https://devplayg.com/categories/ffmpeg/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/go/</loc>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/golang/</loc>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/interface/</loc>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,6 +151,30 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/postgres/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/postgresql/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/sh/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/shell/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/</loc>
     <lastmod>2019-03-03T16:56:17+09:00</lastmod>
     <priority>0</priority>
@@ -118,13 +182,19 @@
   
   <url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/tech/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tips/</loc>
+    <lastmod>2019-03-19T03:06:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   

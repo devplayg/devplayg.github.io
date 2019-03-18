@@ -6,19 +6,36 @@
     <description>Recent content in Tech on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 03:06:29 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bash - Get current directory</title>
-      <link>https://devplayg.com/tech/bash-get_current_directory/</link>
+      <title>Go - Interface as Parameter to Function</title>
+      <link>https://devplayg.com/tech/go_interface-as-parameter-to-function/</link>
+      <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_interface-as-parameter-to-function/</guid>
+      <description>Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors.</description>
+    </item>
+    
+    <item>
+      <title>Bash tips</title>
+      <link>https://devplayg.com/tech/bash_tips/</link>
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/bash-get_current_directory/</guid>
-      <description>asdfasdf
-DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  </description>
+      <guid>https://devplayg.com/tech/bash_tips/</guid>
+      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL tips</title>
+      <link>https://devplayg.com/tech/postgres_tips/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/postgres_tips/</guid>
+      <description> List users \du \du+  Add user postgres=# create role won; CREATE ROLE postgres=# \du won List of roles Role name | Attributes | Member of -----------+--------------+----------- won | Cannot login | {} alter role won LOGIN password &#39;won&#39;;  Use database  \c fabricexplorer  List databases \l \l+  </description>
     </item>
     
   </channel>

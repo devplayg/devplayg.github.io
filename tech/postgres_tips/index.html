@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
     
+    
+
+
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
@@ -14,18 +17,18 @@
     
     
 
-<title>Util • DevPlayG</title>
+<title>PostgreSQL tips • DevPlayG</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Util"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="PostgreSQL tips"/>
+<meta name="twitter:description" content=" List users \du \du&#43;  Add user postgres=# create role won; CREATE ROLE postgres=# \du won List of roles Role name | Attributes | Member of -----------&#43;--------------&#43;----------- won | Cannot login | {} alter role won LOGIN password &#39;won&#39;;  Use database  \c fabricexplorer  List databases \l \l&#43;  "/>
 
-<meta property="og:title" content="Util" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://devplayg.com/tags/util/" />
-<meta property="og:updated_time" content="2019-01-22T00:09:12&#43;09:00"/>
+<meta property="og:title" content="PostgreSQL tips" />
+<meta property="og:description" content=" List users \du \du&#43;  Add user postgres=# create role won; CREATE ROLE postgres=# \du won List of roles Role name | Attributes | Member of -----------&#43;--------------&#43;----------- won | Cannot login | {} alter role won LOGIN password &#39;won&#39;;  Use database  \c fabricexplorer  List databases \l \l&#43;  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://devplayg.com/tech/postgres_tips/" /><meta property="article:published_time" content="2019-03-18T21:34:36&#43;09:00"/>
+<meta property="article:modified_time" content="2019-03-18T21:34:36&#43;09:00"/>
 
 
     
@@ -56,10 +59,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
-
-<link href="https://devplayg.com/tags/util/index.xml" rel="alternate" type="application/rss+xml" title="DevPlayG" />
-<link href="https://devplayg.com/tags/util/index.xml" rel="feed" type="application/rss+xml" title="DevPlayG" />
-
 
 </head>
 
@@ -159,22 +158,117 @@
 
         <div class="content container">
             
-    <span class="section__title">Util</span>
-<ul class="posts">
+    <article>
+  <header>
+    <h1>PostgreSQL tips</h1>
     
-        
-<li>
-  <span class="list__title--small">
-    <a href="/tech/ffmpeg/" >ffmpeg Tips</a>
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Mar 18, 2019
+    
+    
+    
       
-      <time class="pull-right hidden-tablet">Jan 22, 2019</time>
       
-  </span>
-</li>
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/tech">TECH</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/database">database</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/db">db</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/postgres">postgres</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/postgresql">postgresql</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
 
 
+  </header>
+  
+  
+  <div class="post">
     
-</ul>
+
+<h3 id="list-users">List users</h3>
+
+<pre><code>\du
+\du+
+</code></pre>
+
+<h3 id="add-user">Add user</h3>
+
+<pre><code class="language-sql">postgres=# create role won;
+CREATE ROLE
+
+postgres=# \du won
+List of roles
+Role name |  Attributes  | Member of
+-----------+--------------+-----------
+won       | Cannot login | {}
+
+alter role won LOGIN password 'won';
+</code></pre>
+
+<h3 id="use-database">Use database</h3>
+
+<pre><code> \c fabricexplorer
+</code></pre>
+
+<h3 id="list-databases">List databases</h3>
+
+<pre><code>\l
+\l+
+</code></pre>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/tech/ffmpeg/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">ffmpeg Tips</span>
+    </a>
+    
+    
+    <a href="/tech/bash_tips/" class="navigation-next">
+      <span class="navigation-tittle">Bash tips</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
 
 
         </div>
@@ -195,6 +289,23 @@ if (!doNotTrack) {
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
 
 
 

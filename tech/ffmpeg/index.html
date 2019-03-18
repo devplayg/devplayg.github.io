@@ -17,19 +17,15 @@
     
     
 
-<title>ffmpeg Command • DevPlayG</title>
+<title>ffmpeg Tips • DevPlayG</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ffmpeg Command"/>
-<meta name="twitter:description" content="여러개의 동영상 합치기
-ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot; ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-/tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  "/>
+<meta name="twitter:title" content="ffmpeg Tips"/>
+<meta name="twitter:description" content=" 여러개의 동영상 합치기 ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot;  ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  "/>
 
-<meta property="og:title" content="ffmpeg Command" />
-<meta property="og:description" content="여러개의 동영상 합치기
-ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot; ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-/tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  " />
+<meta property="og:title" content="ffmpeg Tips" />
+<meta property="og:description" content=" 여러개의 동영상 합치기 ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot;  ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/ffmpeg/" /><meta property="article:published_time" content="2019-01-22T00:09:12&#43;09:00"/>
 <meta property="article:modified_time" content="2019-01-22T00:09:12&#43;09:00"/>
@@ -164,7 +160,7 @@ ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot; ff
             
     <article>
   <header>
-    <h1>ffmpeg Command</h1>
+    <h1>ffmpeg Tips</h1>
     
     
 <div class="post__meta">
@@ -211,13 +207,17 @@ ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot; ff
   
   
   <div class="post">
-    <p><strong>여러개의 동영상 합치기</strong></p>
+    
+
+<h3 id="여러개의-동영상-합치기">여러개의 동영상 합치기</h3>
 
 <pre><code>ffmpeg -f concat -i &quot;파일목록&quot; -c copy &quot;결과파일&quot;
-ffmpeg -f concat -i list.txt -c copy output.mp4
 </code></pre>
 
-<p><strong>list.txt</strong></p>
+<pre><code class="language-bash">ffmpeg -f concat -i list.txt -c copy output.mp4
+</code></pre>
+
+<h3 id="list-txt">list.txt</h3>
 
 <pre><code>/tmp/file1.mp4
 /tmp/file2.mp4
@@ -231,8 +231,8 @@ ffmpeg -f concat -i list.txt -c copy output.mp4
 <div class="navigation navigation-single">
     
     
-    <a href="/tech/bash-get_current_directory/" class="navigation-next">
-      <span class="navigation-tittle">Bash - Get current directory</span>
+    <a href="/tech/postgres_tips/" class="navigation-next">
+      <span class="navigation-tittle">PostgreSQL tips</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

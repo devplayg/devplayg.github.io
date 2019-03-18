@@ -23,7 +23,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
-<meta property="og:updated_time" content="2019-03-18T21:34:36&#43;09:00"/>
+<meta property="og:updated_time" content="2019-03-19T03:06:29&#43;09:00"/>
 
 
     
@@ -166,15 +166,35 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/bash-get_current_directory/" >Bash - Get current directory</a>
+          <a href="/tech/go_interface-as-parameter-to-function/" >Go - Interface as Parameter to Function</a>
+        </span>
+        <span class="item__date">
+          Mar 19, 2019
+        </span>
+        <span >
+        
+        Heading 3 func OpenVideoCapture(v interface{}) (*VideoCapture, error) { switch vv := v.(type) { case int: return VideoCaptureDevice(vv) case string: id, err := strconv.Atoi(vv) if err == nil { return VideoCaptureDevice(id) } return VideoCaptureFile(vv) default: return nil, errors.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_interface-as-parameter-to-function/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/bash_tips/" >Bash tips</a>
         </span>
         <span class="item__date">
           Mar 18, 2019
         </span>
         <span >
         
-        asdfasdf
-DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;  
+         Get current directory DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;  
         
         </span>
         
@@ -186,37 +206,14 @@ DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/music/2018_awards/" >2018년에 알게된 좋은 노래들</a>
+          <a href="/tech/postgres_tips/" >PostgreSQL tips</a>
         </span>
         <span class="item__date">
-          Mar 3, 2019
+          Mar 18, 2019
         </span>
         <span >
         
-        2018-Awards
-Dok2 - Still On My Way (Feat. Zion.T) Eric Clapton - I Shot The Sheriff (Live) Mandy Harvey - Try 나플라 - Smile 나플라 - you gon need it 나플라 - 멀쩡해 나플라, 루피 - Rough World 넉살 - 시대 (Feat.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/music/2018_awards/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/about/" >About</a>
-        </span>
-        <span class="item__date">
-          Mar 3, 2019
-        </span>
-        <span >
-        
-        Lang.
-Go, Javascript, Delphi, Java
+         List users \du \du+  Add user postgres=# create role won; CREATE ROLE postgres=# \du won List of roles Role name | Attributes | Member of -----------+--------------+----------- won | Cannot login | {} alter role won LOGIN password 'won';  Use database  \c fabricexplorer  List databases \l \l+  
         
         </span>
         
@@ -259,12 +256,23 @@ Go, Javascript, Delphi, Java
     <li class="page-item"><a class="page-link" href="/page/2/">2</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/3/">3</a></li>
+    
+    
     <li class="page-item">
     <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
