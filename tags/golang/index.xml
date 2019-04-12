@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Golang References</title>
+      <link>https://devplayg.com/tech/golang-references/</link>
+      <pubDate>Mon, 25 Mar 2019 10:26:13 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/golang-references/</guid>
+      <description>bufio package Introduction to bufio package in Golang.
+Chunking large messages with gRPC</description>
+    </item>
+    
+    <item>
       <title>Go - Interface as Parameter to Function</title>
       <link>https://devplayg.com/tech/go_interface-as-parameter-to-function/</link>
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
