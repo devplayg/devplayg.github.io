@@ -6,76 +6,67 @@
     <description>Recent content in Tags on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Mar 2019 16:56:17 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 19:46:39 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>https://devplayg.com/tags/about/</link>
-      <pubDate>Sun, 03 Mar 2019 16:56:17 +0900</pubDate>
+      <title>git</title>
+      <link>https://devplayg.com/tags/git/</link>
+      <pubDate>Mon, 25 Mar 2019 19:46:39 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/about/</guid>
+      <guid>https://devplayg.com/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Awards</title>
-      <link>https://devplayg.com/tags/awards/</link>
-      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
+      <title>recover</title>
+      <link>https://devplayg.com/tags/recover/</link>
+      <pubDate>Mon, 25 Mar 2019 19:46:39 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/awards/</guid>
+      <guid>https://devplayg.com/tags/recover/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bash</title>
-      <link>https://devplayg.com/tags/bash/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      <title>tip</title>
+      <link>https://devplayg.com/tags/tip/</link>
+      <pubDate>Mon, 25 Mar 2019 19:46:39 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/bash/</guid>
+      <guid>https://devplayg.com/tags/tip/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Database</title>
-      <link>https://devplayg.com/tags/database/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      <title>golang</title>
+      <link>https://devplayg.com/tags/golang/</link>
+      <pubDate>Mon, 25 Mar 2019 19:26:25 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/database/</guid>
+      <guid>https://devplayg.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Db</title>
-      <link>https://devplayg.com/tags/db/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      <title>tcp</title>
+      <link>https://devplayg.com/tags/tcp/</link>
+      <pubDate>Mon, 25 Mar 2019 19:26:25 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/db/</guid>
+      <guid>https://devplayg.com/tags/tcp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Devplayg</title>
-      <link>https://devplayg.com/tags/devplayg/</link>
-      <pubDate>Sun, 03 Mar 2019 16:56:17 +0900</pubDate>
+      <title>tcp server</title>
+      <link>https://devplayg.com/tags/tcp-server/</link>
+      <pubDate>Mon, 25 Mar 2019 19:26:25 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/devplayg/</guid>
+      <guid>https://devplayg.com/tags/tcp-server/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ffmpeg</title>
-      <link>https://devplayg.com/tags/ffmpeg/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/ffmpeg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
+      <title>go</title>
       <link>https://devplayg.com/tags/go/</link>
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
       
@@ -84,16 +75,7 @@
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://devplayg.com/tags/golang/</link>
-      <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interface</title>
+      <title>interface</title>
       <link>https://devplayg.com/tags/interface/</link>
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
       
@@ -102,52 +84,7 @@
     </item>
     
     <item>
-      <title>Music</title>
-      <link>https://devplayg.com/tags/music/</link>
-      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgres</title>
-      <link>https://devplayg.com/tags/postgres/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/postgres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgresql</title>
-      <link>https://devplayg.com/tags/postgresql/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sh</title>
-      <link>https://devplayg.com/tags/sh/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/sh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shell</title>
-      <link>https://devplayg.com/tags/shell/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
+      <title>tips</title>
       <link>https://devplayg.com/tags/tips/</link>
       <pubDate>Tue, 19 Mar 2019 03:06:29 +0900</pubDate>
       
@@ -156,7 +93,115 @@
     </item>
     
     <item>
-      <title>Util</title>
+      <title>bash</title>
+      <link>https://devplayg.com/tags/bash/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://devplayg.com/tags/database/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>db</title>
+      <link>https://devplayg.com/tags/db/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/db/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://devplayg.com/tags/postgres/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://devplayg.com/tags/postgresql/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sh</title>
+      <link>https://devplayg.com/tags/sh/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/sh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://devplayg.com/tags/shell/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awards</title>
+      <link>https://devplayg.com/tags/awards/</link>
+      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/awards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://devplayg.com/tags/music/</link>
+      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://devplayg.com/tags/about/</link>
+      <pubDate>Sun, 03 Mar 2019 16:56:17 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devplayg</title>
+      <link>https://devplayg.com/tags/devplayg/</link>
+      <pubDate>Sun, 03 Mar 2019 16:56:17 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/devplayg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>https://devplayg.com/tags/ffmpeg/</link>
+      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>util</title>
       <link>https://devplayg.com/tags/util/</link>
       <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
       
