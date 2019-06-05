@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on DevPlayG</title>
+    <link>https://devplayg.com/life/</link>
+    <description>Recent content in Life on DevPlayG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 06 Jun 2019 01:00:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown의 미학</title>
+      <link>https://devplayg.com/life/diary-2019-06-06-markdown/</link>
+      <pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/diary-2019-06-06-markdown/</guid>
+      <description>Markdown 을 제대로 접하고 난 후, 기술을 온라인 블로그에 정리하고 싶은 마음이 더 강하게 들었다.
+이번엔 블로깅을 멈추지 않고 계속 해보자.</description>
+    </item>
+    
+    <item>
+      <title>다시 써 본다</title>
+      <link>https://devplayg.com/life/life-write-again/</link>
+      <pubDate>Mon, 03 Jun 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/life-write-again/</guid>
+      <description>끄적끄적</description>
+    </item>
+    
+  </channel>
+</rss>

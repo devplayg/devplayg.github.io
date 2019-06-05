@@ -17,25 +17,25 @@
     
     
 
-<title>Hello World • DevPlayG</title>
-<meta name="description" content="devplayg&#39;s blog :: technology, thoughts, opinions, and music">
-<meta name="keywords" content="blog,tech,utils,golang,life,music">
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hello World"/>
-<meta name="twitter:description" content="Cut out summary from your post content here."/>
+<title>FFmpeg tips • DevPlayG</title>
 
-<meta property="og:title" content="Hello World" />
-<meta property="og:description" content="Cut out summary from your post content here." />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="FFmpeg tips"/>
+<meta name="twitter:description" content=" 여러개의 동영상 합치기 ffmpeg -f concat -i list.txt -c copy output.mp4  cat list.txt --- /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  "/>
+
+<meta property="og:title" content="FFmpeg tips" />
+<meta property="og:description" content=" 여러개의 동영상 합치기 ffmpeg -f concat -i list.txt -c copy output.mp4  cat list.txt --- /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/_about/" />
-<meta property="article:published_time" content="2019-06-04T23:58:19+09:00" />
-<meta property="article:modified_time" content="2019-06-04T23:58:19+09:00" />
+<meta property="og:url" content="https://devplayg.com/tech/tips-ffmpeg/" />
+<meta property="article:published_time" content="2019-01-22T00:09:12+09:00" />
+<meta property="article:modified_time" content="2019-01-22T00:09:12+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6a83d62c39a364f036df4db1ecd564645635d6c7fc182425cb501218fec485f5.css" integrity="sha256-aoPWLDmjZPA2302x7NVkZFY11sf8GCQly1ASGP7EhfU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.3f0c99c194f2740af0099af7bb5415ac13c95c2006a22d80ab8d81c9dc8636ce.css" integrity="sha256-PwyZwZTydArwCZr3u1QVrBPJXCAGoi2Aq42BydyGNs4=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -82,7 +82,7 @@
       
       
       <p class="site__description">
-        
+         Developer Playground 
       </p>
     </div>
     <div class="collapsible-menu">
@@ -161,6 +161,10 @@
 </div>
 
 
+<div class="builtwith">
+Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
+</div>
+
 
   </div>
 </div>
@@ -170,13 +174,13 @@
     
 <article>
   <header>
-    <h1>Hello World</h1>
+    <h1>FFmpeg tips</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Jun 4, 2019
+      <i class="fas fa-calendar-alt"></i> Jan 22, 2019
     
     
     
@@ -185,7 +189,7 @@
           in
           
           
-              <a class="badge badge-category" href="/categories/about">ABOUT</a>
+              <a class="badge badge-category" href="/categories/tech">TECH</a>
               
           
       
@@ -197,7 +201,13 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/about">about</a>
+          <a class="badge badge-tag" href="/tags/tech">tech</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/util">util</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ffmpeg">ffmpeg</a>
           
       
     
@@ -211,14 +221,31 @@
   
   
   <div class="post">
-    <p>Cut out summary from your post content here.</p>
+    
 
-<p>The remaining content of your post.</p>
+<h2 id="여러개의-동영상-합치기">여러개의 동영상 합치기</h2>
+
+<pre><code class="language-bash">ffmpeg -f concat -i list.txt -c copy output.mp4
+</code></pre>
+
+<pre><code>cat list.txt
+---
+/tmp/file1.mp4
+/tmp/file2.mp4
+/tmp/file3.mp4
+/tmp/file4.mp4
+</code></pre>
+
   </div>
   
 
 <div class="navigation navigation-single">
     
+    
+    <a href="/tech/go-pseudo-random-permutation-of-the-integers-in-go/" class="navigation-next">
+      <span class="navigation-tittle">Pseudo-random permutation of the integers in Go</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 
@@ -284,7 +311,7 @@ if (!doNotTrack) {
 
     
     
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
         
     
     <script type="text/javascript">
