@@ -6,7 +6,7 @@
     <description>Recent content in golang on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2019 21:34:36 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Pseudo-random permutation of the integers in Go</title>
       <link>https://devplayg.com/tech/go-pseudo-random-permutation-of-the-integers-in-go/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      <pubDate>Wed, 05 Jun 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/go-pseudo-random-permutation-of-the-integers-in-go/</guid>
       <description>package main import ( &amp;quot;fmt&amp;quot; &amp;quot;math/rand&amp;quot; &amp;quot;time&amp;quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  </description>
