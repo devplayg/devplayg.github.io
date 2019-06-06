@@ -102,15 +102,6 @@
     </item>
     
     <item>
-      <title>about</title>
-      <link>https://devplayg.com/tags/about/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bash</title>
       <link>https://devplayg.com/tags/bash/</link>
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
@@ -129,11 +120,29 @@
     </item>
     
     <item>
+      <title>have fun</title>
+      <link>https://devplayg.com/tags/have-fun/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/have-fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>linux</title>
       <link>https://devplayg.com/tags/linux/</link>
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playground</title>
+      <link>https://devplayg.com/tags/playground/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/playground/</guid>
       <description></description>
     </item>
     
