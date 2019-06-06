@@ -3,14 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/tags/2019/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/music/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/music/music-2019-awards/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/music/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/music/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/music-awards/</loc>
+    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -26,25 +67,25 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/blog/</loc>
-    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/life/</loc>
     <lastmod>2019-06-06T01:00:42+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/life/</loc>
+    <loc>https://devplayg.com/tags/markdown/</loc>
+    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EA%B8%80/</loc>
+    <lastmod>2019-06-06T01:00:42+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2019-06-06T01:00:42+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,6 +120,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/blog/</loc>
+    <lastmod>2019-06-03T21:34:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/write/</loc>
     <lastmod>2019-06-03T21:34:36+09:00</lastmod>
     <priority>0</priority>
@@ -91,7 +138,7 @@
   
   <url>
     <loc>https://devplayg.com/about/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
   </url>
   
   <url>
@@ -100,14 +147,14 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/about/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <loc>https://devplayg.com/tags/about/</loc>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/about/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <loc>https://devplayg.com/categories/about/</loc>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,7 +166,7 @@
   
   <url>
     <loc>https://devplayg.com/tags/devplayg/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+    <lastmod>2019-06-06T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,25 +200,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/music/</loc>
-    <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/awards/</loc>
-    <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/music/</loc>
-    <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/music/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
     <priority>0</priority>
   </url>

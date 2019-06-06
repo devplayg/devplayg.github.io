@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>life on DevPlayG</title>
-    <link>https://devplayg.com/categories/life/</link>
-    <description>Recent content in life on DevPlayG</description>
+    <title>글쓰기 on DevPlayG</title>
+    <link>https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</link>
+    <description>Recent content in 글쓰기 on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 06 Jun 2019 01:00:42 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://devplayg.com/life/diary-2019-06-06-markdown/</guid>
       <description>전부터 Markdown 문서를 써오긴 했는데, 몇 줄 쓰지 않고 간단하게만 사용했었다. 그런데 회사에서 개발 코드리뷰 자료나 기능자료들을 Markdown으로 계속 작성했는데, 개발자인 나로서는 굉장히 효율적이라고 느꼈고, 체질(?)에 잘 맞아서 앞으로 더 많이, 더 자주 사용해보려고 한다.</description>
-    </item>
-    
-    <item>
-      <title>다시 써 본다</title>
-      <link>https://devplayg.com/life/life-write-again/</link>
-      <pubDate>Mon, 03 Jun 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/life-write-again/</guid>
-      <description>끄적끄적</description>
     </item>
     
   </channel>

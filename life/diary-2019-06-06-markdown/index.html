@@ -17,17 +17,15 @@
     
     
 
-<title>Markdown의 미학 • DevPlayG</title>
+<title>Markdown 의 미학 • DevPlayG</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Markdown의 미학"/>
-<meta name="twitter:description" content="Markdown 을 제대로 접하고 난 후, 기술을 온라인 블로그에 정리하고 싶은 마음이 더 강하게 들었다.
-이번엔 블로깅을 멈추지 않고 계속 해보자."/>
+<meta name="twitter:title" content="Markdown 의 미학"/>
+<meta name="twitter:description" content="전부터 Markdown 문서를 써오긴 했는데, 몇 줄 쓰지 않고 간단하게만 사용했었다. 그런데 회사에서 개발 코드리뷰 자료나 기능자료들을 Markdown으로 계속 작성했는데, 개발자인 나로서는 굉장히 효율적이라고 느꼈고, 체질(?)에 잘 맞아서 앞으로 더 많이, 더 자주 사용해보려고 한다."/>
 
-<meta property="og:title" content="Markdown의 미학" />
-<meta property="og:description" content="Markdown 을 제대로 접하고 난 후, 기술을 온라인 블로그에 정리하고 싶은 마음이 더 강하게 들었다.
-이번엔 블로깅을 멈추지 않고 계속 해보자." />
+<meta property="og:title" content="Markdown 의 미학" />
+<meta property="og:description" content="전부터 Markdown 문서를 써오긴 했는데, 몇 줄 쓰지 않고 간단하게만 사용했었다. 그런데 회사에서 개발 코드리뷰 자료나 기능자료들을 Markdown으로 계속 작성했는데, 개발자인 나로서는 굉장히 효율적이라고 느꼈고, 체질(?)에 잘 맞아서 앞으로 더 많이, 더 자주 사용해보려고 한다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/life/diary-2019-06-06-markdown/" />
 <meta property="article:published_time" content="2019-06-06T01:00:42+09:00" />
@@ -37,7 +35,7 @@
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
 
 
 
@@ -172,7 +170,7 @@
     
 <article>
   <header>
-    <h1>Markdown의 미학</h1>
+    <h1>Markdown 의 미학</h1>
     
     
 <div class="post__meta">
@@ -199,10 +197,13 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/life">life</a>
+          <a class="badge badge-tag" href="/tags/%EA%B8%80">글</a>
            
       
-          <a class="badge badge-tag" href="/tags/blog">blog</a>
+          <a class="badge badge-tag" href="/tags/%EA%B8%80%EC%93%B0%EA%B8%B0">글쓰기</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/markdown">markdown</a>
           
       
     
@@ -216,9 +217,47 @@
   
   
   <div class="post">
-    <p>Markdown 을 제대로 접하고 난 후, 기술을 온라인 블로그에 정리하고 싶은 마음이 더 강하게 들었다.</p>
+    
 
-<p>이번엔 블로깅을 멈추지 않고 계속 해보자.</p>
+<p>전부터 Markdown 문서를 써오긴 했는데, 몇 줄 쓰지 않고 간단하게만 사용했었다.
+그런데 회사에서 개발 코드리뷰 자료나 기능자료들을 Markdown으로 계속 작성했는데,
+개발자인 나로서는 굉장히 효율적이라고 느꼈고, 체질(?)에 잘 맞아서
+앞으로 더 많이, 더 자주 사용해보려고 한다.</p>
+
+<h3 id="내용에-집중해서-문서를-작성할-수-있다">내용에 집중해서 문서를 작성할 수 있다.</h3>
+
+<ul>
+<li>깔맞춤이나 폰트 크기 같은 겉치레는 크게 신경쓰지 않아도 되어서 좋다.</li>
+<li>그냥 쓰고 싶은 내용만 작성하면 된다.</li>
+</ul>
+
+<h3 id="샾-별-그리고-대시-만으로도-충분히-depth-있는-문서를-작성할-수-있다">샾(#), 별(<em>), 그리고 대시(</em>) 만으로도 충분히 Depth 있는 문서를 작성할 수 있다.</h3>
+
+<pre><code>* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b 
+</code></pre>
+
+<h3 id="가독성이-뛰어나다">가독성이 뛰어나다.</h3>
+
+<ul>
+<li>반복되는 말이지만, 문서에 꾸밈이 거의 없어, 내용 이해속도가 빠르다.</li>
+<li>코드에 대한 Syntax highlight 기능이 제공된다.</li>
+<li>샾(#)과 Intent 신공을 쓰면 더욱 가독성이 높아진다.</li>
+</ul>
+
+<h3 id="코드-블록-링크-기능을-사용할-수-있어-원하는-코드나-문서의-라인으로-이동이-쉽다">코드 블록 링크 기능을 사용할 수 있어, 원하는 코드나 문서의 라인으로 이동이 쉽다.</h3>
+
+<pre><code>https://github.com/devplayg/blog/blob/master/config.toml#L7-L10
+</code></pre>
+
+<p>그리고 개발자스러운 문서다(라고 나는 생각한다)</p>
+
+<pre><code>markdown is good
+markdown is attractive
+markdown is effective
+</code></pre>
 
   </div>
   
