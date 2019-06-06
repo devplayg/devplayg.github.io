@@ -6,37 +6,10 @@
     <description>Recent content in Categories on DevPlayG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 06 Jun 2019 17:14:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>music</title>
-      <link>https://devplayg.com/categories/music/</link>
-      <pubDate>Thu, 06 Jun 2019 17:14:41 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://devplayg.com/categories/life/</link>
-      <pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://devplayg.com/categories/tech/</link>
-      <pubDate>Wed, 05 Jun 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/tech/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>about</title>
