@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Little Miss Sunshine on DevPlayG</title>
+    <link>https://devplayg.com/tags/little-miss-sunshine/</link>
+    <description>Recent content in Little Miss Sunshine on DevPlayG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/little-miss-sunshine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developer Playground</title>
+      <link>https://devplayg.com/about/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/about/</guid>
+      <description>Who are you  iam := []byte(&amp;ldquo;Devplayg&amp;rdquo;)  Software engineer  making bugs since 2000  Some stuff used to make bugs  Go Perl Shell Java Etc.             Linux Go Docker Perl    Life Sayings and Quotes Rob pike</description>
+    </item>
+    
+  </channel>
+</rss>
