@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>쇼미더머니 on DevPlayG</title>
+    <link>https://devplayg.com/tags/%EC%87%BC%EB%AF%B8%EB%8D%94%EB%A8%B8%EB%8B%88/</link>
+    <description>Recent content in 쇼미더머니 on DevPlayG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 03 Mar 2019 17:14:41 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%87%BC%EB%AF%B8%EB%8D%94%EB%A8%B8%EB%8B%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018 Music Awards</title>
+      <link>https://devplayg.com/music/music_2018-awards/</link>
+      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
+      
+      <guid>https://devplayg.com/music/music_2018-awards/</guid>
+      <description>Bruno Mars - 24k Magic
+Bruno Mars - Thats What I Like
+Bruno Mars - The Lazy Song (Single Version)
+Eric Clapton - I Shot The Sheriff (Live)
+Fitz &amp;amp; The Tantrums - HandClap</description>
+    </item>
+    
+  </channel>
+</rss>
