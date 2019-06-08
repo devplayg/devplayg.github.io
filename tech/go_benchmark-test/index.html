@@ -22,12 +22,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go Benchmarks"/>
-<meta name="twitter:description" content="Benchmark 코드 작성 해시 알고리즘 성능을 측정하기 위한 코드 작성
+<meta name="twitter:description" content="Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
+해시 알고리즘 성능을 측정하기 위한 코드 작성
 hash_test.go
 package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand."/>
 
 <meta property="og:title" content="Go Benchmarks" />
-<meta property="og:description" content="Benchmark 코드 작성 해시 알고리즘 성능을 측정하기 위한 코드 작성
+<meta property="og:description" content="Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
+해시 알고리즘 성능을 측정하기 위한 코드 작성
 hash_test.go
 package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand." />
 <meta property="og:type" content="article" />
@@ -211,8 +213,9 @@ powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/
       
           
           
-              <a class="badge badge-category" href="/categories/tech">TECH</a>
-              
+              <a class="badge badge-category" href="/categories/go">go</a>
+          
+              <a class="badge badge-category" href="/categories/programming-language">programming language</a>
           
       
     
@@ -222,9 +225,6 @@ powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/
       
           
           
-          <a class="badge badge-tag" href="/tags/go">go</a>
-           
-      
           <a class="badge badge-tag" href="/tags/test">test</a>
            
       
@@ -235,6 +235,9 @@ powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/
            
       
           <a class="badge badge-tag" href="/tags/algorithm">algorithm</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/go">go</a>
           
       
     
@@ -249,7 +252,9 @@ powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/
   <div class="post">
     
 
-<h3 id="benchmark-코드-작성">Benchmark 코드 작성</h3>
+<h3 id="benchmarks-in-go">Benchmarks in Go</h3>
+
+<p>Benchmarks are placed inside &ldquo;_test.go&rdquo; files</p>
 
 <p>해시 알고리즘 성능을 측정하기 위한 코드 작성</p>
 

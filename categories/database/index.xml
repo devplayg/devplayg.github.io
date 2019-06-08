@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Developer Playground</title>
+    <link>https://devplayg.com/categories/database/</link>
+    <description>Recent content in database on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 08 Jun 2019 15:13:27 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mariadb profiling</title>
+      <link>https://devplayg.com/tech/mariadb_profiling/</link>
+      <pubDate>Sat, 08 Jun 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/mariadb_profiling/</guid>
+      <description> Set global variables SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;;  Profile SELECT * FROM mysql.general_log;  </description>
+    </item>
+    
+  </channel>
+</rss>

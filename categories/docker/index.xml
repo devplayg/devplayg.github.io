@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Developer Playground</title>
+    <link>https://devplayg.com/categories/docker/</link>
+    <description>Recent content in docker on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 07 Jun 2019 00:28:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Tips</title>
+      <link>https://devplayg.com/tech/docker_tips/</link>
+      <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_tips/</guid>
+      <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\.</description>
+    </item>
+    
+  </channel>
+</rss>
