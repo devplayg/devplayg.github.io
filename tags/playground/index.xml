@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>playground on DevPlayG</title>
+    <title>playground on Developer Playground</title>
     <link>https://devplayg.com/tags/playground/</link>
-    <description>Recent content in playground on DevPlayG</description>
+    <description>Recent content in playground on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>

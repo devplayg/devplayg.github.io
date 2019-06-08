@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on DevPlayG</title>
+    <title>markdown on Developer Playground</title>
     <link>https://devplayg.com/tags/markdown/</link>
-    <description>Recent content in markdown on DevPlayG</description>
+    <description>Recent content in markdown on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 06 Jun 2019 01:00:42 +0900</lastBuildDate>
