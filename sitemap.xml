@@ -142,6 +142,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/container/</loc>
+    <lastmod>2019-06-07T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/docker/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
@@ -160,7 +166,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/util/</loc>
+    <loc>https://devplayg.com/categories/ubuntu/</loc>
+    <lastmod>2019-06-07T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ubuntu/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -418,6 +430,12 @@
   
   <url>
     <loc>https://devplayg.com/tags/ffmpeg/</loc>
+    <lastmod>2019-01-22T00:09:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/util/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
     <priority>0</priority>
   </url>
