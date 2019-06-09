@@ -3,32 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/tech/kafka_setting-kafka/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/consumer/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/distributed-platform/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/distributed-platform/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/docker/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/kafka/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/kafka/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/producer/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/zookeeper/</loc>
+    <lastmod>2019-06-09T18:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/springboot_terms/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -56,15 +121,20 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/spring-framework/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/spring-framework/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/spring-framework/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
+    <loc>https://devplayg.com/tech/kafka_setting-zookeepers/</loc>
+    <lastmod>2019-06-09T15:55:12+09:00</lastmod>
   </url>
   
   <url>
@@ -79,13 +149,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/mariadb/</loc>
+    <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/mariadb/</loc>
+    <loc>https://devplayg.com/categories/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -120,13 +190,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/go/</loc>
+    <loc>https://devplayg.com/tags/go/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/go/</loc>
+    <loc>https://devplayg.com/categories/go/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -189,19 +259,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/docker/</loc>
-    <lastmod>2019-06-07T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/tips/</loc>
-    <lastmod>2019-06-07T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/ubuntu/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -213,56 +271,20 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/categories/ubuntu/</loc>
+    <lastmod>2019-06-07T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/virtual-machine/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/apache-kafka_installation-on-docker/</loc>
+    <loc>https://devplayg.com/tech/kafka_installation-on-docker/</loc>
     <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/apache/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/apache-kafka/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/distributed-platform/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/distributed-platform/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/kafka/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/kafka/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/streaming/</loc>
-    <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -340,13 +362,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/bash/</loc>
+    <loc>https://devplayg.com/tags/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/bash/</loc>
+    <loc>https://devplayg.com/categories/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -370,13 +392,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/linux/</loc>
+    <loc>https://devplayg.com/tags/linux/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/linux/</loc>
+    <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -458,13 +480,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/ffmpeg/</loc>
+    <loc>https://devplayg.com/tags/ffmpeg/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ffmpeg/</loc>
+    <loc>https://devplayg.com/categories/ffmpeg/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
     <priority>0</priority>
   </url>
