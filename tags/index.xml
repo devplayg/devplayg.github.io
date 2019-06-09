@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 08 Jun 2019 15:13:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2019 16:11:23 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java</title>
+      <link>https://devplayg.com/tags/java/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>https://devplayg.com/tags/spring/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring boot</title>
+      <link>https://devplayg.com/tags/spring-boot/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring framework</title>
+      <link>https://devplayg.com/tags/spring-framework/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-framework/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>mariadb</title>

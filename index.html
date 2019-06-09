@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-06-08T15:13:27+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-06-09T16:11:23+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -39,7 +39,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.71cd347a97446c65f6ac468fcb6fcb62d1867bd32b2714afa52279e482fb3ffe.css" integrity="sha256-cc00epdEbGX2rEaPy2/LYtGGe9MrJxSvpSJ55IL7P/4=">
+<link rel="stylesheet" href="/scss/hyde-hyde.2c8061e825dc5cd4431c45e6999eed95cfb7c0314907a820f8a98c63df147b07.css" integrity="sha256-LIBh6CXcXNRDHEXmmZ7tlc&#43;3wDFJB6gg&#43;KmMY98Uewc=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -131,10 +131,11 @@
 			
 		
 	</ul>
-    <ul class="menu-tag-and-category">
-        <li><a href="https://devplayg.com//categories">categories</a></li>
-        <li><a href="https://devplayg.com//tags">tags</a></li>
-    </ul>
+
+    <div class="menu-tag-and-category">
+        <span class="tag"><a href="/categories">categories</a></span>
+        <span class="category"><a href="/tags">tags</a></span>
+    </div>
 </div>
 
         <section class="social">
@@ -184,6 +185,27 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/springboot_terms/" >Spring Boot 용어 - Servlet &amp; Servlet Container</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 9, 2019
+        </span>
+        <span >
+        
+        서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 클래스이다 서블릿은 클라이언트의 요청을 받고, 응답을 돌려준다. 그리고는 사라진다.(?) 서블릿의 클라이언트는 주로 웹서버인 경우가 많다.  대표적인 웹서버로는 Apache 웹서버나 NGINX 가 있다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/springboot_terms/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -345,7 +367,9 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
         </span>
         <span >
         
-        Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engineer, especially Gopher  Are you enjoying the coding life?  Absolutely! Coding makes me high. Getting stressed time to time, I code in the Go language or blog on Github.
+        What makes me high Music, Coding, Walking, Thinking, Playing, Eating
+What makes me down Life without what makes me high
+Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engineer, especially Gopher  What&rsquo;ve you been for a long time?
         
         </span>
         
@@ -379,30 +403,51 @@ Fitz &amp; The Tantrums - HandClap
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/ffmpeg_tips/" >FFmpeg tips</a>
-        </span>
-        <span class="item__date">
-          Tue, Jan 22, 2019
-        </span>
-        <span >
-        
-        A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt cat list.txt --- /tmp/file1.mp4 /tmp/file2.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/ffmpeg_tips/">➦</a>
-        
-        </div>
-        
-     
   </div>
   
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item disabled">
+    <a href="" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/2/">2</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
 
 
         </div>

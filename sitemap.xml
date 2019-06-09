@@ -4,31 +4,72 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-08T15:13:27+09:00</lastmod>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-06-08T15:13:27+09:00</lastmod>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/springboot_terms/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/java/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/spring/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/spring-framework/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/spring-framework/</loc>
+    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/mariadb_profiling/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-08T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-06-08T15:13:27+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -86,12 +127,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/go/</loc>
-    <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>

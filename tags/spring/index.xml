@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spring on Developer Playground</title>
+    <link>https://devplayg.com/tags/spring/</link>
+    <description>Recent content in spring on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 09 Jun 2019 16:11:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring Boot 용어 - Servlet &amp; Servlet Container</title>
+      <link>https://devplayg.com/tech/springboot_terms/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/springboot_terms/</guid>
+      <description>서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 클래스이다 서블릿은 클라이언트의 요청을 받고, 응답을 돌려준다. 그리고는 사라진다.(?) 서블릿의 클라이언트는 주로 웹서버인 경우가 많다.  대표적인 웹서버로는 Apache 웹서버나 NGINX 가 있다.</description>
+    </item>
+    
+  </channel>
+</rss>

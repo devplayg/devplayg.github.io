@@ -6,10 +6,19 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 08 Jun 2019 15:13:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2019 16:11:23 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring Boot 용어 - Servlet &amp; Servlet Container</title>
+      <link>https://devplayg.com/tech/springboot_terms/</link>
+      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/springboot_terms/</guid>
+      <description>서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 클래스이다 서블릿은 클라이언트의 요청을 받고, 응답을 돌려준다. 그리고는 사라진다.(?) 서블릿의 클라이언트는 주로 웹서버인 경우가 많다.  대표적인 웹서버로는 Apache 웹서버나 NGINX 가 있다.</description>
+    </item>
     
     <item>
       <title>Mariadb profiling</title>
@@ -95,7 +104,9 @@ package test import ( &amp;quot;crypto/md5&amp;quot; &amp;quot;crypto/sha1&amp;q
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/about/</guid>
-      <description>Please tell me who you are.  iam := []byte(&amp;rdquo;devplayg&amp;rdquo;) Software engineer, especially Gopher  Are you enjoying the coding life?  Absolutely! Coding makes me high. Getting stressed time to time, I code in the Go language or blog on Github.</description>
+      <description>What makes me high Music, Coding, Walking, Thinking, Playing, Eating
+What makes me down Life without what makes me high
+Please tell me who you are.  iam := []byte(&amp;rdquo;devplayg&amp;rdquo;) Software engineer, especially Gopher  What&amp;rsquo;ve you been for a long time?</description>
     </item>
     
     <item>
