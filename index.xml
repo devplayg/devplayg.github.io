@@ -22,6 +22,17 @@
     </item>
     
     <item>
+      <title>Sorting slices and user-defined collections in Go</title>
+      <link>https://devplayg.com/tech/go_soring-slices/</link>
+      <pubDate>Tue, 11 Jun 2019 22:02:31 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_soring-slices/</guid>
+      <description>it couldn&amp;rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&amp;quot;%dg&amp;quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort.</description>
+    </item>
+    
+    <item>
       <title>5. Kafka 테스트</title>
       <link>https://devplayg.com/tech/kafka_test/</link>
       <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
@@ -84,6 +95,15 @@
       <guid>https://devplayg.com/tech/go_what-is-go/</guid>
       <description>Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
  2007년에 Google은 Go의 디자인을 시작했고, 2009년에 공식적으로 공개함 초기 디자인부터 멀티코어, 네트워킹, 그리고 대형시스템에서 효율적으로 실행되도록 설계됨 정적 타이핑, 정적 런타임, 컴파일 언어임 가독성이 높고 사용하기 편함 고성능 네트워킹 및 멀티 프로세싱 처리에 적합함 C언어와 Syntax가 유사함 Garbage collection 기능이 있음,   Go의 아버지들 로버트 그리즈머 (Robert Griesemer)  Java hotspot compiler(JVM) 개발함 Chrome Javascript v8 엔진을 개발함  롭 파이크 (Rob Pike)  Plan 9 OS 개발함 UTF-8 을 아래 켄 톰슨과 같이 개발함 &amp;ldquo;Do not communicate by sharing memory; share memory by communicating.</description>
+    </item>
+    
+    <item>
+      <title>Git tips</title>
+      <link>https://devplayg.com/tech/git_tips/</link>
+      <pubDate>Fri, 07 Jun 2019 23:45:41 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/git_tips/</guid>
+      <description>To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &amp;ndash;cached path_to_submodule (no trailing slash).</description>
     </item>
     
     <item>
@@ -177,15 +197,6 @@ Fitz &amp;amp; The Tantrums - HandClap</description>
       <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
       <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
 Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt cat list.txt --- /tmp/file1.mp4 /tmp/file2.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://devplayg.com/tech/git_tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tech/git_tips/</guid>
-      <description>To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &amp;ndash;cached path_to_submodule (no trailing slash).</description>
     </item>
     
   </channel>

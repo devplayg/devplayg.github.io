@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sort slices on Developer Playground</title>
+    <link>https://devplayg.com/tags/sort-slices/</link>
+    <description>Recent content in sort slices on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 11 Jun 2019 22:02:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/sort-slices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sorting slices and user-defined collections in Go</title>
+      <link>https://devplayg.com/tech/go_soring-slices/</link>
+      <pubDate>Tue, 11 Jun 2019 22:02:31 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_soring-slices/</guid>
+      <description>it couldn&amp;rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&amp;quot;%dg&amp;quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -17,21 +17,23 @@
     
     
 
-<title>Raggae • Developer Playground</title>
+<title>Sorting slices and user-defined collections in Go • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Raggae"/>
-<meta name="twitter:description" content="나는 레게음악을 참 좋아한다. 자마이카 사람도 아닌데 말이다. 오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.
- 레게음악을 들으면 즐거우면서도 뭔가 짠한 느낌이 있다. 가사도 그런 경우가 많다. 아마, 슬픔을 즐거운 음악으로나마 위로하려는 레게발생지의 시대적, 문화적, 지리적 상황 등이 영향을 주지 않았나 싶다."/>
+<meta name="twitter:title" content="Sorting slices and user-defined collections in Go"/>
+<meta name="twitter:description" content="it couldn&rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&quot;%dg&quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort."/>
 
-<meta property="og:title" content="Raggae" />
-<meta property="og:description" content="나는 레게음악을 참 좋아한다. 자마이카 사람도 아닌데 말이다. 오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.
- 레게음악을 들으면 즐거우면서도 뭔가 짠한 느낌이 있다. 가사도 그런 경우가 많다. 아마, 슬픔을 즐거운 음악으로나마 위로하려는 레게발생지의 시대적, 문화적, 지리적 상황 등이 영향을 주지 않았나 싶다." />
+<meta property="og:title" content="Sorting slices and user-defined collections in Go" />
+<meta property="og:description" content="it couldn&rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&quot;%dg&quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/life/2019-06-11-raggae/" />
-<meta property="article:published_time" content="2019-06-11T22:08:34+09:00" />
-<meta property="article:modified_time" content="2019-06-11T22:08:34+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/go_soring-slices/" />
+<meta property="article:published_time" content="2019-06-11T22:02:31+09:00" />
+<meta property="article:modified_time" content="2019-06-11T22:02:31+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -191,7 +193,7 @@
     
 <article>
   <header>
-    <h1 class="post__title">Raggae
+    <h1 class="post__title">Sorting slices and user-defined collections in Go
         <small>
         
         
@@ -207,9 +209,9 @@
         
             
             
-                <a class="badge badge-category" href="/categories/life">life</a>
+                <a class="badge badge-category" href="/categories/programming-language">programming language</a>
             
-                <a class="badge badge-category" href="/categories/music">music</a>
+                <a class="badge badge-category" href="/categories/go">go</a>
             
         
     
@@ -220,19 +222,19 @@
         
             
             
-                <a class="badge badge-tag" href="/tags/music">music</a>
+                <a class="badge badge-tag" href="/tags/go">go</a>
                  
             
-                <a class="badge badge-tag" href="/tags/raggae">raggae</a>
+                <a class="badge badge-tag" href="/tags/sorting">sorting</a>
                  
             
-                <a class="badge badge-tag" href="/tags/no-woman-no-cry">no woman no cry</a>
+                <a class="badge badge-tag" href="/tags/sort">sort</a>
                  
             
-                <a class="badge badge-tag" href="/tags/bob-marley">bob marley</a>
+                <a class="badge badge-tag" href="/tags/sort-slices">sort slices</a>
                  
             
-                <a class="badge badge-tag" href="/tags/charlie-hunter">charlie hunter</a>
+                <a class="badge badge-tag" href="/tags/example">example</a>
                 
             
         
@@ -259,30 +261,78 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   <div class="post">
-    <p>나는 레게음악을 참 좋아한다. 자마이카 사람도 아닌데 말이다.
-오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.</p>
+    <p>it couldn&rsquo;t be better</p>
 
-<iframe width="614" height="461" src="https://www.youtube.com/embed/MJB5L9F05tc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://golang.org/pkg/sort/">https://golang.org/pkg/sort/</a></p>
 
-<p>레게음악을 들으면 즐거우면서도 뭔가 짠한 느낌이 있다. 가사도 그런 경우가 많다.
-아마, 슬픔을 즐거운 음악으로나마 위로하려는 레게발생지의 시대적, 문화적, 지리적 상황 등이 영향을 주지 않았나 싶다.</p>
+<pre><code>package main
 
-<p>레게의 상징 색상도 참 정이 간다. 빨강, 노랑, 그리고 초록.</p>
+import (
+    &quot;fmt&quot;
+    &quot;sort&quot;
+)
 
-<p>Bob Marley의 &ldquo;No Woman No Cry&rdquo;는 이 세상의 명곡 중 하나인 것 같다.
-그리고, 이 명곡을 연주한 Charlie Hunter Quartet 의 &ldquo;No Woman No Cry&rdquo;는
-명곡을 더 명곡으로 만든 멋진 연주가 아닌가 싶다.</p>
+type Grams int
 
-<p>음악이 있어 행복하다</p>
+func (g Grams) String() string { return fmt.Sprintf(&quot;%dg&quot;, int(g)) }
+
+type Organ struct {
+    Name   string
+    Weight Grams
+}
+
+type Organs []*Organ
+
+func (s Organs) Len() int      { return len(s) }
+func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
+
+// ByName implements sort.Interface by providing Less and using the Len and
+// Swap methods of the embedded Organs value.
+type ByName struct{ Organs }
+
+func (s ByName) Less(i, j int) bool { return s.Organs[i].Name &lt; s.Organs[j].Name }
+
+// ByWeight implements sort.Interface by providing Less and using the Len and
+// Swap methods of the embedded Organs value.
+type ByWeight struct{ Organs }
+
+func (s ByWeight) Less(i, j int) bool { return s.Organs[i].Weight &lt; s.Organs[j].Weight }
+
+func main() {
+    s := []*Organ{
+        {&quot;brain&quot;, 1340},
+        {&quot;heart&quot;, 290},
+        {&quot;liver&quot;, 1494},
+        {&quot;pancreas&quot;, 131},
+        {&quot;prostate&quot;, 62},
+        {&quot;spleen&quot;, 162},
+    }
+
+    sort.Sort(ByWeight{s})
+    fmt.Println(&quot;Organs by weight:&quot;)
+    printOrgans(s)
+
+    sort.Sort(ByName{s})
+    fmt.Println(&quot;Organs by name:&quot;)
+    printOrgans(s)
+
+}
+
+func printOrgans(s []*Organ) {
+    for _, o := range s {
+        fmt.Printf(&quot;%-8s (%v)\n&quot;, o.Name, o.Weight)
+    }
+}
+</code></pre>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/life/2019-06-06_markdown/" class="navigation-prev">
+    <a href="/tech/kafka_test/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Markdown 의 미학</span>
+      <span class="navigation-tittle">5. Kafka 테스트</span>
     </a>
     
     

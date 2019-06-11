@@ -212,6 +212,29 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/go_soring-slices/" >Sorting slices and user-defined collections in Go</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        it couldn&rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&quot;%dg&quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_soring-slices/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/kafka_test/" >5. Kafka 테스트</a>
         </span>
         <span class="item__date">
@@ -359,42 +382,18 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/go_benchmark-test/" >Go Benchmarks</a>
+          <a href="/tech/git_tips/" >Git tips</a>
         </span>
         <span class="item__date">
           Fri, Jun 7, 2019
         </span>
         <span >
         
-        Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
-해시 알고리즘 성능을 측정하기 위한 코드 작성
-hash_test.go
-package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand.
+        To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &ndash;cached path_to_submodule (no trailing slash).
         
         </span>
         
-          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/docker_tips/" >Docker Tips</a>
-        </span>
-        <span class="item__date">
-          Fri, Jun 7, 2019
-        </span>
-        <span >
-        
-        Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
+          ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
         
         </div>
         

@@ -10,7 +10,7 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-11T22:08:34+09:00</lastmod>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -22,7 +22,7 @@
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-06-11T22:08:34+09:00</lastmod>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -39,7 +39,7 @@
   
   <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-11T22:08:34+09:00</lastmod>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -50,13 +50,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/music/</loc>
+    <loc>https://devplayg.com/categories/music/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/music/</loc>
+    <loc>https://devplayg.com/tags/music/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -70,6 +70,59 @@
   <url>
     <loc>https://devplayg.com/tags/raggae/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/go_soring-slices/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/example/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/go/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/go/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/sort/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/sort-slices/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/sorting/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,19 +144,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/consumer/</loc>
-    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,19 +156,25 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/distributed-platform/</loc>
+    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/docker/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/kafka/</loc>
+    <loc>https://devplayg.com/categories/kafka/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/kafka/</loc>
+    <loc>https://devplayg.com/tags/kafka/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -196,12 +243,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/spring/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
@@ -214,13 +255,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/spring-framework/</loc>
+    <loc>https://devplayg.com/categories/spring-framework/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/spring-framework/</loc>
+    <loc>https://devplayg.com/tags/spring-framework/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -242,13 +283,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/mariadb/</loc>
+    <loc>https://devplayg.com/categories/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/mariadb/</loc>
+    <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -283,21 +324,14 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/go/</loc>
-    <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/go/</loc>
-    <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/golang/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/git_tips/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
   </url>
   
   <url>
@@ -323,6 +357,18 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/categories/git/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/git/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/hash/</loc>
     <lastmod>2019-06-07T23:45:41+09:00</lastmod>
     <priority>0</priority>
@@ -331,6 +377,18 @@
   <url>
     <loc>https://devplayg.com/categories/tech/</loc>
     <lastmod>2019-06-07T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tip/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/util/</loc>
+    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -358,13 +416,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ubuntu/</loc>
+    <loc>https://devplayg.com/categories/ubuntu/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/ubuntu/</loc>
+    <loc>https://devplayg.com/tags/ubuntu/</loc>
     <lastmod>2019-06-07T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -437,13 +495,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/bash/</loc>
+    <loc>https://devplayg.com/categories/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/bash/</loc>
+    <loc>https://devplayg.com/tags/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -467,13 +525,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/linux/</loc>
+    <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/linux/</loc>
+    <loc>https://devplayg.com/tags/linux/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -549,25 +607,14 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ffmpeg/</loc>
-    <lastmod>2019-01-22T00:09:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/ffmpeg/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/util/</loc>
+    <loc>https://devplayg.com/tags/ffmpeg/</loc>
     <lastmod>2019-01-22T00:09:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/git_tips/</loc>
     <priority>0</priority>
   </url>
   

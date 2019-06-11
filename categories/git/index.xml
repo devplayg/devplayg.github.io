@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>util on Developer Playground</title>
-    <link>https://devplayg.com/categories/util/</link>
-    <description>Recent content in util on Developer Playground</description>
+    <title>git on Developer Playground</title>
+    <link>https://devplayg.com/categories/git/</link>
+    <description>Recent content in git on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 07 Jun 2019 23:45:41 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/categories/util/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://devplayg.com/tech/git_tips/</guid>
       <description>To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &amp;ndash;cached path_to_submodule (no trailing slash).</description>
-    </item>
-    
-    <item>
-      <title>FFmpeg tips</title>
-      <link>https://devplayg.com/tech/ffmpeg_tips/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
-      <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt cat list.txt --- /tmp/file1.mp4 /tmp/file2.</description>
     </item>
     
   </channel>
