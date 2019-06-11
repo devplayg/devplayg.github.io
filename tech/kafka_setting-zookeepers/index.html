@@ -22,12 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2. Zookeeper 설정"/>
-<meta name="twitter:description" content="컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.properties --- dataDir=/data tickTime=2000 initLimit=5 syncLimit=2 server.1=zoo1:2888:3888 server.2=zoo2:2888:3888 server.3=zoo3:2888:3888  컨테이너 개별 설정  zoo1
-mkdir -p /data &amp;&amp; echo 1 &gt; /data/myid  zoo2"/>
+<meta name="twitter:description" content="Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper."/>
 
 <meta property="og:title" content="2. Zookeeper 설정" />
-<meta property="og:description" content="컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.properties --- dataDir=/data tickTime=2000 initLimit=5 syncLimit=2 server.1=zoo1:2888:3888 server.2=zoo2:2888:3888 server.3=zoo3:2888:3888  컨테이너 개별 설정  zoo1
-mkdir -p /data &amp;&amp; echo 1 &gt; /data/myid  zoo2" />
+<meta property="og:description" content="Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/kafka_setting-zookeepers/" />
 <meta property="article:published_time" content="2019-06-09T15:55:12+09:00" />
@@ -264,6 +262,38 @@ mkdir -p /data &amp;&amp; echo 1 &gt; /data/myid  zoo2" />
   <div class="post">
     
 
+<h3 id="zookeeper-컨테이너-구성">Zookeeper 컨테이너 구성</h3>
+
+<table>
+<thead>
+<tr>
+<th>호스트명</th>
+<th>ID</th>
+<th>IP</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>zoo1</td>
+<td>1</td>
+<td>172.17.0.2</td>
+</tr>
+
+<tr>
+<td>zoo2</td>
+<td>2</td>
+<td>172.17.0.3</td>
+</tr>
+
+<tr>
+<td>zoo3</td>
+<td>3</td>
+<td>172.17.0.4</td>
+</tr>
+</tbody>
+</table>
+
 <h3 id="컨테이너-공통-설정">컨테이너 공통 설정</h3>
 
 <h4 id="zookeeper-설정">Zookeeper 설정</h4>
@@ -280,6 +310,8 @@ server.3=zoo3:2888:3888
 </code></pre>
 
 <h3 id="컨테이너-개별-설정">컨테이너 개별 설정</h3>
+
+<p>Zookeeper 고유 ID 설정</p>
 
 <ul>
 <li><p>zoo1</p>
@@ -298,9 +330,9 @@ server.3=zoo3:2888:3888
 </code></pre></li>
 </ul>
 
-<h3 id="zookeeper-컨테이너-시작">Zookeeper 컨테이너 시작</h3>
+<h3 id="zookeeper-시작">Zookeeper 시작</h3>
 
-<p>모든 컨테이터를 순차적으로 시작</p>
+<p>각 컨테이너에서 Zookeeper 시작</p>
 
 <pre><code>$KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties
 </code></pre>

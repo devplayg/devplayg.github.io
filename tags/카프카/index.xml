@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>카프카 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%B9%B4%ED%94%84%EC%B9%B4/</link>
+    <description>Recent content in 카프카 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%B9%B4%ED%94%84%EC%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5. Kafka 테스트</title>
+      <link>https://devplayg.com/tech/kafka_test/</link>
+      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka_test/</guid>
+      <description>Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
+    </item>
+    
+    <item>
+      <title>4. Kafka 명령어</title>
+      <link>https://devplayg.com/tech/kafka_tips/</link>
+      <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka_tips/</guid>
+      <description>토픽 생성 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  토픽 삭제 $KAFKA_HOME/bin/kafka-topics.</description>
+    </item>
+    
+    <item>
+      <title>3. Kafka 설정</title>
+      <link>https://devplayg.com/tech/kafka_setting-kafka/</link>
+      <pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka_setting-kafka/</guid>
+      <description>Kafka 컨테이너 구성    호스트명 Broker ID IP     kafka1 1 172.17.0.5   kafka2 2 172.17.0.6   kafka3 3 172.17.0.7    컨테이너 개별 설정 디렉토리 생성</description>
+    </item>
+    
+  </channel>
+</rss>

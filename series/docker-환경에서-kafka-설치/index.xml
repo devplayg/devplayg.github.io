@@ -6,10 +6,29 @@
     <description>Recent content in Docker 환경에서 Kafka 설치 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 09 Jun 2019 18:55:12 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>5. Kafka 테스트</title>
+      <link>https://devplayg.com/tech/kafka_test/</link>
+      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka_test/</guid>
+      <description>Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
+    </item>
+    
+    <item>
+      <title>4. Kafka 명령어</title>
+      <link>https://devplayg.com/tech/kafka_tips/</link>
+      <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka_tips/</guid>
+      <description>토픽 생성 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  토픽 삭제 $KAFKA_HOME/bin/kafka-topics.</description>
+    </item>
     
     <item>
       <title>3. Kafka 설정</title>
@@ -17,8 +36,7 @@
       <pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka_setting-kafka/</guid>
-      <description>Kafka 설정 기본 정보는 아래와 같다.
-   Hostname Broker ID IP     kafka1 1 172.17.0.5   kafka2 2 172.17.0.6   kafka3 3 172.</description>
+      <description>Kafka 컨테이너 구성    호스트명 Broker ID IP     kafka1 1 172.17.0.5   kafka2 2 172.17.0.6   kafka3 3 172.17.0.7    컨테이너 개별 설정 디렉토리 생성</description>
     </item>
     
     <item>
@@ -27,8 +45,7 @@
       <pubDate>Sun, 09 Jun 2019 15:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka_setting-zookeepers/</guid>
-      <description>컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.properties --- dataDir=/data tickTime=2000 initLimit=5 syncLimit=2 server.1=zoo1:2888:3888 server.2=zoo2:2888:3888 server.3=zoo3:2888:3888  컨테이너 개별 설정  zoo1
-mkdir -p /data &amp;amp;&amp;amp; echo 1 &amp;gt; /data/myid  zoo2</description>
+      <description>Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.</description>
     </item>
     
     <item>
@@ -37,9 +54,9 @@ mkdir -p /data &amp;amp;&amp;amp; echo 1 &amp;gt; /data/myid  zoo2</description>
       <pubDate>Thu, 06 Jun 2019 17:14:41 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka_installation-on-docker/</guid>
-      <description>설치 버전  OS: Docker Ubuntu 18.04
- Kafka: 2.2 [Download] Zookeeper: 3.4.13 Java: OpenJDK 11.0.3
-  Docker 컨테이너 구성    구분 Hostname IP     Zookeeper zoo1 172.</description>
+      <description>설치 버전  Docker Ubuntu 18.04
+ Kafka 2.2 [Download] Zookeeper 3.4.13 OpenJDK 11.0.3
+  Docker 컨테이너 구성    구분 호스트명 IP     Zookeeper zoo1 172.</description>
     </item>
     
   </channel>

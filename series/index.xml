@@ -6,7 +6,7 @@
     <description>Recent content in Series on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 09 Jun 2019 18:55:12 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Docker 환경에서 Kafka 설치</title>
       <link>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</link>
-      <pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>
+      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</guid>
       <description></description>
