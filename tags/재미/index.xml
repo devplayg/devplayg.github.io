@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>재미 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%9E%AC%EB%AF%B8/</link>
+    <description>Recent content in 재미 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 12 Jun 2019 22:08:34 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%9E%AC%EB%AF%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>코딩 스타일의 변화</title>
+      <link>https://devplayg.com/life/2019-06-12_changing/</link>
+      <pubDate>Wed, 12 Jun 2019 22:08:34 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2019-06-12_changing/</guid>
+      <description>요즘 코딩 스타일을 한 번 바꿔보고 있다. 그런데, 거기서 얻는 배움이 생각보다 크다. 최근 Java 의 Spring Boot 를 깊게 접하면서 &amp;ldquo;우아한형제들&amp;rdquo;이란 회사의 기술블로그를 유심히 보게 되었는데, 그 중 &amp;ldquo;목적의식 있는 연습을 통한 효과적인 학습&amp;rdquo; 포스트를 읽은게 그 동기이다.</description>
+    </item>
+    
+  </channel>
+</rss>
