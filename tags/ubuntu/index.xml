@@ -6,10 +6,29 @@
     <description>Recent content in ubuntu on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 07 Jun 2019 00:28:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 14:25:34 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
+      <link>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</link>
+      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
+      <description>MozJPEG를 활용한 이미지 압축 테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.</description>
+    </item>
+    
+    <item>
+      <title>MozJPEG 를 활용한 JPEG 압축</title>
+      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+      <description>테스트 환경 Ubuntu 18.04 container on Docker
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm  소스파일 다운로드 (Download source) $ git clone https://github.</description>
+    </item>
     
     <item>
       <title>Docker Tips</title>

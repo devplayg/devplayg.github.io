@@ -125,14 +125,6 @@
 		
 			 
             <li>
-                <a href="/history/">
-                    <span>History</span>
-                </a>
-            </li>
-			
-		
-			 
-            <li>
                 <a href="/about/">
                     <span>About</span>
                 </a>
@@ -246,19 +238,16 @@
 </div>
 
 
-
     
     
-        <div class="post__series">
+    
+    <div class="post__series">
         
         
             <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
         
-        </div>
+    </div>
     
-
-
-
 
   </header>
   
@@ -384,14 +373,11 @@ docker run -p 8002:9092 --name consumer -it ubuntu bash
 
 <h4 id="zookeeper-kafka-컨테이너-ip-확인">Zookeeper/Kafka 컨테이너 IP 확인</h4>
 
-<pre><code>docker inspect -f &quot;{{ .NetworkSettings.IPAddress }}&quot; zoo1 zoo2 zoo3
---- 
+<pre><code>$ docker inspect -f &quot;{{ .NetworkSettings.IPAddress }}&quot; zoo1 zoo2 zoo3
 172.17.0.2
 172.17.0.3
 172.17.0.4
----    
-docker inspect -f &quot;{{ .NetworkSettings.IPAddress }}&quot; kafka1 kafka2 kafka3
----
+$ docker inspect -f &quot;{{ .NetworkSettings.IPAddress }}&quot; kafka1 kafka2 kafka3
 172.17.0.5
 172.17.0.6
 172.17.0.7
@@ -415,8 +401,7 @@ docker inspect -f &quot;{{ .NetworkSettings.IPAddress }}&quot; kafka1 kafka2 kaf
 
 <h4 id="java-버전-확인">Java 버전 확인</h4>
 
-<pre><code>java -version
----
+<pre><code>$ java -version
 openjdk version &quot;11.0.3&quot; 2019-04-16
 OpenJDK Runtime Environment (build 11.0.3+7-Ubuntu-1ubuntu218.04.1)
 OpenJDK 64-Bit Server VM (build 11.0.3+7-Ubuntu-1ubuntu218.04.1, mixed mode, sharing)
@@ -424,14 +409,13 @@ OpenJDK 64-Bit Server VM (build 11.0.3+7-Ubuntu-1ubuntu218.04.1, mixed mode, sha
 
 <h4 id="kafka-설치">Kafka 설치</h4>
 
-<pre><code>curl -sL http://apache.mirror.cdnetworks.com/kafka/2.2.0/kafka_2.12-2.2.0.tgz | tar xvz -C /
-mv /kafka_2.12-2.2.0/ /kafka
+<pre><code>$ curl -sL http://apache.mirror.cdnetworks.com/kafka/2.2.0/kafka_2.12-2.2.0.tgz | tar xvz -C /
+$ mv /kafka_2.12-2.2.0/ /kafka
 </code></pre>
 
 <h4 id="호스트-파일-설정">호스트 파일 설정</h4>
 
-<pre><code>vi /etc/hosts
-
+<pre><code>$ vi /etc/hosts
 172.17.0.2      zoo1
 172.17.0.3      zoo2
 172.17.0.4      zoo3
@@ -442,8 +426,7 @@ mv /kafka_2.12-2.2.0/ /kafka
 
 <h4 id="환경변수-설정">환경변수 설정</h4>
 
-<pre><code>vi ~/.profile &amp;&amp; . ~/.profile
----
+<pre><code>$ vi ~/.profile &amp;&amp; . ~/.profile
 export ZOOKEEPER=zoo1:2181,zoo2:2181,zoo3:2181/my-kafka
 export KAFKA=kafka1:9092,kafka2:9092,kafka3:9092
 export KAFKA_HOME=/kafka
@@ -453,8 +436,7 @@ export KAFKA_HOME=/kafka
 
 <h4 id="환경변수-추가-설정">환경변수 추가 설정</h4>
 
-<pre><code>vi ~/.profile &amp;&amp; . ~/.profile
----
+<pre><code>$ vi ~/.profile &amp;&amp; . ~/.profile
 alias .pro='vi ~/.profile'
 alias pro='. ~/.profile'
 alias kconf='vi $KAFKA_HOME/config/server.properties'
@@ -474,6 +456,17 @@ service ssh start
 </code></pre>
 
   </div>
+    
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">

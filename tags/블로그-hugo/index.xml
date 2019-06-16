@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>블로그 hugo on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8-hugo/</link>
+    <description>Recent content in 블로그 hugo on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 16 Jun 2019 14:21:11 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Tips</title>
+      <link>https://devplayg.com/tech/hugo_tips/</link>
+      <pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/hugo_tips/</guid>
+      <description>링크와 참조 {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
+    </item>
+    
+  </channel>
+</rss>

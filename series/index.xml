@@ -6,10 +6,19 @@
     <description>Recent content in Series on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 14:25:34 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MozJPEG 를 활용한 JPEG 압축</title>
+      <link>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</link>
+      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
+      
+      <guid>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Docker 환경에서 Kafka 설치</title>

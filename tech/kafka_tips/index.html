@@ -17,15 +17,15 @@
     
     
 
-<title>4. Kafka 명령어 • Developer Playground</title>
+<title>4. Kafka Tips • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="4. Kafka 명령어"/>
-<meta name="twitter:description" content="토픽 생성 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  토픽 삭제 $KAFKA_HOME/bin/kafka-topics."/>
+<meta name="twitter:title" content="4. Kafka Tips"/>
+<meta name="twitter:description" content="토픽 생성 (Create topic) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 (List topics) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 (Describe topic) $KAFKA_HOME/bin/kafka-topics."/>
 
-<meta property="og:title" content="4. Kafka 명령어" />
-<meta property="og:description" content="토픽 생성 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  토픽 삭제 $KAFKA_HOME/bin/kafka-topics." />
+<meta property="og:title" content="4. Kafka Tips" />
+<meta property="og:description" content="토픽 생성 (Create topic) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 (List topics) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 (Describe topic) $KAFKA_HOME/bin/kafka-topics." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/kafka_tips/" />
 <meta property="article:published_time" content="2019-06-11T18:55:12+09:00" />
@@ -121,14 +121,6 @@
 		
 			 
             <li>
-                <a href="/history/">
-                    <span>History</span>
-                </a>
-            </li>
-			
-		
-			 
-            <li>
                 <a href="/about/">
                     <span>About</span>
                 </a>
@@ -190,7 +182,7 @@
     
 <article>
   <header>
-    <h1 class="post__title">4. Kafka 명령어
+    <h1 class="post__title">4. Kafka Tips
         <small>
         
         
@@ -222,6 +214,12 @@
                 <a class="badge badge-tag" href="/tags/distributed-platform">distributed platform</a>
                  
             
+                <a class="badge badge-tag" href="/tags/kafka-tips">kafka tips</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                 
+            
                 <a class="badge badge-tag" href="/tags/docker">docker</a>
                  
             
@@ -251,19 +249,16 @@
 </div>
 
 
-
     
     
-        <div class="post__series">
+    
+    <div class="post__series">
         
         
             <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
         
-        </div>
+    </div>
     
-
-
-
 
   </header>
   
@@ -282,27 +277,27 @@
   <div class="post">
     
 
-<h3 id="토픽-생성">토픽 생성</h3>
+<h3 id="토픽-생성-create-topic">토픽 생성 (Create topic)</h3>
 
 <pre><code>$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create
 </code></pre>
 
-<h3 id="토픽-목록-출력">토픽 목록 출력</h3>
+<h3 id="토픽-목록-출력-list-topics">토픽 목록 출력 (List topics)</h3>
 
 <pre><code>$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list
 </code></pre>
 
-<h3 id="토픽-상새정보-출력">토픽 상새정보 출력</h3>
+<h3 id="토픽-상새정보-출력-describe-topic">토픽 상새정보 출력 (Describe topic)</h3>
 
 <pre><code>$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic
 </code></pre>
 
-<h3 id="토픽-삭제">토픽 삭제</h3>
+<h3 id="토픽-삭제-delte-topic">토픽 삭제 (Delte topic)</h3>
 
 <pre><code>$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --delete --topic my-topic
 </code></pre>
 
-<h3 id="토픽-오프셋-offset-조회">토픽 오프셋(Offset) 조회</h3>
+<h3 id="토픽-오프셋-offset-조회-get-offsets-in-topic">토픽 오프셋(Offset) 조회 (Get offsets in topic)</h3>
 
 <ul>
 <li><p>Earliest offsets</p>
@@ -316,20 +311,17 @@
 </code></pre></li>
 </ul>
 
-<h3 id="그룹-목록-출력">그룹 목록 출력</h3>
+<h3 id="그룹-목록-출력-list-groups">그룹 목록 출력 (List groups)</h3>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --list
----
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --list
 testgroup1
 testgroup2
 </code></pre>
 
-<h3 id="그룹-상세정보-출력">그룹 상세정보 출력</h3>
+<h3 id="그룹-상세정보-출력-describe-group">그룹 상세정보 출력 (Describe group)</h3>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --describe --group testgroup2
----
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --describe --group testgroup2
 Consumer group 'testgroup2' has no active members.
-
 TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
 test-offset     2          60              60              0               -               -               -
 test-offset     1          40              61              21              -               -               -
@@ -338,10 +330,9 @@ test-offset     4          64              64              0               -    
 test-offset     3          58              58              0               -               -               -
 </code></pre>
 
-<h3 id="그룹-offset-초기화">그룹 Offset 초기화</h3>
+<h3 id="그룹-offset-초기화-reset-offsets">그룹 Offset 초기화 (Reset offsets)</h3>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-earliest --execute
----
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-earliest --execute
 TOPIC                          PARTITION  NEW-OFFSET
 test-offset                    2          0
 test-offset                    1          0
@@ -350,10 +341,8 @@ test-offset                    4          0
 test-offset                    3          0
 
 
-$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --describe --group testgroup2
----
+$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --describe --group testgroup2
 Consumer group 'testgroup2' has no active members.
-
 TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
 test-offset     2          0               60              60              -               -               -
 test-offset     1          0               61              61              -               -               -
@@ -363,6 +352,17 @@ test-offset     3          0               58              58              -    
 </code></pre>
 
   </div>
+    
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">

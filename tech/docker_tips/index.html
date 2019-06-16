@@ -120,14 +120,6 @@
 		
 			 
             <li>
-                <a href="/history/">
-                    <span>History</span>
-                </a>
-            </li>
-			
-		
-			 
-            <li>
                 <a href="/about/">
                     <span>About</span>
                 </a>
@@ -238,10 +230,7 @@
 </div>
 
 
-
-
-
-
+    
   </header>
   
   
@@ -262,7 +251,6 @@
 <h3 id="create-docker-container">Create docker container</h3>
 
 <pre><code>docker run -v e:/gohome:/gohome -it --name test ubuntu bash
-
 docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash
 </code></pre>
 
@@ -279,8 +267,7 @@ apt update &amp;&amp; apt install -y vim net-tools inetutils-ping telnet curl
 
 <h3 id="set-profile">Set profile</h3>
 
-<pre><code>vi ~/.profile &amp;&amp; . ~/.profile
----
+<pre><code>$ vi ~/.profile &amp;&amp; . ~/.profile
 alias .pro=&quot;vi ~/.profile&quot;
 alias pro=&quot;. ~/.profile&quot;
 export GOROOT=/go
@@ -289,6 +276,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 </code></pre>
 
   </div>
+    
   
 
 <div class="navigation navigation-single">

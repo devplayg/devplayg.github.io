@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>토렌트 클라이언트 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%ED%86%A0%EB%A0%8C%ED%8A%B8-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/</link>
+    <description>Recent content in 토렌트 클라이언트 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 16 Jun 2019 13:11:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%ED%86%A0%EB%A0%8C%ED%8A%B8-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>명령어로 토렌트 다운로드</title>
+      <link>https://devplayg.com/tech/torrent_torrent-command-util/</link>
+      <pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/torrent_torrent-command-util/</guid>
+      <description>실행 환경 (Environment) Ubuntu 18.04
+소스 다운로드 (Clone the git repository) Torrent Library (https://github.com/anacrolix/torrent)
+$ go get github.com/anacrolix/torrent $ go get github.com/anacrolix/envpprof $ go get github.com/anacrolix/tagflag $ cd $GOPATH/src/github.com/anacrolix/torrent/cmd/torrent $ go build $ ls -l torrent -rwxr-xr-x 1 root root 17899680 Jun 14 00:55 torrent  토렌트 파일 다운로드 (Download .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -123,14 +123,6 @@
 		
 			 
             <li>
-                <a href="/history/">
-                    <span>History</span>
-                </a>
-            </li>
-			
-		
-			 
-            <li>
                 <a href="/about/">
                     <span>About</span>
                 </a>
@@ -256,19 +248,16 @@
 </div>
 
 
-
     
     
-        <div class="post__series">
+    
+    <div class="post__series">
         
         
             <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
         
-        </div>
+    </div>
     
-
-
-
 
   </header>
   
@@ -402,7 +391,7 @@ Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1,2,3
 
 <p>변경</p>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-earliest --execute
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-earliest --execute
 TOPIC                          PARTITION  NEW-OFFSET
 test-offset                    2          0
 test-offset                    1          0
@@ -413,8 +402,7 @@ test-offset                    3          0
 
 <p>확인</p>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --describe
----
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --describe
 Consumer group 'testgroup2' has no active members.                                                                         
                                                                                                                            
 TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID       
@@ -429,8 +417,7 @@ test-offset     3          0               58              58              -    
 
 <p>변경</p>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-offset 40  --execute
----
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --topic test-offset --reset-offsets --to-offset 40  --execute
 TOPIC                          PARTITION  NEW-OFFSET
 test-offset                    2          40
 test-offset                    1          40
@@ -441,9 +428,8 @@ test-offset                    3          40
 
 <p>확인</p>
 
-<pre><code>$KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --describe
+<pre><code>$ $KAFKA_HOME/bin/kafka-consumer-groups.sh --bootstrap-server $KAFKA --group testgroup2 --describe
 Consumer group 'testgroup2' has no active members.
-
 TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
 test-offset     2          40              60              20              -               -               -
 test-offset     1          40              61              21              -               -               -
@@ -453,13 +439,24 @@ test-offset     3          40              58              18              -    
 </code></pre>
 
   </div>
+    
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98">Docker 환경에서 Kafka 설치</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">
     
     <a href="/tech/kafka_tips/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">4. Kafka 명령어</span>
+      <span class="navigation-tittle">4. Kafka Tips</span>
     </a>
     
     
