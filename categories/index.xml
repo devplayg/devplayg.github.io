@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 18 Jun 2019 22:39:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 23:59:11 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>life</title>
+      <link>https://devplayg.com/categories/life/</link>
+      <pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/life/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>util</title>
@@ -44,15 +53,6 @@
       <pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/torrent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://devplayg.com/categories/life/</link>
-      <pubDate>Wed, 12 Jun 2019 22:08:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/life/</guid>
       <description></description>
     </item>
     
