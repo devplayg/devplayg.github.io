@@ -17,20 +17,19 @@
     
     
 
-<title>MozJPEG 를 활용한 JPEG 압축 테스트 결과 • Developer Playground</title>
+<title>Duplicate file finder in Go • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MozJPEG 를 활용한 JPEG 압축 테스트 결과"/>
-<meta name="twitter:description" content="MozJPEG를 활용한 이미지 압축 테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100."/>
+<meta name="twitter:title" content="Duplicate file finder in Go"/>
+<meta name="twitter:description" content="중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!"/>
 
-<meta property="og:title" content="MozJPEG 를 활용한 JPEG 압축 테스트 결과" />
-<meta property="og:description" content="MozJPEG를 활용한 이미지 압축 테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100." />
+<meta property="og:title" content="Duplicate file finder in Go" />
+<meta property="og:description" content="중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/mozjpeg_image-optimizing-result/" />
-<meta property="article:published_time" content="2019-06-16T14:25:34+09:00" />
-<meta property="article:modified_time" content="2019-06-16T14:25:34+09:00" /><meta property="og:site_name" content="Developer Playground" />
-
+<meta property="og:url" content="https://devplayg.com/tech/go_duplicate-file-finder/" />
+<meta property="article:published_time" content="2019-06-18T22:39:49+09:00" />
+<meta property="article:modified_time" content="2019-06-18T22:39:49+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -182,11 +181,11 @@
     
 <article>
   <header>
-    <h1 class="post__title">MozJPEG 를 활용한 JPEG 압축 테스트 결과
+    <h1 class="post__title">Duplicate file finder in Go
         <small>
         
         
-            <span class="post__date">Sun, Jun 16, 2019</span>
+            <span class="post__date">Tue, Jun 18, 2019</span>
         
         </small>
     </h1>
@@ -209,22 +208,22 @@
         
             
             
-                <a class="badge badge-tag" href="/tags/jpeg-%EC%95%95%EC%B6%95">jpeg 압축</a>
+                <a class="badge badge-tag" href="/tags/%ED%8C%8C%EC%9D%BC%EC%B0%BE%EA%B8%B0">파일찾기</a>
                  
             
-                <a class="badge badge-tag" href="/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%95%95%EC%B6%95">이미지 압축</a>
+                <a class="badge badge-tag" href="/tags/%EC%A4%91%EB%B3%B5%ED%8C%8C%EC%9D%BC-%EA%B2%80%EC%83%89">중복파일 검색</a>
                  
             
-                <a class="badge badge-tag" href="/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0">jpeg 크키 줄이기</a>
+                <a class="badge badge-tag" href="/tags/repo">repo</a>
                  
             
-                <a class="badge badge-tag" href="/tags/ubuntu">ubuntu</a>
+                <a class="badge badge-tag" href="/tags/github">github</a>
                  
             
-                <a class="badge badge-tag" href="/tags/imgpresso">imgpresso</a>
+                <a class="badge badge-tag" href="/tags/readme">readme</a>
                  
             
-                <a class="badge badge-tag" href="/tags/imagemagic">imagemagic</a>
+                <a class="badge badge-tag" href="/tags/%EC%A3%BC%EC%84%9D">주석</a>
                 
             
         
@@ -233,16 +232,6 @@
 
 
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95">MozJPEG 를 활용한 JPEG 압축</a>
-        
-    </div>
-    
-
   </header>
   
   
@@ -258,200 +247,41 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   <div class="post">
-    
+    <p>중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서
+Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다.
+그런데, 다른 github 사용자들의 README.md 파일을 보니,
+사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!!
+그래서 나도 README.md 파일도 좀 고쳐보고, 벳지도 몇 개 달아봤다.</p>
 
-<h3 id="mozjpeg를-활용한-이미지-압축-테스트-결과">MozJPEG를 활용한 이미지 압축 테스트 결과</h3>
+<p><img src="dff.png" alt="DFF" /></p>
 
-<table>
-<thead>
-<tr>
-<th>압축 출처(라이브러리)</th>
-<th>용량(Bytes)</th>
-<th>품질(1~100)</th>
-<th>공간절약비율</th>
-<th>다운로드 링크</th>
-</tr>
-</thead>
+<p><a href="https://github.com/devplayg/dff">https://github.com/devplayg/dff</a></p>
 
-<tbody>
-<tr>
-<td><strong>원본</strong></td>
-<td>1,030,997</td>
-<td>-</td>
-<td>0 %</td>
-<td><a href="my-image.jpg">my-image.jpg</a></td>
-</tr>
+<p>기능만 간단히 개발해서 업로드 하면 만족할 줄 알았는데,
+그게 아니다. 할게 많다.</p>
 
-<tr>
-<td>MozJPEG</td>
-<td>989,923</td>
-<td>100</td>
-<td>4 %</td>
-<td><a href="my-image_cjpeg-100.jpg">my-image_cjpeg-100.jpg</a></td>
-</tr>
+<ul>
+<li>README.md 파일 작성 및 사용법 명시</li>
+<li>라이선스 정의 및 LICENSE 파일 작성</li>
+<li>Refactoring 된 코드</li>
+<li>코드 주석 (이것이 바로 godoc와 연결되어 API 문서가 된다.)</li>
+<li>Travis 와 연계한 자동 빌드 기능(.travis.yml)</li>
+<li>등등..</li>
+</ul>
 
-<tr>
-<td>ImageMagic</td>
-<td>941,883</td>
-<td>기본</td>
-<td>9 %</td>
-<td><a href="my-image_perl.jpg">my-image_perl.jpg</a></td>
-</tr>
-
-<tr>
-<td>Google Guetzli</td>
-<td>425,256</td>
-<td>84</td>
-<td>59 %</td>
-<td><a href="my-image_google.jpg">my-image_google.jpg</a></td>
-</tr>
-
-<tr>
-<td>TinyJPEG</td>
-<td>374,566</td>
-<td>기본</td>
-<td>64 %</td>
-<td><a href="my-image-tinyjpeg.jpg">my-image-tinyjpeg.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>338,452</td>
-<td>90</td>
-<td>67 %</td>
-<td><a href="my-image_cjpeg-90.jpg">my-image_cjpeg-90.jpg</a></td>
-</tr>
-
-<tr>
-<td>Compressor.io</td>
-<td>268,780</td>
-<td>기본</td>
-<td>74 %</td>
-<td><a href="my-image-compressor.io.jpg">my-image-compressor.io.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>215,319</td>
-<td>80</td>
-<td>79 %</td>
-<td><a href="my-image_cjpeg-80.jpg">my-image_cjpeg-80.jpg</a></td>
-</tr>
-
-<tr>
-<td><strong>MozJPEG</strong></td>
-<td>207,723</td>
-<td>기본</td>
-<td>80 %</td>
-<td><a href="my-image_cjpeg-default.jpg">my-image_cjpeg-default.jpg</a></td>
-</tr>
-
-<tr>
-<td>ImgPresso</td>
-<td>192,394</td>
-<td>Very High</td>
-<td>81 %</td>
-<td><a href="my-image_imgpresso.jpg">my-image_imgpresso.jpg</a></td>
-</tr>
-
-<tr>
-<td><strong>MozJPEG</strong></td>
-<td>156,782</td>
-<td>70</td>
-<td>85 %</td>
-<td><a href="my-image_cjpeg-70.jpg">my-image_cjpeg-70.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>129,378</td>
-<td>60</td>
-<td>87 %</td>
-<td><a href="my-image_cjpeg-60.jpg">my-image_cjpeg-60.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>110,646</td>
-<td>50</td>
-<td>89 %</td>
-<td><a href="my-image_cjpeg-50.jpg">my-image_cjpeg-50.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>93,594</td>
-<td>40</td>
-<td>91 %</td>
-<td><a href="my-image_cjpeg-40.jpg">my-image_cjpeg-40.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>73,283</td>
-<td>30</td>
-<td>93 %</td>
-<td><a href="my-image_cjpeg-30.jpg">my-image_cjpeg-30.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>51,743</td>
-<td>20</td>
-<td>95 %</td>
-<td><a href="my-image_cjpeg-20.jpg">my-image_cjpeg-20.jpg</a></td>
-</tr>
-
-<tr>
-<td>MozJPEG</td>
-<td>27,813</td>
-<td>10</td>
-<td>97 %</td>
-<td><a href="my-image_cjpeg-10.jpg">my-image_cjpeg-10.jpg</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="https://github.com/mozilla/mozjpeg">MozJPEG</a> 추천</p>
-
-<p>라이선스: <a href="https://github.com/mozilla/mozjpeg/blob/master/LICENSE.md">BSD-style open source licenses</a></p>
-
-<h3 id="비교">비교</h3>
-
-<p>원본</p>
-
-<p><img src="my-image.jpg" alt="원본" /></p>
-
-<p>MozJPEG (150 KB, Quality 70</p>
-
-<p><img src="my-image_cjpeg-70.jpg" alt="MozJPEG (150 KB, Quality 70)" /></p>
+<p>앞으로 업로드할 Repo 형식의 표준으로 계속 발전시켜 볼 생각이다.</p>
 
   </div>
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95">MozJPEG 를 활용한 JPEG 압축</a>
-        
-    </div>
-    
-
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/mozjpeg_image-optimizing/" class="navigation-prev">
+    <a href="/tech/mozjpeg_image-optimizing-result/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">MozJPEG 를 활용한 JPEG 압축</span>
+      <span class="navigation-tittle">MozJPEG 를 활용한 JPEG 압축 테스트 결과</span>
     </a>
     
-    
-    <a href="/tech/go_duplicate-file-finder/" class="navigation-next">
-      <span class="navigation-tittle">Duplicate file finder in Go</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>repo on Developer Playground</title>
+    <link>https://devplayg.com/tags/repo/</link>
+    <description>Recent content in repo on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 18 Jun 2019 22:39:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/repo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Duplicate file finder in Go</title>
+      <link>https://devplayg.com/tech/go_duplicate-file-finder/</link>
+      <pubDate>Tue, 18 Jun 2019 22:39:49 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_duplicate-file-finder/</guid>
+      <description>중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!</description>
+    </item>
+    
+  </channel>
+</rss>
