@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on Developer Playground</title>
-    <link>https://devplayg.com/music/</link>
-    <description>Recent content in Music on Developer Playground</description>
+    <title>아버지 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%95%84%EB%B2%84%EC%A7%80/</link>
+    <description>Recent content in 아버지 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 22 Jun 2019 18:11:09 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/%EC%95%84%EB%B2%84%EC%A7%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,19 +21,6 @@
 슈퍼밴드, 정말 멋진 프로그램이다.
 Still fighting it
   </description>
-    </item>
-    
-    <item>
-      <title>2018 Music Awards</title>
-      <link>https://devplayg.com/music/music_2018-awards/</link>
-      <pubDate>Sun, 03 Mar 2019 17:14:41 +0900</pubDate>
-      
-      <guid>https://devplayg.com/music/music_2018-awards/</guid>
-      <description>Bruno Mars - 24k Magic
-Bruno Mars - Thats What I Like
-Bruno Mars - The Lazy Song (Single Version)
-Eric Clapton - I Shot The Sheriff (Live)
-Fitz &amp;amp; The Tantrums - HandClap</description>
     </item>
     
   </channel>
