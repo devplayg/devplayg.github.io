@@ -23,15 +23,15 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MozJPEG 를 활용한 JPEG 압축"/>
 <meta name="twitter:description" content="테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm  소스파일 다운로드 (Download source) $ git clone https://github."/>
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github."/>
 
 <meta property="og:title" content="MozJPEG 를 활용한 JPEG 압축" />
 <meta property="og:description" content="테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm  소스파일 다운로드 (Download source) $ git clone https://github." />
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/mozjpeg_image-optimizing/" />
 <meta property="article:published_time" content="2019-06-16T14:24:39+09:00" />
-<meta property="article:modified_time" content="2019-06-16T14:24:39+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="article:modified_time" content="2019-06-23T22:22:39+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
 
@@ -263,7 +263,7 @@
 <h3 id="필수-라이브러리-설치-requirements">필수 라이브러리 설치 (Requirements)</h3>
 
 <pre><code>$ sudo apt-get update
-$ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm
+$ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev
 </code></pre>
 
 <h3 id="소스파일-다운로드-download-source">소스파일 다운로드 (Download source)</h3>
@@ -290,6 +290,11 @@ $ sudo make install
 
 <pre><code>$ ./cjpeg-static -outfile my-image-optimized.jpg  -optimise               my-image.jpg
 $ ./cjpeg-static -outfile my-image-80.jpg         -optimise -quality  80  my-image.jpg
+</code></pre>
+
+<p>이미지 일괄 압축</p>
+
+<pre><code>$ find /dir  -type f -name &quot;*.jpg&quot; -exec sh -c &quot; ./cjpeg-static -outfile '{}_' -optimise '{}'; rm -rf '{}'; mv '{}_' '{}'&quot; \;
 </code></pre>
 
   </div>

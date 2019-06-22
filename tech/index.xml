@@ -36,7 +36,7 @@
       
       <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
       <description>테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm  소스파일 다운로드 (Download source) $ git clone https://github.</description>
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
     </item>
     
     <item>
