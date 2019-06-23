@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>인어공주 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%9D%B8%EC%96%B4%EA%B3%B5%EC%A3%BC/</link>
+    <description>Recent content in 인어공주 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 24 Jun 2019 05:38:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%9D%B8%EC%96%B4%EA%B3%B5%EC%A3%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>인어공주 시리즈(The Little Mermaid Series)</title>
+      <link>https://devplayg.com/lifeart/2019-06-24_the-little-mermaid/</link>
+      <pubDate>Mon, 24 Jun 2019 05:38:52 +0900</pubDate>
+      
+      <guid>https://devplayg.com/lifeart/2019-06-24_the-little-mermaid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
