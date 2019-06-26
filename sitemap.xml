@@ -3,19 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devplayg.com/tags/brother/</loc>
-    <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-24T05:39:05+09:00</lastmod>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/java/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/kafka/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/openjdk/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/tech/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ubuntu/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/brother/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -23,12 +70,6 @@
   <url>
     <loc>https://devplayg.com/lifeart/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -170,12 +211,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/github/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
     <priority>0</priority>
@@ -259,12 +294,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ubuntu/</loc>
-    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%95%95%EC%B6%95/</loc>
     <lastmod>2019-06-23T22:22:39+09:00</lastmod>
     <priority>0</priority>
@@ -295,6 +324,12 @@
   <url>
     <loc>https://devplayg.com/categories/hugo/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2019-06-19T09:43:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -511,7 +546,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/kafka_test/</loc>
+    <loc>https://devplayg.com/tech/kafka-on-docker_test/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
   </url>
   
@@ -547,12 +582,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/kafka/</loc>
-    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/kafka/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -605,6 +634,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/command/</loc>
+    <lastmod>2019-06-11T18:55:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/tips/</loc>
     <lastmod>2019-06-19T09:43:15+09:00</lastmod>
     <priority>0</priority>
@@ -617,19 +652,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/kafka_setting-kafka/</loc>
+    <loc>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</loc>
     <lastmod>2019-06-09T18:55:12+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/springboot_terms/</loc>
     <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/java/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -657,7 +686,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/kafka_setting-zookeepers/</loc>
+    <loc>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</loc>
     <lastmod>2019-06-09T15:55:12+09:00</lastmod>
   </url>
   
@@ -759,12 +788,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/tech/</loc>
-    <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/tip/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
@@ -800,7 +823,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/kafka_installation-on-docker/</loc>
+    <loc>https://devplayg.com/tech/kafka-on-docker_installation/</loc>
     <lastmod>2019-06-06T17:14:41+09:00</lastmod>
   </url>
   

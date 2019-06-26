@@ -17,7 +17,7 @@
       <pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/hugo_tips/</guid>
-      <description>링크와 참조 {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
+      <description>Link {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
     </item>
     
   </channel>

@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>4. Kafka Tips</title>
+      <title>Kafka Tips</title>
       <link>https://devplayg.com/tech/kafka_tips/</link>
       <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka_tips/</guid>
-      <description>토픽 생성 (Create topic) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  토픽 목록 출력 (List topics) $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  토픽 상새정보 출력 (Describe topic) $KAFKA_HOME/bin/kafka-topics.</description>
+      <description>Create topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  List topics $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  Describe topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Delete topic $KAFKA_HOME/bin/kafka-topics.</description>
     </item>
     
     <item>

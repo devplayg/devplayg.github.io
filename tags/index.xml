@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 24 Jun 2019 05:39:05 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 13:10:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java</title>
+      <link>https://devplayg.com/tags/java/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kafka</title>
+      <link>https://devplayg.com/tags/kafka/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openjdk</title>
+      <link>https://devplayg.com/tags/openjdk/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/openjdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://devplayg.com/tags/ubuntu/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Brother</title>
@@ -224,15 +260,6 @@
       <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://devplayg.com/tags/ubuntu/</link>
-      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -552,15 +579,6 @@
     </item>
     
     <item>
-      <title>kafka</title>
-      <link>https://devplayg.com/tags/kafka/</link>
-      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/kafka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>producer</title>
       <link>https://devplayg.com/tags/producer/</link>
       <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
@@ -624,6 +642,15 @@
     </item>
     
     <item>
+      <title>command</title>
+      <link>https://devplayg.com/tags/command/</link>
+      <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tips</title>
       <link>https://devplayg.com/tags/tips/</link>
       <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
@@ -638,15 +665,6 @@
       <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/%EC%B9%B4%ED%94%84%EC%B9%B4-%EB%AA%85%EB%A0%B9%EC%96%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>java</title>
-      <link>https://devplayg.com/tags/java/</link>
-      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/java/</guid>
       <description></description>
     </item>
     

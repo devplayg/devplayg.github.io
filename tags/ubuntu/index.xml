@@ -6,10 +6,19 @@
     <description>Recent content in ubuntu on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 14:25:34 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 13:10:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu 18.04 에 Kafka 설치</title>
+      <link>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</guid>
+      <description>요구사항  Kafka 2.12 OpenJDK 11.0.3 Ubuntu 18.04  환경 확인 시스템 정보 $ uname -a Linux kafka 4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux  OS 종류 확인 $ cat /etc/issue Ubuntu 18.</description>
+    </item>
     
     <item>
       <title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
-      <description>MozJPEG를 활용한 이미지 압축 테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.</description>
+      <description>테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.</description>
     </item>
     
     <item>
