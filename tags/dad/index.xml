@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dad on Developer Playground</title>
+    <link>https://devplayg.com/tags/dad/</link>
+    <description>Recent content in dad on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 26 Jun 2019 06:39:05 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/dad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>아빠는 이렇게 생겼어요 (My dad looks like this)</title>
+      <link>https://devplayg.com/lifeart/2019-06-26_dad/</link>
+      <pubDate>Wed, 26 Jun 2019 06:39:05 +0900</pubDate>
+      
+      <guid>https://devplayg.com/lifeart/2019-06-26_dad/</guid>
+      <description>지수가 드디어 아빠 그림도 그려줬다. ㅎㅎㅎ (내가 이렇게 생겼군 ^^; 흠..)</description>
+    </item>
+    
+  </channel>
+</rss>

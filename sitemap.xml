@@ -62,18 +62,58 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/brother/</loc>
-    <lastmod>2019-06-24T05:39:05+09:00</lastmod>
+    <loc>https://devplayg.com/lifeart/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/dad/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/lifeart/</loc>
-    <lastmod>2019-06-24T05:39:05+09:00</lastmod>
+    <loc>https://devplayg.com/categories/lifeart/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/lifeart/</loc>
+    <loc>https://devplayg.com/tags/mom/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/mother/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%95%84%EB%B9%A0/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/lifeart/2019-06-26_dad/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%97%84%EB%A7%88/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/lifeart/2019-06-26_mom/</loc>
+    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/brother/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
