@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-06-26T13:10:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-07-25T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -191,6 +191,68 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/tips_mariadb/" >Mariadb tips</a>
+        </span>
+        <span class="item__date">
+          Sat, Jun 8, 2019
+        </span>
+        <span >
+        
+         Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_what-is-go/" >Go 언어</a>
+        </span>
+        <span class="item__date">
+          Sat, Jun 8, 2019
+        </span>
+        <span >
+        
+        Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
+ 2007년에 Google은 Go의 디자인을 시작했고, 2009년에 공식적으로 공개함 초기 디자인부터 멀티코어, 네트워킹, 그리고 대형시스템에서 효율적으로 실행되도록 설계됨 정적 타이핑, 정적 런타임, 컴파일 언어임 가독성이 높고 사용하기 편함 고성능 네트워킹 및 멀티 프로세싱 처리에 적합함 C언어와 Syntax가 유사함 Garbage collection 기능이 있음,   Go의 아버지들 로버트 그리즈머 (Robert Griesemer)  Java hotspot compiler(JVM) 개발함 Chrome Javascript v8 엔진을 개발함  롭 파이크 (Rob Pike)  Plan 9 OS 개발함 UTF-8 을 아래 켄 톰슨과 같이 개발함 &ldquo;Do not communicate by sharing memory; share memory by communicating.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_what-is-go/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/tips_git/" >Git tips</a>
+        </span>
+        <span class="item__date">
+          Fri, Jun 7, 2019
+        </span>
+        <span >
+        
+        To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &ndash;cached path_to_submodule (no trailing slash).
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/tips_git/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/go_benchmark-test/" >Go Benchmarks</a>
         </span>
         <span class="item__date">
@@ -215,7 +277,7 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/docker_tips/" >Docker Tips</a>
+          <a href="/tech/tips_docker/" >Docker tips</a>
         </span>
         <span class="item__date">
           Fri, Jun 7, 2019
@@ -226,7 +288,7 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
         
         </span>
         
-          ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
+          ... <a class="read-more-symbol" href="/tech/tips_docker/">➦</a>
         
         </div>
         
@@ -280,7 +342,26 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/bash_tips/" >Bash tips</a>
+          <a href="/tech/go_pseudo-random-permutation-of-the-integers-in-go/" >Pseudo-random permutation of the integers in Go</a>
+        </span>
+        <span class="item__date">
+          Wed, Jun 5, 2019
+        </span>
+        <span >
+        
+        package main import ( &quot;fmt&quot; &quot;math/rand&quot; &quot;time&quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/tips_bash/" >Bash tips</a>
         </span>
         <span class="item__date">
           Mon, Mar 18, 2019
@@ -313,53 +394,6 @@ Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engi
         </span>
         
           ... <a class="read-more-symbol" href="/about/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/music/music_2018-awards/" >2018 Music Awards</a>
-        </span>
-        <span class="item__date">
-          Sun, Mar 3, 2019
-        </span>
-        <span >
-        
-        Bruno Mars - 24k Magic
-Bruno Mars - Thats What I Like
-Bruno Mars - The Lazy Song (Single Version)
-Eric Clapton - I Shot The Sheriff (Live)
-Fitz &amp; The Tantrums - HandClap
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/music/music_2018-awards/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/ffmpeg_tips/" >FFmpeg tips</a>
-        </span>
-        <span class="item__date">
-          Tue, Jan 22, 2019
-        </span>
-        <span >
-        
-        A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt $ cat list.txt /tmp/file1.mp4 /tmp/file2.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/ffmpeg_tips/">➦</a>
         
         </div>
         
@@ -411,12 +445,23 @@ Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt $ 
     <li class="page-item active"><a class="page-link" href="/page/3/">3</a></li>
     
     
-    <li class="page-item disabled">
-    <a href="" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/4/">4</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

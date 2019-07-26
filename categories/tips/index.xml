@@ -6,45 +6,81 @@
     <description>Recent content in tips on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 14:21:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo Tips</title>
-      <link>https://devplayg.com/tech/hugo_tips/</link>
+      <title>Sprint Boot tips</title>
+      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
+      <description> Build gradlew bootjar  Run jar java -jar server-1.0.jar java -Dspring.profiles.active=server -jar myApp.jar  </description>
+    </item>
+    
+    <item>
+      <title>Thymeleaf tips</title>
+      <link>https://devplayg.com/tech/tips_thymeleaf/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_thymeleaf/</guid>
+      <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales  &amp;lt;div th:text=&amp;quot;${#locale.</description>
+    </item>
+    
+    <item>
+      <title>Hugo tips</title>
+      <link>https://devplayg.com/tech/tips_hugo/</link>
       <pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/hugo_tips/</guid>
+      <guid>https://devplayg.com/tech/tips_hugo/</guid>
       <description>Link {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
     </item>
     
     <item>
-      <title>Kafka Tips</title>
-      <link>https://devplayg.com/tech/kafka_tips/</link>
+      <title>Kafka tips</title>
+      <link>https://devplayg.com/tech/tips_kafka/</link>
       <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/kafka_tips/</guid>
+      <guid>https://devplayg.com/tech/tips_kafka/</guid>
       <description>Create topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  List topics $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  Describe topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Delete topic $KAFKA_HOME/bin/kafka-topics.</description>
     </item>
     
     <item>
+      <title>Mariadb tips</title>
+      <link>https://devplayg.com/tech/tips_mariadb/</link>
+      <pubDate>Sat, 08 Jun 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_mariadb/</guid>
+      <description> Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  </description>
+    </item>
+    
+    <item>
       <title>Git tips</title>
-      <link>https://devplayg.com/tech/git_tips/</link>
+      <link>https://devplayg.com/tech/tips_git/</link>
       <pubDate>Fri, 07 Jun 2019 23:45:41 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/git_tips/</guid>
+      <guid>https://devplayg.com/tech/tips_git/</guid>
       <description>To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &amp;ndash;cached path_to_submodule (no trailing slash).</description>
     </item>
     
     <item>
-      <title>Docker Tips</title>
-      <link>https://devplayg.com/tech/docker_tips/</link>
+      <title>Docker tips</title>
+      <link>https://devplayg.com/tech/tips_docker/</link>
       <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/docker_tips/</guid>
+      <guid>https://devplayg.com/tech/tips_docker/</guid>
       <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\.</description>
+    </item>
+    
+    <item>
+      <title>Bash tips</title>
+      <link>https://devplayg.com/tech/tips_bash/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_bash/</guid>
+      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo link on Developer Playground</title>
+    <title>hugo link on Developer Playground</title>
     <link>https://devplayg.com/tags/hugo-link/</link>
-    <description>Recent content in Hugo link on Developer Playground</description>
+    <description>Recent content in hugo link on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 16 Jun 2019 14:21:11 +0900</lastBuildDate>
@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Hugo Tips</title>
-      <link>https://devplayg.com/tech/hugo_tips/</link>
+      <title>Hugo tips</title>
+      <link>https://devplayg.com/tech/tips_hugo/</link>
       <pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/hugo_tips/</guid>
+      <guid>https://devplayg.com/tech/tips_hugo/</guid>
       <description>Link {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
     </item>
     

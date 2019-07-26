@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>template engine on Developer Playground</title>
+    <link>https://devplayg.com/categories/template-engine/</link>
+    <description>Recent content in template engine on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/template-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thymeleaf tips</title>
+      <link>https://devplayg.com/tech/tips_thymeleaf/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_thymeleaf/</guid>
+      <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales  &amp;lt;div th:text=&amp;quot;${#locale.</description>
+    </item>
+    
+  </channel>
+</rss>

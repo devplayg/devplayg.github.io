@@ -29,7 +29,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/springboot_terms/" />
 <meta property="article:published_time" content="2019-06-09T16:11:23+09:00" />
-<meta property="article:modified_time" content="2019-06-09T16:11:23+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="article:modified_time" content="2019-07-25T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -318,6 +318,20 @@ B사용자 [주문] 클릭 ==&gt; 웹서버 ==&gt; [Servlet-C]
 
 <p><a href="https://docs.oracle.com/javaee/7/tutorial/servlets001.htm#BNAFE">https://docs.oracle.com/javaee/7/tutorial/servlets001.htm#BNAFE</a></p>
 
+<h3 id="preauthorize-not-working-on-controller">PreAuthorize not working on Controller</h3>
+
+<p><a href="https://stackoverflow.com/questions/32442408/preauthorize-not-working-on-controller/35759965">https://stackoverflow.com/questions/32442408/preauthorize-not-working-on-controller/35759965</a></p>
+
+<p>A common problem with using PrePost annotations on controllers is that Spring method security is based on Spring AOP, which is by default implemented with JDK proxies.
+That means that it works fine on the service layer which is injected in controller layer as interfaces, but it is ignored on controller layer because controller generally do not implement interfaces.
+The following is just my opinion:</p>
+
+<ul>
+<li>prefered way: move the pre post annotation on service layer</li>
+<li>if you cannot (or do not want to), try to have your controller implement an interface containing all the annotated methods</li>
+<li>as a last way, use proxy-target-class=true</li>
+</ul>
+
   </div>
     
   
@@ -404,11 +418,13 @@ if (!doNotTrack) {
             
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/go.min.js"></script>
             
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/java.min.js"></script>
+            
         
     
     <script type="text/javascript">
         
-        hljs.configure({languages: ["go"]});
+        hljs.configure({languages: ["go, java"]});
         
         hljs.initHighlightingOnLoad();
     </script>

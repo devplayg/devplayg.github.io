@@ -4,37 +4,106 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/java/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/java_lambda/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/tips_spring-boot-dist/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/tips_thymeleaf/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/java/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/lambda/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/spring-boot/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/template-engine/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/thymeleaf/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tips/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</loc>
     <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/java/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -345,18 +414,12 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/hugo_tips/</loc>
+    <loc>https://devplayg.com/tech/tips_hugo/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/hugo-link/</loc>
-    <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/hugo-%EB%A7%81%ED%81%AC/</loc>
+    <loc>https://devplayg.com/tags/blog/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -368,26 +431,8 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/tips/</loc>
-    <lastmod>2019-06-19T09:43:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
+    <loc>https://devplayg.com/tags/hugo-link/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8-hugo/</loc>
-    <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/go%EC%96%B8%EC%96%B4/</loc>
-    <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -562,12 +607,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
-    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/sort/</loc>
     <lastmod>2019-06-11T22:02:31+09:00</lastmod>
     <priority>0</priority>
@@ -663,32 +702,8 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/kafka_tips/</loc>
+    <loc>https://devplayg.com/tech/tips_kafka/</loc>
     <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/kafka-tips/</loc>
-    <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/command/</loc>
-    <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/tips/</loc>
-    <lastmod>2019-06-19T09:43:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%B9%B4%ED%94%84%EC%B9%B4-%EB%AA%85%EB%A0%B9%EC%96%B4/</loc>
-    <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -698,30 +713,24 @@
   
   <url>
     <loc>https://devplayg.com/tech/springboot_terms/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/spring/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/spring-boot/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/spring-framework/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/spring-framework/</loc>
-    <lastmod>2019-06-09T16:11:23+09:00</lastmod>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -731,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/mariadb_profiling/</loc>
+    <loc>https://devplayg.com/tech/tips_mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
   </url>
   
@@ -783,7 +792,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/git_tips/</loc>
+    <loc>https://devplayg.com/tech/tips_git/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
   </url>
   
@@ -828,13 +837,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/tip/</loc>
-    <lastmod>2019-06-11T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker_tips/</loc>
+    <loc>https://devplayg.com/tech/tips_docker/</loc>
     <lastmod>2019-06-19T09:43:15+09:00</lastmod>
   </url>
   
@@ -846,12 +849,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/docker/</loc>
-    <lastmod>2019-06-19T09:43:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/ubuntu/</loc>
     <lastmod>2019-06-19T09:43:15+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -902,7 +899,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/bash_tips/</loc>
+    <loc>https://devplayg.com/tech/tips_bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
   </url>
   

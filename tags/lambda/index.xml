@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lambda on Developer Playground</title>
+    <link>https://devplayg.com/tags/lambda/</link>
+    <description>Recent content in lambda on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java Lambda</title>
+      <link>https://devplayg.com/tech/java_lambda/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/java_lambda/</guid>
+      <description>Before using lamda
+Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda</description>
+    </item>
+    
+  </channel>
+</rss>
