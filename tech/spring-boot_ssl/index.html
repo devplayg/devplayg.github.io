@@ -17,21 +17,19 @@
     
     
 
-<title>Java Lambda • Developer Playground</title>
+<title>Spring Boot, SSL 인증서 만들기 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Java Lambda"/>
-<meta name="twitter:description" content="Before using lamda
-Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda"/>
+<meta name="twitter:title" content="Spring Boot, SSL 인증서 만들기"/>
+<meta name="twitter:description" content="Key store 생성 $ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650 Enter keystore password: Re-enter new password: What is your first and last name?"/>
 
-<meta property="og:title" content="Java Lambda" />
-<meta property="og:description" content="Before using lamda
-Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda" />
+<meta property="og:title" content="Spring Boot, SSL 인증서 만들기" />
+<meta property="og:description" content="Key store 생성 $ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650 Enter keystore password: Re-enter new password: What is your first and last name?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/java_lambda/" />
-<meta property="article:published_time" content="2019-07-25T00:00:00+09:00" />
-<meta property="article:modified_time" content="2019-07-25T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/spring-boot_ssl/" />
+<meta property="article:published_time" content="2019-08-02T22:00:00+09:00" />
+<meta property="article:modified_time" content="2019-08-02T22:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -191,11 +189,11 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
     
 <article>
   <header>
-    <h1 class="post__title">Java Lambda
+    <h1 class="post__title">Spring Boot, SSL 인증서 만들기
         <small>
         
         
-            <span class="post__date">Thu, Jul 25, 2019</span>
+            <span class="post__date">Fri, Aug 2, 2019</span>
         
         </small>
     </h1>
@@ -207,9 +205,9 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
         
             
             
-                <a class="badge badge-category" href="/categories/programming-language">programming language</a>
+                <a class="badge badge-category" href="/categories/spring-boot">spring boot</a>
             
-                <a class="badge badge-category" href="/categories/java">java</a>
+                <a class="badge badge-category" href="/categories/ssl">ssl</a>
             
         
     
@@ -223,7 +221,22 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
                 <a class="badge badge-tag" href="/tags/java">java</a>
                  
             
-                <a class="badge badge-tag" href="/tags/lambda">lambda</a>
+                <a class="badge badge-tag" href="/tags/rsa">rsa</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/cert">cert</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/keytool">keytool</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/spring-boot">spring boot</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/ssl">ssl</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/%EC%9D%B8%EC%A6%9D%EC%84%9C">인증서</a>
                 
             
         
@@ -249,25 +262,85 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
 
 
   <div class="post">
-    <p>Before using lamda</p>
+    
 
-<pre><code class="language-java">Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() {
-    @Override
-    public int compare(FaceRecognition o1, FaceRecognition o2) {
-        Float f1 = o1.getScore();
-        Float f2 = o2.getScore();
-        return f2.compareTo(f1);
-    }
-});
+<h3 id="key-store-생성">Key store 생성</h3>
+
+<pre><code>$ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  iot
+What is the name of your organizational unit?
+  [Unknown]:  devplayg
+What is the name of your organization?
+  [Unknown]:  devplayg
+What is the name of your City or Locality?
+  [Unknown]:  pangyo
+What is the name of your State or Province?
+  [Unknown]:  seoungnam
+What is the two-letter country code for this unit?
+  [Unknown]:  ko
+Is CN=iot, OU=devplayg, O=devplayg, L=pangyo, ST=seoungnam, C=ko correct?
+  [no]:  y
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 3,650 days
+        for: CN=iot, OU=devplayg, O=devplayg, L=pangyo, ST=seoungnam, C=ko
+[Storing sb201.key]
 </code></pre>
 
-<p>After using lamda</p>
+<h3 id="인증서-생성">인증서 생성</h3>
 
-<pre><code class="language-java">Collections.sort(logs, (o1, o2) -&gt; {
-   Float f1 = o1.getScore();
-   Float f2 = o2.getScore();
-   return f2.compareTo(f1);
-});
+<pre><code>$ keytool -export -alias sb201 -storepass devplayg -file sb201.cer -keystore sb201.key
+Certificate stored in file &lt;sb201.cer&gt;
+</code></pre>
+
+<h3 id="trust-store-생성하기">Trust-Store 생성하기</h3>
+
+<pre><code>$ keytool -import -alias sb201 -file sb201.cer -keystore sb201.ts -storepass devplayg
+Owner: CN=iot, OU=devplayg, O=devplayg, L=pangyo, ST=seoungnam, C=ko
+Issuer: CN=iot, OU=devplayg, O=devplayg, L=pangyo, ST=seoungnam, C=ko
+Serial number: 24592ccb
+Valid from: Mon Jul 29 15:52:57 KST 2019 until: Thu Jul 26 15:52:57 KST 2029
+Certificate fingerprints:
+         SHA1: EB:19:8F:90:4E:59:8D:F9:2F:05:EB:46:A5:BD:2D:C1:5B:2F:7F:A9
+         SHA256: 37:20:7B:7C:75:35:CA:4F:18:25:84:91:94:57:2A:42:04:51:E4:2B:F6:99:0B:17:8A:25:E8:9D:4C:59:C1:A7
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4E 90 11 C6 F0 15 BF 8E   F1 42 4C 85 E5 68 82 6B  N........BL..h.k
+0010: 81 DD EE 19                                        ....
+]
+]
+
+Trust this certificate? [no]:  yes
+Certificate was added to keystore
+</code></pre>
+
+<pre><code>$ ls -l
+sb201.cer
+sb201.key
+sb201.ts
+</code></pre>
+
+<h3 id="application-yaml-수정">Application.yaml 수정</h3>
+
+<pre><code>server:
+  port: 443
+  ssl:
+    enabled: true
+    key-store: #key파일 절대경로#
+    key-store-password: #Key-store 비밀번호#
+    key-password: #Key-store 비밀번호#
+    key-alias: #Aliase#
+    trust-store: #Trust-Store 절대경로#
+    trust-store-password: #Trust-Store 비밀번호#
 </code></pre>
 
   </div>
@@ -276,16 +349,11 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/tips_spring-boot-dist/" class="navigation-prev">
+    <a href="/tech/java_lambda/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Sprint Boot tips</span>
+      <span class="navigation-tittle">Java Lambda</span>
     </a>
     
-    
-    <a href="/tech/spring-boot_ssl/" class="navigation-next">
-      <span class="navigation-tittle">Spring Boot, SSL 인증서 만들기</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

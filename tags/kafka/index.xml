@@ -26,7 +26,7 @@
       <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
-      <description>Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+      <description>Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
    Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
     </item>
     

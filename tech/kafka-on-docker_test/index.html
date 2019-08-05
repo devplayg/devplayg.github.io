@@ -22,11 +22,11 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="4. Kafka 테스트"/>
-<meta name="twitter:description" content="Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+<meta name="twitter:description" content="Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
    Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1."/>
 
 <meta property="og:title" content="4. Kafka 테스트" />
-<meta property="og:description" content="Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+<meta property="og:description" content="Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
    Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/kafka-on-docker_test/" />
@@ -288,8 +288,8 @@
 
 <h3 id="kafka-상태확인-명령어">Kafka 상태확인 명령어</h3>
 
-<pre><code>$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list
-$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic
+<pre><code>$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list
+$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic
 </code></pre>
 
 <h3 id="kafka-장애-발생-시-상태변화-테스트">Kafka 장애 발생 시, 상태변화 테스트</h3>

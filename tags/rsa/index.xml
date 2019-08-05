@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spring boot on Developer Playground</title>
-    <link>https://devplayg.com/categories/spring-boot/</link>
-    <description>Recent content in spring boot on Developer Playground</description>
+    <title>rsa on Developer Playground</title>
+    <link>https://devplayg.com/tags/rsa/</link>
+    <description>Recent content in rsa on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/categories/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/rsa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://devplayg.com/tech/spring-boot_ssl/</guid>
       <description>Key store 생성 $ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650 Enter keystore password: Re-enter new password: What is your first and last name?</description>
-    </item>
-    
-    <item>
-      <title>Sprint Boot tips</title>
-      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description> Build gradlew bootjar  Run jar java -jar server-1.0.jar java -Dspring.profiles.active=server -jar myApp.jar  </description>
     </item>
     
   </channel>

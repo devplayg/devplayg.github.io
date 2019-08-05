@@ -6,10 +6,19 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring Boot, SSL 인증서 만들기</title>
+      <link>https://devplayg.com/tech/spring-boot_ssl/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/spring-boot_ssl/</guid>
+      <description>Key store 생성 $ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650 Enter keystore password: Re-enter new password: What is your first and last name?</description>
+    </item>
     
     <item>
       <title>Java Lambda</title>
@@ -203,7 +212,7 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Gr
       <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
-      <description>Kafka 상태확인 명령어 $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+      <description>Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
    Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
     </item>
     
@@ -361,7 +370,7 @@ Fitz &amp;amp; The Tantrums - HandClap</description>
       
       <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
       <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt $ cat list.txt /tmp/file1.mp4 /tmp/file2.</description>
+Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
     </item>
     
   </channel>

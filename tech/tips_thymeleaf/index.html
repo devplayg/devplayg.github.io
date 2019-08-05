@@ -279,6 +279,11 @@
     &lt;div th:text=&quot;${#locale.default}&quot;&gt;ko_KR&lt;/div&gt;
 </code></pre>
 
+<h3 id="access-application-yaml">Access &ldquo;Application.yaml&rdquo;</h3>
+
+<pre><code>&lt;span th:text=&quot;${@environment.getProperty('app.company')}&quot;&gt;&lt;/span&gt;
+</code></pre>
+
   </div>
     
   
