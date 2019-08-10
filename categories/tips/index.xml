@@ -6,10 +6,21 @@
     <description>Recent content in tips on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Openssl, ROOT CA 인증서 생성</title>
+      <link>https://devplayg.com/tech/tips_openssl/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_openssl/</guid>
+      <description>CA가 사용할 RSA Key 생성 암호가 불필요한 경우
+openssl genrsa -out private.key 2048  암호를 설정할 경우
+openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.</description>
+    </item>
     
     <item>
       <title>Sprint Boot tips</title>
@@ -53,7 +64,7 @@
       <pubDate>Sat, 08 Jun 2019 15:13:27 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/tips_mariadb/</guid>
-      <description> Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  </description>
+      <description>Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *.</description>
     </item>
     
     <item>

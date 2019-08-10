@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mariadb tips"/>
-<meta name="twitter:description" content=" Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  "/>
+<meta name="twitter:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *."/>
 
 <meta property="og:title" content="Mariadb tips" />
-<meta property="og:description" content=" Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  " />
+<meta property="og:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/tips_mariadb/" />
 <meta property="article:published_time" content="2019-06-08T15:13:27+09:00" />
@@ -267,6 +267,17 @@ truncate table mysql.general_log;
 <h3 id="change-date-to-today">Change date to today</h3>
 
 <pre><code class="language-sql">DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)
+</code></pre>
+
+<h3 id="add-account">Add account</h3>
+
+<pre><code class="language-sql">create user 'root'@'%' identified by 'YOURPASSWORD';
+grant all privileges on *.* to 'root'@'%';
+</code></pre>
+
+<h3 id="change-password">Change password</h3>
+
+<pre><code class="language-sql">alter user 'root'@'%' identified by 'NEWPASSWORD';
 </code></pre>
 
   </div>
