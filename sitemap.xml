@@ -3,32 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/vxg-server_installation/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/vxg/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/vxg-server/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/</loc>
+    <loc>https://devplayg.com/tech/openssl_generate-cert/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/tips_openssl/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -56,13 +73,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/java/</loc>
+    <loc>https://devplayg.com/tags/ssl/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ssl/</loc>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,6 +96,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/java/</loc>
+    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/keytool/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -86,12 +109,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/rsa/</loc>
-    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -472,7 +489,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_hugo/</loc>
+    <loc>https://devplayg.com/tech/hugo_tips/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
   </url>
   
@@ -760,7 +777,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_kafka/</loc>
+    <loc>https://devplayg.com/tech/kafka_tips/</loc>
     <lastmod>2019-06-11T18:55:12+09:00</lastmod>
   </url>
   
@@ -798,7 +815,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_mariadb/</loc>
+    <loc>https://devplayg.com/tech/mariadb_tips/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
   </url>
   
@@ -850,7 +867,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_git/</loc>
+    <loc>https://devplayg.com/tech/git_tips/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
   </url>
   
@@ -895,7 +912,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_docker/</loc>
+    <loc>https://devplayg.com/tech/docker_tips/</loc>
     <lastmod>2019-06-19T09:43:15+09:00</lastmod>
   </url>
   
@@ -957,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/tips_bash/</loc>
+    <loc>https://devplayg.com/tech/bash_tips/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
   </url>
   

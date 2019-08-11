@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 15:13:27 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vxg</title>
+      <link>https://devplayg.com/tags/vxg/</link>
+      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/vxg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vxg server</title>
+      <link>https://devplayg.com/tags/vxg-server/</link>
+      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/vxg-server/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>openssl</title>
@@ -30,15 +48,6 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://devplayg.com/tags/java/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SSL</title>
       <link>https://devplayg.com/tags/ssl/</link>
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
@@ -48,11 +57,29 @@
     </item>
     
     <item>
+      <title>Spring Boot</title>
+      <link>https://devplayg.com/tags/spring-boot/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cert</title>
       <link>https://devplayg.com/tags/cert/</link>
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/cert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://devplayg.com/tags/java/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/java/</guid>
       <description></description>
     </item>
     
@@ -71,15 +98,6 @@
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/rsa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spring boot</title>
-      <link>https://devplayg.com/tags/spring-boot/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     
