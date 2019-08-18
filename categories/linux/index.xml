@@ -6,10 +6,20 @@
     <description>Recent content in linux on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu 18.04 tips</title>
+      <link>https://devplayg.com/tech/ubuntu-18.04_tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
+      <description> Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  </description>
+    </item>
     
     <item>
       <title>Bash tips</title>

@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CURL</title>
+      <link>https://devplayg.com/categories/curl/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/curl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/categories/linux/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://devplayg.com/categories/tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/tips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>openssl</title>
@@ -17,15 +44,6 @@
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/openssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://devplayg.com/categories/tips/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/tips/</guid>
       <description></description>
     </item>
     
@@ -224,15 +242,6 @@
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/categories/linux/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/linux/</guid>
       <description></description>
     </item>
     

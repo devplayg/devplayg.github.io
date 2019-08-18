@@ -17,23 +17,23 @@
     
     
 
-<title>Openssl, ROOT CA 인증서 생성 • Developer Playground</title>
+<title>Windows에 VXG Server 설치 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Openssl, ROOT CA 인증서 생성"/>
-<meta name="twitter:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private."/>
+<meta name="twitter:title" content="Windows에 VXG Server 설치"/>
+<meta name="twitter:description" content="VXG Server 다운로드 Download
+HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
+$ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf."/>
 
-<meta property="og:title" content="Openssl, ROOT CA 인증서 생성" />
-<meta property="og:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private." />
+<meta property="og:title" content="Windows에 VXG Server 설치" />
+<meta property="og:description" content="VXG Server 다운로드 Download
+HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
+$ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/openssl_generate-cert/" />
-<meta property="article:published_time" content="2019-08-09T00:00:00+09:00" />
-<meta property="article:modified_time" content="2019-08-09T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/vxg-server_installation-on-windows/" />
+<meta property="article:published_time" content="2019-08-10T15:13:27+09:00" />
+<meta property="article:modified_time" content="2019-08-10T15:13:27+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -193,27 +193,17 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
     
 <article>
   <header>
-    <h1 class="post__title">Openssl, ROOT CA 인증서 생성
+    <h1 class="post__title">Windows에 VXG Server 설치
         <small>
         
         
-            <span class="post__date">Fri, Aug 9, 2019</span>
+            <span class="post__date">Sat, Aug 10, 2019</span>
         
         </small>
     </h1>
     
 <div class="post__meta">
     
-    
-        
-        
-            
-            
-                <a class="badge badge-category" href="/categories/openssl">openssl</a>
-            
-                <a class="badge badge-category" href="/categories/tips">tips</a>
-            
-        
     
 
     
@@ -222,10 +212,10 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
         
             
             
-                <a class="badge badge-tag" href="/tags/openssl">openssl</a>
+                <a class="badge badge-tag" href="/tags/vxg">vxg</a>
                  
             
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                <a class="badge badge-tag" href="/tags/vxg-server">vxg server</a>
                 
             
         
@@ -253,31 +243,110 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
   <div class="post">
     
 
-<h3 id="ca가-사용할-rsa-key-생성">CA가 사용할 RSA Key 생성</h3>
+<h3 id="vxg-server-다운로드">VXG Server 다운로드</h3>
 
-<p>암호가 불필요한 경우</p>
+<p><a href="https://dashboard.videoexpertsgroup.com/?downloads=">Download</a></p>
 
-<pre><code>openssl genrsa -out private.key 2048
+<h3 id="https-인증서-생성-옵션">HTTPS 인증서 생성 (옵션)</h3>
+
+<p>생성 과정은 <a href="../openssl_generate-cert">링크</a> 참조</p>
+
+<pre><code>$ dir E:\vxg\certificate
+certificate.crt  
+certificate.csr  
+private.key       
 </code></pre>
 
-<p>암호를 설정할 경우</p>
+<h3 id="vxg-server-설치">VXG Server 설치</h3>
 
-<pre><code>openssl genrsa -aes256 -out private.key 2048
+<pre><code>$ start.bat -h 127.0.0.1 -c e:\vxg\certificate
+... (생략)
+CREATE TRIGGER
+Writing output to /opt/skyvr/nginx/bin/skyvr_conf.lua
+Writing output to /opt/skyvr/nginx/conf/nginx.conf
+ * Starting periodic command scheduler cron
+   ...done.
+accp_web is stopped
+Starting accp_web ...
+rename /var/log/vxg/svcp/accp_web.log.1 /var/log/vxg/svcp/accp_web.log.2
+rename /var/log/vxg/svcp/accp_web.log /var/log/vxg/svcp/accp_web.log.1
+
+VXG Server version 1.3.293.20190704.077f5985853a on system D6D39390-FB1A-11E7-B880-6E66E9EE1C00 started, please visit http://127.0.0.1:8000/ or https://127.0.0.1:8443/ in your browser
 </code></pre>
 
-<h3 id="인증성-생성">인증성 생성</h3>
+<h3 id="vxg-동작-확인-및-접속">VXG 동작 확인 및 접속</h3>
 
-<pre><code>openssl req -new -key private.key -out certificate.csr -subj &quot;/C=KR/ST=Seoul/L=Pangyo/O=devplayg/OU=playground/CN=devplayg.com&quot;
+<p>Docker 상태</p>
+
+<pre><code>$ docker ps -a
+
+CONTAINER ID        IMAGE                         COMMAND                  CREATED             STATUS                      PORTS     NAMES
+c946c7e9543e        vxg_server:1.3.293.20190704   &quot;/bin/sh -c /opt/sky…&quot;   10 hours ago        Up 10 hours                 (생략)   vxg_server
 </code></pre>
 
-<h3 id="self-signed-인증서-생성">Self-signed 인증서 생성</h3>
+<p>Web 클라이언트 접속 (ID: admin / PW: admin)</p>
 
-<pre><code>openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr -signkey private.key -out certificate.crt 
+<pre><code>https://127.0.0.1:8443
 </code></pre>
 
-<h3 id="인증서-확인">인증서 확인</h3>
+<p>위에서 생략된 Docker port forwarding 항목들</p>
 
-<pre><code>openssl x509 -text -in certificate.crt
+<pre><code>0.0.0.0:83-&gt;83/tcp
+0.0.0.0:86-&gt;86/tcp
+0.0.0.0:554-&gt;554/tcp
+0.0.0.0:1935-1936-&gt;1935-1936/tcp
+0.0.0.0:8000-&gt;8000/tcp
+0.0.0.0:8080-&gt;8080/tcp
+0.0.0.0:8083-&gt;8083/tcp
+0.0.0.0: 8443-&gt;8443/tcp
+0.0.0.0:8883-&gt;8883/tcp
+0.0.0.0:8888-&gt;8888/tcp
+0.0.0.0:9443-&gt;9443/tcp
+0.0.0.0:12050-&gt;12050/tcp
+0.0.0.0:12443-&gt;12443/tcp
+</code></pre>
+
+<h3 id="minio-vxg-storage-설치">MinIO(VXG-Storage) 설치</h3>
+
+<p>VXG Server의 Docker network 확인</p>
+
+<pre><code>$ docker inspect vxg_server | findstr NetworkMode
+&quot;NetworkMode&quot;: &quot;vxg-server-net&quot;,
+</code></pre>
+
+<p>Access key와 Secret key 는 Web의 [Settings - Storage] 참고</p>
+
+<p><img src="key.png" alt="Keys" /></p>
+
+<pre><code>docker run -p 9000:9000 --name vxg-server-storage --net vxg-server-net -e &quot;MINIO_ACCESS_KEY=###ACCESS-KEY###&quot; -e &quot;MINIO_SECRET_KEY=###SECRET-KEY###&quot; -v E:/vxg/storage:/data minio/minio  server /data
+</code></pre>
+
+<p>Docker container 확인</p>
+
+<pre><code>CONTAINER ID        IMAGE                         COMMAND                  CREATED             STATUS                             PORTS                     NAMES
+c40ea41aba57        minio/minio                   &quot;/usr/bin/docker-ent…&quot;   13 seconds ago      Up 11 seconds (health: starting)   0.0.0.0:9000-&gt;9000/tcp    vxg-server-storage
+c946c7e9543e        vxg_server:1.3.293.20190704   &quot;/bin/sh -c /opt/sky…&quot;   10 hours ago        Up 10 hours                        (생략)                    vxg_server
+</code></pre>
+
+<p>MinIO 의 Docker network 확인</p>
+
+<pre><code>$ docker inspect vxg-server-storage | findstr NetworkMode
+&quot;NetworkMode&quot;: &quot;vxg-server-net&quot;,
+</code></pre>
+
+<h3 id="minio-접속">MinIO 접속</h3>
+
+<p><a href="http://127.0.0.1:9000">http://127.0.0.1:9000</a></p>
+
+<p>ID: ###ACCESS-KEY### / PW: ###SECRET-KEY###</p>
+
+<pre><code>                                                                                                                                               ts
+</code></pre>
+
+<h3 id="테스트-코드">테스트 코드</h3>
+
+<pre><code>docker stop vxg_server &amp;&amp; docker rm vxg_server
+docker stop vxg-server-storage &amp;&amp; docker rm vxg-server-storage
 </code></pre>
 
   </div>
@@ -286,14 +355,14 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/spring-boot_ssl/" class="navigation-prev">
+    <a href="/tech/openssl_generate-cert/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Spring Boot, SSL 인증서 만들기</span>
+      <span class="navigation-tittle">Openssl, ROOT CA 인증서 생성</span>
     </a>
     
     
-    <a href="/tech/vxg-server_installation-on-windows/" class="navigation-next">
-      <span class="navigation-tittle">Windows에 VXG Server 설치</span>
+    <a href="/tech/vxg-server_installation-on-ubuntu/" class="navigation-next">
+      <span class="navigation-tittle">VXG Ubuntu 설치</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

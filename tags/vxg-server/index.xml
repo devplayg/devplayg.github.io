@@ -12,11 +12,21 @@
     
     
     <item>
-      <title>Windows에 VXG Server 설치</title>
-      <link>https://devplayg.com/tech/vxg-server_installation/</link>
+      <title>VXG Ubuntu 설치</title>
+      <link>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</link>
       <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/vxg-server_installation/</guid>
+      <guid>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</guid>
+      <description>영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
+$ wget &amp;quot;https://dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Windows에 VXG Server 설치</title>
+      <link>https://devplayg.com/tech/vxg-server_installation-on-windows/</link>
+      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/vxg-server_installation-on-windows/</guid>
       <description>VXG Server 다운로드 Download
 HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
 $ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf.</description>

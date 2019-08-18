@@ -17,23 +17,21 @@
     
     
 
-<title>Openssl, ROOT CA 인증서 생성 • Developer Playground</title>
+<title>Ubuntu 18.04 tips • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Openssl, ROOT CA 인증서 생성"/>
-<meta name="twitter:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private."/>
+<meta name="twitter:title" content="Ubuntu 18.04 tips"/>
+<meta name="twitter:description" content=" Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  "/>
 
-<meta property="og:title" content="Openssl, ROOT CA 인증서 생성" />
-<meta property="og:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private." />
+<meta property="og:title" content="Ubuntu 18.04 tips" />
+<meta property="og:description" content=" Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/openssl_generate-cert/" />
-<meta property="article:published_time" content="2019-08-09T00:00:00+09:00" />
-<meta property="article:modified_time" content="2019-08-09T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/ubuntu-18.04_tips/" />
+<meta property="article:published_time" content="2019-08-19T00:00:00+09:00" />
+<meta property="article:modified_time" content="2019-08-19T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -193,11 +191,11 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
     
 <article>
   <header>
-    <h1 class="post__title">Openssl, ROOT CA 인증서 생성
+    <h1 class="post__title">Ubuntu 18.04 tips
         <small>
         
         
-            <span class="post__date">Fri, Aug 9, 2019</span>
+            <span class="post__date">Mon, Aug 19, 2019</span>
         
         </small>
     </h1>
@@ -209,9 +207,9 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
         
             
             
-                <a class="badge badge-category" href="/categories/openssl">openssl</a>
-            
                 <a class="badge badge-category" href="/categories/tips">tips</a>
+            
+                <a class="badge badge-category" href="/categories/linux">linux</a>
             
         
     
@@ -222,10 +220,13 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
         
             
             
-                <a class="badge badge-tag" href="/tags/openssl">openssl</a>
+                <a class="badge badge-tag" href="/tags/tips">tips</a>
                  
             
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                <a class="badge badge-tag" href="/tags/linux">linux</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/ubuntu">ubuntu</a>
                 
             
         
@@ -253,31 +254,20 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
   <div class="post">
     
 
-<h3 id="ca가-사용할-rsa-key-생성">CA가 사용할 RSA Key 생성</h3>
+<h3 id="configure-static-ip-addresses-on-ubuntu-18-04-lts-server">Configure Static IP Addresses on Ubuntu 18.04 LTS Server</h3>
 
-<p>암호가 불필요한 경우</p>
+<p>/etc/netplan/*.yaml</p>
 
-<pre><code>openssl genrsa -out private.key 2048
-</code></pre>
-
-<p>암호를 설정할 경우</p>
-
-<pre><code>openssl genrsa -aes256 -out private.key 2048
-</code></pre>
-
-<h3 id="인증성-생성">인증성 생성</h3>
-
-<pre><code>openssl req -new -key private.key -out certificate.csr -subj &quot;/C=KR/ST=Seoul/L=Pangyo/O=devplayg/OU=playground/CN=devplayg.com&quot;
-</code></pre>
-
-<h3 id="self-signed-인증서-생성">Self-signed 인증서 생성</h3>
-
-<pre><code>openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr -signkey private.key -out certificate.crt 
-</code></pre>
-
-<h3 id="인증서-확인">인증서 확인</h3>
-
-<pre><code>openssl x509 -text -in certificate.crt
+<pre><code class="language-yaml">network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eno1:
+      addresses:
+        - 192.168.0.207/24
+      gateway4: 192.168.0.1
+      nameservers:
+          addresses: [168.126.63.1,8.8.8.8]
 </code></pre>
 
   </div>
@@ -286,14 +276,14 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/spring-boot_ssl/" class="navigation-prev">
+    <a href="/tech/vxg-server_installation-on-ubuntu/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Spring Boot, SSL 인증서 만들기</span>
+      <span class="navigation-tittle">VXG Ubuntu 설치</span>
     </a>
     
     
-    <a href="/tech/vxg-server_installation-on-windows/" class="navigation-next">
-      <span class="navigation-tittle">Windows에 VXG Server 설치</span>
+    <a href="/tech/curl_tips/" class="navigation-next">
+      <span class="navigation-tittle">CURL tips</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

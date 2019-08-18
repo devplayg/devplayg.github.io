@@ -17,23 +17,21 @@
     
     
 
-<title>Openssl, ROOT CA 인증서 생성 • Developer Playground</title>
+<title>VXG Ubuntu 설치 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Openssl, ROOT CA 인증서 생성"/>
-<meta name="twitter:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private."/>
+<meta name="twitter:title" content="VXG Ubuntu 설치"/>
+<meta name="twitter:description" content="영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
+$ wget &quot;https://dashboard."/>
 
-<meta property="og:title" content="Openssl, ROOT CA 인증서 생성" />
-<meta property="og:description" content="CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private." />
+<meta property="og:title" content="VXG Ubuntu 설치" />
+<meta property="og:description" content="영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
+$ wget &quot;https://dashboard." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/openssl_generate-cert/" />
-<meta property="article:published_time" content="2019-08-09T00:00:00+09:00" />
-<meta property="article:modified_time" content="2019-08-09T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/vxg-server_installation-on-ubuntu/" />
+<meta property="article:published_time" content="2019-08-10T15:13:27+09:00" />
+<meta property="article:modified_time" content="2019-08-10T15:13:27+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -193,27 +191,17 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
     
 <article>
   <header>
-    <h1 class="post__title">Openssl, ROOT CA 인증서 생성
+    <h1 class="post__title">VXG Ubuntu 설치
         <small>
         
         
-            <span class="post__date">Fri, Aug 9, 2019</span>
+            <span class="post__date">Sat, Aug 10, 2019</span>
         
         </small>
     </h1>
     
 <div class="post__meta">
     
-    
-        
-        
-            
-            
-                <a class="badge badge-category" href="/categories/openssl">openssl</a>
-            
-                <a class="badge badge-category" href="/categories/tips">tips</a>
-            
-        
     
 
     
@@ -222,10 +210,10 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
         
             
             
-                <a class="badge badge-tag" href="/tags/openssl">openssl</a>
+                <a class="badge badge-tag" href="/tags/vxg">vxg</a>
                  
             
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                <a class="badge badge-tag" href="/tags/vxg-server">vxg server</a>
                 
             
         
@@ -253,31 +241,113 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
   <div class="post">
     
 
-<h3 id="ca가-사용할-rsa-key-생성">CA가 사용할 RSA Key 생성</h3>
+<h3 id="영상이-저장될-디렉토리-생성">영상이 저장될 디렉토리 생성</h3>
 
-<p>암호가 불필요한 경우</p>
-
-<pre><code>openssl genrsa -out private.key 2048
+<pre><code>sudo mkdir -p /vxg/storage
+sudo mkdir -p /vxg/certificate
+sudo chown 755 -R /vxg
+sudo chown $USER:$USER -R /vxg
 </code></pre>
 
-<p>암호를 설정할 경우</p>
+<h3 id="vxg-server-다운로드">VXG Server 다운로드</h3>
 
-<pre><code>openssl genrsa -aes256 -out private.key 2048
+<p><a href="https://dashboard.videoexpertsgroup.com/?downloads=">https://dashboard.videoexpertsgroup.com/?downloads=</a></p>
+
+<pre><code>$ wget &quot;https://dashboard.videoexpertsgroup.com/download/?file=827A8F35-C233-3C56-47C5-81A511B57A72&quot; -O vxg_server.zip
+$ unzip vxg_server.zip -d /vxg
 </code></pre>
 
-<h3 id="인증성-생성">인증성 생성</h3>
+<h3 id="https-인증서-생성">HTTPS 인증서 생성</h3>
 
-<pre><code>openssl req -new -key private.key -out certificate.csr -subj &quot;/C=KR/ST=Seoul/L=Pangyo/O=devplayg/OU=playground/CN=devplayg.com&quot;
+<pre><code>cd /vxg/certificate
+openssl genrsa -out private.key 2048
+openssl req -new -key private.key -out certificate.csr -subj &quot;/C=KR/ST=Seoul/L=Pangyo/O=devplayg/OU=playground/CN=devplayg.com&quot;
+openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr -signkey private.key -out certificate.crt
+openssl x509 -text -in certificate.crt
 </code></pre>
 
-<h3 id="self-signed-인증서-생성">Self-signed 인증서 생성</h3>
+<h3 id="vxg-server-설치">VXG Server 설치</h3>
 
-<pre><code>openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr -signkey private.key -out certificate.crt 
+<pre><code>cd /vxg/VXG.Server-1.3.293_190704/
+sudo ./setup.sh
 </code></pre>
 
-<h3 id="인증서-확인">인증서 확인</h3>
+<h3 id="vxg-server와-minio-storage-이미지-확인">VXG Server와 MinIO(Storage) 이미지 확인</h3>
 
-<pre><code>openssl x509 -text -in certificate.crt
+<pre><code>$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+vxg_server          1.3.293.20190704    848e6e06e564        5 weeks ago         1.35GB
+minio/minio         latest              394f43bddae2        3 months ago        61MB
+</code></pre>
+
+<h3 id="minio-재설치">Minio 재설치</h3>
+
+<pre><code>sudo docker rmi minio/minio
+sudo docker run -p 9000:9000 --name vxg-server-storage --net vxg-server-net -e &quot;MINIO_ACCESS_KEY=K]CCvprF&quot; -e &quot;MINIO_SECRET_KEY=K]CCvprF&quot; -v /vxg/storage:/data minio/minio  server /data
+</code></pre>
+
+<h3 id="vxg-server-설치-1">VXG Server 설치</h3>
+
+<pre><code>sudo ./start.sh -h 0.0.0.0 -c /vxg/certificate
+</code></pre>
+
+<p>삭제</p>
+
+<pre><code>sudo docker stop vxg-server-storage
+docker rm vxg-server-storage
+docker rmi minio/minio
+</code></pre>
+
+<h3 id="vxg-server-임시-라이선스-발급">VXG Server 임시 라이선스 발급</h3>
+
+<pre><code>https://xxx.xxx.xxx.xxx 웹사이트 접속 후 로그인 (admin / admin)
+
+[License] 메뉴에서 발급 (내용 생략)
+</code></pre>
+
+<h3 id="minio-vxg-storage-설치">MinIO(VXG-Storage) 설치</h3>
+
+<p>MinIO 설치</p>
+
+<pre><code>CONTAINER ID        IMAGE                         COMMAND                  CREATED             STATUS                      PORTS     NAMES
+c946c7e9543e        vxg_server:1.3.293.20190704   &quot;/bin/sh -c /opt/sky…&quot;   10 hours ago        Up 10 hours                 (생략)   vxg_server
+</code></pre>
+
+<p>VXG Server의 Docker network 설정 확인</p>
+
+<pre><code>$ docker inspect vxg_server | grep NetworkMode
+&quot;NetworkMode&quot;: &quot;vxg-server-net&quot;,
+</code></pre>
+
+<p>MinIO 설치 (Access key와 Secret key 는 Web의 [Settings - Storage] 에서 사용)</p>
+
+<pre><code>$ sudo docker run -p 9000:9000 --name vxg-server-storage --net vxg-server-net -e &quot;MINIO_ACCESS_KEY=dev&quot; -e &quot;MINIO_SECRET_KEY=devsecret&quot; -v /vxg/storage:/data minio/minio  server /data
+$ sudo docker ps -a
+
+CONTAINER ID        IMAGE                         COMMAND                  CREATED              STATUS                            PORTS
+c1c70efd2b74        minio/minio                   &quot;/usr/bin/docker-ent…&quot;   About a minute ago   Up 5 seconds (health: starting)   0.0.0.0:9000-&gt;9000/tcp        vxg-server-storage
+de77848c85dd        vxg_server:1.3.293.20190704   &quot;/bin/sh -c /opt/sky…&quot;   21 minutes ago       Up 21 minutes                     0.0.0.0:80-&gt;80/tcp, .(생략)   vxg_server
+</code></pre>
+
+<p>MinIO 의 Docker network 확인</p>
+
+<pre><code>$ docker inspect vxg-server-storage | findstr NetworkMode
+&quot;NetworkMode&quot;: &quot;vxg-server-net&quot;,
+</code></pre>
+
+<h3 id="minio-접속">MinIO 접속</h3>
+
+<p><a href="http://127.0.0.1:9000">http://127.0.0.1:9000</a></p>
+
+<p>ID: ###ACCESS-KEY### / PW: ###SECRET-KEY###</p>
+
+<pre><code>                                                                                                                                               ts
+</code></pre>
+
+<h3 id="테스트-코드">테스트 코드</h3>
+
+<pre><code>docker stop vxg_server &amp;&amp; docker rm vxg_server
+docker stop vxg-server-storage &amp;&amp; docker rm vxg-server-storage
 </code></pre>
 
   </div>
@@ -286,14 +356,14 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/spring-boot_ssl/" class="navigation-prev">
+    <a href="/tech/vxg-server_installation-on-windows/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Spring Boot, SSL 인증서 만들기</span>
+      <span class="navigation-tittle">Windows에 VXG Server 설치</span>
     </a>
     
     
-    <a href="/tech/vxg-server_installation-on-windows/" class="navigation-next">
-      <span class="navigation-tittle">Windows에 VXG Server 설치</span>
+    <a href="/tech/ubuntu-18.04_tips/" class="navigation-next">
+      <span class="navigation-tittle">Ubuntu 18.04 tips</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

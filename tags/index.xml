@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 10 Aug 2019 15:13:27 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CURL</title>
+      <link>https://devplayg.com/tags/curl/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/curl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/tags/linux/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://devplayg.com/tags/tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://devplayg.com/tags/ubuntu/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>vxg</title>
@@ -39,29 +75,11 @@
     </item>
     
     <item>
-      <title>tips</title>
-      <link>https://devplayg.com/tags/tips/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SSL</title>
       <link>https://devplayg.com/tags/ssl/</link>
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/ssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spring Boot</title>
-      <link>https://devplayg.com/tags/spring-boot/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     
@@ -98,6 +116,15 @@
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/rsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring boot</title>
+      <link>https://devplayg.com/tags/spring-boot/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     
@@ -143,15 +170,6 @@
       <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/openjdk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://devplayg.com/tags/ubuntu/</link>
-      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -953,15 +971,6 @@
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/have-fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/tags/linux/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/linux/</guid>
       <description></description>
     </item>
     

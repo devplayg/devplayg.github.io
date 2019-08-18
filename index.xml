@@ -6,17 +6,46 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 10 Aug 2019 15:13:27 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Windows에 VXG Server 설치</title>
-      <link>https://devplayg.com/tech/vxg-server_installation/</link>
+      <title>CURL tips</title>
+      <link>https://devplayg.com/tech/curl_tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/curl_tips/</guid>
+      <description>curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;file=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; -F &amp;quot;cameraId=109&amp;quot; -F &amp;quot;date=2019-01-02 12:34:56&amp;quot; http://127.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 18.04 tips</title>
+      <link>https://devplayg.com/tech/ubuntu-18.04_tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
+      <description> Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  </description>
+    </item>
+    
+    <item>
+      <title>VXG Ubuntu 설치</title>
+      <link>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</link>
       <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/vxg-server_installation/</guid>
+      <guid>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</guid>
+      <description>영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
+$ wget &amp;quot;https://dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Windows에 VXG Server 설치</title>
+      <link>https://devplayg.com/tech/vxg-server_installation-on-windows/</link>
+      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/vxg-server_installation-on-windows/</guid>
       <description>VXG Server 다운로드 Download
 HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
 $ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf.</description>

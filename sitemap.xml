@@ -3,25 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/tags/curl/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/curl/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/curl_tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/vxg-server_installation/</loc>
+    <loc>https://devplayg.com/tech/ubuntu-18.04_tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/linux/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/linux/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ubuntu/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/vxg-server_installation-on-windows/</loc>
     <lastmod>2019-08-10T15:13:27+09:00</lastmod>
   </url>
   
@@ -34,12 +97,6 @@
   <url>
     <loc>https://devplayg.com/tags/vxg-server/</loc>
     <lastmod>2019-08-10T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -61,25 +118,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/tips/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/tips/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/ssl/</loc>
-    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -109,6 +148,12 @@
   
   <url>
     <loc>https://devplayg.com/tags/rsa/</loc>
+    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -195,12 +240,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/tech/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/ubuntu/</loc>
     <lastmod>2019-06-26T13:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1021,18 +1060,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/have-fun/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/linux/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
