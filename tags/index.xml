@@ -75,15 +75,6 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://devplayg.com/tags/java/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SSL</title>
       <link>https://devplayg.com/tags/ssl/</link>
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
@@ -107,6 +98,15 @@
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/cert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://devplayg.com/tags/java/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/java/</guid>
       <description></description>
     </item>
     
