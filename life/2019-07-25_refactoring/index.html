@@ -17,25 +17,21 @@
     
     
 
-<title>아들과 딸 • Developer Playground</title>
+<title>코드 리팩토링을 통해 얻은 것들 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="아들과 딸"/>
-<meta name="twitter:description" content="가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,
-어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.
-&quot;아빠가 좋아? 간식이 좋아?&quot;  결과는 기대했던 것과 같았다.
-산: (간식만 바라보고) 간식! 수: (간식을 바라보고) 아빠!"/>
+<meta name="twitter:title" content="코드 리팩토링을 통해 얻은 것들"/>
+<meta name="twitter:description" content="요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
+함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다."/>
 
-<meta property="og:title" content="아들과 딸" />
-<meta property="og:description" content="가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,
-어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.
-&quot;아빠가 좋아? 간식이 좋아?&quot;  결과는 기대했던 것과 같았다.
-산: (간식만 바라보고) 간식! 수: (간식을 바라보고) 아빠!" />
+<meta property="og:title" content="코드 리팩토링을 통해 얻은 것들" />
+<meta property="og:description" content="요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
+함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/life/2019-06-18_diff_son_daughter/" />
-<meta property="article:published_time" content="2019-06-18T23:59:11+09:00" />
-<meta property="article:modified_time" content="2019-06-18T23:59:11+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/life/2019-07-25_refactoring/" />
+<meta property="article:published_time" content="2019-08-28T00:00:00+09:00" />
+<meta property="article:modified_time" content="2019-08-28T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -195,11 +191,11 @@
     
 <article>
   <header>
-    <h1 class="post__title">아들과 딸
+    <h1 class="post__title">코드 리팩토링을 통해 얻은 것들
         <small>
         
         
-            <span class="post__date">Tue, Jun 18, 2019</span>
+            <span class="post__date">Wed, Aug 28, 2019</span>
         
         </small>
     </h1>
@@ -211,7 +207,7 @@
         
             
             
-                <a class="badge badge-category" href="/categories/life">life</a>
+                <a class="badge badge-category" href="/categories/%EC%BD%94%EB%94%A9%EC%83%9D%ED%99%9C">코딩생활</a>
             
         
     
@@ -222,13 +218,7 @@
         
             
             
-                <a class="badge badge-tag" href="/tags/%EC%95%84%EB%93%A4">아들</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/%EB%94%B8">딸</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/%EC%B0%A8%EC%9D%B4">차이</a>
+                <a class="badge badge-tag" href="/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81">코드 리팩토링</a>
                 
             
         
@@ -254,27 +244,62 @@
 
 
   <div class="post">
-    <p>가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,</p>
+    
 
-<p>어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.</p>
+<p>요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다.
+재미도 재미이지만 거기서 얻는 배움이 크다.</p>
 
-<pre><code>&quot;아빠가 좋아? 간식이 좋아?&quot; 
+<h3 id="함수-내-코드들의-길이가-최대-15라인-정도로-짦아졌다">함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다.</h3>
+
+<p>힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.</p>
+
+<h3 id="코드의-depth-가-최대-2로-줄었다">코드의 Depth 가 최대 2로 줄었다.</h3>
+
+<p>if-else 구문 보다는 if-return 으로 처리했다. 가독성이 높아졌다.</p>
+
+<p>반성 전</p>
+
+<pre><code class="language-go">func run() {
+    for {
+        if true {
+            if true {
+                if true {
+                    doit()
+                }
+            }
+        }
+    }
+}
 </code></pre>
 
-<p>결과는 기대했던 것과 같았다.</p>
+<p>반성 후</p>
 
-<pre><code>산: (간식만 바라보고) 간식!
-수: (간식을 바라보고) 아빠!
+<pre><code class="language-go">func run() {
+    for {
+        if false {
+            return
+        }
+        
+        if false {
+            return
+        }
+        
+        doit()
+    }
+}
 </code></pre>
 
-<p>결론:</p>
+<h3 id="자연스레-함수가-많아졌고-그-역할이-전문화되었다">자연스레 함수가 많아졌고, 그 역할이 전문화되었다.</h3>
 
-<ul>
-<li>딸(6살): 전략가. 앞뒤상황 분석 및 이후 예측 가능. 논리적 설명 가능. 넌 잘살겨~</li>
-<li>아들(8살): 단순함. 상황파악/전후사정과 거리가 먼 느낌. 본능에 성실. 넌 나 닮았다.</li>
-</ul>
+<p>코멘트 달기 편했다. 가독성이 높아졌다.</p>
 
-<p>사랑스러운 녀석들 ^^</p>
+<h3 id="중복된-코드들이-병합되었다">중복된 코드들이 병합되었다.</h3>
+
+<p>처음 개발 시에는 누덕누덕했던 코드들이, 간결해지면서 가독성이 높아졌다.</p>
+
+<h3 id="네이밍이-명확해졌다">네이밍이 명확해졌다.</h3>
+
+<p>함수/변수들의 네이밍을 신중하게 정했다니, 가독성이 높아졌다.</p>
 
   </div>
     
@@ -282,14 +307,14 @@
 
 <div class="navigation navigation-single">
     
-    <a href="/life/2019-06-18_hair-perming/" class="navigation-prev">
+    <a href="/life/2019-06-18_diff_son_daughter/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">산이의 빠마머리</span>
+      <span class="navigation-tittle">아들과 딸</span>
     </a>
     
     
-    <a href="/life/2019-07-25_refactoring/" class="navigation-next">
-      <span class="navigation-tittle">코드 리팩토링을 통해 얻은 것들</span>
+    <a href="/life/2019-08-28_snake-ladder-game/" class="navigation-next">
+      <span class="navigation-tittle">아이들과 함께 하는 뱀사다리 게임</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

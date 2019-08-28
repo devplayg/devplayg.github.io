@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>뱀사다리 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EB%B1%80%EC%82%AC%EB%8B%A4%EB%A6%AC/</link>
+    <description>Recent content in 뱀사다리 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EB%B1%80%EC%82%AC%EB%8B%A4%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>아이들과 함께 하는 뱀사다리 게임</title>
+      <link>https://devplayg.com/life/2019-08-28_snake-ladder-game/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2019-08-28_snake-ladder-game/</guid>
+      <description>지수가 얼마전, 하얀 종이에 뱀사다리 게임을 그려서 나에게 가져왔다.
+주사위를 굴려서, 나온 수만큼 이동하는데, 뱀을 만나면 미끄러지는 그런 게임인 것 같았다.
+좀 갖춰서 만들면 재미있을 것 같아서 엑셀로 만들어봤다.
+결과는 대성공.</description>
+    </item>
+    
+  </channel>
+</rss>

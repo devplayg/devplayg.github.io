@@ -6,10 +6,32 @@
     <description>Recent content in Life on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 18 Jun 2019 23:59:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>아이들과 함께 하는 뱀사다리 게임</title>
+      <link>https://devplayg.com/life/2019-08-28_snake-ladder-game/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2019-08-28_snake-ladder-game/</guid>
+      <description>지수가 얼마전, 하얀 종이에 뱀사다리 게임을 그려서 나에게 가져왔다.
+주사위를 굴려서, 나온 수만큼 이동하는데, 뱀을 만나면 미끄러지는 그런 게임인 것 같았다.
+좀 갖춰서 만들면 재미있을 것 같아서 엑셀로 만들어봤다.
+결과는 대성공.</description>
+    </item>
+    
+    <item>
+      <title>코드 리팩토링을 통해 얻은 것들</title>
+      <link>https://devplayg.com/life/2019-07-25_refactoring/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2019-07-25_refactoring/</guid>
+      <description>요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
+함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.</description>
+    </item>
     
     <item>
       <title>아들과 딸</title>

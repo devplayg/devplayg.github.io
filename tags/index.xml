@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>게임</title>
+      <link>https://devplayg.com/tags/%EA%B2%8C%EC%9E%84/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EA%B2%8C%EC%9E%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>뱀사다리</title>
+      <link>https://devplayg.com/tags/%EB%B1%80%EC%82%AC%EB%8B%A4%EB%A6%AC/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EB%B1%80%EC%82%AC%EB%8B%A4%EB%A6%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>코드 리팩토링</title>
+      <link>https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CURL</title>
@@ -84,15 +111,6 @@
     </item>
     
     <item>
-      <title>Spring Boot</title>
-      <link>https://devplayg.com/tags/spring-boot/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/spring-boot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cert</title>
       <link>https://devplayg.com/tags/cert/</link>
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
@@ -125,6 +143,15 @@
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/rsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring boot</title>
+      <link>https://devplayg.com/tags/spring-boot/</link>
+      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     

@@ -40,7 +40,7 @@ Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Overri
     </item>
     
     <item>
-      <title>Ubuntu 18.04 에 Kafka 설치</title>
+      <title>Ubuntu 18.04, Kafka 설치</title>
       <link>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</link>
       <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
       

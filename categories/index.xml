@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>놀이</title>
+      <link>https://devplayg.com/categories/%EB%86%80%EC%9D%B4/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/%EB%86%80%EC%9D%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>코딩생활</title>
+      <link>https://devplayg.com/categories/%EC%BD%94%EB%94%A9%EC%83%9D%ED%99%9C/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/%EC%BD%94%EB%94%A9%EC%83%9D%ED%99%9C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CURL</title>
@@ -251,15 +269,6 @@
       <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>https://devplayg.com/categories/bash/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/bash/</guid>
       <description></description>
     </item>
     

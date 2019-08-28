@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>코드 리팩토링 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</link>
+    <description>Recent content in 코드 리팩토링 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>코드 리팩토링을 통해 얻은 것들</title>
+      <link>https://devplayg.com/life/2019-07-25_refactoring/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2019-07-25_refactoring/</guid>
+      <description>요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
+함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.</description>
+    </item>
+    
+  </channel>
+</rss>
