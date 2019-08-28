@@ -26,7 +26,7 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description> 고정IP 설정 $ vi /etc/netplan/*.yaml  network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  $ sudo netplan apply  </description>
+      <description>고정IP 설정 $ vi /etc/netplan/*.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] $ sudo netplan apply  UFW 설정 $ sudo ufw allow OpenSSH $ sudo ufw enable $ sudo ufw allow 8808/tcp $ sudo ufw allow 50000:50100/tcp $ sudo ufw status verbose  MariaDB 설치 https://downloads.</description>
     </item>
     
     <item>

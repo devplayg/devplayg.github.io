@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image on Developer Playground</title>
+    <link>https://devplayg.com/categories/image/</link>
+    <description>Recent content in image on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 16 Jun 2019 14:24:39 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/image/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MozJPEG 를 활용한 JPEG 압축</title>
+      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+      <description>테스트 환경 Ubuntu 18.04 container on Docker
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

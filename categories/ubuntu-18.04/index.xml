@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Developer Playground</title>
-    <link>https://devplayg.com/tags/linux/</link>
-    <description>Recent content in linux on Developer Playground</description>
+    <title>ubuntu 18.04 on Developer Playground</title>
+    <link>https://devplayg.com/categories/ubuntu-18.04/</link>
+    <description>Recent content in ubuntu 18.04 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/categories/ubuntu-18.04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
       <description>고정IP 설정 $ vi /etc/netplan/*.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] $ sudo netplan apply  UFW 설정 $ sudo ufw allow OpenSSH $ sudo ufw enable $ sudo ufw allow 8808/tcp $ sudo ufw allow 50000:50100/tcp $ sudo ufw status verbose  MariaDB 설치 https://downloads.</description>
-    </item>
-    
-    <item>
-      <title>Bash tips</title>
-      <link>https://devplayg.com/tech/bash_tips/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/bash_tips/</guid>
-      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
     </item>
     
   </channel>

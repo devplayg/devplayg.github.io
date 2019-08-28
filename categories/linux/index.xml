@@ -17,7 +17,26 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description> 고정IP 설정 $ vi /etc/netplan/*.yaml  network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  $ sudo netplan apply  </description>
+      <description>고정IP 설정 $ vi /etc/netplan/*.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] $ sudo netplan apply  UFW 설정 $ sudo ufw allow OpenSSH $ sudo ufw enable $ sudo ufw allow 8808/tcp $ sudo ufw allow 50000:50100/tcp $ sudo ufw status verbose  MariaDB 설치 https://downloads.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 18.04 에 Kafka 설치</title>
+      <link>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</link>
+      <pubDate>Wed, 26 Jun 2019 13:10:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</guid>
+      <description>요구사항  Kafka 2.12 OpenJDK 11.0.3 Ubuntu 18.04  환경 확인 시스템 정보 $ uname -a Linux kafka 4.15.0-52-generic #56-Ubuntu SMP Tue Jun 4 22:49:08 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux  OS 종류 확인 $ cat /etc/issue Ubuntu 18.</description>
+    </item>
+    
+    <item>
+      <title>MozJPEG 를 활용한 JPEG 압축</title>
+      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+      <description>테스트 환경 Ubuntu 18.04 container on Docker
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
     </item>
     
     <item>

@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devplayg.com/categories/curl/</loc>
+    <loc>https://devplayg.com/tags/curl/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/curl/</loc>
+    <loc>https://devplayg.com/categories/curl/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -49,19 +49,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/linux/</loc>
-    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/linux/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/tips/</loc>
+    <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -73,7 +67,19 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ubuntu/</loc>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ubuntu-18.04/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/ubuntu-18.04/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -106,13 +112,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/openssl/</loc>
+    <loc>https://devplayg.com/tags/openssl/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/openssl/</loc>
+    <loc>https://devplayg.com/categories/openssl/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -528,6 +534,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/categories/image/</loc>
+    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tech/hugo_tips/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
   </url>
@@ -563,13 +575,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/go/</loc>
+    <loc>https://devplayg.com/tags/go/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/go/</loc>
+    <loc>https://devplayg.com/categories/go/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -581,13 +593,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/torrent/</loc>
+    <loc>https://devplayg.com/tags/torrent/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/torrent/</loc>
+    <loc>https://devplayg.com/categories/torrent/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -756,13 +768,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/distributed-platform/</loc>
+    <loc>https://devplayg.com/tags/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/distributed-platform/</loc>
+    <loc>https://devplayg.com/categories/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -837,13 +849,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/spring-framework/</loc>
+    <loc>https://devplayg.com/tags/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/spring-framework/</loc>
+    <loc>https://devplayg.com/categories/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -865,13 +877,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/mariadb/</loc>
+    <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/mariadb/</loc>
+    <loc>https://devplayg.com/categories/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -933,13 +945,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/git/</loc>
+    <loc>https://devplayg.com/tags/git/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/git/</loc>
+    <loc>https://devplayg.com/categories/git/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1035,13 +1047,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/bash/</loc>
+    <loc>https://devplayg.com/tags/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/bash/</loc>
+    <loc>https://devplayg.com/categories/bash/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1129,13 +1141,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/ffmpeg/</loc>
+    <loc>https://devplayg.com/tags/ffmpeg/</loc>
     <lastmod>2019-08-02T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ffmpeg/</loc>
+    <loc>https://devplayg.com/categories/ffmpeg/</loc>
     <lastmod>2019-08-02T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
