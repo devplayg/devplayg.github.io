@@ -22,12 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ubuntu 18.04 tips"/>
-<meta name="twitter:description" content=" Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
-network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  "/>
+<meta name="twitter:description" content=" 고정IP 설정 $ vi /etc/netplan/*.yaml  network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  $ sudo netplan apply  "/>
 
 <meta property="og:title" content="Ubuntu 18.04 tips" />
-<meta property="og:description" content=" Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
-network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  " />
+<meta property="og:description" content=" 고정IP 설정 $ vi /etc/netplan/*.yaml  network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  $ sudo netplan apply  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/ubuntu-18.04_tips/" />
 <meta property="article:published_time" content="2019-08-19T00:00:00+09:00" />
@@ -254,9 +252,10 @@ network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.2
   <div class="post">
     
 
-<h3 id="configure-static-ip-addresses-on-ubuntu-18-04-lts-server">Configure Static IP Addresses on Ubuntu 18.04 LTS Server</h3>
+<h3 id="고정ip-설정">고정IP 설정</h3>
 
-<p>/etc/netplan/*.yaml</p>
+<pre><code>$ vi /etc/netplan/*.yaml
+</code></pre>
 
 <pre><code>network:
   version: 2
@@ -270,6 +269,9 @@ network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.2
           addresses: [168.126.63.1,8.8.8.8]
 </code></pre>
 
+<pre><code>$ sudo netplan apply
+</code></pre>
+
   </div>
     
   
@@ -278,7 +280,7 @@ network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.2
     
     <a href="/tech/vxg-server_installation-on-ubuntu/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">VXG Ubuntu 설치</span>
+      <span class="navigation-tittle">Ubuntu 18.04, VXG Video Server 설치</span>
     </a>
     
     

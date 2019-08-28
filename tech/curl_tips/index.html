@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CURL tips"/>
-<meta name="twitter:description" content="curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127."/>
+<meta name="twitter:description" content="파일 전송 curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127."/>
 
 <meta property="og:title" content="CURL tips" />
-<meta property="og:description" content="curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127." />
+<meta property="og:description" content="파일 전송 curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/curl_tips/" />
 <meta property="article:published_time" content="2019-08-19T00:00:00+09:00" />
@@ -247,19 +247,23 @@
 
 
   <div class="post">
-    <pre><code>curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile
+    
+
+<h3 id="파일-전송">파일 전송</h3>
+
+<pre><code>curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile
 </code></pre>
+
+<h3 id="여러-파일-전송">여러 파일 전송</h3>
 
 <pre><code>curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
+curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
 </code></pre>
 
-<pre><code>curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
-</code></pre>
+<h4 id="파일과-파라메터-전송">파일과 파라메터 전송</h4>
 
 <pre><code>curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
-</code></pre>
-
-<pre><code>curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127.0.0.1/filestorage/uploadFile2
+curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127.0.0.1/filestorage/uploadFile2
 </code></pre>
 
   </div>

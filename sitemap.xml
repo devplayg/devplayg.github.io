@@ -124,6 +124,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
+    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tech/spring-boot_ssl/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
   </url>
@@ -154,12 +160,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/spring-boot/</loc>
-    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>

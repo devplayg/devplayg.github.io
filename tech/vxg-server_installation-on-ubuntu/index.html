@@ -17,17 +17,15 @@
     
     
 
-<title>VXG Ubuntu 설치 • Developer Playground</title>
+<title>Ubuntu 18.04, VXG Video Server 설치 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="VXG Ubuntu 설치"/>
-<meta name="twitter:description" content="영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
-$ wget &quot;https://dashboard."/>
+<meta name="twitter:title" content="Ubuntu 18.04, VXG Video Server 설치"/>
+<meta name="twitter:description" content="설치 버전  Ubuntu: 18.04 LTS VXG Server: 1.3.293 (2019-July-04)  영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard."/>
 
-<meta property="og:title" content="VXG Ubuntu 설치" />
-<meta property="og:description" content="영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
-$ wget &quot;https://dashboard." />
+<meta property="og:title" content="Ubuntu 18.04, VXG Video Server 설치" />
+<meta property="og:description" content="설치 버전  Ubuntu: 18.04 LTS VXG Server: 1.3.293 (2019-July-04)  영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/vxg-server_installation-on-ubuntu/" />
 <meta property="article:published_time" content="2019-08-10T15:13:27+09:00" />
@@ -191,7 +189,7 @@ $ wget &quot;https://dashboard." />
     
 <article>
   <header>
-    <h1 class="post__title">VXG Ubuntu 설치
+    <h1 class="post__title">Ubuntu 18.04, VXG Video Server 설치
         <small>
         
         
@@ -241,6 +239,13 @@ $ wget &quot;https://dashboard." />
   <div class="post">
     
 
+<h3 id="설치-버전">설치 버전</h3>
+
+<ul>
+<li>Ubuntu: 18.04 LTS</li>
+<li>VXG Server: 1.3.293 (2019-July-04)</li>
+</ul>
+
 <h3 id="영상이-저장될-디렉토리-생성">영상이 저장될 디렉토리 생성</h3>
 
 <pre><code>sudo mkdir -p /vxg/storage
@@ -253,8 +258,9 @@ sudo chown $USER:$USER -R /vxg
 
 <p><a href="https://dashboard.videoexpertsgroup.com/?downloads=">https://dashboard.videoexpertsgroup.com/?downloads=</a></p>
 
-<pre><code>$ wget &quot;https://dashboard.videoexpertsgroup.com/download/?file=827A8F35-C233-3C56-47C5-81A511B57A72&quot; -O vxg_server.zip
-$ unzip vxg_server.zip -d /vxg
+<pre><code>wget &quot;https://dashboard.videoexpertsgroup.com/download/?file=827A8F35-C233-3C56-47C5-81A511B57A72&quot; -O vxg_server.zip
+unzip vxg_server.zip -d /vxg
+ln -s /vxg/VXG.Server-1.3.293_190704/ /vxg/server
 </code></pre>
 
 <h3 id="https-인증서-생성">HTTPS 인증서 생성</h3>
@@ -266,9 +272,22 @@ openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr
 openssl x509 -text -in certificate.crt
 </code></pre>
 
+<h3 id="docker-설치">Docker 설치</h3>
+
+<pre><code>sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable&quot;
+sudo apt update
+apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo systemctl status docker
+sudo usermod -aG docker $USER
+</code></pre>
+
 <h3 id="vxg-server-설치">VXG Server 설치</h3>
 
-<pre><code>cd /vxg/VXG.Server-1.3.293_190704/
+<pre><code>cd /vxg/server/
 sudo ./setup.sh
 </code></pre>
 
@@ -280,22 +299,19 @@ vxg_server          1.3.293.20190704    848e6e06e564        5 weeks ago         
 minio/minio         latest              394f43bddae2        3 months ago        61MB
 </code></pre>
 
-<h3 id="minio-재설치">Minio 재설치</h3>
+<h3 id="vxg-영상-디렉토리-설정-변경">VXG 영상 디렉토리 설정 변경</h3>
 
-<pre><code>sudo docker rmi minio/minio
-sudo docker run -p 9000:9000 --name vxg-server-storage --net vxg-server-net -e &quot;MINIO_ACCESS_KEY=K]CCvprF&quot; -e &quot;MINIO_SECRET_KEY=K]CCvprF&quot; -v /vxg/storage:/data minio/minio  server /data
+<pre><code>$ vi start.sh
+59     docker run -d -p $PORT_MINIO:9000 --rm --network vxg-server-net \
+60         -e MINIO_ACCESS_KEY=$MINIO_ACCESS_KEY \
+61         -e MINIO_SECRET_KEY=$MINIO_SECRET_KEY \
+62         -v /data:/data --name vxg-server-storage \
+63         minio/minio:$MINIO_VERSION server /data
 </code></pre>
 
-<h3 id="vxg-server-설치-1">VXG Server 설치</h3>
+<h3 id="vxg-server-시작">VXG Server 시작</h3>
 
-<pre><code>sudo ./start.sh -h 0.0.0.0 -c /vxg/certificate
-</code></pre>
-
-<p>삭제</p>
-
-<pre><code>sudo docker stop vxg-server-storage
-docker rm vxg-server-storage
-docker rmi minio/minio
+<pre><code>sudo ./start.sh -h 0.0.0.0 -c /vxg/certificate -r
 </code></pre>
 
 <h3 id="vxg-server-임시-라이선스-발급">VXG Server 임시 라이선스 발급</h3>
@@ -329,20 +345,11 @@ c1c70efd2b74        minio/minio                   &quot;/usr/bin/docker-ent…&q
 de77848c85dd        vxg_server:1.3.293.20190704   &quot;/bin/sh -c /opt/sky…&quot;   21 minutes ago       Up 21 minutes                     0.0.0.0:80-&gt;80/tcp, .(생략)   vxg_server
 </code></pre>
 
-<p>MinIO 의 Docker network 확인</p>
-
-<pre><code>$ docker inspect vxg-server-storage | findstr NetworkMode
-&quot;NetworkMode&quot;: &quot;vxg-server-net&quot;,
-</code></pre>
-
 <h3 id="minio-접속">MinIO 접속</h3>
 
 <p><a href="http://127.0.0.1:9000">http://127.0.0.1:9000</a></p>
 
 <p>ID: ###ACCESS-KEY### / PW: ###SECRET-KEY###</p>
-
-<pre><code>                                                                                                                                               ts
-</code></pre>
 
 <h3 id="테스트-코드">테스트 코드</h3>
 
@@ -358,7 +365,7 @@ docker stop vxg-server-storage &amp;&amp; docker rm vxg-server-storage
     
     <a href="/tech/vxg-server_installation-on-windows/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Windows에 VXG Server 설치</span>
+      <span class="navigation-tittle">Windows 10, VXG Video Server 설치</span>
     </a>
     
     

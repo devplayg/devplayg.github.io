@@ -198,7 +198,7 @@
         </span>
         <span >
         
-        curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127.
+        파일 전송 curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.
         
         </span>
         
@@ -219,8 +219,7 @@
         </span>
         <span >
         
-         Configure Static IP Addresses on Ubuntu 18.04 LTS Server /etc/netplan/*.yaml
-network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  
+         고정IP 설정 $ vi /etc/netplan/*.yaml  network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8]  $ sudo netplan apply  
         
         </span>
         
@@ -232,15 +231,14 @@ network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.2
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/vxg-server_installation-on-ubuntu/" >VXG Ubuntu 설치</a>
+          <a href="/tech/vxg-server_installation-on-ubuntu/" >Ubuntu 18.04, VXG Video Server 설치</a>
         </span>
         <span class="item__date">
           Sat, Aug 10, 2019
         </span>
         <span >
         
-        영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.videoexpertsgroup.com/?downloads=
-$ wget &quot;https://dashboard.
+        설치 버전  Ubuntu: 18.04 LTS VXG Server: 1.3.293 (2019-July-04)  영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.
         
         </span>
         
@@ -254,7 +252,7 @@ $ wget &quot;https://dashboard.
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/vxg-server_installation-on-windows/" >Windows에 VXG Server 설치</a>
+          <a href="/tech/vxg-server_installation-on-windows/" >Windows 10, VXG Video Server 설치</a>
         </span>
         <span class="item__date">
           Sat, Aug 10, 2019

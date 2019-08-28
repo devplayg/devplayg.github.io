@@ -17,7 +17,7 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/curl_tips/</guid>
-      <description>curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  curl -F &amp;quot;file=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; -F &amp;quot;cameraId=109&amp;quot; -F &amp;quot;date=2019-01-02 12:34:56&amp;quot; http://127.</description>
+      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
     </item>
     
   </channel>
