@@ -6,10 +6,20 @@
     <description>Recent content in golang on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 13:11:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go-Media-Framework installation on Ubuntu 18.04</title>
+      <link>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</guid>
+      <description> Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
+pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  </description>
+    </item>
     
     <item>
       <title>명령어로 토렌트 다운로드</title>

@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ai</title>
+      <link>https://devplayg.com/categories/ai/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compile</title>
+      <link>https://devplayg.com/categories/compile/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/compile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming language</title>
+      <link>https://devplayg.com/categories/programming-language/</link>
+      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/programming-language/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>놀이</title>
@@ -98,15 +125,6 @@
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming language</title>
-      <link>https://devplayg.com/categories/programming-language/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/programming-language/</guid>
       <description></description>
     </item>
     
@@ -278,6 +296,24 @@
       <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>https://devplayg.com/categories/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/categories/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemd</title>
+      <link>https://devplayg.com/categories/systemd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/categories/systemd/</guid>
       <description></description>
     </item>
     

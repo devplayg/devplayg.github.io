@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-08-28T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-09-01T03:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -124,6 +124,14 @@
 		
 			 
             <li>
+                <a href="/ai/">
+                    <span>AI</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
                 <a href="/about/">
                     <span>About</span>
                 </a>
@@ -186,6 +194,72 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/mozjpeg_image-optimizing-result/" >MozJPEG 를 활용한 JPEG 압축 테스트 결과</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 16, 2019
+        </span>
+        <span >
+        
+        테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing-result/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/mozjpeg_image-optimizing/" >MozJPEG 를 활용한 JPEG 압축</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 16, 2019
+        </span>
+        <span >
+        
+        테스트 환경 Ubuntu 18.04 container on Docker
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/torrent_torrent-command-util/" >명령어로 토렌트 다운로드</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 16, 2019
+        </span>
+        <span >
+        
+        실행 환경 (Environment) Ubuntu 18.04
+소스 다운로드 (Clone the git repository) Torrent Library (https://github.com/anacrolix/torrent)
+$ go get github.com/anacrolix/torrent $ go get github.com/anacrolix/envpprof $ go get github.com/anacrolix/tagflag $ cd $GOPATH/src/github.com/anacrolix/torrent/cmd/torrent $ go build $ ls -l torrent -rwxr-xr-x 1 root root 17899680 Jun 14 00:55 torrent  토렌트 파일 다운로드 (Download .
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/torrent_torrent-command-util/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -336,70 +410,6 @@ package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g 
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/kafka-on-docker_setting-zookeepers/" >2. Zookeeper 설정</a>
-        </span>
-        <span class="item__date">
-          Sun, Jun 9, 2019
-        </span>
-        <span >
-        
-        Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_setting-zookeepers/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/mariadb_tips/" >Mariadb tips</a>
-        </span>
-        <span class="item__date">
-          Sat, Jun 8, 2019
-        </span>
-        <span >
-        
-        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/mariadb_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_what-is-go/" >Go 언어</a>
-        </span>
-        <span class="item__date">
-          Sat, Jun 8, 2019
-        </span>
-        <span >
-        
-        Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
- 2007년에 Google은 Go의 디자인을 시작했고, 2009년에 공식적으로 공개함 초기 디자인부터 멀티코어, 네트워킹, 그리고 대형시스템에서 효율적으로 실행되도록 설계됨 정적 타이핑, 정적 런타임, 컴파일 언어임 가독성이 높고 사용하기 편함 고성능 네트워킹 및 멀티 프로세싱 처리에 적합함 C언어와 Syntax가 유사함 Garbage collection 기능이 있음,   Go의 아버지들 로버트 그리즈머 (Robert Griesemer)  Java hotspot compiler(JVM) 개발함 Chrome Javascript v8 엔진을 개발함  롭 파이크 (Rob Pike)  Plan 9 OS 개발함 UTF-8 을 아래 켄 톰슨과 같이 개발함 &ldquo;Do not communicate by sharing memory; share memory by communicating.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_what-is-go/">➦</a>
-        
-        </div>
-        
-     
   </div>
   
 
@@ -458,12 +468,23 @@ package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g 
     <li class="page-item"><a class="page-link" href="/page/4/">4</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/5/">5</a></li>
+    
+    
     <li class="page-item">
     <a href="/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/5/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

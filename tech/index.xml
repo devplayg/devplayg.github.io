@@ -6,10 +6,19 @@
     <description>Recent content in Tech on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 13:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time zone conversion from client to database</title>
+      <link>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</link>
+      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</guid>
+      <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
+    </item>
     
     <item>
       <title>CURL tips</title>
@@ -297,6 +306,17 @@ package test import ( &amp;quot;crypto/md5&amp;quot; &amp;quot;crypto/sha1&amp;q
       <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
       <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
 Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
+    </item>
+    
+    <item>
+      <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
+      <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
+      <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service
+smartfactory.service
+[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target Alias=smartfactory.</description>
     </item>
     
   </channel>

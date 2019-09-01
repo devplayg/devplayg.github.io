@@ -6,10 +6,30 @@
     <description>Recent content in ffmpeg on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 22 Jan 2019 00:09:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FFmpeg compiling on ubuntu 18.04</title>
+      <link>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</guid>
+      <description>https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
+mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf \ automake \ build-essential \ cmake \ git-core \ libass-dev \ libfreetype6-dev \ libsdl2-dev \ libtool \ libva-dev \ libvdpau-dev \ libvorbis-dev \ libxcb1-dev \ libxcb-shm0-dev \ libxcb-xfixes0-dev \ pkg-config \ texinfo \ wget \ zlib1g-dev apt install -y nasm yasm apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev cd ~/ffmpeg_sources &amp;amp;&amp;amp; \ git -C aom pull 2&amp;gt; /dev/null || git clone --depth 1 https://aomedia.</description>
+    </item>
+    
+    <item>
+      <title>Go-Media-Framework installation on Ubuntu 18.04</title>
+      <link>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</guid>
+      <description> Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
+pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  </description>
+    </item>
     
     <item>
       <title>FFmpeg tips</title>

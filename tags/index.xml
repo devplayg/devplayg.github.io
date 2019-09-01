@@ -6,10 +6,82 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ai</title>
+      <link>https://devplayg.com/tags/ai/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compile</title>
+      <link>https://devplayg.com/tags/compile/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/compile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>https://devplayg.com/tags/ffmpeg/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gmf</title>
+      <link>https://devplayg.com/tags/gmf/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/gmf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://devplayg.com/tags/golang/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu 18.04</title>
+      <link>https://devplayg.com/tags/ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ubuntu-18.04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring Boot</title>
+      <link>https://devplayg.com/tags/spring-boot/</link>
+      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>timezone</title>
+      <link>https://devplayg.com/tags/timezone/</link>
+      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/timezone/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>게임</title>
@@ -62,15 +134,6 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu 18.04</title>
-      <link>https://devplayg.com/tags/ubuntu-18.04/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/ubuntu-18.04/</guid>
       <description></description>
     </item>
     
@@ -143,15 +206,6 @@
       <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/rsa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spring boot</title>
-      <link>https://devplayg.com/tags/spring-boot/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/spring-boot/</guid>
       <description></description>
     </item>
     
@@ -512,15 +566,6 @@
       <pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://devplayg.com/tags/golang/</link>
-      <pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/golang/</guid>
       <description></description>
     </item>
     
@@ -1083,11 +1128,29 @@
     </item>
     
     <item>
-      <title>ffmpeg</title>
-      <link>https://devplayg.com/tags/ffmpeg/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+      <title>jar</title>
+      <link>https://devplayg.com/tags/jar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devplayg.com/tags/ffmpeg/</guid>
+      <guid>https://devplayg.com/tags/jar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>https://devplayg.com/tags/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tags/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemd</title>
+      <link>https://devplayg.com/tags/systemd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tags/systemd/</guid>
       <description></description>
     </item>
     

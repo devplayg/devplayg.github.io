@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spring boot on Developer Playground</title>
+    <title>Spring Boot on Developer Playground</title>
     <link>https://devplayg.com/tags/spring-boot/</link>
-    <description>Recent content in spring boot on Developer Playground</description>
+    <description>Recent content in Spring Boot on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 13:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time zone conversion from client to database</title>
+      <link>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</link>
+      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</guid>
+      <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
+    </item>
     
     <item>
       <title>Spring Boot, SSL 인증서 만들기</title>

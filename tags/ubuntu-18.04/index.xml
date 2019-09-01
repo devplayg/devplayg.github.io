@@ -6,10 +6,30 @@
     <description>Recent content in ubuntu 18.04 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ubuntu-18.04/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FFmpeg compiling on ubuntu 18.04</title>
+      <link>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</guid>
+      <description>https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
+mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf \ automake \ build-essential \ cmake \ git-core \ libass-dev \ libfreetype6-dev \ libsdl2-dev \ libtool \ libva-dev \ libvdpau-dev \ libvorbis-dev \ libxcb1-dev \ libxcb-shm0-dev \ libxcb-xfixes0-dev \ pkg-config \ texinfo \ wget \ zlib1g-dev apt install -y nasm yasm apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev cd ~/ffmpeg_sources &amp;amp;&amp;amp; \ git -C aom pull 2&amp;gt; /dev/null || git clone --depth 1 https://aomedia.</description>
+    </item>
+    
+    <item>
+      <title>Go-Media-Framework installation on Ubuntu 18.04</title>
+      <link>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</guid>
+      <description> Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
+pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  </description>
+    </item>
     
     <item>
       <title>Ubuntu 18.04 tips</title>
@@ -46,6 +66,17 @@
       <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
       <description>테스트 환경 Ubuntu 18.04 container on Docker
 필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
+      <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
+      <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service
+smartfactory.service
+[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target Alias=smartfactory.</description>
     </item>
     
   </channel>
