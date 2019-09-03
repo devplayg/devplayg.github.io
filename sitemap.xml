@@ -4,19 +4,60 @@
   
   <url>
     <loc>https://devplayg.com/ai/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/streaming_hls/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/docker/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ffmpeg/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/m3u8/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/streaming/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ubuntu-18.04/</loc>
+    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -28,12 +69,6 @@
   <url>
     <loc>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -61,12 +96,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ffmpeg/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/gmf/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -74,12 +103,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/golang/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/ubuntu-18.04/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -879,12 +902,6 @@
   <url>
     <loc>https://devplayg.com/categories/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/docker/</loc>
-    <lastmod>2019-06-19T09:43:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   

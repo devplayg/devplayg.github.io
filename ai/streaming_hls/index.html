@@ -17,21 +17,19 @@
     
     
 
-<title>FFmpeg compiling on ubuntu 18.04 • Developer Playground</title>
+<title>HLS 스트리밍 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="FFmpeg compiling on ubuntu 18.04"/>
-<meta name="twitter:description" content="https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
-mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf \ automake \ build-essential \ cmake \ git-core \ libass-dev \ libfreetype6-dev \ libsdl2-dev \ libtool \ libva-dev \ libvdpau-dev \ libvorbis-dev \ libxcb1-dev \ libxcb-shm0-dev \ libxcb-xfixes0-dev \ pkg-config \ texinfo \ wget \ zlib1g-dev apt install -y nasm yasm apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev cd ~/ffmpeg_sources &amp;&amp; \ git -C aom pull 2&gt; /dev/null || git clone --depth 1 https://aomedia."/>
+<meta name="twitter:title" content="HLS 스트리밍"/>
+<meta name="twitter:description" content="Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치 $ apt-get install software-properties-common $ add-apt-repository ppa:jonathonf/ffmpeg-4 $ apt install ffmpeg $ ffmpeg -version $ apt install libfaac-dev  Step 2. 동영상 분할 $ ffmpeg -i sample."/>
 
-<meta property="og:title" content="FFmpeg compiling on ubuntu 18.04" />
-<meta property="og:description" content="https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
-mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf \ automake \ build-essential \ cmake \ git-core \ libass-dev \ libfreetype6-dev \ libsdl2-dev \ libtool \ libva-dev \ libvdpau-dev \ libvorbis-dev \ libxcb1-dev \ libxcb-shm0-dev \ libxcb-xfixes0-dev \ pkg-config \ texinfo \ wget \ zlib1g-dev apt install -y nasm yasm apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev cd ~/ffmpeg_sources &amp;&amp; \ git -C aom pull 2&gt; /dev/null || git clone --depth 1 https://aomedia." />
+<meta property="og:title" content="HLS 스트리밍" />
+<meta property="og:description" content="Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치 $ apt-get install software-properties-common $ add-apt-repository ppa:jonathonf/ffmpeg-4 $ apt install ffmpeg $ ffmpeg -version $ apt install libfaac-dev  Step 2. 동영상 분할 $ ffmpeg -i sample." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/" />
-<meta property="article:published_time" content="2019-09-01T03:00:00+09:00" />
-<meta property="article:modified_time" content="2019-09-01T03:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/ai/streaming_hls/" />
+<meta property="article:published_time" content="2019-09-04T01:00:00+09:00" />
+<meta property="article:modified_time" content="2019-09-04T01:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -199,11 +197,11 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
     
 <article>
   <header>
-    <h1 class="post__title">FFmpeg compiling on ubuntu 18.04
+    <h1 class="post__title">HLS 스트리밍
         <small>
         
         
-            <span class="post__date">Sun, Sep 1, 2019</span>
+            <span class="post__date">Wed, Sep 4, 2019</span>
         
         </small>
     </h1>
@@ -215,9 +213,7 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
         
             
             
-                <a class="badge badge-category" href="/categories/ai">ai</a>
-            
-                <a class="badge badge-category" href="/categories/compile">compile</a>
+                <a class="badge badge-category" href="/categories/streaming">streaming</a>
             
         
     
@@ -228,16 +224,16 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
         
             
             
-                <a class="badge badge-tag" href="/tags/ai">ai</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/compile">compile</a>
+                <a class="badge badge-tag" href="/tags/ubuntu-18.04">ubuntu 18.04</a>
                  
             
                 <a class="badge badge-tag" href="/tags/ffmpeg">ffmpeg</a>
                  
             
-                <a class="badge badge-tag" href="/tags/ubuntu-18.04">ubuntu 18.04</a>
+                <a class="badge badge-tag" href="/tags/m3u8">m3u8</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/docker">docker</a>
                 
             
         
@@ -265,76 +261,87 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
   <div class="post">
     
 
-<p><a href="https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu">https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu</a></p>
+<h3 id="step-1-동영상-분할을-위한-ffmpeg-4-x-설치">Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치</h3>
 
-<pre><code>mkdir -p ~/ffmpeg_sources ~/bin
+<pre><code>$ apt-get install software-properties-common
+$ add-apt-repository ppa:jonathonf/ffmpeg-4
+$ apt install ffmpeg 
+$ ffmpeg -version
+$ apt install libfaac-dev
 </code></pre>
 
-<h3 id="get-the-dependencies">Get the Dependencies</h3>
+<h3 id="step-2-동영상-분할">Step 2. 동영상 분할</h3>
 
-<pre><code>apt -y install \
-  autoconf \
-  automake \
-  build-essential \
-  cmake \
-  git-core \
-  libass-dev \
-  libfreetype6-dev \
-  libsdl2-dev \
-  libtool \
-  libva-dev \
-  libvdpau-dev \
-  libvorbis-dev \
-  libxcb1-dev \
-  libxcb-shm0-dev \
-  libxcb-xfixes0-dev \
-  pkg-config \
-  texinfo \
-  wget \
-  zlib1g-dev
-
-apt install -y nasm yasm
-
-apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev
-
-cd ~/ffmpeg_sources &amp;&amp; \
-git -C aom pull 2&gt; /dev/null || git clone --depth 1 https://aomedia.googlesource.com/aom &amp;&amp; \
-mkdir -p aom_build &amp;&amp; \
-cd aom_build &amp;&amp; \
-PATH=&quot;$HOME/bin:$PATH&quot; cmake -G &quot;Unix Makefiles&quot; -DCMAKE_INSTALL_PREFIX=&quot;$HOME/ffmpeg_build&quot; -DENABLE_SHARED=off -DENABLE_NASM=on ../aom &amp;&amp; \
-PATH=&quot;$HOME/bin:$PATH&quot; make &amp;&amp; \
-make install
+<pre><code>$ ffmpeg -i sample.mp4 -map 0 -c:v libx264 -c:a aac -f ssegment -segment_list playlist.m3u8 -segment_list_flags +live -segment_time 10 out%03d.ts
 </code></pre>
 
-<h3 id="compile">Compile</h3>
+<p>또는</p>
 
-<pre><code>cd ~/ffmpeg_sources &amp;&amp; \
-wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2 &amp;&amp; \
-tar xjvf ffmpeg-snapshot.tar.bz2 &amp;&amp; \
-cd ffmpeg &amp;&amp; \
-PATH=&quot;$HOME/bin:$PATH&quot; PKG_CONFIG_PATH=&quot;$HOME/ffmpeg_build/lib/pkgconfig&quot; ./configure \
-  --prefix=&quot;$HOME/ffmpeg_build&quot; \
-  --pkg-config-flags=&quot;--static&quot; \
-  --extra-cflags=&quot;-I$HOME/ffmpeg_build/include&quot; \
-  --extra-ldflags=&quot;-L$HOME/ffmpeg_build/lib&quot; \
-  --extra-libs=&quot;-lpthread -lm&quot; \
-  --bindir=&quot;$HOME/bin&quot; \
-  --enable-gpl \
-  --enable-libass \
-  --enable-libfdk-aac \
-  --enable-libfreetype \
-  --enable-libmp3lame \
-  --enable-libopus \
-  --enable-libvorbis \
-  --enable-libvpx \
-  --enable-libx264 \
-  --enable-libx265 \
-  --enable-shared \
-  --enable-nonfree &amp;&amp; \
-PATH=&quot;$HOME/bin:$PATH&quot; make &amp;&amp; \
-make install &amp;&amp; \
-hash -r
+<pre><code>$ ffmpeg -i sample.mp4 -map 0 -preset ultrafast -c:v libx264 -c:a aac -f ssegment -segment_list playlist.m3u8 -segment_list_flags +live -segment_time 10 out%03d.ts
 </code></pre>
+
+<p>분할된 동영상</p>
+
+<pre><code>$ ls -l
+out000.ts  
+out001.ts  
+out002.ts  
+out003.ts  
+out004.ts  
+out005.ts  
+playlist.m3u8  
+sample.mp4
+</code></pre>
+
+<p>심심해서 열어 본 m3m8</p>
+
+<pre><code>$ cat playlist.m3u8
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:17
+#EXTINF:16.689889,
+out000.ts
+#EXTINF:8.333333,
+out001.ts
+#EXTINF:8.333333,
+out002.ts
+#EXTINF:8.333333,
+out003.ts
+#EXTINF:8.333333,
+out004.ts
+#EXTINF:6.266667,
+out005.ts
+#EXT-X-ENDLIST
+</code></pre>
+
+<h3 id="step-3-동영상-플레이">Step 3. 동영상 플레이</h3>
+
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;link href=&quot;https://vjs.zencdn.net/7.6.0/video-js.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;video class=&quot;video-js vjs-big-play-centered&quot; width=&quot;1280&quot; height=&quot;720&quot; data-setup='{}' controls autoplay&gt;
+        &lt;source src=&quot;playlist.m3u8&quot; type=&quot;application/x-mpegURL&quot;&gt;
+    &lt;/video&gt;
+    &lt;script src='https://vjs.zencdn.net/7.6.0/video.js'&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="참고한-링크">참고한 링크</h3>
+
+<ul>
+<li><a href="https://www.bogotobogo.com/VideoStreaming/ffmpeg_http_live_streaming_hls.php">https://www.bogotobogo.com/VideoStreaming/ffmpeg_http_live_streaming_hls.php</a></li>
+<li><a href="https://www.martin-riedl.de/2018/08/24/using-ffmpeg-as-a-hls-streaming-server-part-1/">https://www.martin-riedl.de/2018/08/24/using-ffmpeg-as-a-hls-streaming-server-part-1/</a></li>
+</ul>
 
   </div>
     
@@ -342,16 +349,11 @@ hash -r
 
 <div class="navigation navigation-single">
     
-    <a href="/ai/gmf_installation-on-ubuntu-18.04/" class="navigation-prev">
+    <a href="/ai/ffmpeg_compile-on-ubuntu-18.04/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Go-Media-Framework installation on Ubuntu 18.04</span>
+      <span class="navigation-tittle">FFmpeg compiling on ubuntu 18.04</span>
     </a>
     
-    
-    <a href="/ai/streaming_hls/" class="navigation-next">
-      <span class="navigation-tittle">HLS 스트리밍</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

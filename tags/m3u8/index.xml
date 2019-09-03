@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>m3u8 on Developer Playground</title>
+    <link>https://devplayg.com/tags/m3u8/</link>
+    <description>Recent content in m3u8 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 04 Sep 2019 01:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/m3u8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HLS 스트리밍</title>
+      <link>https://devplayg.com/ai/streaming_hls/</link>
+      <pubDate>Wed, 04 Sep 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/streaming_hls/</guid>
+      <description>Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치 $ apt-get install software-properties-common $ add-apt-repository ppa:jonathonf/ffmpeg-4 $ apt install ffmpeg $ ffmpeg -version $ apt install libfaac-dev  Step 2. 동영상 분할 $ ffmpeg -i sample.</description>
+    </item>
+    
+  </channel>
+</rss>
