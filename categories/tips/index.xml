@@ -119,7 +119,7 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       
       <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
       <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
+Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
     </item>
     
   </channel>

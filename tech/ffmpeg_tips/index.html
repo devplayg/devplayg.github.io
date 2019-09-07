@@ -23,11 +23,11 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="FFmpeg tips"/>
 <meta name="twitter:description" content="A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output."/>
+Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output."/>
 
 <meta property="og:title" content="FFmpeg tips" />
 <meta property="og:description" content="A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output." />
+Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/ffmpeg_tips/" />
 <meta property="article:published_time" content="2019-01-22T00:09:12+09:00" />
@@ -264,7 +264,7 @@ Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 
 <p>A complete, cross-platform solution to record, convert and stream audio and video.
     <a href="https://ffmpeg.org/">https://ffmpeg.org/</a></p>
 
-<h3 id="concatenating-files">Concatenating files</h3>
+<h3 id="concatenating-video-files">Concatenating video files</h3>
 
 <pre><code>$ cat list.txt
 /tmp/file1.mp4
@@ -275,19 +275,77 @@ Concatenating files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 
 $ ffmpeg -f concat -i list.txt -c copy output.mp4
 </code></pre>
 
+<h3 id="cutting-video">Cutting video</h3>
+
+<p>00:00:00 ~ 00:00:05</p>
+
+<pre><code>fmpeg -i sample.mp4 -vcodec copy -acodec copy -ss 00:00:00 -to 00:00:05 cut.mp4
+</code></pre>
+
+<p>00:00:03 ~ 00:00:19</p>
+
+<pre><code>ffmpeg -i sample.mp4 -ss 00:00:03 -t 00:00:16 -async 1 cut2.mp4
+</code></pre>
+
 <h3 id="download-rtsp-stream">Download RTSP stream</h3>
 
 <pre><code>ffmpeg -i rtsp://ID:PASSWORD@IP -acodec copy -vcodec copy /path/to/file
 </code></pre>
 
-<h3 id="to-list-the-supported-connected-capture-devices">To list the supported, connected capture devices:</h3>
+<h3 id="list-supported-devices">List supported devices</h3>
 
-<pre><code>ffmpeg -y -f vfwcap -i list
+<p>DirecShow: <a href="https://trac.ffmpeg.org/wiki/DirectShow">https://trac.ffmpeg.org/wiki/DirectShow</a></p>
+
+<pre><code>$ ffmpeg -y -f vfwcap -i list
+---
+[vfwcap @ 00000226d24d94c0] Driver 0
+[vfwcap @ 00000226d24d94c0]  Microsoft WDM Image Capture (Win32)
+[vfwcap @ 00000226d24d94c0]  Version:  10.0.17763.1
+
+$ ffmpeg -list_devices true -f dshow -i dummy
+---
+[dshow @ 000002a00a8395c0] DirectShow video devices (some may be both video and audio devices)
+[dshow @ 000002a00a8395c0]  &quot;720p HD Camera&quot;
+[dshow @ 000002a00a8395c0]     Alternative name &quot;@device_pnp_\\?\usb#vid_2232&amp;pid_1083&amp;mi_00#6&amp;5f134b1&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global&quot;
+[dshow @ 000002a00a8395c0] DirectShow audio devices
+[dshow @ 000002a00a8395c0]  &quot;Blablabla(Realtek High Definition Audio(SST))&quot;
+[dshow @ 000002a00a8395c0]     Alternative name &quot;@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{57219422-ACFD-4807-AB0C-F531287BA5E6}&quot;
 </code></pre>
 
-<h3 id="encode-video-from-the-camera">Encode video from the camera</h3>
+<h3 id="list-device-options">List device options</h3>
+
+<p>Audio</p>
+
+<pre><code>ffmpeg -f dshow -list_options true -i audio=&quot;@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{57219422-ACFD-4807-AB0C-F531287BA5E6}&quot;
+</code></pre>
+
+<p>Video</p>
+
+<pre><code>ffmpeg -f dshow -list_options true -i video=&quot;720p HD Camera&quot;
+ffmpeg -f dshow -list_options true -i video=&quot;@device_pnp_\\?\usb#vid_2232&amp;pid_1083&amp;mi_00#6&amp;5f134b1&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global&quot;
+</code></pre>
+
+<h3 id="capture">Capture</h3>
+
+<p>Audio</p>
+
+<pre><code>ffmpeg -f dshow -i audio=&quot;@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{57219422-ACFD-4807-AB0C-F531287BA5E6}&quot; output.mp3
+</code></pre>
+
+<p>Video</p>
 
 <pre><code>ffmpeg -f vfwcap -r 15 -i 0 out.mp4
+ffmpeg -f vfwcap -r 15 -i video=&quot;720p HD Camera&quot; out.mp4
+</code></pre>
+
+<p>Video to separated files  <a href="http://ffmpeg.org/ffmpeg-formats.html#segment_002c-stream_005fsegment_002c-ssegment">Muxer</a></p>
+
+<pre><code>ffmpeg -f vfwcap -framerate 15 -i 0 -c:v libx264 -g 15 -c:a aac -preset veryfast -segment_time 2 -segment_wrap 24 -f segment live%03d.ts
+</code></pre>
+
+<p>Video &amp; Audio to separated files</p>
+
+<pre><code>ffmpeg -f vfwcap -i video=&quot;720p HD Camera&quot;:audio=&quot;@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{57219422-ACFD-4807-AB0C-F531287BA5E6}&quot; -framerate 15 -c:v libx264 -g 15 -c:a aac -preset veryfast -segment_time 2 -segment_wrap 24 -f segment live%03d.ts
 </code></pre>
 
 <h3 id="ip-camera-to-rtsp-stream">IP Camera to RTSP Stream</h3>
