@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>그림 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EA%B7%B8%EB%A6%BC/</link>
-    <description>Recent content in 그림 on Developer Playground</description>
+    <title>자화상 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%9E%90%ED%99%94%EC%83%81/</link>
+    <description>Recent content in 자화상 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 08 Sep 2019 06:39:05 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/tags/%EA%B7%B8%EB%A6%BC/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/%EC%9E%90%ED%99%94%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://devplayg.com/lifeart/2019_09_08-jisoo-by-jisoo/</guid>
       <description>지수가 그린 자화상</description>
-    </item>
-    
-    <item>
-      <title>인어공주 시리즈(The Little Mermaid Series)</title>
-      <link>https://devplayg.com/lifeart/2019-06-24_the-little-mermaid/</link>
-      <pubDate>Mon, 24 Jun 2019 05:38:52 +0900</pubDate>
-      
-      <guid>https://devplayg.com/lifeart/2019-06-24_the-little-mermaid/</guid>
-      <description></description>
     </item>
     
   </channel>

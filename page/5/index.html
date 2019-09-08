@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-09-04T01:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-09-08T06:39:05+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -194,6 +194,25 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_pseudo-random-permutation-of-the-integers-in-go/" >Pseudo-random permutation of the integers in Go</a>
+        </span>
+        <span class="item__date">
+          Wed, Jun 5, 2019
+        </span>
+        <span >
+        
+        package main import ( &quot;fmt&quot; &quot;math/rand&quot; &quot;time&quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  
+        
+        </span>
+        
+        </div>
+        
+     
       
         
       

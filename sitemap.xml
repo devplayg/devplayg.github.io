@@ -3,25 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devplayg.com/ai/</loc>
-    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://devplayg.com/lifeart/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/lifeart/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EA%B7%B8%EB%A6%BC/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%9E%90%ED%99%94%EC%83%81/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/lifeart/2019_09_08-jisoo-by-jisoo/</loc>
+    <lastmod>2019-09-08T06:39:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/</loc>
     <lastmod>2019-09-04T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -72,25 +100,25 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/ai/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/ai/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/compile/</loc>
+    <loc>https://devplayg.com/tags/ai/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/compile/</loc>
+    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/compile/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -183,13 +211,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/curl/</loc>
+    <loc>https://devplayg.com/categories/curl/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/curl/</loc>
+    <loc>https://devplayg.com/tags/curl/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -205,25 +233,25 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/linux/</loc>
-    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/tips/</loc>
+    <loc>https://devplayg.com/tags/linux/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tips/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -262,13 +290,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/openssl/</loc>
+    <loc>https://devplayg.com/categories/openssl/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/openssl/</loc>
+    <loc>https://devplayg.com/tags/openssl/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -389,18 +417,7 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/lifeart/</loc>
-    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/dad/</loc>
-    <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/lifeart/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -458,12 +475,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/mermaid/</loc>
-    <lastmod>2019-06-24T05:38:52+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EA%B7%B8%EB%A6%BC/</loc>
     <lastmod>2019-06-24T05:38:52+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -707,25 +718,25 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/go/</loc>
-    <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/go/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/torrent/</loc>
+    <loc>https://devplayg.com/tags/go/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/torrent/</loc>
+    <lastmod>2019-06-16T13:11:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/torrent/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -894,13 +905,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/distributed-platform/</loc>
+    <loc>https://devplayg.com/categories/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/distributed-platform/</loc>
+    <loc>https://devplayg.com/tags/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -969,13 +980,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/spring-framework/</loc>
+    <loc>https://devplayg.com/categories/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/spring-framework/</loc>
+    <loc>https://devplayg.com/tags/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -997,13 +1008,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/mariadb/</loc>
+    <loc>https://devplayg.com/categories/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/mariadb/</loc>
+    <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1065,13 +1076,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/git/</loc>
+    <loc>https://devplayg.com/categories/git/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/git/</loc>
+    <loc>https://devplayg.com/tags/git/</loc>
     <lastmod>2019-06-11T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1270,22 +1281,22 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/service/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/categories/service/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/systemd/</loc>
+    <loc>https://devplayg.com/tags/service/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/systemd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/systemd/</loc>
     <priority>0</priority>
   </url>
   
