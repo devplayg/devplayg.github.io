@@ -229,7 +229,8 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
         </span>
         <span >
         
-        Key store 생성 $ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650 Enter keystore password: Re-enter new password: What is your first and last name?
+        Step 1. Key store 생성 비밀번호: devplayg
+keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650  Step 2. 인증서 생성 keytool -export -alias sb201 -storepass devplayg -file sb201.
         
         </span>
         
