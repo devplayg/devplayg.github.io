@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>template on Developer Playground</title>
+    <link>https://devplayg.com/tags/template/</link>
+    <description>Recent content in template on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 31 Oct 2019 18:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bootstrap 3.3.7 Template</title>
+      <link>https://devplayg.com/tech/web_template-bootstrap-3.3.7/</link>
+      <pubDate>Thu, 31 Oct 2019 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/web_template-bootstrap-3.3.7/</guid>
+      <description>&amp;lt;!doctype html&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- Required meta tags --&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt; &amp;lt;!-- Bootstrap CSS --&amp;gt; &amp;lt;!-- Latest compiled and minified CSS --&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.</description>
+    </item>
+    
+    <item>
+      <title>Bootstrap 4.3.1 Template</title>
+      <link>https://devplayg.com/tech/web_template-bootstrap-4.3.1/</link>
+      <pubDate>Thu, 31 Oct 2019 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/web_template-bootstrap-4.3.1/</guid>
+      <description>&amp;lt;!doctype html&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- Required meta tags --&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt; &amp;lt;!-- Bootstrap CSS --&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&amp;quot; integrity=&amp;quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Hello, world!&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; body { background-color: #070e2a; padding: 30px; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;chart-hello&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;!</description>
+    </item>
+    
+  </channel>
+</rss>

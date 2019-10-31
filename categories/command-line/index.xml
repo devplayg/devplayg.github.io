@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command-line on Developer Playground</title>
+    <link>https://devplayg.com/categories/command-line/</link>
+    <description>Recent content in command-line on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CURL tips</title>
+      <link>https://devplayg.com/tech/curl_tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/curl_tips/</guid>
+      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
+    </item>
+    
+    <item>
+      <title>Openssl, ROOT CA 인증서 생성</title>
+      <link>https://devplayg.com/tech/openssl_generate-cert/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/openssl_generate-cert/</guid>
+      <description>CA가 사용할 RSA Key 생성 암호가 불필요한 경우
+openssl genrsa -out private.key 2048  암호를 설정할 경우
+openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.</description>
+    </item>
+    
+    <item>
+      <title>Sprint Boot tips</title>
+      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
+      <description> Build gradlew bootjar  Run jar java -jar server-1.0.jar java -Dspring.profiles.active=server -jar myApp.jar  </description>
+    </item>
+    
+    <item>
+      <title>Bash tips</title>
+      <link>https://devplayg.com/tech/bash_tips/</link>
+      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/bash_tips/</guid>
+      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
+    </item>
+    
+    <item>
+      <title>FFmpeg tips</title>
+      <link>https://devplayg.com/tech/ffmpeg_tips/</link>
+      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
+      <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
+Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
+    </item>
+    
+  </channel>
+</rss>

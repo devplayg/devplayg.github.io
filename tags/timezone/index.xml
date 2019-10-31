@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Time zone conversion from client to database</title>
-      <link>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</link>
+      <title>Handling timezone in Spring Boot</title>
+      <link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</guid>
+      <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
       <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
     </item>
     

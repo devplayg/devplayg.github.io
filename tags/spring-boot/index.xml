@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Time zone conversion from client to database</title>
-      <link>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</link>
+      <title>Handling timezone in Spring Boot</title>
+      <link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/spring_boot-timezone-conversion-from-client-to-database/</guid>
+      <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
       <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
     </item>
     
@@ -41,10 +41,10 @@ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -v
     
     <item>
       <title>Thymeleaf tips</title>
-      <link>https://devplayg.com/tech/tips_thymeleaf/</link>
+      <link>https://devplayg.com/tech/thymeleaf_tips/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/tips_thymeleaf/</guid>
+      <guid>https://devplayg.com/tech/thymeleaf_tips/</guid>
       <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales  &amp;lt;div th:text=&amp;quot;${#locale.</description>
     </item>
     

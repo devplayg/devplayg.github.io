@@ -6,18 +6,18 @@
     <description>Recent content in tips on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 15:13:27 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CURL tips</title>
-      <link>https://devplayg.com/tech/curl_tips/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      <title>PostgreSQL tips</title>
+      <link>https://devplayg.com/tech/postgresql_tips/</link>
+      <pubDate>Thu, 31 Oct 2019 15:13:27 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/curl_tips/</guid>
-      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
+      <guid>https://devplayg.com/tech/postgresql_tips/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -51,10 +51,10 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
     
     <item>
       <title>Thymeleaf tips</title>
-      <link>https://devplayg.com/tech/tips_thymeleaf/</link>
+      <link>https://devplayg.com/tech/thymeleaf_tips/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/tips_thymeleaf/</guid>
+      <guid>https://devplayg.com/tech/thymeleaf_tips/</guid>
       <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales  &amp;lt;div th:text=&amp;quot;${#locale.</description>
     </item>
     
@@ -82,7 +82,7 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       <pubDate>Sat, 08 Jun 2019 15:13:27 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/mariadb_tips/</guid>
-      <description>Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *.</description>
+      <description>Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *.</description>
     </item>
     
     <item>
@@ -100,7 +100,7 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
-      <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\.</description>
+      <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\.</description>
     </item>
     
     <item>
@@ -110,16 +110,6 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       
       <guid>https://devplayg.com/tech/bash_tips/</guid>
       <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
-    </item>
-    
-    <item>
-      <title>FFmpeg tips</title>
-      <link>https://devplayg.com/tech/ffmpeg_tips/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
-      <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.</description>
     </item>
     
   </channel>

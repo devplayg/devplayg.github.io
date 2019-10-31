@@ -6,10 +6,21 @@
     <description>Recent content in 인증서 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/%EC%9D%B8%EC%A6%9D%EC%84%9C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Openssl, ROOT CA 인증서 생성</title>
+      <link>https://devplayg.com/tech/openssl_generate-cert/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/openssl_generate-cert/</guid>
+      <description>CA가 사용할 RSA Key 생성 암호가 불필요한 경우
+openssl genrsa -out private.key 2048  암호를 설정할 경우
+openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.</description>
+    </item>
     
     <item>
       <title>Spring Boot, SSL 인증서 만들기</title>

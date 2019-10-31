@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-09-08T06:39:05+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-10-31T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -141,8 +141,9 @@
 	</ul>
 
     <div class="menu-tag-and-category">
-        <span class="tag"><a href="/categories">categories</a></span>
-        <span class="category"><a href="/tags">tags</a></span>
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/tags/tips/">Tips</a></span>
     </div>
 </div>
 
@@ -194,6 +195,93 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-06-11_raggae/" >레게음악</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        나는 음악을 참 좋아한다. 힙합, 재즈, 보사노바, 가요, 올드팝 등, 좋아하는 음악 장르도 다양하다. 그 중 하나는 레게음악이다. 나는 레게음악이 참 좋다. 자마이카 사람도 아닌데 말이다. 오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-06-11_raggae/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_soring-slices/" >Sorting slices and user-defined collections in Go</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        it couldn&rsquo;t be better
+https://golang.org/pkg/sort/
+package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&quot;%dg&quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_soring-slices/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka-on-docker_test/" >4. Kafka 테스트</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_test/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka_tips/" >Kafka tips</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        Create topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  List topics $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  Describe topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Delete topic $KAFKA_HOME/bin/kafka-topics.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka_tips/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -269,7 +357,7 @@
         </span>
         <span >
         
-        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
+        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
         
         </span>
         
@@ -317,95 +405,6 @@
         </span>
         
           ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_benchmark-test/" >Go Benchmarks</a>
-        </span>
-        <span class="item__date">
-          Fri, Jun 7, 2019
-        </span>
-        <span >
-        
-        Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
-해시 알고리즘 성능을 측정하기 위한 코드 작성
-hash_test.go
-package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/docker_tips/" >Docker tips</a>
-        </span>
-        <span class="item__date">
-          Fri, Jun 7, 2019
-        </span>
-        <span >
-        
-        Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/kafka-on-docker_installation/" >1. Kafka 설치를 위한 Docker 환경구성</a>
-        </span>
-        <span class="item__date">
-          Thu, Jun 6, 2019
-        </span>
-        <span >
-        
-        설치 버전  Docker Ubuntu 18.04
- Kafka 2.2 [Download] Zookeeper 3.4.13 OpenJDK 11.0.3
-  Docker 컨테이너 구성    구분 호스트명 IP     Zookeeper zoo1 172.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_installation/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/life/2019-06-06_markdown/" >Markdown 의 미학</a>
-        </span>
-        <span class="item__date">
-          Thu, Jun 6, 2019
-        </span>
-        <span >
-        
-        이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/life/2019-06-06_markdown/">➦</a>
         
         </div>
         

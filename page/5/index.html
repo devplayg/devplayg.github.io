@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-09-08T06:39:05+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-10-31T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -141,8 +141,9 @@
 	</ul>
 
     <div class="menu-tag-and-category">
-        <span class="tag"><a href="/categories">categories</a></span>
-        <span class="category"><a href="/tags">tags</a></span>
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/tags/tips/">Tips</a></span>
     </div>
 </div>
 
@@ -194,6 +195,95 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_benchmark-test/" >Go Benchmarks</a>
+        </span>
+        <span class="item__date">
+          Fri, Jun 7, 2019
+        </span>
+        <span >
+        
+        Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
+해시 알고리즘 성능을 측정하기 위한 코드 작성
+hash_test.go
+package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/docker_tips/" >Docker tips</a>
+        </span>
+        <span class="item__date">
+          Fri, Jun 7, 2019
+        </span>
+        <span >
+        
+        Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka-on-docker_installation/" >1. Kafka 설치를 위한 Docker 환경구성</a>
+        </span>
+        <span class="item__date">
+          Thu, Jun 6, 2019
+        </span>
+        <span >
+        
+        설치 버전  Docker Ubuntu 18.04
+ Kafka 2.2 [Download] Zookeeper 3.4.13 OpenJDK 11.0.3
+  Docker 컨테이너 구성    구분 호스트명 IP     Zookeeper zoo1 172.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_installation/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-06-06_markdown/" >Markdown 의 미학</a>
+        </span>
+        <span class="item__date">
+          Thu, Jun 6, 2019
+        </span>
+        <span >
+        
+        이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-06-06_markdown/">➦</a>
+        
+        </div>
+        
+     
       
         
       

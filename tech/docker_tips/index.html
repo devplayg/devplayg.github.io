@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Docker tips"/>
-<meta name="twitter:description" content="Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\."/>
+<meta name="twitter:description" content="Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\."/>
 
 <meta property="og:title" content="Docker tips" />
-<meta property="og:description" content="Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update linux repository sed -i s#archive\." />
+<meta property="og:description" content="Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/docker_tips/" />
 <meta property="article:published_time" content="2019-06-07T00:28:15+09:00" />
@@ -145,8 +145,9 @@
 	</ul>
 
     <div class="menu-tag-and-category">
-        <span class="tag"><a href="/categories">categories</a></span>
-        <span class="category"><a href="/tags">tags</a></span>
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/tags/tips/">Tips</a></span>
     </div>
 </div>
 
@@ -213,7 +214,7 @@
         
             
             
-                <a class="badge badge-category" href="/categories/docker">docker</a>
+                <a class="badge badge-category" href="/categories/os-virtualization">os virtualization</a>
             
                 <a class="badge badge-category" href="/categories/tips">tips</a>
             
@@ -229,13 +230,10 @@
                 <a class="badge badge-tag" href="/tags/docker">docker</a>
                  
             
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                <a class="badge badge-tag" href="/tags/container">container</a>
                  
             
                 <a class="badge badge-tag" href="/tags/virtual-machine">virtual machine</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/container">container</a>
                 
             
         
@@ -269,7 +267,7 @@
 docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash
 </code></pre>
 
-<h3 id="update-linux-repository">Update linux repository</h3>
+<h3 id="update-ubuntu-lnux-repository">Update Ubuntu-Lnux repository</h3>
 
 <pre><code>sed -i s#archive\.ubuntu\.com#mirror.kakao.com#g /etc/apt/sources.list
 apt update &amp;&amp; apt install -y vim net-tools inetutils-ping telnet curl git
@@ -277,7 +275,7 @@ apt update &amp;&amp; apt install -y vim net-tools inetutils-ping telnet curl gi
 
 <h3 id="install-go">Install Go</h3>
 
-<pre><code>curl https://dl.google.com/go/go1.12.9.linux-amd64.tar.gz | tar xvfz - -C /
+<pre><code>curl https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz | tar xvfz - -C /
 </code></pre>
 
 <h3 id="set-profile">Set profile</h3>
@@ -293,9 +291,24 @@ export GO111MODULE=on
 
 <h3 id="runs-in-docker">Runs in Docker</h3>
 
+<p>Ubuntu</p>
+
+<pre><code>docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash
+</code></pre>
+
 <p>Apache 2.4</p>
 
 <pre><code>docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4
+</code></pre>
+
+<p>MariaDB 10.3</p>
+
+<pre><code>docker run --name db -e MYSQL_ROOT_PASSWORD=devplayg12!@ -p 3306:3306 -d mariadb:10.3
+docker exec -it db mysql -u root -p
+
+&gt; select host, user, password from mysql.user;
+&gt; create user 'root'@'%' identified by 'devplayg12!@';
+&gt; flush privileges;
 </code></pre>
 
   </div>

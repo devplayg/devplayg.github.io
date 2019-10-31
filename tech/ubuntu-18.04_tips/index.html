@@ -145,8 +145,9 @@
 	</ul>
 
     <div class="menu-tag-and-category">
-        <span class="tag"><a href="/categories">categories</a></span>
-        <span class="category"><a href="/tags">tags</a></span>
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/tags/tips/">Tips</a></span>
     </div>
 </div>
 
@@ -213,11 +214,9 @@
         
             
             
-                <a class="badge badge-category" href="/categories/tips">tips</a>
-            
                 <a class="badge badge-category" href="/categories/linux">linux</a>
             
-                <a class="badge badge-category" href="/categories/ubuntu-18.04">ubuntu 18.04</a>
+                <a class="badge badge-category" href="/categories/tips">tips</a>
             
         
     
@@ -228,10 +227,7 @@
         
             
             
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/linux">linux</a>
+                <a class="badge badge-tag" href="/tags/ubuntu">ubuntu</a>
                  
             
                 <a class="badge badge-tag" href="/tags/ubuntu-18.04">ubuntu 18.04</a>
@@ -323,6 +319,12 @@ create user 'devplayg'@'localhost' identified by 'devplayg12!@';
 grant all privileges on smartfactory.* to 'devplayg'@'localhost';
 grant all privileges on facex.* to 'devplayg'@'localhost';
 flush privileges;
+</code></pre>
+
+<h3 id="호스트-이름-변경">호스트 이름 변경</h3>
+
+<pre><code>sudo hostnamectl set-hostname dpgserver
+sudo vi /etc/hosts    
 </code></pre>
 
   </div>

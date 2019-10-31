@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Kafka tips</title>
-      <link>https://devplayg.com/tech/kafka_tips/</link>
-      <pubDate>Tue, 11 Jun 2019 18:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka_tips/</guid>
-      <description>Create topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  List topics $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  Describe topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Delete topic $KAFKA_HOME/bin/kafka-topics.</description>
-    </item>
-    
-    <item>
       <title>3. Kafka 설정</title>
       <link>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</link>
       <pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>

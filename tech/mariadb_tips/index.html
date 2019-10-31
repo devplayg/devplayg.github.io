@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mariadb tips"/>
-<meta name="twitter:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *."/>
+<meta name="twitter:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *."/>
 
 <meta property="og:title" content="Mariadb tips" />
-<meta property="og:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *." />
+<meta property="og:description" content="Profiling SET GLOBAL general_log=&#39;ON&#39;; SET GLOBAL slow_query_log=&#39;ON&#39;; SET GLOBAL log_output=&#39;TABLE&#39;; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user &#39;root&#39;@&#39;%&#39; identified by &#39;YOURPASSWORD&#39;; grant all privileges on *." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/mariadb_tips/" />
 <meta property="article:published_time" content="2019-06-08T15:13:27+09:00" />
@@ -145,8 +145,9 @@
 	</ul>
 
     <div class="menu-tag-and-category">
-        <span class="tag"><a href="/categories">categories</a></span>
-        <span class="category"><a href="/tags">tags</a></span>
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/tags/tips/">Tips</a></span>
     </div>
 </div>
 
@@ -215,8 +216,6 @@
             
                 <a class="badge badge-category" href="/categories/database">database</a>
             
-                <a class="badge badge-category" href="/categories/mariadb">mariadb</a>
-            
                 <a class="badge badge-category" href="/categories/tips">tips</a>
             
         
@@ -232,9 +231,6 @@
                  
             
                 <a class="badge badge-tag" href="/tags/mariadb">mariadb</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/tips">tips</a>
                 
             
         
@@ -274,18 +270,20 @@ truncate table mysql.general_log;
 
 <h3 id="change-date-to-today">Change date to today</h3>
 
-<pre><code class="language-sql">DATE_ADD(create_date, INTERVAL DATEDIFF(NOW(), create_date) DAY)
+<pre><code class="language-sql">update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);
 </code></pre>
 
 <h3 id="add-account">Add account</h3>
 
 <pre><code class="language-sql">create user 'root'@'%' identified by 'YOURPASSWORD';
 grant all privileges on *.* to 'root'@'%';
+flush privileges;
 </code></pre>
 
 <h3 id="change-password">Change password</h3>
 
 <pre><code class="language-sql">alter user 'root'@'%' identified by 'NEWPASSWORD';
+flush privileges;
 </code></pre>
 
   </div>
