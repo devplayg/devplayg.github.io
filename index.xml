@@ -6,10 +6,21 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 31 Oct 2019 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
+      <link>https://devplayg.com/tech/snmp/</link>
+      <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/snmp/</guid>
+      <description>1. Windows 10 Pro Run powershell as Administrator
+Add-WindowsCapability -Online -Name “SNMP.Client~~~~0.0.1.0” Get-WindowsCapability -Online -Name “SNMP*”  Set Windows SNMP Trap Events
+evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;) CPU</description>
+    </item>
     
     <item>
       <title>Bootstrap 3.3.7 Template</title>
@@ -455,7 +466,7 @@ package test import ( &amp;quot;crypto/md5&amp;quot; &amp;quot;crypto/sha1&amp;q
       <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
-      <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\.</description>
+      <description>1. Containers Ubuntu 18.04 docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Apache 2.4 docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  MariaDB 10.</description>
     </item>
     
     <item>

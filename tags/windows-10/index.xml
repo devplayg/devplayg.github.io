@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows 10 on Developer Playground</title>
+    <link>https://devplayg.com/tags/windows-10/</link>
+    <description>Recent content in windows 10 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
+      <link>https://devplayg.com/tech/snmp/</link>
+      <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/snmp/</guid>
+      <description>1. Windows 10 Pro Run powershell as Administrator
+Add-WindowsCapability -Online -Name “SNMP.Client~~~~0.0.1.0” Get-WindowsCapability -Online -Name “SNMP*”  Set Windows SNMP Trap Events
+evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;) CPU</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -64,7 +64,7 @@ Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치 $ apt-get install software-
       <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
-      <description>Create docker container docker run -v e:/gohome:/gohome -it --name test ubuntu bash docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Update Ubuntu-Lnux repository sed -i s#archive\.</description>
+      <description>1. Containers Ubuntu 18.04 docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Apache 2.4 docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  MariaDB 10.</description>
     </item>
     
     <item>
