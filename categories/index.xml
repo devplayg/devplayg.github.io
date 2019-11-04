@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>database</title>
+      <link>https://devplayg.com/categories/database/</link>
+      <pubDate>Mon, 04 Nov 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://devplayg.com/categories/docker/</link>
+      <pubDate>Mon, 04 Nov 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>os</title>
@@ -35,15 +53,6 @@
       <pubDate>Thu, 31 Oct 2019 18:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>database</title>
-      <link>https://devplayg.com/categories/database/</link>
-      <pubDate>Thu, 31 Oct 2019 15:13:27 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/database/</guid>
       <description></description>
     </item>
     

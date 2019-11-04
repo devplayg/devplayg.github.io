@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-11-03T17:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2019-11-04T09:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -195,6 +195,28 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/docker_creating-mariadb-10.3-container/" >Creating MariaDB Container</a>
+        </span>
+        <span class="item__date">
+          Mon, Nov 4, 2019
+        </span>
+        <span >
+        
+        https://hub.docker.com/_/mariadb
+Write &ldquo;docker-compose.yaml&rdquo; file version: '3' services: db: image: mariadb:10.3 container_name: db volumes: - /data/mariadb/datadir:/var/lib/mysql - /data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=Uniiot12!@ restart: unless-stopped ports: - &quot;3306:3306&quot; command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']  Create the container docker-compose up -d  Set timezone cat &lt;&lt; &quot;EOF&quot; | sudo tee /data/mariadb/conf.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/docker_creating-mariadb-10.3-container/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -378,25 +400,6 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
         
          Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
 pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/spring_boot-handling-timezone/" >Handling timezone in Spring Boot</a>
-        </span>
-        <span class="item__date">
-          Wed, Aug 28, 2019
-        </span>
-        <span >
-        
-        JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.
         
         </span>
         

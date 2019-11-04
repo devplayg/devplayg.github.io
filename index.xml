@@ -6,10 +6,20 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating MariaDB Container</title>
+      <link>https://devplayg.com/tech/docker_creating-mariadb-10.3-container/</link>
+      <pubDate>Mon, 04 Nov 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_creating-mariadb-10.3-container/</guid>
+      <description>https://hub.docker.com/_/mariadb
+Write &amp;ldquo;docker-compose.yaml&amp;rdquo; file version: &#39;3&#39; services: db: image: mariadb:10.3 container_name: db volumes: - /data/mariadb/datadir:/var/lib/mysql - /data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=Uniiot12!@ restart: unless-stopped ports: - &amp;quot;3306:3306&amp;quot; command: [&#39;mysqld&#39;, &#39;--character-set-server=utf8mb4&#39;, &#39;--collation-server=utf8mb4_unicode_ci&#39;]  Create the container docker-compose up -d  Set timezone cat &amp;lt;&amp;lt; &amp;quot;EOF&amp;quot; | sudo tee /data/mariadb/conf.</description>
+    </item>
     
     <item>
       <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
