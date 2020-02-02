@@ -6,10 +6,21 @@
     <description>Recent content in ubuntu 18.04 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ubuntu-18.04/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing and using Ubuntu 18.04 via Docker</title>
+      <link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
+      <description>Pulling and run image in general
+docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host</description>
+    </item>
     
     <item>
       <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
@@ -95,9 +106,8 @@ pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
-      <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service
-smartfactory.service
-[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target Alias=smartfactory.</description>
+      <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
+[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.</description>
     </item>
     
   </channel>

@@ -24,13 +24,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-11-04T09:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-01-01T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
 
 
 
@@ -176,7 +176,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 devplayg
+  &copy; 2020 devplayg
   
 </div>
 
@@ -195,6 +195,69 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/springboot_terms/" >Spring Boot 용어 - Servlet &amp; Servlet Container</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 9, 2019
+        </span>
+        <span >
+        
+        서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 의 기능을 확장하는데 사용되는 Java 클래스이다 서블릿은 클라이언트의 요청을 받고, 그 처리 결과를 다시 클라이언트에 전달한다. 서블릿은 다양한 요청방식에 응답할 수 있지만, 일반적으로 웹서버에 호스트 되어 있는 응용프로그램을 확장하는데 사용된다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/springboot_terms/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka-on-docker_setting-zookeepers/" >2. Zookeeper 설정</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 9, 2019
+        </span>
+        <span >
+        
+        Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_setting-zookeepers/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/mariadb_tips/" >Mariadb tips</a>
+        </span>
+        <span class="item__date">
+          Sat, Jun 8, 2019
+        </span>
+        <span >
+        
+        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/mariadb_tips/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -222,18 +285,20 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/git_tips/" >Git tips</a>
+          <a href="/tech/go_benchmark-test/" >Benchmarks with Go</a>
         </span>
         <span class="item__date">
           Fri, Jun 7, 2019
         </span>
         <span >
         
-        To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &ndash;cached path_to_submodule (no trailing slash).
+        Benchmark test in Go hash_test.go
+ Run code go test hash_test.go -bench .  Result
+goos: windows goarch: amd64 BenchmarkFNV32-8 3000000 415 ns/op BenchmarkFNV64-8 3000000 426 ns/op BenchmarkFNV128-8 3000000 428 ns/op BenchmarkMD5-8 2000000 589 ns/op BenchmarkSHA1-8 2000000 708 ns/op BenchmarkSHA224-8 2000000 883 ns/op BenchmarkSHA256-8 2000000 854 ns/op BenchmarkSHA512-8 2000000 991 ns/op PASS ok command-line-arguments 17.
         
         </span>
         
-          ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
+          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
         
         </div>
         
@@ -243,21 +308,21 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/tech/go_benchmark-test/" >Go Benchmarks</a>
+          <a href="/tech/git_tips/" >Git tips</a>
         </span>
         <span class="item__date">
           Fri, Jun 7, 2019
         </span>
         <span >
         
-        Benchmarks in Go Benchmarks are placed inside &ldquo;_test.go&rdquo; files
-해시 알고리즘 성능을 측정하기 위한 코드 작성
-hash_test.go
-package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypto/sha256&quot; &quot;crypto/sha512&quot; &quot;hash&quot; &quot;hash/fnv&quot; &quot;log&quot; &quot;math/rand&quot; &quot;testing&quot; ) const ( K = 1024 DataSize = 1 * K ) var data = make([]byte, DataSize) func init() { _, err := rand.
+        Find and restore a deleted file in a Git repository Find
+git ls-files -d  Restore
+git checkout &lt;filename&gt;  Find &amp; restore
+git ls-files -d | xargs git checkout --  Branch Clone branch
         
         </span>
         
-          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
+          ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
         
         </div>
         
@@ -274,11 +339,9 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
         </span>
         <span >
         
-        1. Containers Ubuntu 18.04 docker run -p 8000:8000 -v e:/gohome:/gohome -it --name test ubuntu bash  Apache 2.4 docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  MariaDB 10.
+        docker info docker logs [name] docker exec -it [name] bash  
         
         </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
         
         </div>
         
@@ -342,73 +405,6 @@ package test import ( &quot;crypto/md5&quot; &quot;crypto/sha1&quot; &quot;crypt
         package main import ( &quot;fmt&quot; &quot;math/rand&quot; &quot;time&quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/bash_tips/" >Bash tips</a>
-        </span>
-        <span class="item__date">
-          Mon, Mar 18, 2019
-        </span>
-        <span >
-        
-         Get current directory DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/about/" >Developer Playground</a>
-        </span>
-        <span class="item__date">
-          Mon, Mar 18, 2019
-        </span>
-        <span >
-        
-        What makes me high Music, Coding, Walking, Thinking, Playing, Eating
-What makes me down Life without what makes me high
-Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engineer, especially Gopher  What&rsquo;ve you been for a long time?
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/about/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/music/music_2018-awards/" >2018 Music Awards</a>
-        </span>
-        <span class="item__date">
-          Sun, Mar 3, 2019
-        </span>
-        <span >
-        
-        Bruno Mars - 24k Magic
-Bruno Mars - Thats What I Like
-Bruno Mars - The Lazy Song (Single Version)
-Eric Clapton - I Shot The Sheriff (Live)
-Fitz &amp; The Tantrums - HandClap
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/music/music_2018-awards/">➦</a>
         
         </div>
         

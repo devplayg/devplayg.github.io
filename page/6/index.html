@@ -24,13 +24,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-11-04T09:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-01-01T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
 
 
 
@@ -176,7 +176,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 devplayg
+  &copy; 2020 devplayg
   
 </div>
 
@@ -200,6 +200,73 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/bash_tips/" >Bash tips</a>
+        </span>
+        <span class="item__date">
+          Mon, Mar 18, 2019
+        </span>
+        <span >
+        
+         Get current directory DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/about/" >Developer Playground</a>
+        </span>
+        <span class="item__date">
+          Mon, Mar 18, 2019
+        </span>
+        <span >
+        
+        What makes me high Music, Coding, Walking, Thinking, Playing, Eating
+What makes me down Life without what makes me high
+Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engineer, especially Gopher  What&rsquo;ve you been for a long time?
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/about/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/music/music_2018-awards/" >2018 Music Awards</a>
+        </span>
+        <span class="item__date">
+          Sun, Mar 3, 2019
+        </span>
+        <span >
+        
+        Bruno Mars - 24k Magic
+Bruno Mars - Thats What I Like
+Bruno Mars - The Lazy Song (Single Version)
+Eric Clapton - I Shot The Sheriff (Live)
+Fitz &amp; The Tantrums - HandClap
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/music/music_2018-awards/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/ffmpeg_tips/" >FFmpeg tips</a>
         </span>
         <span class="item__date">
@@ -208,7 +275,8 @@
         <span >
         
         A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file3.mp4 /tmp/file4.mp4 $ ffmpeg -f concat -i list.txt -c copy output.
+Concatenating video files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
+file /tmp/file1.mp4 file /tmp/file2.
         
         </span>
         
@@ -229,9 +297,8 @@ Concatenating video files $ cat list.txt /tmp/file1.mp4 /tmp/file2.mp4 /tmp/file
         </span>
         <span >
         
-        Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service
-smartfactory.service
-[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target Alias=smartfactory.
+        Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
+[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.
         
         </span>
         

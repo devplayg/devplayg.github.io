@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web server on Developer Playground</title>
+    <link>https://devplayg.com/tags/web-server/</link>
+    <description>Recent content in web server on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/web-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing and using other containers via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_etc/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_etc/</guid>
+      <description> Pulling and run image Apache 2.4
+docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  </description>
+    </item>
+    
+  </channel>
+</rss>

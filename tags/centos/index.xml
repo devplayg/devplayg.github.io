@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>centos on Developer Playground</title>
+    <link>https://devplayg.com/tags/centos/</link>
+    <description>Recent content in centos on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing and using CentOS 6.10 via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
+      <description>Pulling and run image in general
+docker run -it --name cos centos:6.10 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host</description>
+    </item>
+    
+  </channel>
+</rss>

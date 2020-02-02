@@ -24,13 +24,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2019-11-04T09:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-01-01T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
 
 
 
@@ -176,7 +176,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 devplayg
+  &copy; 2020 devplayg
   
 </div>
 
@@ -195,6 +195,73 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/openssl_generate-cert/" >Openssl, ROOT CA 인증서 생성</a>
+        </span>
+        <span class="item__date">
+          Fri, Aug 9, 2019
+        </span>
+        <span >
+        
+        CA가 사용할 RSA Key 생성 암호가 불필요한 경우
+openssl genrsa -out private.key 2048  암호를 설정할 경우
+openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/openssl_generate-cert/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/spring-boot_ssl/" >Spring Boot, SSL 인증서 만들기</a>
+        </span>
+        <span class="item__date">
+          Fri, Aug 2, 2019
+        </span>
+        <span >
+        
+        Step 1. Key store 생성 비밀번호: devplayg
+keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650  Step 2. 인증서 생성 keytool -export -alias sb201 -storepass devplayg -file sb201.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/spring-boot_ssl/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/java_lambda/" >Java Lambda</a>
+        </span>
+        <span class="item__date">
+          Thu, Jul 25, 2019
+        </span>
+        <span >
+        
+        Before using lamda
+Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/java_lambda/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -329,70 +396,6 @@ Still fighting it
   
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_duplicate-file-finder/" >Duplicate file finder in Go</a>
-        </span>
-        <span class="item__date">
-          Tue, Jun 18, 2019
-        </span>
-        <span >
-        
-        중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_duplicate-file-finder/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/mozjpeg_image-optimizing-result/" >MozJPEG 를 활용한 JPEG 압축 테스트 결과</a>
-        </span>
-        <span class="item__date">
-          Sun, Jun 16, 2019
-        </span>
-        <span >
-        
-        테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing-result/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/mozjpeg_image-optimizing/" >MozJPEG 를 활용한 JPEG 압축</a>
-        </span>
-        <span class="item__date">
-          Sun, Jun 16, 2019
-        </span>
-        <span >
-        
-        테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing/">➦</a>
         
         </div>
         

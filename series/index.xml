@@ -6,10 +6,19 @@
     <description>Recent content in Series on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 14:25:34 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker</title>
+      <link>https://devplayg.com/series/docker/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/series/docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MozJPEG 를 활용한 JPEG 압축</title>

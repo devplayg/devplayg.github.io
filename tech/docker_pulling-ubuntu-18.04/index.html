@@ -17,27 +17,30 @@
     
     
 
-<title>Creating MariaDB Container • Developer Playground</title>
+<title>Installing and using Ubuntu 18.04 via Docker • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating MariaDB Container"/>
-<meta name="twitter:description" content="https://hub.docker.com/_/mariadb
-Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: image: mariadb:10.3 container_name: db volumes: - /data/mariadb/datadir:/var/lib/mysql - /data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=Uniiot12!@ restart: unless-stopped ports: - &quot;3306:3306&quot; command: [&#39;mysqld&#39;, &#39;--character-set-server=utf8mb4&#39;, &#39;--collation-server=utf8mb4_unicode_ci&#39;]  Create the container docker-compose up -d  Set timezone cat &lt;&lt; &quot;EOF&quot; | sudo tee /data/mariadb/conf."/>
+<meta name="twitter:title" content="Installing and using Ubuntu 18.04 via Docker"/>
+<meta name="twitter:description" content="Pulling and run image in general
+docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host"/>
 
-<meta property="og:title" content="Creating MariaDB Container" />
-<meta property="og:description" content="https://hub.docker.com/_/mariadb
-Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: image: mariadb:10.3 container_name: db volumes: - /data/mariadb/datadir:/var/lib/mysql - /data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=Uniiot12!@ restart: unless-stopped ports: - &quot;3306:3306&quot; command: [&#39;mysqld&#39;, &#39;--character-set-server=utf8mb4&#39;, &#39;--collation-server=utf8mb4_unicode_ci&#39;]  Create the container docker-compose up -d  Set timezone cat &lt;&lt; &quot;EOF&quot; | sudo tee /data/mariadb/conf." />
+<meta property="og:title" content="Installing and using Ubuntu 18.04 via Docker" />
+<meta property="og:description" content="Pulling and run image in general
+docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/docker_creating-mariadb-10.3-container/" />
-<meta property="article:published_time" content="2019-11-04T09:00:00+09:00" />
-<meta property="article:modified_time" content="2019-11-04T09:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/docker_pulling-ubuntu-18.04/" />
+<meta property="article:published_time" content="2020-01-01T18:00:00+09:00" />
+<meta property="article:modified_time" content="2020-01-01T18:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
 
 
 
@@ -182,7 +185,7 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
     </div>
     
 <div class="copyright">
-  &copy; 2019 devplayg
+  &copy; 2020 devplayg
   
 </div>
 
@@ -200,11 +203,11 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
     
 <article>
   <header>
-    <h1 class="post__title">Creating MariaDB Container
+    <h1 class="post__title">Installing and using Ubuntu 18.04 via Docker
         <small>
         
         
-            <span class="post__date">Mon, Nov 4, 2019</span>
+            <span class="post__date">Wed, Jan 1, 2020</span>
         
         </small>
     </h1>
@@ -216,9 +219,9 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
         
             
             
-                <a class="badge badge-category" href="/categories/database">database</a>
-            
                 <a class="badge badge-category" href="/categories/docker">docker</a>
+            
+                <a class="badge badge-category" href="/categories/tips">tips</a>
             
         
     
@@ -229,22 +232,19 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
         
             
             
-                <a class="badge badge-tag" href="/tags/mariadb">mariadb</a>
-                 
-            
                 <a class="badge badge-tag" href="/tags/docker">docker</a>
                  
             
-                <a class="badge badge-tag" href="/tags/yaml">yaml</a>
+                <a class="badge badge-tag" href="/tags/ubuntu-18.04">ubuntu 18.04</a>
                  
             
-                <a class="badge badge-tag" href="/tags/timezone">timezone</a>
+                <a class="badge badge-tag" href="/tags/ubuntu">ubuntu</a>
                  
             
-                <a class="badge badge-tag" href="/tags/container">container</a>
+                <a class="badge badge-tag" href="/tags/linux">linux</a>
                  
             
-                <a class="badge badge-tag" href="/tags/mysql">mysql</a>
+                <a class="badge badge-tag" href="/tags/os">os</a>
                 
             
         
@@ -253,6 +253,16 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
 
 
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
+        
+    </div>
+    
+
   </header>
   
   
@@ -272,99 +282,89 @@ Write &ldquo;docker-compose.yaml&rdquo; file version: &#39;3&#39; services: db: 
   <div class="post">
     
 
-<p><a href="https://hub.docker.com/_/mariadb">https://hub.docker.com/_/mariadb</a></p>
+<h2 id="pulling-and-run-image">Pulling and run image</h2>
 
-<h3 id="write-docker-compose-yaml-file">Write &ldquo;docker-compose.yaml&rdquo; file</h3>
+<p>in general</p>
 
-<pre><code class="language-yaml">version: '3'
-
-services:
-  db:
-    image: mariadb:10.3
-    container_name: db
-    volumes:
-      - /data/mariadb/datadir:/var/lib/mysql
-      - /data/mariadb/conf.d:/etc/mysql/conf.d
-    environment:
-      - MYSQL_ROOT_PASSWORD=Uniiot12!@
-    restart: unless-stopped
-    ports:
-      - &quot;3306:3306&quot;
-    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+<pre><code>docker run -it --name ubt ubuntu:18.04 bash
 </code></pre>
 
-<h3 id="create-the-container">Create the container</h3>
+<p>with sharing filesystem</p>
 
-<pre><code>docker-compose up -d
+<pre><code>docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash
 </code></pre>
 
-<h3 id="set-timezone">Set timezone</h3>
+<p>with binding container ports to the host</p>
 
-<pre><code>cat &lt;&lt; &quot;EOF&quot; | sudo tee /data/mariadb/conf.d/my.cnf
-[mysqld]
-default-time-zone='+09:00'
-EOF
+<pre><code>docker run -p 8000:80 -it --name ubt ubuntu:18.04 bash
 </code></pre>
 
-<h3 id="chech-if-the-container-is-running">Chech if the container is running</h3>
+<ul>
+<li>8000: Host port</li>
+<li>80: Container port</li>
+</ul>
 
-<pre><code>docker ps -a
----
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-18b96300f58e        mariadb:10.3        &quot;docker-entrypoint.s…&quot;   10 minutes ago      Up 10 minutes       0.0.0.0:3306-&gt;3306/tcp   db
+<h2 id="my-favorite"><em>My favorite</em></h2>
+
+<pre><code>docker run -it -v e:/gohome:/gohome --name ubt ubuntu:18.04 bash
 </code></pre>
 
-<h3 id="connect-to-the-container-and-db">Connect to the container and DB</h3>
+<ul>
+<li><p>change repository and update</p>
 
-<pre><code>docker exec -it db bash
-mysql
+<pre><code>sed -i s#archive\.ubuntu\.com#mirror.kakao.com#g /etc/apt/sources.list
+apt update &amp;&amp; apt install -y vim net-tools inetutils-ping telnet curl git
+</code></pre></li>
+
+<li><p>install Go</p>
+
+<pre><code>curl https://dl.google.com/go/go1.13.7.linux-amd64.tar.gz | tar xvfz - -C /
+</code></pre></li>
+
+<li><p>set profile</p>
+
+<pre><code class="language-bash">vi ~/.profile &amp;&amp; . ~/.profile
 </code></pre>
 
-<h3 id="search-the-db-users">Search the DB users</h3>
+<ul>
+<li><p>~/.profile</p>
 
-<pre><code class="language-sql">select host, user, password from mysql.user;
----
-+--------------+------+----------+
-| host         | user | password |
-+--------------+------+----------+
-| localhost    | root |          |
-| 68452e036ab4 | root |          |
-| 127.0.0.1    | root |          |
-| ::1          | root |          |
-| localhost    |      |          |
-| 68452e036ab4 |      |          |
-+--------------+------+----------+
-</code></pre>
-
-<h3 id="create-the-db-user">Create the DB user</h3>
-
-<pre><code class="language-sql">create user 'root'@'%' identified by 'Uniiot12!@';
-grant all privileges on *.* to 'root'@'%';
-flush privileges;
-exit
-</code></pre>
-
-<h3 id="exit-container">Exit container</h3>
-
-<pre><code>exit
-</code></pre>
-
-<h3 id="restart-the-db-container">Restart the DB container</h3>
-
-<pre><code>docker restart db
-</code></pre>
+<pre><code class="language-bash">alias .pro=&quot;vi ~/.profile&quot;
+alias pro=&quot;. ~/.profile&quot;
+alias dev=&quot;cd /gohome/src/github.com/devplayg&quot;
+export GOROOT=/go
+export GOPATH=/gohome
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+</code></pre></li>
+</ul></li>
+</ul>
 
   </div>
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/snmp/" class="navigation-prev">
+    <a href="/tech/docker-container_etc/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</span>
+      <span class="navigation-tittle">Installing and using other containers via Docker</span>
     </a>
     
+    
+    <a href="/tech/docker-container_mariadb-10.3/" class="navigation-next">
+      <span class="navigation-tittle">Installing and using MariaDB 10.3 via Docker</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 
@@ -437,15 +437,19 @@ if (!doNotTrack) {
             
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/java.min.js"></script>
             
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/powershell.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/javascript.min.js"></script>
             
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/yaml.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/shell.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/bash.min.js"></script>
             
         
     
     <script type="text/javascript">
         
-        hljs.configure({languages: ["go, java, powershell, yaml"]});
+        hljs.configure({languages: ["go, java, javascript, yaml, shell, bash"]});
         
         hljs.initHighlightingOnLoad();
     </script>

@@ -22,20 +22,26 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git tips"/>
-<meta name="twitter:description" content="To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &ndash;cached path_to_submodule (no trailing slash)."/>
+<meta name="twitter:description" content="Find and restore a deleted file in a Git repository Find
+git ls-files -d  Restore
+git checkout &lt;filename&gt;  Find &amp; restore
+git ls-files -d | xargs git checkout --  Branch Clone branch"/>
 
 <meta property="og:title" content="Git tips" />
-<meta property="og:description" content="To remove a submodule you need to:  Delete the relevant section from the .gitmodules file. Stage the .gitmodules changes git add .gitmodules Delete the relevant section from .git/config. Run git rm &ndash;cached path_to_submodule (no trailing slash)." />
+<meta property="og:description" content="Find and restore a deleted file in a Git repository Find
+git ls-files -d  Restore
+git checkout &lt;filename&gt;  Find &amp; restore
+git ls-files -d | xargs git checkout --  Branch Clone branch" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/git_tips/" />
 <meta property="article:published_time" content="2019-06-07T23:45:41+09:00" />
-<meta property="article:modified_time" content="2019-06-11T23:45:41+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="article:modified_time" content="2020-02-02T23:45:41+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
 
 
 
@@ -180,7 +186,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 devplayg
+  &copy; 2020 devplayg
   
 </div>
 
@@ -228,6 +234,15 @@
             
             
                 <a class="badge badge-tag" href="/tags/git">git</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/tag">tag</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/branch">branch</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/version">version</a>
                 
             
         
@@ -255,7 +270,64 @@
   <div class="post">
     
 
-<h3 id="to-remove-a-submodule-you-need-to">To remove a submodule you need to:</h3>
+<h2 id="find-and-restore-a-deleted-file-in-a-git-repository">Find and restore a deleted file in a Git repository</h2>
+
+<p>Find</p>
+
+<pre><code>git ls-files -d 
+</code></pre>
+
+<p>Restore</p>
+
+<pre><code>git checkout &lt;filename&gt;
+</code></pre>
+
+<p>Find &amp; restore</p>
+
+<pre><code>git ls-files -d | xargs git checkout --
+</code></pre>
+
+<h2 id="branch">Branch</h2>
+
+<p>Clone branch</p>
+
+<pre><code>git clone -b &lt;branch&gt; &lt;repo&gt;
+git clone -b test_branch  https://github.com/devplayg/himma
+</code></pre>
+
+<p>List local branches</p>
+
+<pre><code>git branch
+</code></pre>
+
+<p>List Remote branches</p>
+
+<pre><code>git branch -r
+</code></pre>
+
+<p>Sync branches with remote&rsquo;s it</p>
+
+<pre><code>git fetch --all --prune
+git remote prune origin
+</code></pre>
+
+<p>Delete the branch</p>
+
+<pre><code>git branch -d &lt;branch_name&gt;
+</code></pre>
+
+<p>Delete remote Branch</p>
+
+<pre><code>git push origin --delete &lt;branch_name&gt;
+git push origin :&lt;branch_name&gt;
+</code></pre>
+
+<p>Virtual run</p>
+
+<pre><code>--dry-run
+</code></pre>
+
+<p>To remove a submodule you need to:</p>
 
 <ul>
 <li>Delete the relevant section from the .gitmodules file.</li>
@@ -267,25 +339,20 @@
 <li>Delete the now untracked submodule files rm -rf path_to_submodule</li>
 </ul>
 
-<h3 id="find-and-restore-a-deleted-file-in-a-git-repository">Find and restore a deleted file in a Git repository</h3>
-
-<pre><code>git ls-files -d | xargs git checkout --
-</code></pre>
-
   </div>
     
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/go_benchmark-test/" class="navigation-prev">
+    <a href="/tech/docker_tips/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Go Benchmarks</span>
+      <span class="navigation-tittle">Docker tips</span>
     </a>
     
     
-    <a href="/tech/go_what-is-go/" class="navigation-next">
-      <span class="navigation-tittle">Go 언어</span>
+    <a href="/tech/go_benchmark-test/" class="navigation-next">
+      <span class="navigation-tittle">Benchmarks with Go</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     
@@ -360,15 +427,19 @@ if (!doNotTrack) {
             
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/java.min.js"></script>
             
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/powershell.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/javascript.min.js"></script>
             
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/yaml.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/shell.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/bash.min.js"></script>
             
         
     
     <script type="text/javascript">
         
-        hljs.configure({languages: ["go, java, powershell, yaml"]});
+        hljs.configure({languages: ["go, java, javascript, yaml, shell, bash"]});
         
         hljs.initHighlightingOnLoad();
     </script>

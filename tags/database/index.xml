@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Developer Playground</title>
+    <link>https://devplayg.com/tags/database/</link>
+    <description>Recent content in database on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing and using MariaDB 10.3 via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
+      <description>https://hub.docker.com/_/mariadb
+Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.</description>
+    </item>
+    
+  </channel>
+</rss>

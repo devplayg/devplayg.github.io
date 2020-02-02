@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Developer Playground</title>
+    <link>https://devplayg.com/series/docker/</link>
+    <description>Recent content in Docker on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/series/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing and using CentOS 6.10 via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
+      <description>Pulling and run image in general
+docker run -it --name cos centos:6.10 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host</description>
+    </item>
+    
+    <item>
+      <title>Installing and using MariaDB 10.3 via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
+      <description>https://hub.docker.com/_/mariadb
+Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.</description>
+    </item>
+    
+    <item>
+      <title>Installing and using Ubuntu 18.04 via Docker</title>
+      <link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
+      <description>Pulling and run image in general
+docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
+docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host</description>
+    </item>
+    
+    <item>
+      <title>Installing and using other containers via Docker</title>
+      <link>https://devplayg.com/tech/docker-container_etc/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-container_etc/</guid>
+      <description> Pulling and run image Apache 2.4
+docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  </description>
+    </item>
+    
+    <item>
+      <title>Docker tips</title>
+      <link>https://devplayg.com/tech/docker_tips/</link>
+      <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_tips/</guid>
+      <description>docker info docker logs [name] docker exec -it [name] bash  </description>
+    </item>
+    
+  </channel>
+</rss>
