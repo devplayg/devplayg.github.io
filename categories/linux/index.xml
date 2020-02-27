@@ -6,10 +6,24 @@
     <description>Recent content in linux on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get Linux System information on the Command line</title>
+      <link>https://devplayg.com/tech/linux_system-info/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/linux_system-info/</guid>
+      <description> System Info System info
+$ uname -a  OS
+$ cat /etc/lsb-release  Memory
+$ free -h  CPU
+$ cat /proc/cpuinfo  Disk
+$ df -h  </description>
+    </item>
     
     <item>
       <title>Ubuntu 18.04 tips</title>
@@ -17,7 +31,8 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP $ vi /etc/netplan/01-netcfg.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.</description>
+      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
     </item>
     
     <item>

@@ -22,10 +22,12 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ubuntu 18.04 tips"/>
-<meta name="twitter:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP $ vi /etc/netplan/01-netcfg.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168."/>
+<meta name="twitter:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network"/>
 
 <meta property="og:title" content="Ubuntu 18.04 tips" />
-<meta property="og:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP $ vi /etc/netplan/01-netcfg.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168." />
+<meta property="og:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/ubuntu-18.04_tips/" />
 <meta property="article:published_time" content="2019-08-19T00:00:00+09:00" />
@@ -44,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.4f73b90c708aa919fd48cb87879b0e1b32339ddcacc89fd5028ab5ced4d66893.css" integrity="sha256-T3O5DHCKqRn9SMuHh5sOGzIzndysyJ/VAoq1ztTWaJM=">
+<link rel="stylesheet" href="/scss/hyde-hyde.9aac51983edd94a811ab77df7bdffbd02250d986ea748a4f014b69d3fdca56b5.css" integrity="sha256-mqxRmD7dlKgRq3ffe9/70CJQ2YbqdIpPAUtp0/3KVrU=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -267,9 +269,9 @@ eno1  eno2  lo
 
 <h3 id="configuration-static-ip">Configuration Static IP</h3>
 
-<pre><code>$ vi /etc/netplan/01-netcfg.yaml
----
-network:
+<p><code>/etc/netplan/01-netcfg.yaml</code></p>
+
+<pre><code class="language-yaml">network:
   version: 2
   renderer: networkd
   ethernets:
@@ -281,58 +283,39 @@ network:
           addresses: [168.126.63.1,8.8.8.8]
     eno2:
       dhcp4: yes
-$ sudo netplan apply
 </code></pre>
 
-<h3 id="configuration-ufw">Configuration UFW</h3>
+<p>Restart network</p>
+
+<pre><code>sudo netplan apply
+</code></pre>
+
+<h3 id="ufw">UFW</h3>
 
 <pre><code>$ sudo ufw allow OpenSSH
 $ sudo ufw enable
 $ sudo ufw allow 8808/tcp
 $ sudo ufw allow 50000:50100/tcp
 $ sudo ufw status verbose
+$ sudo ufw allow from 1.1.1.1 to any port 22 proto tcp
 </code></pre>
 
-<h3 id="installation-mariadb">Installation MariaDB</h3>
-
-<p><a href="https://downloads.mariadb.org/mariadb/repositories/#mirror=digitalocean-ams">https://downloads.mariadb.org/mariadb/repositories/#mirror=digitalocean-ams</a></p>
-
-<p>Install the package</p>
-
-<pre><code>$ sudo apt-get install software-properties-common
-$ sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
-$ sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://ftp.kaist.ac.kr/mariadb/repo/10.3/ubuntu bionic main'
-$ sudo apt update
-$ sudo apt install mariadb-server
-</code></pre>
-
-<p>Change the data directory</p>
-
-<pre><code>$ sudo service mysql stop
-$ sudo vi /etc/mysql/my.cnf
-    datadir 
-$ sudo vi /etc/mysql/mariadb.cnf
-    skip-character-set-client-handshake
-$ sudo mysql_install_db --user=mysql --datadir=/data/mysql  --defaults-file=/etc/mysql/my.cnf
-$ sudo service mysql start
-</code></pre>
-
-<p>사용자 생성</p>
-
-<pre><code>$ mysql -u root
-create user 'devplayg'@'%' identified by 'devplayg12!@';
-grant all privileges on smartfactory.* to 'devplayg'@'%';
-grant all privileges on facex.* to 'devplayg'@'%';
-create user 'devplayg'@'localhost' identified by 'devplayg12!@';
-grant all privileges on smartfactory.* to 'devplayg'@'localhost';
-grant all privileges on facex.* to 'devplayg'@'localhost';
-flush privileges;
-</code></pre>
-
-<h3 id="호스트-이름-변경">호스트 이름 변경</h3>
+<h3 id="changing-host-name">Changing host name</h3>
 
 <pre><code>sudo hostnamectl set-hostname dpgserver
 sudo vi /etc/hosts    
+</code></pre>
+
+<h2 id="mplayer">MPlayer</h2>
+
+<p>Install</p>
+
+<pre><code>sudo apt install mplayer mplayer-fonts
+</code></pre>
+
+<p>Install GUI version</p>
+
+<pre><code>sudo apt install smplayer
 </code></pre>
 
   </div>

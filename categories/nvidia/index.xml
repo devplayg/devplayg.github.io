@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nvidia on Developer Playground</title>
+    <link>https://devplayg.com/categories/nvidia/</link>
+    <description>Recent content in nvidia on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jetson TX2 - Check system information</title>
+      <link>https://devplayg.com/ai/jetson-tx2_system-info/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
+      <description> System Info System info
+$ uname -a  OS
+$ cat /etc/lsb-release  Memory
+$ free -h  CPU
+$ cat /proc/cpuinfo  Disk
+$ df -h  </description>
+    </item>
+    
+    <item>
+      <title>Jetson TX2 tips</title>
+      <link>https://devplayg.com/ai/jetson-tx_tips/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/jetson-tx_tips/</guid>
+      <description> RTSP Viewer RTSP_PATH=rtsp://id:pwd@1.1.1.1:3000/Streaming/Channels/101/ gst-launch-1.0 rtspsrc location=&amp;quot;$RTSP_PATH&amp;quot; latency=500 ! rtph264depay ! h264parse ! nvv4l2decoder enable-max-performance=1 ! nvoverlaysink overlay-x=800 overlay-y=50 overlay-w=640 overlay-h=480 overlay=2  </description>
+    </item>
+    
+  </channel>
+</rss>

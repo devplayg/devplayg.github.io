@@ -48,7 +48,7 @@ file /tmp/file1.mp4 file /tmp/file2." />
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.4f73b90c708aa919fd48cb87879b0e1b32339ddcacc89fd5028ab5ced4d66893.css" integrity="sha256-T3O5DHCKqRn9SMuHh5sOGzIzndysyJ/VAoq1ztTWaJM=">
+<link rel="stylesheet" href="/scss/hyde-hyde.9aac51983edd94a811ab77df7bdffbd02250d986ea748a4f014b69d3fdca56b5.css" integrity="sha256-mqxRmD7dlKgRq3ffe9/70CJQ2YbqdIpPAUtp0/3KVrU=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -277,6 +277,11 @@ file /tmp/file3.mp4
 file /tmp/file4.mp4
 </code></pre>
 
+<h3 id="listing-split-files-and-merging-them">Listing split files and merging them</h3>
+
+<pre><code> ls -v *.mp4  | awk '{print &quot;file &quot;$1}' &gt; list.txt &amp;&amp; ffmpeg -f concat -i list.txt -c copy output.mp4
+</code></pre>
+
 <h3 id="cutting-video">Cutting video</h3>
 
 <p>00:00:00 ~ 00:00:05</p>
@@ -451,9 +456,9 @@ ffmpeg -f concat -safe 0 -i list.txt -c copy -f ssegment -segment_list index.m3u
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/" class="navigation-prev">
+    <a href="/tech/draft_cmder_tips/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle"> Ubuntu 18.04에서 Java jar를 Service로 실행하기</span>
+      <span class="navigation-tittle"></span>
     </a>
     
     

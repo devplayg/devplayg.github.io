@@ -6,10 +6,47 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get Linux System information on the Command line</title>
+      <link>https://devplayg.com/tech/linux_system-info/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/linux_system-info/</guid>
+      <description> System Info System info
+$ uname -a  OS
+$ cat /etc/lsb-release  Memory
+$ free -h  CPU
+$ cat /proc/cpuinfo  Disk
+$ df -h  </description>
+    </item>
+    
+    <item>
+      <title>Jetson TX2 - Check system information</title>
+      <link>https://devplayg.com/ai/jetson-tx2_system-info/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
+      <description> System Info System info
+$ uname -a  OS
+$ cat /etc/lsb-release  Memory
+$ free -h  CPU
+$ cat /proc/cpuinfo  Disk
+$ df -h  </description>
+    </item>
+    
+    <item>
+      <title>Jetson TX2 tips</title>
+      <link>https://devplayg.com/ai/jetson-tx_tips/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/jetson-tx_tips/</guid>
+      <description> RTSP Viewer RTSP_PATH=rtsp://id:pwd@1.1.1.1:3000/Streaming/Channels/101/ gst-launch-1.0 rtspsrc location=&amp;quot;$RTSP_PATH&amp;quot; latency=500 ! rtph264depay ! h264parse ! nvv4l2decoder enable-max-performance=1 ! nvoverlaysink overlay-x=800 overlay-y=50 overlay-w=640 overlay-h=480 overlay=2  </description>
+    </item>
     
     <item>
       <title>Installing and using CentOS 6.10 via Docker</title>
@@ -186,7 +223,8 @@ pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP $ vi /etc/netplan/01-netcfg.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.</description>
+      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
     </item>
     
     <item>
@@ -246,7 +284,9 @@ Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Overri
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description> Build gradlew bootjar  Run jar java -jar server-1.0.jar java -Dspring.profiles.active=server -jar myApp.jar  </description>
+      <description>Building gradlew bootjar  Running Normal
+java -jar client.jar  Profile: dev
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.</description>
     </item>
     
     <item>
@@ -478,7 +518,7 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Gr
       
       <guid>https://devplayg.com/tech/go_what-is-go/</guid>
       <description>Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
- 2007년에 Google은 Go의 디자인을 시작했고, 2009년에 공식적으로 공개함 초기 디자인부터 멀티코어, 네트워킹, 그리고 대형시스템에서 효율적으로 실행되도록 설계됨 정적 타이핑, 정적 런타임, 컴파일 언어임 가독성이 높고 사용하기 편함 고성능 네트워킹 및 멀티 프로세싱 처리에 적합함 C언어와 Syntax가 유사함 Garbage collection 기능이 있음,   Go의 아버지들 로버트 그리즈머 (Robert Griesemer)  Java hotspot compiler(JVM) 개발함 Chrome Javascript v8 엔진을 개발함  롭 파이크 (Rob Pike)  Plan 9 OS 개발함 UTF-8 을 아래 켄 톰슨과 같이 개발함 &amp;ldquo;Do not communicate by sharing memory; share memory by communicating.</description>
+&amp;ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
     </item>
     
     <item>
@@ -587,6 +627,40 @@ file /tmp/file1.mp4 file /tmp/file2.</description>
     </item>
     
     <item>
+      <title></title>
+      <link>https://devplayg.com/life/technical-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/life/technical-stack/</guid>
+      <description>Tech stacks rust go java spring framework spring boot jpa querydsl
+yaml json xml ini
+javascript jquery bootstrap css
+docker dockerfile dockerhub
+github tag branch
+ftp sftp ssh
+linux ubuntu centos</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devplayg.com/tech/draft_cmder_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_cmder_tips/</guid>
+      <description>alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devplayg.com/tech/draft_cpp-env-on-ubuntu-18.04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_cpp-env-on-ubuntu-18.04/</guid>
+      <description>docker run -it -v e:/cpphome:/cpphome -p 22:22 &amp;ndash;name cpp ubuntu:18.04 bash
+sed -i s#archive.ubuntu.com#mirror.kakao.com#g /etc/apt/sources.list apt update &amp;amp;&amp;amp; apt install -y vim net-tools inetutils-ping telnet curl openssh-server build-essential cmake autoconf automake gdb git libffi-dev zlib1g-dev libssl-dev echo &amp;ldquo;PermitRootLogin yes&amp;rdquo; &amp;gt;&amp;gt; /etc/ssh/sshd_config echo -e &amp;ldquo;3333\n3333\n&amp;rdquo; | passwd root service ssh start</description>
+    </item>
+    
+    <item>
       <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
       <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -594,6 +668,16 @@ file /tmp/file1.mp4 file /tmp/file2.</description>
       <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
       <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
 [Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.</description>
+    </item>
+    
+    <item>
+      <title>what a nice http server down</title>
+      <link>https://devplayg.com/tech/draft_go_http-server-down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_go_http-server-down/</guid>
+      <description>https://golang.org/pkg/net/http/#pkg-examples
+package main import ( &amp;quot;context&amp;quot; &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;os&amp;quot; &amp;quot;os/signal&amp;quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.</description>
     </item>
     
   </channel>

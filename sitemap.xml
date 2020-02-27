@@ -4,13 +4,100 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/linux_system-info/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/command/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/linux/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/linux/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/resource/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/jetson-tx2_system-info/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/jetson-tx_tips/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/nvidia-jetson/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/nvidia/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/nvidia/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,30 +125,6 @@
   <url>
     <loc>https://devplayg.com/tech/docker-container_etc/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/apache/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -101,12 +164,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/linux/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -121,12 +178,6 @@
   <url>
     <loc>https://devplayg.com/tags/os/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/tips/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,6 +304,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tech/highcharts_tips/</loc>
     <lastmod>2019-09-15T00:00:12+09:00</lastmod>
   </url>
@@ -307,12 +364,6 @@
   <url>
     <loc>https://devplayg.com/lifeart/2019_09_08-jisoo-by-jisoo/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/ai/</loc>
-    <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -390,13 +441,13 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
+    <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-28T13:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tags/spring-boot/</loc>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
     <lastmod>2019-08-28T13:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -477,12 +528,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/get/</loc>
-    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1473,6 +1518,21 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/life/technical-stack/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/draft_cmder_tips/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/draft_cpp-env-on-ubuntu-18.04/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</loc>
   </url>
   
@@ -1499,6 +1559,10 @@
   <url>
     <loc>https://devplayg.com/tags/systemd/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/draft_go_http-server-down/</loc>
   </url>
   
 </urlset>

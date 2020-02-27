@@ -6,10 +6,19 @@
     <description>Recent content in Series on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NVIDIA Jetson</title>
+      <link>https://devplayg.com/series/nvidia-jetson/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/series/nvidia-jetson/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Docker</title>

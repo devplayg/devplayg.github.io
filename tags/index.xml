@@ -6,17 +6,53 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>apache</title>
-      <link>https://devplayg.com/tags/apache/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+      <title>command</title>
+      <link>https://devplayg.com/tags/command/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devplayg.com/tags/apache/</guid>
+      <guid>https://devplayg.com/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/tags/linux/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resource</title>
+      <link>https://devplayg.com/tags/resource/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tags/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jetson TX2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvidia</title>
+      <link>https://devplayg.com/tags/nvidia/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/nvidia/</guid>
       <description></description>
     </item>
     
@@ -62,15 +98,6 @@
       <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/tags/linux/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -300,7 +327,7 @@
     </item>
     
     <item>
-      <title>spring boot</title>
+      <title>Spring Boot</title>
       <link>https://devplayg.com/tags/spring-boot/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       

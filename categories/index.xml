@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/categories/linux/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvidia</title>
+      <link>https://devplayg.com/categories/nvidia/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/nvidia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>docker</title>
@@ -17,15 +35,6 @@
       <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://devplayg.com/categories/tips/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/tips/</guid>
       <description></description>
     </item>
     
@@ -62,6 +71,15 @@
       <pubDate>Thu, 31 Oct 2019 15:13:27 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://devplayg.com/categories/tips/</link>
+      <pubDate>Thu, 31 Oct 2019 15:13:27 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/tips/</guid>
       <description></description>
     </item>
     
@@ -161,15 +179,6 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/command-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/categories/linux/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/linux/</guid>
       <description></description>
     </item>
     

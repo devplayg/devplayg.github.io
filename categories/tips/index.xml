@@ -6,52 +6,10 @@
     <description>Recent content in tips on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 15:13:27 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Installing and using CentOS 6.10 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
-      <description>Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host</description>
-    </item>
-    
-    <item>
-      <title>Installing and using MariaDB 10.3 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
-      <description>https://hub.docker.com/_/mariadb
-Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.</description>
-    </item>
-    
-    <item>
-      <title>Installing and using Ubuntu 18.04 via Docker</title>
-      <link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
-      <description>Pulling and run image in general
-docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host</description>
-    </item>
-    
-    <item>
-      <title>Installing and using other containers via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_etc/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_etc/</guid>
-      <description> Pulling and run image Apache 2.4
-docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  </description>
-    </item>
     
     <item>
       <title>PostgreSQL tips</title>
@@ -68,18 +26,8 @@ docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ 
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP $ vi /etc/netplan/01-netcfg.yaml --- network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.</description>
-    </item>
-    
-    <item>
-      <title>Openssl, ROOT CA 인증서 생성</title>
-      <link>https://devplayg.com/tech/openssl_generate-cert/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/openssl_generate-cert/</guid>
-      <description>CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.</description>
+      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
     </item>
     
     <item>
@@ -88,7 +36,9 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description> Build gradlew bootjar  Run jar java -jar server-1.0.jar java -Dspring.profiles.active=server -jar myApp.jar  </description>
+      <description>Building gradlew bootjar  Running Normal
+java -jar client.jar  Profile: dev
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.</description>
     </item>
     
     <item>
