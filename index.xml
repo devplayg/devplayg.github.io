@@ -627,40 +627,6 @@ file /tmp/file1.mp4 file /tmp/file2.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://devplayg.com/life/technical-stack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/life/technical-stack/</guid>
-      <description>Tech stacks rust go java spring framework spring boot jpa querydsl
-yaml json xml ini
-javascript jquery bootstrap css
-docker dockerfile dockerhub
-github tag branch
-ftp sftp ssh
-linux ubuntu centos</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://devplayg.com/tech/draft_cmder_tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tech/draft_cmder_tips/</guid>
-      <description>alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://devplayg.com/tech/draft_cpp-env-on-ubuntu-18.04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tech/draft_cpp-env-on-ubuntu-18.04/</guid>
-      <description>docker run -it -v e:/cpphome:/cpphome -p 22:22 &amp;ndash;name cpp ubuntu:18.04 bash
-sed -i s#archive.ubuntu.com#mirror.kakao.com#g /etc/apt/sources.list apt update &amp;amp;&amp;amp; apt install -y vim net-tools inetutils-ping telnet curl openssh-server build-essential cmake autoconf automake gdb git libffi-dev zlib1g-dev libssl-dev echo &amp;ldquo;PermitRootLogin yes&amp;rdquo; &amp;gt;&amp;gt; /etc/ssh/sshd_config echo -e &amp;ldquo;3333\n3333\n&amp;rdquo; | passwd root service ssh start</description>
-    </item>
-    
-    <item>
       <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
       <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -668,16 +634,6 @@ sed -i s#archive.ubuntu.com#mirror.kakao.com#g /etc/apt/sources.list apt update 
       <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
       <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
 [Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.</description>
-    </item>
-    
-    <item>
-      <title>what a nice http server down</title>
-      <link>https://devplayg.com/tech/draft_go_http-server-down/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tech/draft_go_http-server-down/</guid>
-      <description>https://golang.org/pkg/net/http/#pkg-examples
-package main import ( &amp;quot;context&amp;quot; &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;os&amp;quot; &amp;quot;os/signal&amp;quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.</description>
     </item>
     
   </channel>
