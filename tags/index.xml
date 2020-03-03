@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://devplayg.com/tags/c&#43;&#43;/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heartbeat</title>
+      <link>https://devplayg.com/tags/heartbeat/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/heartbeat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/tags/linux/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>command</title>
@@ -17,15 +44,6 @@
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://devplayg.com/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/tags/linux/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -327,7 +345,7 @@
     </item>
     
     <item>
-      <title>spring boot</title>
+      <title>Spring Boot</title>
       <link>https://devplayg.com/tags/spring-boot/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       

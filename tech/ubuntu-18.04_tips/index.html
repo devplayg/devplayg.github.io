@@ -22,11 +22,11 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ubuntu 18.04 tips"/>
-<meta name="twitter:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+<meta name="twitter:description" content="Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
 network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network"/>
 
 <meta property="og:title" content="Ubuntu 18.04 tips" />
-<meta property="og:description" content="Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+<meta property="og:description" content="Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
 network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/ubuntu-18.04_tips/" />
@@ -262,8 +262,7 @@ network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.2
 
 <h3 id="check-network-interfaces">Check network interfaces</h3>
 
-<pre><code>ls /sys/class/net
----
+<pre><code class="language-sh">$ ls /sys/class/net
 eno1  eno2  lo
 </code></pre>
 
@@ -287,7 +286,13 @@ eno1  eno2  lo
 
 <p>Restart network</p>
 
-<pre><code>sudo netplan apply
+<pre><code>$ sudo netplan apply
+</code></pre>
+
+<h3 id="sudoers-file-enable-nopasswd-for-user-all-commands">Sudoers file, enable NOPASSWD for user, all commands</h3>
+
+<pre><code>$ sudo visudo -f /etc/sudoers.d/myOverrides 
+YOUR_USERNAME  ALL=NOPASSWD: ALL
 </code></pre>
 
 <h3 id="ufw">UFW</h3>

@@ -6,10 +6,20 @@
     <description>Recent content in Tech on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compiling C&#43;&#43; on Linux</title>
+      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
+#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
+    </item>
     
     <item>
       <title>Get Linux System information on the Command line</title>
@@ -121,7 +131,9 @@ evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Jso
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
-      <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
+      <description>LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.</description>
     </item>
     
     <item>
@@ -139,7 +151,7 @@ evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Jso
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+      <description>Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
 network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
     </item>
     

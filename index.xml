@@ -6,10 +6,29 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compiling C&#43;&#43; on Linux</title>
+      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
+#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
+    </item>
+    
+    <item>
+      <title>Something making my heart beat</title>
+      <link>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</guid>
+      <description>Movies I can watch again and again  Little Miss Sunshine Samurai Champloo 24 The Equalizer 나의 아저씨 Game of Thrones 응답하라 1988 American Gangster Gladiator Love Actually Indiana Jones  Actors  Denzel Washington Russell Crowe 오나라 오정세  Music  Beatles - Let it be Billy Joel - She&amp;rsquo;s Always A Woman Billy Joel - Piano Man Bob Marley - No Waman No Cry Bobby McFerrin - Don&amp;rsquo;t Worry be happy Brian Kennedy - Crazy Love Cassandra Wilson - Fragile CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version) Charlie Hunter - No Woman No Cry Chie Ayado - Leaving On A Jet Plane Chie Ayado - Let It Be Eagles - Hotel California (Live) Earth, Wind and Fire - September George Michael - Star People - Unplugged Gregory Porter - Musical Genocide (Live) Jason Mraz - Everything Is Sound Justin Bieber - Love Yourself Kirk Franklin - Blessing in the storm Lionel Richie - Easy Los Lobos - Donna Los Lobos - El Gusto Mariah Carey - Dreamlover Marianne Faithful - Madame George Mark Ronson - Uptown Funk (Feat.</description>
+    </item>
     
     <item>
       <title>Get Linux System information on the Command line</title>
@@ -31,12 +50,9 @@ $ df -h  </description>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
-      <description> System Info System info
-$ uname -a  OS
-$ cat /etc/lsb-release  Memory
-$ free -h  CPU
-$ cat /proc/cpuinfo  Disk
-$ df -h  </description>
+      <description>System Info System info
+$ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
+$ cat /etc/lsb-release  Memory</description>
     </item>
     
     <item>
@@ -183,7 +199,9 @@ pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
-      <description>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</description>
+      <description>LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.</description>
     </item>
     
     <item>
@@ -223,7 +241,7 @@ pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces ls /sys/class/net --- eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+      <description>Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
 network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
     </item>
     

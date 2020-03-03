@@ -17,29 +17,21 @@
     
     
 
-<title>Get Linux System information on the Command line • Developer Playground</title>
+<title>Compiling C&#43;&#43; on Linux • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Get Linux System information on the Command line"/>
-<meta name="twitter:description" content=" System Info System info
-$ uname -a  OS
-$ cat /etc/lsb-release  Memory
-$ free -h  CPU
-$ cat /proc/cpuinfo  Disk
-$ df -h  "/>
+<meta name="twitter:title" content="Compiling C&#43;&#43; on Linux"/>
+<meta name="twitter:description" content="Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
+#include &lt;iostream&gt; int main() { std::cout &lt;&lt; &quot;Hello World\n&quot;; }  $ g&#43;&#43; -o hello hello."/>
 
-<meta property="og:title" content="Get Linux System information on the Command line" />
-<meta property="og:description" content=" System Info System info
-$ uname -a  OS
-$ cat /etc/lsb-release  Memory
-$ free -h  CPU
-$ cat /proc/cpuinfo  Disk
-$ df -h  " />
+<meta property="og:title" content="Compiling C&#43;&#43; on Linux" />
+<meta property="og:description" content="Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
+#include &lt;iostream&gt; int main() { std::cout &lt;&lt; &quot;Hello World\n&quot;; }  $ g&#43;&#43; -o hello hello." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/linux_system-info/" />
-<meta property="article:published_time" content="2020-02-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-02-27T00:00:00+00:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/tech/draft_cpp-on-linux/" />
+<meta property="article:published_time" content="2020-03-03T00:00:00+09:00" />
+<meta property="article:modified_time" content="2020-03-03T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -208,11 +200,11 @@ $ df -h  " />
     
 <article>
   <header>
-    <h1 class="post__title">Get Linux System information on the Command line
+    <h1 class="post__title">Compiling C&#43;&#43; on Linux
         <small>
         
         
-            <span class="post__date">Thu, Feb 27, 2020</span>
+            <span class="post__date">Tue, Mar 3, 2020</span>
         
         </small>
     </h1>
@@ -224,7 +216,7 @@ $ df -h  " />
         
             
             
-                <a class="badge badge-category" href="/categories/linux">linux</a>
+                <a class="badge badge-category" href="/categories/programming-language">programming language</a>
             
         
     
@@ -235,13 +227,10 @@ $ df -h  " />
         
             
             
+                <a class="badge badge-tag" href="/tags/c&#43;&#43;">c&#43;&#43;</a>
+                 
+            
                 <a class="badge badge-tag" href="/tags/linux">linux</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/command">command</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/resource">resource</a>
                 
             
         
@@ -269,31 +258,41 @@ $ df -h  " />
   <div class="post">
     
 
-<h2 id="system-info">System Info</h2>
+<h2 id="checking-glibc-version-on-linux-system">Checking <code>GLIBC</code> version on Linux system</h2>
 
-<p>System info</p>
-
-<pre><code>$ uname -a
+<pre><code class="language-bash">$ ldd --version
+ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27
 </code></pre>
 
-<p>OS</p>
+<h2 id="hello-world">Hello World</h2>
 
-<pre><code>$ cat /etc/lsb-release 
+<p>hello.cpp</p>
+
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+
+int main() {
+    std::cout &lt;&lt; &quot;Hello World\n&quot;;
+}
 </code></pre>
 
-<p>Memory</p>
-
-<pre><code>$ free -h
+<pre><code class="language-cpp">$ g++ -o hello hello.cpp &amp;&amp; ./hello
+Hello World
 </code></pre>
 
-<p>CPU</p>
+<p>Hello World with namespace</p>
 
-<pre><code>$ cat /proc/cpuinfo 
+<pre><code class="language-c++">#include &lt;iostream&gt;
+
+using namespace std;
+
+int main(void) {
+    cout &lt;&lt; &quot;Hello World\n&quot;;
+    return 0;
+}
 </code></pre>
 
-<p>Disk</p>
-
-<pre><code>$ df -h
+<pre><code>$ g++ -o hello hello_namespace.cpp &amp;&amp; ./hello
+Hello World
 </code></pre>
 
   </div>
@@ -302,16 +301,11 @@ $ df -h  " />
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/docker-container_centos-6.10/" class="navigation-prev">
+    <a href="/tech/linux_system-info/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Installing and using CentOS 6.10 via Docker</span>
+      <span class="navigation-tittle">Get Linux System information on the Command line</span>
     </a>
     
-    
-    <a href="/tech/draft_cpp-on-linux/" class="navigation-next">
-      <span class="navigation-tittle">Compiling C&#43;&#43; on Linux</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

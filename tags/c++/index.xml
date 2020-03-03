@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c&#43;&#43; on Developer Playground</title>
+    <link>https://devplayg.com/tags/c&#43;&#43;/</link>
+    <description>Recent content in c&#43;&#43; on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compiling C&#43;&#43; on Linux</title>
+      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
+#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
+    </item>
+    
+  </channel>
+</rss>

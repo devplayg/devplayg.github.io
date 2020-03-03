@@ -22,10 +22,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Handling timezone in Spring Boot"/>
-<meta name="twitter:description" content="JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다."/>
+<meta name="twitter:description" content="LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674&#43;09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355&#43;09:00[Asia/Seoul] LocalDateTime."/>
 
 <meta property="og:title" content="Handling timezone in Spring Boot" />
-<meta property="og:description" content="JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다." />
+<meta property="og:description" content="LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674&#43;09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355&#43;09:00[Asia/Seoul] LocalDateTime." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/spring_boot-handling-timezone/" />
 <meta property="article:published_time" content="2019-08-28T13:00:00+09:00" />
@@ -254,9 +258,27 @@
 
 
   <div class="post">
-    <p><img src="timezone.png"></p>
+    <p><code>LocalDateTime</code> vs <code>ZonedDateTime</code></p>
 
-<p>JPA를 사용하다 보니, 시간변환에 대한 정리가 필요하여 작성했다.</p>
+<ul>
+<li>LocalDateTime: Time based on system timezone</li>
+
+<li><p>ZonedDateTime: Time based on system or user-defined timezone</p>
+
+<pre><code class="language-java">LocalDateTime.now();                                 // 2020-03-02T06:48:56.623993
+ZonedDateTime.now();                                 // 2020-03-02T06:48:56.616338Z[Etc/UTC]
+
+ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul]
+ZonedDateTime.now(memberZone);                       // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul]
+LocalDateTime.now(memberZone);                       // 2020-03-02T15:48:56.625316
+</code></pre></li>
+
+<li><p>memberZone = Asia/Seoul</p></li>
+
+<li><p>System = UTC</p></li>
+</ul>
+
+<p><img src="timezone.png"></p>
 
   </div>
     
