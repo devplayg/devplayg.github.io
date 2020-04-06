@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-03-03T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-04-06T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -200,6 +200,95 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/ai/gmf_installation-on-ubuntu-18.04/" >Go-Media-Framework installation on Ubuntu 18.04</a>
+        </span>
+        <span class="item__date">
+          Sun, Sep 1, 2019
+        </span>
+        <span >
+        
+         Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
+pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/spring_boot-handling-timezone/" >Handling timezone in Spring Boot</a>
+        </span>
+        <span class="item__date">
+          Wed, Aug 28, 2019
+        </span>
+        <span >
+        
+        LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/spring_boot-handling-timezone/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-08-28_snake-ladder-game/" >아이들과 함께 하는 뱀사다리 게임</a>
+        </span>
+        <span class="item__date">
+          Wed, Aug 28, 2019
+        </span>
+        <span >
+        
+        지수가 얼마전, 하얀 종이에 뱀사다리 게임을 그려서 나에게 가져왔다.
+주사위를 굴려서, 나온 수만큼 이동하는데, 뱀을 만나면 미끄러지는 그런 게임인 것 같았다.
+좀 갖춰서 만들면 재미있을 것 같아서 엑셀로 만들어봤다.
+결과는 대성공.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-08-28_snake-ladder-game/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-07-25_refactoring/" >코드 리팩토링을 통해 얻은 것들</a>
+        </span>
+        <span class="item__date">
+          Wed, Aug 28, 2019
+        </span>
+        <span >
+        
+        요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
+함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-07-25_refactoring/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/curl_tips/" >CURL tips</a>
         </span>
         <span class="item__date">
@@ -327,91 +416,6 @@ keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -v
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/java_lambda/" >Java Lambda</a>
-        </span>
-        <span class="item__date">
-          Thu, Jul 25, 2019
-        </span>
-        <span >
-        
-        Before using lamda
-Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/java_lambda/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/tips_spring-boot-dist/" >Sprint Boot tips</a>
-        </span>
-        <span class="item__date">
-          Thu, Jul 25, 2019
-        </span>
-        <span >
-        
-        Building gradlew bootjar  Running Normal
-java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/tips_spring-boot-dist/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/thymeleaf_tips/" >Thymeleaf tips</a>
-        </span>
-        <span class="item__date">
-          Thu, Jul 25, 2019
-        </span>
-        <span >
-        
-        A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {'netgloo', 'web', 'design'} } &lt;div th:with=&quot;strList = ${ {'netgloo', 'web', 'design'} }&quot;&gt; &lt;ul&gt; &lt;li th:each=&quot;s : ${strList}&quot; th:text=&quot;|${s}|&quot;&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;  Locales  &lt;div th:text=&quot;${#locale.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/thymeleaf_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/lifeart/2019-06-26_dad/" >아빠는 이렇게 생겼어요 (My dad looks like this)</a>
-        </span>
-        <span class="item__date">
-          Wed, Jun 26, 2019
-        </span>
-        <span >
-        
-        지수가 드디어 아빠 그림도 그려줬다. ㅎㅎㅎ (내가 이렇게 생겼군 ^^; 흠..)
-        
-        </span>
-        
-        </div>
-        
-     
   </div>
   
 
@@ -489,7 +493,16 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
         
     
     
-    <li class="page-item"><a class="page-link" href="/page/6/">6</a></li>
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/7/">7</a></li>
     
     
     <li class="page-item">
@@ -497,7 +510,7 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
     </li>
     
     <li class="page-item">
-        <a href="/page/6/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/7/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

@@ -6,17 +6,74 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CMDER tips</title>
+      <link>https://devplayg.com/tech/cmder_tips/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/cmder_tips/</guid>
+      <description>find command
+alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*  </description>
+    </item>
+    
+    <item>
+      <title>가끔일기 - 2020년 4월초</title>
+      <link>https://devplayg.com/life/2020-04-05_diary/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-05_diary/</guid>
+      <description>요즘 평일  근무시간: Go, Java 로 설계 꼼꼼히, 신속히 업무 처리 점심시간: 식후 배그모바일 2~3판 근무 외 시간: Go 코드 리펙토링, 기술 테스트 자기 전: 지산이/지수한테 골탕먹어주고, 간지럽히기 자기 전: 구현 설계 (하다보면 자게 됨)  요즘 주말  주말: Go 코드 리팩토링, 기술 테스트 지산이 지수랑 놀아주기 (고객이 OK 할 때까지)  뭉다덩가생강추  어느날 7살 지수가 화났을 때, 지수가 스케치북에 비장하게 쓴 문구 의미심장 했음.</description>
+    </item>
+    
+    <item>
+      <title>나의 요리비결</title>
+      <link>https://devplayg.com/life/2020-04-06_cookbook/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-06_cookbook/</guid>
+      <description> 파절이  파 2대 진간장 3T 식초 2T 고추가루 1~2T 설탕 1T 다진마늘 1T 비비고 비비고 참기름 1T 통깨 느낌대로  </description>
+    </item>
+    
+    <item>
+      <title>맛집 DB</title>
+      <link>https://devplayg.com/life/2020-04-06_best-restaurant/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-06_best-restaurant/</guid>
+      <description> 판교  진진반상 천지연  수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타  </description>
+    </item>
+    
+    <item>
+      <title>Cuda version check</title>
+      <link>https://devplayg.com/tech/cuda_check-version/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/cuda_check-version/</guid>
+      <description>Check the CUDA version:
+$ nvcc --version  </description>
+    </item>
+    
+    <item>
+      <title>DeepStream Debug Mode</title>
+      <link>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</guid>
+      <description>Enter this command
+$ deepstream-app -c &amp;lt;config&amp;gt; --gst-debug=&amp;lt;debug#&amp;gt;   &amp;lt;config&amp;gt; is the pathname of the configuration file &amp;lt;debug#&amp;gt; is a number specifying the amount of detail in the debugging output  </description>
+    </item>
+    
+    <item>
       <title>Compiling C&#43;&#43; on Linux</title>
-      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <link>https://devplayg.com/tech/cpp_compiling-on-linux/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <guid>https://devplayg.com/tech/cpp_compiling-on-linux/</guid>
       <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
 #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
     </item>
@@ -52,7 +109,7 @@ $ df -h  </description>
       <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
       <description>System Info System info
 $ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
-$ cat /etc/lsb-release  Memory</description>
+$ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.</description>
     </item>
     
     <item>

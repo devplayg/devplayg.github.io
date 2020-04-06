@@ -6,10 +6,30 @@
     <description>Recent content in nvidia on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cuda version check</title>
+      <link>https://devplayg.com/tech/cuda_check-version/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/cuda_check-version/</guid>
+      <description>Check the CUDA version:
+$ nvcc --version  </description>
+    </item>
+    
+    <item>
+      <title>DeepStream Debug Mode</title>
+      <link>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</guid>
+      <description>Enter this command
+$ deepstream-app -c &amp;lt;config&amp;gt; --gst-debug=&amp;lt;debug#&amp;gt;   &amp;lt;config&amp;gt; is the pathname of the configuration file &amp;lt;debug#&amp;gt; is a number specifying the amount of detail in the debugging output  </description>
+    </item>
     
     <item>
       <title>Jetson TX2 - Check system information</title>
@@ -19,7 +39,7 @@
       <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
       <description>System Info System info
 $ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
-$ cat /etc/lsb-release  Memory</description>
+$ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.</description>
     </item>
     
     <item>

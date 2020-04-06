@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-03-03T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-04-06T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -200,6 +200,93 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/mozjpeg_image-optimizing/" >MozJPEG 를 활용한 JPEG 압축</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 16, 2019
+        </span>
+        <span >
+        
+        테스트 환경 Ubuntu 18.04 container on Docker
+필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/torrent_torrent-command-util/" >명령어로 토렌트 다운로드</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 16, 2019
+        </span>
+        <span >
+        
+        실행 환경 (Environment) Ubuntu 18.04
+소스 다운로드 (Clone the git repository) Torrent Library (https://github.com/anacrolix/torrent)
+$ go get github.com/anacrolix/torrent $ go get github.com/anacrolix/envpprof $ go get github.com/anacrolix/tagflag $ cd $GOPATH/src/github.com/anacrolix/torrent/cmd/torrent $ go build $ ls -l torrent -rwxr-xr-x 1 root root 17899680 Jun 14 00:55 torrent  토렌트 파일 다운로드 (Download .
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/torrent_torrent-command-util/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-06-12_changing/" >코딩 스타일의 변화</a>
+        </span>
+        <span class="item__date">
+          Wed, Jun 12, 2019
+        </span>
+        <span >
+        
+        요즘 코딩 스타일을 한 번 바꿔보고 있다. 그런데, 거기서 얻는 배움이 생각보다 크다. 최근 Java 의 Spring Boot 를 깊게 접하면서 &ldquo;우아한형제들&rdquo;이란 회사의 기술블로그를 유심히 보게 되었는데, 그 중 &ldquo;목적의식 있는 연습을 통한 효과적인 학습&rdquo; 포스트를 읽은게 그 동기이다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-06-12_changing/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2019-06-11_raggae/" >레게음악</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        나는 음악을 참 좋아한다. 힙합, 재즈, 보사노바, 가요, 올드팝 등, 좋아하는 음악 장르도 다양하다. 그 중 하나는 레게음악이다. 나는 레게음악이 참 좋다. 자마이카 사람도 아닌데 말이다. 오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2019-06-11_raggae/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/go_soring-slices/" >Sorting slices and user-defined collections in Go</a>
         </span>
         <span class="item__date">
@@ -324,96 +411,6 @@ package main import ( &quot;fmt&quot; &quot;sort&quot; ) type Grams int func (g 
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/mariadb_tips/" >Mariadb tips</a>
-        </span>
-        <span class="item__date">
-          Sat, Jun 8, 2019
-        </span>
-        <span >
-        
-        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/mariadb_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_what-is-go/" >Go 언어</a>
-        </span>
-        <span class="item__date">
-          Sat, Jun 8, 2019
-        </span>
-        <span >
-        
-        Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
-&ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_what-is-go/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_benchmark-test/" >Benchmarks with Go</a>
-        </span>
-        <span class="item__date">
-          Fri, Jun 7, 2019
-        </span>
-        <span >
-        
-        Benchmark test in Go hash_test.go
- Run code go test hash_test.go -bench .  Result
-goos: windows goarch: amd64 BenchmarkFNV32-8 3000000 415 ns/op BenchmarkFNV64-8 3000000 426 ns/op BenchmarkFNV128-8 3000000 428 ns/op BenchmarkMD5-8 2000000 589 ns/op BenchmarkSHA1-8 2000000 708 ns/op BenchmarkSHA224-8 2000000 883 ns/op BenchmarkSHA256-8 2000000 854 ns/op BenchmarkSHA512-8 2000000 991 ns/op PASS ok command-line-arguments 17.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/git_tips/" >Git tips</a>
-        </span>
-        <span class="item__date">
-          Fri, Jun 7, 2019
-        </span>
-        <span >
-        
-        Find and restore a deleted file in a Git repository Find
-git ls-files -d  Restore
-git checkout &lt;filename&gt;  Find &amp; restore
-git ls-files -d | xargs git checkout --  Branch Clone branch
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
-        
-        </div>
-        
-     
   </div>
   
 
@@ -494,12 +491,23 @@ git ls-files -d | xargs git checkout --  Branch Clone branch
     <li class="page-item"><a class="page-link" href="/page/6/">6</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/7/">7</a></li>
+    
+    
     <li class="page-item">
     <a href="/page/6/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/6/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/7/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deepstream on Developer Playground</title>
+    <link>https://devplayg.com/tags/deepstream/</link>
+    <description>Recent content in deepstream on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/deepstream/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DeepStream Debug Mode</title>
+      <link>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</guid>
+      <description>Enter this command
+$ deepstream-app -c &amp;lt;config&amp;gt; --gst-debug=&amp;lt;debug#&amp;gt;   &amp;lt;config&amp;gt; is the pathname of the configuration file &amp;lt;debug#&amp;gt; is a number specifying the amount of detail in the debugging output  </description>
+    </item>
+    
+  </channel>
+</rss>

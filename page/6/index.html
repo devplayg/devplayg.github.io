@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-03-03T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-04-06T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -200,6 +200,96 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/mariadb_tips/" >Mariadb tips</a>
+        </span>
+        <span class="item__date">
+          Sat, Jun 8, 2019
+        </span>
+        <span >
+        
+        Profiling SET GLOBAL general_log='ON'; SET GLOBAL slow_query_log='ON'; SET GLOBAL log_output='TABLE'; SELECT * FROM mysql.general_log; truncate table mysql.general_log;  Change date to today update table_name set date = DATE_ADD(date, INTERVAL DATEDIFF(NOW(), date) DAY);  Add account create user 'root'@'%' identified by 'YOURPASSWORD'; grant all privileges on *.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/mariadb_tips/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_what-is-go/" >Go 언어</a>
+        </span>
+        <span class="item__date">
+          Sat, Jun 8, 2019
+        </span>
+        <span >
+        
+        Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
+&ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_what-is-go/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_benchmark-test/" >Benchmarks with Go</a>
+        </span>
+        <span class="item__date">
+          Fri, Jun 7, 2019
+        </span>
+        <span >
+        
+        Benchmark test in Go hash_test.go
+ Run code go test hash_test.go -bench .  Result
+goos: windows goarch: amd64 BenchmarkFNV32-8 3000000 415 ns/op BenchmarkFNV64-8 3000000 426 ns/op BenchmarkFNV128-8 3000000 428 ns/op BenchmarkMD5-8 2000000 589 ns/op BenchmarkSHA1-8 2000000 708 ns/op BenchmarkSHA224-8 2000000 883 ns/op BenchmarkSHA256-8 2000000 854 ns/op BenchmarkSHA512-8 2000000 991 ns/op PASS ok command-line-arguments 17.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_benchmark-test/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/git_tips/" >Git tips</a>
+        </span>
+        <span class="item__date">
+          Fri, Jun 7, 2019
+        </span>
+        <span >
+        
+        Find and restore a deleted file in a Git repository Find
+git ls-files -d  Restore
+git checkout &lt;filename&gt;  Find &amp; restore
+git ls-files -d | xargs git checkout --  Branch Clone branch
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/git_tips/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/docker_tips/" >Docker tips</a>
         </span>
         <span class="item__date">
@@ -319,76 +409,6 @@ Please tell me who you are.  iam := []byte(&rdquo;devplayg&rdquo;) Software engi
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/music/music_2018-awards/" >2018 Music Awards</a>
-        </span>
-        <span class="item__date">
-          Sun, Mar 3, 2019
-        </span>
-        <span >
-        
-        Bruno Mars - 24k Magic
-Bruno Mars - Thats What I Like
-Bruno Mars - The Lazy Song (Single Version)
-Eric Clapton - I Shot The Sheriff (Live)
-Fitz &amp; The Tantrums - HandClap
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/music/music_2018-awards/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/ffmpeg_tips/" >FFmpeg tips</a>
-        </span>
-        <span class="item__date">
-          Tue, Jan 22, 2019
-        </span>
-        <span >
-        
-        A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating video files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-file /tmp/file1.mp4 file /tmp/file2.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/ffmpeg_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/" > Ubuntu 18.04에서 Java jar를 Service로 실행하기</a>
-        </span>
-        <span class="item__date">
-          Mon, Jan 1, 0001
-        </span>
-        <span >
-        
-        Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
-[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/">➦</a>
-        
-        </div>
-        
-     
   </div>
   
 
@@ -469,12 +489,23 @@ file /tmp/file1.mp4 file /tmp/file2.
     <li class="page-item active"><a class="page-link" href="/page/6/">6</a></li>
     
     
-    <li class="page-item disabled">
-    <a href="" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/7/">7</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/page/7/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/6/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/7/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

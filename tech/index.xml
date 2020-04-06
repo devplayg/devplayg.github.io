@@ -6,17 +6,37 @@
     <description>Recent content in Tech on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CMDER tips</title>
+      <link>https://devplayg.com/tech/cmder_tips/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/cmder_tips/</guid>
+      <description>find command
+alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*  </description>
+    </item>
+    
+    <item>
+      <title>Cuda version check</title>
+      <link>https://devplayg.com/tech/cuda_check-version/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/cuda_check-version/</guid>
+      <description>Check the CUDA version:
+$ nvcc --version  </description>
+    </item>
+    
+    <item>
       <title>Compiling C&#43;&#43; on Linux</title>
-      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <link>https://devplayg.com/tech/cpp_compiling-on-linux/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <guid>https://devplayg.com/tech/cpp_compiling-on-linux/</guid>
       <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
 #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
     </item>

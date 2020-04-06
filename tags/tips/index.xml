@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on Developer Playground</title>
+    <link>https://devplayg.com/tags/tips/</link>
+    <description>Recent content in tips on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CURL tips</title>
+      <link>https://devplayg.com/tech/curl_tips/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/curl_tips/</guid>
+      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
+    </item>
+    
+  </channel>
+</rss>

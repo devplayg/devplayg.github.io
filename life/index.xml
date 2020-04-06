@@ -6,10 +6,37 @@
     <description>Recent content in Life on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>가끔일기 - 2020년 4월초</title>
+      <link>https://devplayg.com/life/2020-04-05_diary/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-05_diary/</guid>
+      <description>요즘 평일  근무시간: Go, Java 로 설계 꼼꼼히, 신속히 업무 처리 점심시간: 식후 배그모바일 2~3판 근무 외 시간: Go 코드 리펙토링, 기술 테스트 자기 전: 지산이/지수한테 골탕먹어주고, 간지럽히기 자기 전: 구현 설계 (하다보면 자게 됨)  요즘 주말  주말: Go 코드 리팩토링, 기술 테스트 지산이 지수랑 놀아주기 (고객이 OK 할 때까지)  뭉다덩가생강추  어느날 7살 지수가 화났을 때, 지수가 스케치북에 비장하게 쓴 문구 의미심장 했음.</description>
+    </item>
+    
+    <item>
+      <title>나의 요리비결</title>
+      <link>https://devplayg.com/life/2020-04-06_cookbook/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-06_cookbook/</guid>
+      <description> 파절이  파 2대 진간장 3T 식초 2T 고추가루 1~2T 설탕 1T 다진마늘 1T 비비고 비비고 참기름 1T 통깨 느낌대로  </description>
+    </item>
+    
+    <item>
+      <title>맛집 DB</title>
+      <link>https://devplayg.com/life/2020-04-06_best-restaurant/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2020-04-06_best-restaurant/</guid>
+      <description> 판교  진진반상 천지연  수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타  </description>
+    </item>
     
     <item>
       <title>Something making my heart beat</title>

@@ -6,17 +6,35 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>cmder</title>
+      <link>https://devplayg.com/categories/cmder/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/cmder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>life</title>
       <link>https://devplayg.com/categories/life/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://devplayg.com/categories/ai/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/ai/</guid>
       <description></description>
     </item>
     
@@ -147,15 +165,6 @@
     </item>
     
     <item>
-      <title>ai</title>
-      <link>https://devplayg.com/categories/ai/</link>
-      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>compile</title>
       <link>https://devplayg.com/categories/compile/</link>
       <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
@@ -185,7 +194,7 @@
     <item>
       <title>command-line</title>
       <link>https://devplayg.com/categories/command-line/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/command-line/</guid>
       <description></description>

@@ -3,43 +3,223 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devplayg.com/tech/cmder_tips/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/tech/draft_cpp-on-linux/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/life/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/cmder/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/cookbook/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/diary/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/foot/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/life/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/restaurant/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/utils/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/weekday/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/weekend/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/life/2020-04-05_diary/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EA%B0%9C%EC%B7%A8%EB%A7%9B%EC%A7%91/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/life/2020-04-06_cookbook/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EB%8F%BC%EC%A7%80%EA%B0%88%EB%B9%84/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EB%A7%9B%EC%A7%91/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/life/2020-04-06_best-restaurant/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EB%B3%B6%EC%9D%8C%EB%B0%A5/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%95%84%EA%B5%AC%EC%B0%9C/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%A7%84%EC%A7%9C%EB%A7%9B%EC%A7%91/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%B9%BC%EA%B5%AD%EC%88%98/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%ED%8C%8C%EC%A0%88%EC%9D%B4/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/cuda_check-version/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/ai/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/cuda/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/cuda-version-check/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/deepstream/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/deepstream-debug/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/nvidia/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/cpp_compiling-on-linux/</loc>
+    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</loc>
+    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -50,12 +230,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/heartbeat/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/life/</loc>
     <lastmod>2020-03-03T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,18 +270,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/ai/</loc>
-    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
-    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/ai/jetson-tx2_system-info/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
   </url>
@@ -131,12 +293,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/nvidia/</loc>
-    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/nvidia/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -440,12 +596,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/ai/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/ai/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -549,12 +699,6 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/command-line/</loc>
-    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tags/get/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -562,6 +706,12 @@
   
   <url>
     <loc>https://devplayg.com/tags/post/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/tips/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -591,6 +741,12 @@
   <url>
     <loc>https://devplayg.com/tech/openssl_generate-cert/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/command-line/</loc>
+    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

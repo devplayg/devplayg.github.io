@@ -13,10 +13,10 @@
     
     <item>
       <title>Compiling C&#43;&#43; on Linux</title>
-      <link>https://devplayg.com/tech/draft_cpp-on-linux/</link>
+      <link>https://devplayg.com/tech/cpp_compiling-on-linux/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tech/draft_cpp-on-linux/</guid>
+      <guid>https://devplayg.com/tech/cpp_compiling-on-linux/</guid>
       <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
 #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
     </item>
