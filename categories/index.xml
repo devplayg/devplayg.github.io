@@ -6,10 +6,55 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>programming language</title>
+      <link>https://devplayg.com/categories/programming-language/</link>
+      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storage</title>
+      <link>https://devplayg.com/categories/storage/</link>
+      <pubDate>Sun, 24 May 2020 09:00:01 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://devplayg.com/categories/docker/</link>
+      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>https://devplayg.com/categories/installation/</link>
+      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://devplayg.com/categories/linux/</link>
+      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cmder</title>
@@ -39,38 +84,11 @@
     </item>
     
     <item>
-      <title>programming language</title>
-      <link>https://devplayg.com/categories/programming-language/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/programming-language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://devplayg.com/categories/linux/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>nvidia</title>
       <link>https://devplayg.com/categories/nvidia/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/nvidia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://devplayg.com/categories/docker/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/docker/</guid>
       <description></description>
     </item>
     

@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-04-06T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-05-24T09:00:04+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -39,7 +39,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.216d76e7ce71c2d698bc156a43f0e3a49a4f90643234efa894c0378d3c286094.css" integrity="sha256-IW12585xwtaYvBVqQ/DjpJpPkGQyNO&#43;olMA3jTwoYJQ=">
+<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" integrity="sha256-fQ6xFX9t7wBqTtl13I1GDsMs9hicZfb2cfl&#43;zK5oajU=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -200,6 +200,117 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/ubuntu-18.04_tips/" >Ubuntu 18.04 tips</a>
+        </span>
+        <span class="item__date">
+          Mon, Aug 19, 2019
+        </span>
+        <span >
+        
+        Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
+network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/ubuntu-18.04_tips/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/vxg-server_installation-on-ubuntu/" >Ubuntu 18.04, VXG Video Server 설치</a>
+        </span>
+        <span class="item__date">
+          Sat, Aug 10, 2019
+        </span>
+        <span >
+        
+        설치 버전  Ubuntu: 18.04 LTS VXG Server: 1.3.293 (2019-July-04)  영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/vxg-server_installation-on-ubuntu/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/vxg-server_installation-on-windows/" >Windows 10, VXG Video Server 설치</a>
+        </span>
+        <span class="item__date">
+          Sat, Aug 10, 2019
+        </span>
+        <span >
+        
+        VXG Server 다운로드 Download
+HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
+$ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/vxg-server_installation-on-windows/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/openssl_generate-cert/" >Openssl, ROOT CA 인증서 생성</a>
+        </span>
+        <span class="item__date">
+          Fri, Aug 9, 2019
+        </span>
+        <span >
+        
+        CA가 사용할 RSA Key 생성 암호가 불필요한 경우
+openssl genrsa -out private.key 2048  암호를 설정할 경우
+openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/openssl_generate-cert/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/spring-boot_ssl/" >Spring Boot, SSL 인증서 만들기</a>
+        </span>
+        <span class="item__date">
+          Fri, Aug 2, 2019
+        </span>
+        <span >
+        
+        Step 1. Key store 생성 비밀번호: devplayg
+keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650  Step 2. 인증서 생성 keytool -export -alias sb201 -storepass devplayg -file sb201.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/spring-boot_ssl/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/java_lambda/" >Java Lambda</a>
         </span>
         <span class="item__date">
@@ -295,108 +406,6 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
         지수가 엄마와 뱃속에 있는 자기 그림도 그렸다. 엄마 배가 조금 볼록한 이유가, 자기가 들어있어서란다. 대단한 디테일이다. 부모들이 다들 자기 딸은 천재인줄 안다는데, 나도 그렇다. 지수는 그림 천재인 것 같다.
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/lifeart/2019-06-24_brother/" >개구쟁이 오빠 (Brother)</a>
-        </span>
-        <span class="item__date">
-          Mon, Jun 24, 2019
-        </span>
-        <span >
-        
-        
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/lifeart/2019-06-24_the-little-mermaid/" >인어공주 시리즈(The Little Mermaid Series)</a>
-        </span>
-        <span class="item__date">
-          Mon, Jun 24, 2019
-        </span>
-        <span >
-        
-        
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/music/2019-06-22_supermand-still-fighting-it/" >슈퍼밴드, Still Fighting It</a>
-        </span>
-        <span class="item__date">
-          Sat, Jun 22, 2019
-        </span>
-        <span >
-        
-        처음 듣는 곡인데, 들으면서 마음도 울고 눈도 울었다.
-슈퍼밴드, 정말 멋진 프로그램이다.
-Still fighting it
-  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_duplicate-file-finder/" >Duplicate file finder in Go</a>
-        </span>
-        <span class="item__date">
-          Tue, Jun 18, 2019
-        </span>
-        <span >
-        
-        중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_duplicate-file-finder/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/mozjpeg_image-optimizing-result/" >MozJPEG 를 활용한 JPEG 압축 테스트 결과</a>
-        </span>
-        <span class="item__date">
-          Sun, Jun 16, 2019
-        </span>
-        <span >
-        
-        테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/mozjpeg_image-optimizing-result/">➦</a>
         
         </div>
         

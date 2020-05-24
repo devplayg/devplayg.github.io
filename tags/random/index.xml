@@ -6,10 +6,20 @@
     <description>Recent content in random on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 05 Jun 2019 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/random/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generating random number in Go</title>
+      <link>https://devplayg.com/tech/go_rand/</link>
+      <pubDate>Sun, 24 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_rand/</guid>
+      <description>https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go
+package grpcrand import ( &amp;quot;math/rand&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;time&amp;quot; ) var ( r = rand.New(rand.NewSource(time.Now().UnixNano())) mu sync.Mutex ) // Int63n implements rand.Int63n on the grpcrand global source. func Int63n(n int64) int64 { mu.</description>
+    </item>
     
     <item>
       <title>Pseudo-random permutation of the integers in Go</title>

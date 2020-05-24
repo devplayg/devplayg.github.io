@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>storage on Developer Playground</title>
+    <link>https://devplayg.com/categories/storage/</link>
+    <description>Recent content in storage on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 24 May 2020 09:00:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MinIO 클러스터링 with Docker</title>
+      <link>https://devplayg.com/tech/minio_clustering/</link>
+      <pubDate>Sun, 24 May 2020 09:00:01 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/minio_clustering/</guid>
+      <description>환경 구성 Docker 네트워크 생성 docker network create minio-network  멀티 MinIO 컨테이너 설정 및 시작 포트는 9001~9004;
+docker run -p 9001:9000 --name minio1 --network minio-network -e &amp;quot;MINIO_ACCESS_KEY=devplayg&amp;quot; -e &amp;quot;MINIO_SECRET_KEY=devplayg12!</description>
+    </item>
+    
+  </channel>
+</rss>

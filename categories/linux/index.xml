@@ -6,10 +6,21 @@
     <description>Recent content in linux on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker, Ubuntu 18.04에 설치하기</title>
+      <link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
+      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
+      <description>https://docs.docker.com/engine/install/ubuntu/
+Docker 설치 apt 패키지 업데이트
+$ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common  Docker GPG 키 추가</description>
+    </item>
     
     <item>
       <title>Get Linux System information on the Command line</title>

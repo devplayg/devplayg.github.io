@@ -21,16 +21,5 @@
 &amp;ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
     </item>
     
-    <item>
-      <title>Developer Playground</title>
-      <link>https://devplayg.com/about/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/about/</guid>
-      <description>What makes me high Music, Coding, Walking, Thinking, Playing, Eating
-What makes me down Life without what makes me high
-Please tell me who you are.  iam := []byte(&amp;rdquo;devplayg&amp;rdquo;) Software engineer, especially Gopher  What&amp;rsquo;ve you been for a long time?</description>
-    </item>
-    
   </channel>
 </rss>

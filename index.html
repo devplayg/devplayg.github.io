@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-04-06T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-05-24T09:00:04+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -39,7 +39,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.216d76e7ce71c2d698bc156a43f0e3a49a4f90643234efa894c0378d3c286094.css" integrity="sha256-IW12585xwtaYvBVqQ/DjpJpPkGQyNO&#43;olMA3jTwoYJQ=">
+<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" integrity="sha256-fQ6xFX9t7wBqTtl13I1GDsMs9hicZfb2cfl&#43;zK5oajU=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -200,6 +200,117 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/go_remote-debugging/" >Go 원격 디버깅</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
+디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &ldquo;Run&rdquo; 실행하지 않음
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_remote-debugging/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/draft_go_http-server-down/" >How to shutdown HTTP server in Go</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        https://golang.org/pkg/net/http/#pkg-examples
+package main import ( &quot;context&quot; &quot;log&quot; &quot;net/http&quot; &quot;os&quot; &quot;os/signal&quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/draft_go_http-server-down/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/minio_clustering/" >MinIO 클러스터링 with Docker</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        환경 구성 Docker 네트워크 생성 docker network create minio-network  멀티 MinIO 컨테이너 설정 및 시작 포트는 9001~9004;
+docker run -p 9001:9000 --name minio1 --network minio-network -e &quot;MINIO_ACCESS_KEY=devplayg&quot; -e &quot;MINIO_SECRET_KEY=devplayg12!
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/minio_clustering/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_rand/" >Generating random number in Go</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go
+package grpcrand import ( &quot;math/rand&quot; &quot;sync&quot; &quot;time&quot; ) var ( r = rand.New(rand.NewSource(time.Now().UnixNano())) mu sync.Mutex ) // Int63n implements rand.Int63n on the grpcrand global source. func Int63n(n int64) int64 { mu.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_rand/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/docker_installation-on-ubuntu-18.04/" >Docker, Ubuntu 18.04에 설치하기</a>
+        </span>
+        <span class="item__date">
+          Sat, May 23, 2020
+        </span>
+        <span >
+        
+        https://docs.docker.com/engine/install/ubuntu/
+Docker 설치 apt 패키지 업데이트
+$ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common  Docker GPG 키 추가
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/docker_installation-on-ubuntu-18.04/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/cmder_tips/" >CMDER tips</a>
         </span>
         <span class="item__date">
@@ -292,114 +403,6 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
         </span>
         
           ... <a class="read-more-symbol" href="/tech/cpp_compiling-on-linux/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/life/2020-03-03_something-making-my-heart-beat/" >Something making my heart beat</a>
-        </span>
-        <span class="item__date">
-          Tue, Mar 3, 2020
-        </span>
-        <span >
-        
-        Movies I can watch again and again  Little Miss Sunshine Samurai Champloo 24 The Equalizer 나의 아저씨 Game of Thrones 응답하라 1988 American Gangster Gladiator Love Actually Indiana Jones  Actors  Denzel Washington Russell Crowe 오나라 오정세  Music  Beatles - Let it be Billy Joel - She&rsquo;s Always A Woman Billy Joel - Piano Man Bob Marley - No Waman No Cry Bobby McFerrin - Don&rsquo;t Worry be happy Brian Kennedy - Crazy Love Cassandra Wilson - Fragile CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version) Charlie Hunter - No Woman No Cry Chie Ayado - Leaving On A Jet Plane Chie Ayado - Let It Be Eagles - Hotel California (Live) Earth, Wind and Fire - September George Michael - Star People - Unplugged Gregory Porter - Musical Genocide (Live) Jason Mraz - Everything Is Sound Justin Bieber - Love Yourself Kirk Franklin - Blessing in the storm Lionel Richie - Easy Los Lobos - Donna Los Lobos - El Gusto Mariah Carey - Dreamlover Marianne Faithful - Madame George Mark Ronson - Uptown Funk (Feat.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/life/2020-03-03_something-making-my-heart-beat/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/ai/jetson-tx2_system-info/" >Jetson TX2 - Check system information</a>
-        </span>
-        <span class="item__date">
-          Thu, Feb 27, 2020
-        </span>
-        <span >
-        
-        System Info System info
-$ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
-$ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/ai/jetson-tx2_system-info/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/ai/jetson-tx_tips/" >Jetson TX2 tips</a>
-        </span>
-        <span class="item__date">
-          Thu, Feb 27, 2020
-        </span>
-        <span >
-        
-         RTSP Viewer RTSP_PATH=rtsp://id:pwd@1.1.1.1:3000/Streaming/Channels/101/ gst-launch-1.0 rtspsrc location=&quot;$RTSP_PATH&quot; latency=500 ! rtph264depay ! h264parse ! nvv4l2decoder enable-max-performance=1 ! nvoverlaysink overlay-x=800 overlay-y=50 overlay-w=640 overlay-h=480 overlay=2  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/docker-container_centos-6.10/" >Installing and using CentOS 6.10 via Docker</a>
-        </span>
-        <span class="item__date">
-          Wed, Jan 1, 2020
-        </span>
-        <span >
-        
-        Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker-container_centos-6.10/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/docker-container_mariadb-10.3/" >Installing and using MariaDB 10.3 via Docker</a>
-        </span>
-        <span class="item__date">
-          Wed, Jan 1, 2020
-        </span>
-        <span >
-        
-        https://hub.docker.com/_/mariadb
-Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker-container_mariadb-10.3/">➦</a>
         
         </div>
         

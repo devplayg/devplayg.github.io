@@ -6,10 +6,40 @@
     <description>Recent content in go on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 13:11:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go 원격 디버깅</title>
+      <link>https://devplayg.com/tech/go_remote-debugging/</link>
+      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_remote-debugging/</guid>
+      <description>개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
+디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &amp;ldquo;Run&amp;rdquo; 실행하지 않음</description>
+    </item>
+    
+    <item>
+      <title>How to shutdown HTTP server in Go</title>
+      <link>https://devplayg.com/tech/draft_go_http-server-down/</link>
+      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/draft_go_http-server-down/</guid>
+      <description>https://golang.org/pkg/net/http/#pkg-examples
+package main import ( &amp;quot;context&amp;quot; &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;os&amp;quot; &amp;quot;os/signal&amp;quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.</description>
+    </item>
+    
+    <item>
+      <title>Generating random number in Go</title>
+      <link>https://devplayg.com/tech/go_rand/</link>
+      <pubDate>Sun, 24 May 2020 09:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/go_rand/</guid>
+      <description>https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go
+package grpcrand import ( &amp;quot;math/rand&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;time&amp;quot; ) var ( r = rand.New(rand.NewSource(time.Now().UnixNano())) mu sync.Mutex ) // Int63n implements rand.Int63n on the grpcrand global source. func Int63n(n int64) int64 { mu.</description>
+    </item>
     
     <item>
       <title>명령어로 토렌트 다운로드</title>
