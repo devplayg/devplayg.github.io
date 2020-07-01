@@ -42,8 +42,8 @@ $ df -h  </description>
       
       <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
       <description>Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host</description>
+$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
+$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host</description>
     </item>
     
     <item>

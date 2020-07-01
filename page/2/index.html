@@ -229,7 +229,7 @@
         <span >
         
         System Info System info
-$ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
+$ uname -a Linux devplayg-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
 $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.
         
         </span>
@@ -271,8 +271,8 @@ $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.
         <span >
         
         Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host
+$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
+$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host
         
         </span>
         

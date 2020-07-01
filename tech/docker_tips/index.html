@@ -22,10 +22,12 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Docker tips"/>
-<meta name="twitter:description" content=" Docker 정보 docker info  Docker 로그 보기 docker logs [name]  Docker 컨테이너 접속 docker exec -it [name] bash  "/>
+<meta name="twitter:description" content="Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
+docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  Redis"/>
 
 <meta property="og:title" content="Docker tips" />
-<meta property="og:description" content=" Docker 정보 docker info  Docker 로그 보기 docker logs [name]  Docker 컨테이너 접속 docker exec -it [name] bash  " />
+<meta property="og:description" content="Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
+docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  Redis" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/docker_tips/" />
 <meta property="article:published_time" content="2019-06-07T00:28:15+09:00" />
@@ -266,19 +268,28 @@
   <div class="post">
     
 
-<h3 id="docker-정보">Docker 정보</h3>
+<h3 id="commands">Commands</h3>
 
 <pre><code>docker info
+docker logs [name]
+docker exec -it [name] bash 
 </code></pre>
 
-<h3 id="docker-로그-보기">Docker 로그 보기</h3>
+<h3 id="my-favorites-on-windows">My favorites on Windows</h3>
 
-<pre><code>docker logs [name]
+<p>Ubuntu 18.04</p>
+
+<pre><code>docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash
 </code></pre>
 
-<h3 id="docker-컨테이너-접속">Docker 컨테이너 접속</h3>
+<p>Redis</p>
 
-<pre><code>docker exec -it [name] bash 
+<pre><code>docker run -dit -p 6379:6379 --name redis -v e:/data/redis:/data redis
+</code></pre>
+
+<p>Apache HTTP</p>
+
+<pre><code>docker run -dit -p 8080:80 --name web -v e:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4
 </code></pre>
 
   </div>

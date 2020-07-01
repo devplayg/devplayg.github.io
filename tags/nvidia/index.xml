@@ -38,7 +38,7 @@ $ deepstream-app -c &amp;lt;config&amp;gt; --gst-debug=&amp;lt;debug#&amp;gt;   
       
       <guid>https://devplayg.com/ai/jetson-tx2_system-info/</guid>
       <description>System Info System info
-$ uname -a Linux unisem-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
+$ uname -a Linux devplayg-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
 $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.</description>
     </item>
     

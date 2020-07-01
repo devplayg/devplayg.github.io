@@ -23,13 +23,13 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Installing and using CentOS 6.10 via Docker"/>
 <meta name="twitter:description" content="Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host"/>
+$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
+$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host"/>
 
 <meta property="og:title" content="Installing and using CentOS 6.10 via Docker" />
 <meta property="og:description" content="Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host" />
+$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
+$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/docker-container_centos-6.10/" />
 <meta property="article:published_time" content="2020-01-01T18:00:00+09:00" />
@@ -284,17 +284,17 @@ docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with bin
 
 <p>in general</p>
 
-<pre><code>docker run -it --name cos centos:6.10 bash
+<pre><code>$ docker run -it --name c6 centos:6.10 bash
 </code></pre>
 
 <p>with sharing filesystem</p>
 
-<pre><code>docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash
+<pre><code>$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash
 </code></pre>
 
 <p>with binding container ports to the host</p>
 
-<pre><code>docker run -p 8000:80 -it --name cos centos:6.10 bash
+<pre><code>$ docker run -p 8000:80 -it --name c6 centos:6.10 bash
 </code></pre>
 
 <ul>
@@ -304,13 +304,13 @@ docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with bin
 
 <h2 id="my-favorite"><em>My favorite</em></h2>
 
-<pre><code>docker run -it -v e:/gohome:/gohome --name cos centos:6.10 bash
+<pre><code>$ docker run -it -v e:/gohome:/gohome -p 8000:8000 --name c6 centos:6.10 bash
 </code></pre>
 
 <ul>
 <li><p>change repository and update</p>
 
-<pre><code class="language-ini">echo '[base]
+<pre><code class="language-ini">$ echo '[base]
 name=CentOS-$releasever - Base
 baseurl=http://mirror.kakao.com/centos/$releasever/os/$basearch/
 gpgcheck=0 
@@ -322,20 +322,19 @@ gpgcheck=0
 name=CentOS-$releasever - Extras
 baseurl=http://mirror.kakao.com/centos/$releasever/extras/$basearch/
 gpgcheck=0' &gt; /etc/yum.repos.d/kakao.repo
-yum repolist
+$ yum repolist
 </code></pre></li>
 
 <li><p>install Go</p>
 
-<pre><code>curl https://dl.google.com/go/go1.13.7.linux-amd64.tar.gz | tar xvfz - -C /
+<pre><code>$ curl https://dl.google.com/go/go1.13.12.linux-amd64.tar.gz | tar xvfz - -C /
 </code></pre></li>
 
 <li><p>set profile</p>
 
-<pre><code class="language-bash">vi ~/.bash_profile &amp;&amp; . ~/.bash_profile
-</code></pre>
+<pre><code class="language-bash">$ vi ~/.bash_profile &amp;&amp; . ~/.bash_profile
+</code></pre></li>
 
-<ul>
 <li><p>~/.bash_profile</p>
 
 <pre><code class="language-bash">alias .pro=&quot;vi ~/.bash_profile&quot;
@@ -345,7 +344,11 @@ export GOROOT=/go
 export GOPATH=/gohome
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 </code></pre></li>
-</ul></li>
+
+<li><p>install mandatory packages</p>
+
+<pre><code>$ yum -y install git
+</code></pre></li>
 </ul>
 
   </div>

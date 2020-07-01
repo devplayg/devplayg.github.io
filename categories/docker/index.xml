@@ -29,8 +29,8 @@ $ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certific
       
       <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
       <description>Pulling and run image in general
-docker run -it --name cos centos:6.10 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name cos centos:6.10 bash  with binding container ports to the host</description>
+$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
+$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host</description>
     </item>
     
     <item>
@@ -70,7 +70,8 @@ docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ 
       <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
-      <description> Docker 정보 docker info  Docker 로그 보기 docker logs [name]  Docker 컨테이너 접속 docker exec -it [name] bash  </description>
+      <description>Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
+docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  Redis</description>
     </item>
     
   </channel>
