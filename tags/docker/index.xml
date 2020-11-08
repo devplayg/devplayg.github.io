@@ -6,10 +6,21 @@
     <description>Recent content in docker on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 May 2020 09:00:01 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cannot start docker desktop on win 10 home 2004</title>
+      <link>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</guid>
+      <description> 윈도우 버전 확인 winver  WSL 2 Linux 커널 업데이트 https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel
+wsl -l -v
+WSL 2 로 변환Link to WSL 2 로 변환  wsl --set-version Ubuntu 2  Default wsl --set-default Ubuntu  Remove docker Install docker </description>
+    </item>
     
     <item>
       <title>MinIO 클러스터링 with Docker</title>

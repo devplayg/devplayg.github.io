@@ -17,7 +17,7 @@
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/thymeleaf_tips/</guid>
-      <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales  &amp;lt;div th:text=&amp;quot;${#locale.</description>
+      <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales &amp;lt;div th:text=&amp;quot;${#locale.</description>
     </item>
     
   </channel>

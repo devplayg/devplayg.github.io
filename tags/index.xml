@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://devplayg.com/tags/docker/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows 10</title>
+      <link>https://devplayg.com/tags/windows-10/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows 10 2004</title>
+      <link>https://devplayg.com/tags/windows-10-2004/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/windows-10-2004/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>debugging</title>
@@ -35,15 +62,6 @@
       <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/http/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://devplayg.com/tags/docker/</link>
-      <pubDate>Sun, 24 May 2020 09:00:01 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -440,15 +458,6 @@
       <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/udp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows 10</title>
-      <link>https://devplayg.com/tags/windows-10/</link>
-      <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/windows-10/</guid>
       <description></description>
     </item>
     

@@ -100,7 +100,8 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Gr
       <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/springboot_terms/</guid>
-      <description>서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 의 기능을 확장하는데 사용되는 Java 클래스이다 서블릿은 클라이언트의 요청을 받고, 그 처리 결과를 다시 클라이언트에 전달한다. 서블릿은 다양한 요청방식에 응답할 수 있지만, 일반적으로 웹서버에 호스트 되어 있는 응용프로그램을 확장하는데 사용된다.</description>
+      <description>Spring Security 스프링 기반 어플리케이션의 인증과 권한을 담당하는 프레임워크 참고: https://sjh836.tistory.com/165
+서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 의 기능을 확장하는데 사용되는 Java 클래스이다 서블릿은 클라이언트의 요청을 받고, 그 처리 결과를 다시 클라이언트에 전달한다.</description>
     </item>
     
     <item>

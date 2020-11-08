@@ -22,10 +22,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Thymeleaf tips"/>
-<meta name="twitter:description" content="A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &lt;div th:with=&quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&quot;&gt; &lt;ul&gt; &lt;li th:each=&quot;s : ${strList}&quot; th:text=&quot;|${s}|&quot;&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;  Locales  &lt;div th:text=&quot;${#locale."/>
+<meta name="twitter:description" content="A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &lt;div th:with=&quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&quot;&gt; &lt;ul&gt; &lt;li th:each=&quot;s : ${strList}&quot; th:text=&quot;|${s}|&quot;&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;  Locales &lt;div th:text=&quot;${#locale."/>
 
 <meta property="og:title" content="Thymeleaf tips" />
-<meta property="og:description" content="A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &lt;div th:with=&quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&quot;&gt; &lt;ul&gt; &lt;li th:each=&quot;s : ${strList}&quot; th:text=&quot;|${s}|&quot;&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;  Locales  &lt;div th:text=&quot;${#locale." />
+<meta property="og:description" content="A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &lt;div th:with=&quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&quot;&gt; &lt;ul&gt; &lt;li th:each=&quot;s : ${strList}&quot; th:text=&quot;|${s}|&quot;&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;  Locales &lt;div th:text=&quot;${#locale." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/thymeleaf_tips/" />
 <meta property="article:published_time" content="2019-07-25T00:00:00+09:00" />
@@ -279,14 +279,14 @@
 
 <h3 id="locales">Locales</h3>
 
-<pre><code>    &lt;div th:text=&quot;${#locale.country}&quot;&gt;US&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.displayCountry}&quot;&gt;미국&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.toLanguageTag()}&quot;&gt;en-US&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.ISO3Country}&quot;&gt;USA&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.ISO3Language}&quot;&gt;eng&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.displayName}&quot;&gt;영어 (미국)&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.language}&quot;&gt;en&lt;/div&gt;
-    &lt;div th:text=&quot;${#locale.default}&quot;&gt;ko_KR&lt;/div&gt;
+<pre><code>&lt;div th:text=&quot;${#locale.country}&quot;&gt;US&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.displayCountry}&quot;&gt;미국&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.toLanguageTag()}&quot;&gt;en-US&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.ISO3Country}&quot;&gt;USA&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.ISO3Language}&quot;&gt;eng&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.displayName}&quot;&gt;영어 (미국)&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.language}&quot;&gt;en&lt;/div&gt;
+&lt;div th:text=&quot;${#locale.default}&quot;&gt;ko_KR&lt;/div&gt;
 </code></pre>
 
 <h3 id="access-application-yaml">Access &ldquo;Application.yaml&rdquo;</h3>
