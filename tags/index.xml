@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,63 @@
     <item>
       <title>docker</title>
       <link>https://devplayg.com/tags/docker/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker compose</title>
+      <link>https://devplayg.com/tags/docker-compose/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mariadb</title>
+      <link>https://devplayg.com/tags/mariadb/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://devplayg.com/tags/redis/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://devplayg.com/tags/ubuntu/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json</title>
+      <link>https://devplayg.com/tags/json/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://devplayg.com/tags/tips/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/tips/</guid>
       <description></description>
     </item>
     
@@ -80,15 +134,6 @@
       <pubDate>Sun, 24 May 2020 09:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker compose</title>
-      <link>https://devplayg.com/tags/docker-compose/</link>
-      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker-compose/</guid>
       <description></description>
     </item>
     
@@ -381,15 +426,6 @@
     </item>
     
     <item>
-      <title>mariadb</title>
-      <link>https://devplayg.com/tags/mariadb/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/mariadb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mariadb 10.3</title>
       <link>https://devplayg.com/tags/mariadb-10.3/</link>
       <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
@@ -404,15 +440,6 @@
       <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/os/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://devplayg.com/tags/ubuntu/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -656,15 +683,6 @@
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://devplayg.com/tags/tips/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/tips/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>minifier on Developer Playground</title>
+    <link>https://devplayg.com/categories/minifier/</link>
+    <description>Recent content in minifier on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/categories/minifier/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JSON Tips</title>
+      <link>https://devplayg.com/tech/json_handling/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/json_handling/</guid>
+      <description>Minifier https://hub.docker.com/r/governmentpaas/json-minify
+DockerFile
+FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
+docker build -t json-minify .  Minify
+docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.</description>
+    </item>
+    
+  </channel>
+</rss>

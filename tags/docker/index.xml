@@ -6,10 +6,33 @@
     <description>Recent content in docker on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Docker0compose for local development environment</title>
+      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
+    </item>
+    
+    <item>
+      <title>JSON Tips</title>
+      <link>https://devplayg.com/tech/json_handling/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/json_handling/</guid>
+      <description>Minifier https://hub.docker.com/r/governmentpaas/json-minify
+DockerFile
+FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
+docker build -t json-minify .  Minify
+docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.</description>
+    </item>
     
     <item>
       <title>Cannot start docker desktop on win 10 home 2004</title>

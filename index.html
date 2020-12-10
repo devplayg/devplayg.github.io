@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-07-10T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2020-12-07T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -200,6 +200,53 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/config-dev-server-env-with-docker/" >Using Docker0compose for local development environment</a>
+        </span>
+        <span class="item__date">
+          Mon, Dec 7, 2020
+        </span>
+        <span >
+        
+        Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/config-dev-server-env-with-docker/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/json_handling/" >JSON Tips</a>
+        </span>
+        <span class="item__date">
+          Sat, Nov 28, 2020
+        </span>
+        <span >
+        
+        Minifier https://hub.docker.com/r/governmentpaas/json-minify
+DockerFile
+FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
+docker build -t json-minify .  Minify
+docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts JSON.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/json_handling/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/go_remote-debugging/" >Go 원격 디버깅</a>
         </span>
         <span class="item__date">
@@ -362,47 +409,6 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
          파절이  파 2대 잘게 썰어서, 찬 물에 2시간 담그기 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T 비비고 비비고 참기름 1T 통깨 느낌대로  
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/life/2020-04-06_best-restaurant/" >맛집 DB</a>
-        </span>
-        <span class="item__date">
-          Mon, Apr 6, 2020
-        </span>
-        <span >
-        
-         수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수 수지 미가: 중국음식  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비 분당 청담추어정: 추어탕  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타 역삼 이도곰탕  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/cpp_compiling-on-linux/" >Compiling C&#43;&#43; on Linux</a>
-        </span>
-        <span class="item__date">
-          Tue, Mar 3, 2020
-        </span>
-        <span >
-        
-        Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
-#include &lt;iostream&gt; int main() { std::cout &lt;&lt; &quot;Hello World\n&quot;; }  $ g++ -o hello hello.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/cpp_compiling-on-linux/">➦</a>
         
         </div>
         

@@ -6,10 +6,20 @@
     <description>Recent content in ubuntu on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Docker0compose for local development environment</title>
+      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
+    </item>
     
     <item>
       <title>Installing and using Ubuntu 18.04 via Docker</title>
