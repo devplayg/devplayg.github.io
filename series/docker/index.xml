@@ -71,7 +71,7 @@ docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ 
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
       <description>Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
-docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  Redis</description>
+docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  OpenJDK 8</description>
     </item>
     
   </channel>

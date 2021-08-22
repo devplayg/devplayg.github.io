@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openldap on Developer Playground</title>
+    <link>https://devplayg.com/tags/openldap/</link>
+    <description>Recent content in openldap on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/openldap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up OpenLDAP on docker</title>
+      <link>https://devplayg.com/tech/setting-up-openldap-on-docker/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/setting-up-openldap-on-docker/</guid>
+      <description>docker run -p 389:389 -p 636:636 --name ldap --env LDAP_DOMAIN=&amp;quot;devplayg.com&amp;quot; --env LDAP_ORGANISATION=&amp;quot;Devplayg&amp;quot; --env LDAP_ADMIN_PASSWORD=grit --env LDAP_READONLY_USER_USERNAME=devplayg --env LDAP_READONLY_USER_PASSWORD=devplayg --detach osixia/openldap:1.4.0 docker exec ldap ldapsearch -x -H ldap://localhost -b dc=devplayg,dc=com -D &amp;quot;cn=admin,dc=devplayg,dc=com&amp;quot; -w grit  </description>
+    </item>
+    
+  </channel>
+</rss>

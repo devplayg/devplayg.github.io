@@ -12,13 +12,13 @@
     
     
     <item>
-      <title>Using Docker-compose for local development environment</title>
+      <title>Setting up development environments with docker-compose</title>
       <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
       <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
     </item>
     
   </channel>

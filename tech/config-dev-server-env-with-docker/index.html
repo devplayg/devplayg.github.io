@@ -11,23 +11,23 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.56.0-DEV" />
+<meta name="generator" content="Hugo 0.56.3" />
 
     
     
     
 
-<title>Using Docker-compose for local development environment • Developer Playground</title>
+<title>Setting up development environments with docker-compose • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using Docker-compose for local development environment"/>
+<meta name="twitter:title" content="Setting up development environments with docker-compose"/>
 <meta name="twitter:description" content="Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!"/>
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!"/>
 
-<meta property="og:title" content="Using Docker-compose for local development environment" />
+<meta property="og:title" content="Setting up development environments with docker-compose" />
 <meta property="og:description" content="Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: dev-db volumes: - /d/data/dev/mariadb/data:/var/lib/mysql - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!" />
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/config-dev-server-env-with-docker/" />
 <meta property="article:published_time" content="2020-12-07T00:00:00+09:00" />
@@ -46,10 +46,10 @@ networks: network1: name: dev-net services: db: image: mariadb:10.3 container_na
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" integrity="sha256-fQ6xFX9t7wBqTtl13I1GDsMs9hicZfb2cfl&#43;zK5oajU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" >
 
 
-<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css"  media="print">
 
 
 
@@ -182,7 +182,7 @@ networks: network1: name: dev-net services: db: image: mariadb:10.3 container_na
     </div>
     
 <div class="copyright">
-  &copy; 2020 devplayg
+  &copy; 2021 devplayg
   
 </div>
 
@@ -200,7 +200,7 @@ networks: network1: name: dev-net services: db: image: mariadb:10.3 container_na
     
 <article>
   <header>
-    <h1 class="post__title">Using Docker-compose for local development environment
+    <h1 class="post__title">Setting up development environments with docker-compose
         <small>
         
         
@@ -221,6 +221,8 @@ networks: network1: name: dev-net services: db: image: mariadb:10.3 container_na
                 <a class="badge badge-category" href="/categories/db">db</a>
             
                 <a class="badge badge-category" href="/categories/server">server</a>
+            
+                <a class="badge badge-category" href="/categories/redis">redis</a>
             
         
     
@@ -287,10 +289,10 @@ networks: network1: name: dev-net services: db: image: mariadb:10.3 container_na
 services:
   db:
     image: mariadb:10.3
-    container_name: dev-db
+    container_name: db
     volumes:
-      - /d/data/dev/mariadb/data:/var/lib/mysql
-      - /d/data/dev/mariadb/conf.d:/etc/mysql/conf.d
+      - /d/data/mariadb/data:/var/lib/mysql
+      - /d/data/mariadb/conf.d:/etc/mysql/conf.d
     environment:
       - MYSQL_ROOT_PASSWORD=devplayg12!@
       - MYSQL_DATABASE=devplayg
@@ -306,19 +308,20 @@ services:
 
   redis:
     image: redis:latest
-    container_name: dev-redis
+    container_name: redis
     volumes:
-      - /d/data/dev/redis/redis-data:/var/lib/redis
-      - /d/data/dev/redis/redis.conf:/usr/local/etc/redis/redis.conf
-    ports:
-      - &quot;6379:6379&quot;
+      - /d/data/redis/redis-data:/var/lib/redis
+      - /d/data/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    restart: unless-stopped
     networks:
      - network1
+    ports:
+      - &quot;6379:6379&quot;
     command: ['redis-server', '/usr/local/etc/redis/redis.conf']
 
   server:
     image: ubuntu:18.04
-    container_name: dev-server
+    container_name: server
     volumes:
       - /e/gohome:/gohome
     networks:
@@ -337,6 +340,11 @@ services:
       <span class="navigation-tittle">JSON Tips</span>
     </a>
     
+    
+    <a href="/tech/setting-up-openldap-on-docker/" class="navigation-next">
+      <span class="navigation-tittle">Setting up OpenLDAP on docker</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

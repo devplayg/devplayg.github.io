@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.56.0-DEV" />
+<meta name="generator" content="Hugo 0.56.3" />
 
     
     
@@ -44,10 +44,10 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" integrity="sha256-fQ6xFX9t7wBqTtl13I1GDsMs9hicZfb2cfl&#43;zK5oajU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" >
 
 
-<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css"  media="print">
 
 
 
@@ -180,7 +180,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2020 devplayg
+  &copy; 2021 devplayg
   
 </div>
 
@@ -288,7 +288,12 @@ flush privileges;
 
 <h3 id="dump-tables-only">Dump tables only</h3>
 
-<pre><code>mysqldump -u root --skip-add-drop-table -d -B -p aptxsm &gt; aptxsm.tables.sql
+<pre><code>mysqldump -u root --skip-add-drop-table -d -B -p DATABASE &gt; tables.sql
+</code></pre>
+
+<h3 id="dump-data-only">Dump data only</h3>
+
+<pre><code>mysqldump -u root -p -t DATABASE table1 table2... &gt; data.sql
 </code></pre>
 
 <h3 id="change-primary-key">Change primary key</h3>

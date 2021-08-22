@@ -6,10 +6,19 @@
     <description>Recent content in tips on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 31 Oct 2019 15:13:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up OpenLDAP on docker</title>
+      <link>https://devplayg.com/tech/setting-up-openldap-on-docker/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/setting-up-openldap-on-docker/</guid>
+      <description>docker run -p 389:389 -p 636:636 --name ldap --env LDAP_DOMAIN=&amp;quot;devplayg.com&amp;quot; --env LDAP_ORGANISATION=&amp;quot;Devplayg&amp;quot; --env LDAP_ADMIN_PASSWORD=grit --env LDAP_READONLY_USER_USERNAME=devplayg --env LDAP_READONLY_USER_PASSWORD=devplayg --detach osixia/openldap:1.4.0 docker exec ldap ldapsearch -x -H ldap://localhost -b dc=devplayg,dc=com -D &amp;quot;cn=admin,dc=devplayg,dc=com&amp;quot; -w grit  </description>
+    </item>
     
     <item>
       <title>PostgreSQL tips</title>
@@ -102,7 +111,7 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
       
       <guid>https://devplayg.com/tech/docker_tips/</guid>
       <description>Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
-docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  Redis</description>
+docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  OpenJDK 8</description>
     </item>
     
     <item>
