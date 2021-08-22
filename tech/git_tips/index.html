@@ -314,6 +314,17 @@ $ git config --local user.email &quot;devplayg@example.com
 <pre><code>git ls-files -d | xargs git checkout --
 </code></pre>
 
+<h2 id="fixing-a-broken-submodule">Fixing a broken submodule</h2>
+
+<pre><code>git clone https://github.com/devplayg/parent.git
+cd parent
+git submodule init
+git submodule sync
+git submodule update --remote
+git commit * -m &quot;fixed&quot;
+git push origin master
+</code></pre>
+
 <h3 id="branch">Branch</h3>
 
 <p>Clone branch</p>
