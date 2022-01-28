@@ -22,14 +22,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sprint Boot tips"/>
-<meta name="twitter:description" content="Building gradlew bootjar  Running Normal
+<meta name="twitter:description" content="Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
 java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory."/>
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog."/>
 
 <meta property="og:title" content="Sprint Boot tips" />
-<meta property="og:description" content="Building gradlew bootjar  Running Normal
+<meta property="og:description" content="Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
 java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory." />
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/tips_spring-boot-dist/" />
 <meta property="article:published_time" content="2019-07-25T00:00:00+09:00" />
@@ -184,7 +184,7 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
     </div>
     
 <div class="copyright">
-  &copy; 2021 devplayg
+  &copy; 2022 devplayg
   
 </div>
 
@@ -273,6 +273,11 @@ java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Descrip
 <h3 id="building">Building</h3>
 
 <pre><code>gradlew bootjar
+</code></pre>
+
+<h3 id="listing-dependencies">Listing dependencies</h3>
+
+<pre><code>gradlew :hippo-api:dependencies --configuration compileClasspath
 </code></pre>
 
 <h3 id="running">Running</h3>

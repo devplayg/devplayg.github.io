@@ -22,14 +22,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Redis Tips"/>
-<meta name="twitter:description" content=" Commands Common
+<meta name="twitter:description" content="Commands Common
 keys * del [key...] keys *str* clear flushall smembers []  Set
-hmset user id 1234 name tom pw 12341 hget user name del user  "/>
+hmset user id 1234 name tom pw 12341 hget user name del user  Scan"/>
 
 <meta property="og:title" content="Redis Tips" />
-<meta property="og:description" content=" Commands Common
+<meta property="og:description" content="Commands Common
 keys * del [key...] keys *str* clear flushall smembers []  Set
-hmset user id 1234 name tom pw 12341 hget user name del user  " />
+hmset user id 1234 name tom pw 12341 hget user name del user  Scan" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/redis_tips/" />
 <meta property="og:site_name" content="Developer Playground" />
@@ -183,7 +183,7 @@ hmset user id 1234 name tom pw 12341 hget user name del user  " />
     </div>
     
 <div class="copyright">
-  &copy; 2021 devplayg
+  &copy; 2022 devplayg
   
 </div>
 
@@ -256,6 +256,27 @@ hget user name
 del user
 </code></pre>
 
+<p>Scan</p>
+
+<pre><code>scan 0 MATCH hippo:* count 100
+</code></pre>
+
+<h3 id="create-redis-cluster-with-docker">Create redis-cluster with Docker</h3>
+
+<pre><code>version: '3.1'
+
+services:
+
+  redis-cluster:
+    container_name: redis-cluster
+    image: grokzen/redis-cluster
+    environment:
+      IP: &quot;0.0.0.0&quot;
+      STANDALONE: &quot;false&quot;
+    ports:
+      - 7001-7003:7001-7003
+</code></pre>
+
   </div>
     
   
@@ -268,8 +289,8 @@ del user
     </a>
     
     
-    <a href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/" class="navigation-next">
-      <span class="navigation-tittle"> Ubuntu 18.04에서 Java jar를 Service로 실행하기</span>
+    <a href="/tech/java_java-time/" class="navigation-next">
+      <span class="navigation-tittle">Java time</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

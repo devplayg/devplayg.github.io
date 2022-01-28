@@ -28,9 +28,9 @@ openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new 
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description>Building gradlew bootjar  Running Normal
+      <description>Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
 java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.</description>
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.</description>
     </item>
     
     <item>

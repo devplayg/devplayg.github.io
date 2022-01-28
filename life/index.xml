@@ -6,10 +6,19 @@
     <description>Recent content in Life on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>17년만에 듣는 My New I.V.P.</title>
+      <link>https://devplayg.com/life/2021-11-07_memo/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2021-11-07_memo/</guid>
+      <description>생각을 주장하며 살아갈 것인가, 감동을 나누며 살아갈 것인가</description>
+    </item>
     
     <item>
       <title>가끔일기 - 2020년 4월초</title>
@@ -118,6 +127,19 @@
       
       <guid>https://devplayg.com/life/2019-06-06_markdown/</guid>
       <description>이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devplayg.com/life/2021-12-10_minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/life/2021-12-10_minecraft/</guid>
+      <description>크리에이트브 모드 유저 데려오기
+/tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
+/tp 유저이름  플레이어 제외 생물 죽이기
+/kill @e[type=!minecraft:player]  날씨
+/weather clear /weather rain  건물</description>
     </item>
     
   </channel>

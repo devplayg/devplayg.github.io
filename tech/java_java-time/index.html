@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.56.3" />
+
+    
+    
+    
+
+<title>Java time • Developer Playground</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Java time"/>
+<meta name="twitter:description" content="LocalDateTime val ldt = LocalDateTime.parse(&quot;2006-01-02 15:04:05&quot;, DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;) ldt.toString() 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.BASIC_ISO_DATE) 20060102 ldt.format(DateTimeFormatter.ISO_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_ORDINAL_DATE) 2006-002 ldt.format(DateTimeFormatter.ISO_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_WEEK_DATE) 2006-W01-1 ldt.toLocalDate().atStartOfDay().format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T00:00:00 ldt."/>
+
+<meta property="og:title" content="Java time" />
+<meta property="og:description" content="LocalDateTime val ldt = LocalDateTime.parse(&quot;2006-01-02 15:04:05&quot;, DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;) ldt.toString() 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.BASIC_ISO_DATE) 20060102 ldt.format(DateTimeFormatter.ISO_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_ORDINAL_DATE) 2006-002 ldt.format(DateTimeFormatter.ISO_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_WEEK_DATE) 2006-W01-1 ldt.toLocalDate().atStartOfDay().format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T00:00:00 ldt." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://devplayg.com/tech/java_java-time/" />
+<meta property="og:site_name" content="Developer Playground" />
+
+
+    
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.7d0eb1157f6def006a4ed975dc8d460ec32cf6189c65f6f671f97eccae686a35.css" >
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css"  media="print">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://devplayg.com/">Developer Playground</a>
+      </span>
+      
+        
+        
+        
+        <div class="author-image">
+          <img src="https://devplayg.com/img/avatar.png" alt="Author Image" class="img--circle img--headshot element--center">
+        </div>
+        
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+        <label for="menuToggle"><a href="https://devplayg.com/">Developer Playground</a></label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		
+		
+			 
+            <li>
+                <a href="/tech/">
+                    <span>Tech</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/music/">
+                    <span>Music</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/life/">
+                    <span>Life</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/lifeart/">
+                    <span>Art</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/ai/">
+                    <span>AI</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/about/">
+                    <span>About</span>
+                </a>
+            </li>
+			
+		
+	</ul>
+
+    <div class="menu-tag-and-category">
+        <span class="tag"><a href="/categories">Categories</a></span>
+        <span class="category"><a href="/tags">Tags</a></span>
+        <span class="category"><a href="/categories/tips/">Tips</a></span>
+    </div>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/devplayg"  target="_blank" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	<a href="https://github.com/devplayg"  target="_blank" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="mailto:devplayg@gmail.com"  target="_blank" rel="me"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
+	
+</section>
+
+      </div>
+    </div>
+    
+<div class="copyright">
+  &copy; 2022 devplayg
+  
+</div>
+
+
+<div class="builtwith">
+    powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>
+</div>
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1 class="post__title">Java time
+        <small>
+        
+        
+        </small>
+    </h1>
+    
+<div class="post__meta">
+    
+    
+
+    
+    
+</div>
+
+
+    
+  </header>
+  
+  
+  <br>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-f9+5v+4m-d8+7b"
+     data-ad-client="ca-pub-3214416524399138"
+     data-ad-slot="6628502936"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+  <div class="post">
+    
+
+<h3 id="localdatetime">LocalDateTime</h3>
+
+<pre><code class="language-kotlin">val ldt = LocalDateTime.parse(&quot;2006-01-02 15:04:05&quot;, DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;)
+ldt.toString()                                                                2006-01-02T15:04:05
+ldt.format(DateTimeFormatter.BASIC_ISO_DATE)                                  20060102
+ldt.format(DateTimeFormatter.ISO_DATE)                                        2006-01-02
+ldt.format(DateTimeFormatter.ISO_DATE_TIME)                                   2006-01-02T15:04:05
+ldt.format(DateTimeFormatter.ISO_LOCAL_DATE)                                  2006-01-02
+ldt.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)                             2006-01-02T15:04:05
+ldt.format(DateTimeFormatter.ISO_LOCAL_TIME)                                  15:04:05
+ldt.format(DateTimeFormatter.ISO_ORDINAL_DATE)                                2006-002
+ldt.format(DateTimeFormatter.ISO_TIME)                                        15:04:05
+ldt.format(DateTimeFormatter.ISO_WEEK_DATE)                                   2006-W01-1
+ldt.toLocalDate().atStartOfDay().format(DateTimeFormatter.ISO_DATE_TIME)      2006-01-02T00:00:00
+ldt.toLocalDate().atStartOfDay().plusSeconds(86400 - 1)
+        .format(DateTimeFormatter.ISO_DATE_TIME)                              2006-01-02T23:59:59
+
+Timestamp.valueOf(ldt)                                                        2006-01-02 15:04:05.0
+Timestamp.valueOf(ldt).time                                                   1136181845000
+Timestamp.valueOf(ldt).toLocalDateTime()                                      2006-01-02T15:04:05
+</code></pre>
+
+<h3 id="offsetdatetime">OffsetDateTime</h3>
+
+<pre><code>val odt = OffsetDateTime.parse(&quot;2006-01-02T15:04:05+09:00&quot;)
+odt.toString()                                                                2006-01-02T15:04:05+09:00
+odt.format(DateTimeFormatter.ISO_INSTANT)                                     2006-01-02T06:04:05Z
+odt.format(DateTimeFormatter.ISO_OFFSET_DATE)                                 2006-01-02+09:00
+odt.format(DateTimeFormatter.ISO_OFFSET_DATE_TIME)                            2006-01-02T15:04:05+09:00
+odt.format(DateTimeFormatter.ISO_OFFSET_TIME)                                 15:04:05+09:00
+odt.format(DateTimeFormatter.ISO_ZONED_DATE_TIME)                             2006-01-02T15:04:05+09:00
+odt.format(DateTimeFormatter.RFC_1123_DATE_TIME)                              Mon, 2 Jan 2006 15:04:05 +0900
+</code></pre>
+
+<h3 id="java-text-simpledateformat">java.text.SimpleDateFormat</h3>
+
+<p><a href="https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html?is-external=true">https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html?is-external=true</a></p>
+
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Date or Time Component</th>
+<th>Presentation</th>
+<th>Examples</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>G</td>
+<td>Era designator</td>
+<td>Text</td>
+<td>AD</td>
+</tr>
+
+<tr>
+<td>y</td>
+<td>Year</td>
+<td>Year</td>
+<td>1996; 96</td>
+</tr>
+
+<tr>
+<td>Y</td>
+<td>Week year</td>
+<td>Year</td>
+<td>2009; 09</td>
+</tr>
+
+<tr>
+<td>M</td>
+<td>Month in year (context sensitive)</td>
+<td>Month</td>
+<td>July; Jul; 07</td>
+</tr>
+
+<tr>
+<td>L</td>
+<td>Month in year (standalone form)</td>
+<td>Month</td>
+<td>July; Jul; 07</td>
+</tr>
+
+<tr>
+<td>w</td>
+<td>Week in year</td>
+<td>Number</td>
+<td>27</td>
+</tr>
+
+<tr>
+<td>W</td>
+<td>Week in month</td>
+<td>Number</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>D</td>
+<td>Day in year</td>
+<td>Number</td>
+<td>189</td>
+</tr>
+
+<tr>
+<td>d</td>
+<td>Day in month</td>
+<td>Number</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>F</td>
+<td>Day of week in month</td>
+<td>Number</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>E</td>
+<td>Day name in week</td>
+<td>Text</td>
+<td>Tuesday; Tue</td>
+</tr>
+
+<tr>
+<td>u</td>
+<td>Day number of week (1 = Monday, &hellip;, 7 = Sunday)</td>
+<td>Number</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>a</td>
+<td>Am/pm marker</td>
+<td>Text</td>
+<td>PM</td>
+</tr>
+
+<tr>
+<td>H</td>
+<td>Hour in day (0-23)</td>
+<td>Number</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>k</td>
+<td>Hour in day (1-24)</td>
+<td>Number</td>
+<td>24</td>
+</tr>
+
+<tr>
+<td>K</td>
+<td>Hour in am/pm (0-11)</td>
+<td>Number</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>h</td>
+<td>Hour in am/pm (1-12)</td>
+<td>Number</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>m</td>
+<td>Minute in hour</td>
+<td>Number</td>
+<td>30</td>
+</tr>
+
+<tr>
+<td>s</td>
+<td>Second in minute</td>
+<td>Number</td>
+<td>55</td>
+</tr>
+
+<tr>
+<td>S</td>
+<td>Millisecond</td>
+<td>Number</td>
+<td>978</td>
+</tr>
+
+<tr>
+<td>z</td>
+<td>Time zone</td>
+<td>General time zone</td>
+<td>Pacific Standard Time; PST; GMT-08:00</td>
+</tr>
+
+<tr>
+<td>Z</td>
+<td>Time zone</td>
+<td>RFC 822 time zone</td>
+<td>-0800</td>
+</tr>
+
+<tr>
+<td>X</td>
+<td>Time zone</td>
+<td>ISO 8601 time zone</td>
+<td>-08; -0800; -08:00</td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+    
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/tech/redis_tips/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Redis Tips</span>
+    </a>
+    
+    
+    <a href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/" class="navigation-next">
+      <span class="navigation-tittle"> Ubuntu 18.04에서 Java jar를 Service로 실행하기</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'https-devplayg-github-io';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-112382230-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+        
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/go.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/java.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/javascript.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/yaml.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/shell.min.js"></script>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/bash.min.js"></script>
+            
+        
+    
+    <script type="text/javascript">
+        
+        hljs.configure({languages: ["go, java, javascript, yaml, shell, bash"]});
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
+
+
+
+    </body>
+</html>

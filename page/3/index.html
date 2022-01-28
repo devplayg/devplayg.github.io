@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-12-27T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-01-28T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -176,7 +176,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2021 devplayg
+  &copy; 2022 devplayg
   
 </div>
 
@@ -195,6 +195,26 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/docker-container_etc/" >Installing and using other containers via Docker</a>
+        </span>
+        <span class="item__date">
+          Wed, Jan 1, 2020
+        </span>
+        <span >
+        
+         Pulling and run image Apache 2.4
+docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  
+        
+        </span>
+        
+        </div>
+        
+     
       
         
       
@@ -380,29 +400,6 @@ mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf 
 pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/spring_boot-handling-timezone/" >Handling timezone in Spring Boot</a>
-        </span>
-        <span class="item__date">
-          Wed, Aug 28, 2019
-        </span>
-        <span >
-        
-        LocalDateTime vs ZonedDateTime
- LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
-LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/spring_boot-handling-timezone/">➦</a>
         
         </div>
         

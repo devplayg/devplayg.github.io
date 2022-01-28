@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2020-12-27T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-01-28T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -176,7 +176,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2021 devplayg
+  &copy; 2022 devplayg
   
 </div>
 
@@ -195,6 +195,29 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/spring_boot-handling-timezone/" >Handling timezone in Spring Boot</a>
+        </span>
+        <span class="item__date">
+          Wed, Aug 28, 2019
+        </span>
+        <span >
+        
+        LocalDateTime vs ZonedDateTime
+ LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
+LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/spring_boot-handling-timezone/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -391,29 +414,6 @@ Collections.sort(logs, new Comparator&lt;FaceRecognition&gt;() { @Override publi
         </span>
         
           ... <a class="read-more-symbol" href="/tech/java_lambda/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/tips_spring-boot-dist/" >Sprint Boot tips</a>
-        </span>
-        <span class="item__date">
-          Thu, Jul 25, 2019
-        </span>
-        <span >
-        
-        Building gradlew bootjar  Running Normal
-java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/tips_spring-boot-dist/">➦</a>
         
         </div>
         

@@ -6,10 +6,30 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>윈도우 Docker Desktop 대체</title>
+      <link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
+      <description>Microsoft Store 에서 Window Terminal 설치
+ https://docs.microsoft.com/ko-kr/windows/terminal/install  WSL2 설치
+wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store에서 Ubuntu 설치</description>
+    </item>
+    
+    <item>
+      <title>17년만에 듣는 My New I.V.P.</title>
+      <link>https://devplayg.com/life/2021-11-07_memo/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2021-11-07_memo/</guid>
+      <description>생각을 주장하며 살아갈 것인가, 감동을 나누며 살아갈 것인가</description>
+    </item>
     
     <item>
       <title>Setting up OpenLDAP on docker</title>
@@ -453,9 +473,9 @@ Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Overri
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description>Building gradlew bootjar  Running Normal
+      <description>Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
 java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.</description>
+java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.</description>
     </item>
     
     <item>
@@ -795,6 +815,19 @@ file /tmp/file1.mp4 file /tmp/file2.</description>
     </item>
     
     <item>
+      <title></title>
+      <link>https://devplayg.com/life/2021-12-10_minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/life/2021-12-10_minecraft/</guid>
+      <description>크리에이트브 모드 유저 데려오기
+/tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
+/tp 유저이름  플레이어 제외 생물 죽이기
+/kill @e[type=!minecraft:player]  날씨
+/weather clear /weather rain  건물</description>
+    </item>
+    
+    <item>
       <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
       <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -815,14 +848,23 @@ package main import ( &amp;quot;bufio&amp;quot; &amp;quot;fmt&amp;quot; &amp;quo
     </item>
     
     <item>
+      <title>Java time</title>
+      <link>https://devplayg.com/tech/java_java-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/java_java-time/</guid>
+      <description>LocalDateTime val ldt = LocalDateTime.parse(&amp;quot;2006-01-02 15:04:05&amp;quot;, DateTimeFormatter.ofPattern(&amp;quot;yyyy-MM-dd HH:mm:ss&amp;quot;) ldt.toString() 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.BASIC_ISO_DATE) 20060102 ldt.format(DateTimeFormatter.ISO_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE) 2006-01-02 ldt.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME) 2006-01-02T15:04:05 ldt.format(DateTimeFormatter.ISO_LOCAL_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_ORDINAL_DATE) 2006-002 ldt.format(DateTimeFormatter.ISO_TIME) 15:04:05 ldt.format(DateTimeFormatter.ISO_WEEK_DATE) 2006-W01-1 ldt.toLocalDate().atStartOfDay().format(DateTimeFormatter.ISO_DATE_TIME) 2006-01-02T00:00:00 ldt.</description>
+    </item>
+    
+    <item>
       <title>Redis Tips</title>
       <link>https://devplayg.com/tech/redis_tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devplayg.com/tech/redis_tips/</guid>
-      <description> Commands Common
+      <description>Commands Common
 keys * del [key...] keys *str* clear flushall smembers []  Set
-hmset user id 1234 name tom pw 12341 hget user name del user  </description>
+hmset user id 1234 name tom pw 12341 hget user name del user  Scan</description>
     </item>
     
     <item>
