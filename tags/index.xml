@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://devplayg.com/tags/docker/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker desktop</title>
+      <link>https://devplayg.com/tags/docker-desktop/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker-desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://devplayg.com/tags/windows/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>윈도우 Docker Desktop 대체</title>
+      <link>https://devplayg.com/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-docker-desktop-%EB%8C%80%EC%B2%B4/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-docker-desktop-%EB%8C%80%EC%B2%B4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>identify</title>
@@ -44,15 +80,6 @@
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://devplayg.com/tags/docker/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -336,15 +363,6 @@
     </item>
     
     <item>
-      <title>Jetson TX2</title>
-      <link>https://devplayg.com/tags/jetson-tx2/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cuda</title>
       <link>https://devplayg.com/tags/cuda/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
@@ -377,6 +395,15 @@
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/deepstream-debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jetson tx2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
       <description></description>
     </item>
     

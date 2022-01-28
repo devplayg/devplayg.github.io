@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jetson TX2 on Developer Playground</title>
+    <title>jetson tx2 on Developer Playground</title>
     <link>https://devplayg.com/tags/jetson-tx2/</link>
-    <description>Recent content in Jetson TX2 on Developer Playground</description>
+    <description>Recent content in jetson tx2 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0900</lastBuildDate>

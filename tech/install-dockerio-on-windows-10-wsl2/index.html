@@ -17,19 +17,19 @@
     
     
 
-<title>윈도우 Docker Desktop 대체 • Developer Playground</title>
+<title>윈도우10, Docker Desktop 없이 사용하기 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="윈도우 Docker Desktop 대체"/>
+<meta name="twitter:title" content="윈도우10, Docker Desktop 없이 사용하기"/>
 <meta name="twitter:description" content="Microsoft Store 에서 Window Terminal 설치
- https://docs.microsoft.com/ko-kr/windows/terminal/install  WSL2 설치
-wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store에서 Ubuntu 설치"/>
+ https://docs.microsoft.com/ko-kr/windows/terminal/install  관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행
+wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store 에서 필요한 Ubuntu 설치"/>
 
-<meta property="og:title" content="윈도우 Docker Desktop 대체" />
+<meta property="og:title" content="윈도우10, Docker Desktop 없이 사용하기" />
 <meta property="og:description" content="Microsoft Store 에서 Window Terminal 설치
- https://docs.microsoft.com/ko-kr/windows/terminal/install  WSL2 설치
-wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store에서 Ubuntu 설치" />
+ https://docs.microsoft.com/ko-kr/windows/terminal/install  관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행
+wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store 에서 필요한 Ubuntu 설치" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/" />
 <meta property="article:published_time" content="2022-01-28T00:00:00+09:00" />
@@ -202,7 +202,7 @@ wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Window
     
 <article>
   <header>
-    <h1 class="post__title">윈도우 Docker Desktop 대체
+    <h1 class="post__title">윈도우10, Docker Desktop 없이 사용하기
         <small>
         
         
@@ -238,6 +238,9 @@ wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Window
                  
             
                 <a class="badge badge-tag" href="/tags/docker-desktop">docker desktop</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-docker-desktop-%EB%8C%80%EC%B2%B4">윈도우 docker desktop 대체</a>
                 
             
         
@@ -269,32 +272,38 @@ wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Window
 <li><a href="https://docs.microsoft.com/ko-kr/windows/terminal/install">https://docs.microsoft.com/ko-kr/windows/terminal/install</a></li>
 </ul>
 
-<p>WSL2 설치</p>
+<p>관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행</p>
 
-<pre><code>wsl.exe --install 
+<pre><code>wsl.exe --install
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 </code></pre>
 
-<p>Microsoft Store에서 Ubuntu 설치</p>
+<p>Microsoft Store 에서 필요한 Ubuntu 설치</p>
 
 <p>WSL2 설치확인</p>
 
-<pre><code>PS C:\Users\YOUR_ACCOUNT&gt; wsl -l -v
+<pre><code>wsl -l -v
+----
 NAME            STATE           VERSION
 * Ubuntu-18.04    Running         2
 </code></pre>
 
-<p>Docker.io 설치</p>
+<p>Docker 설치</p>
 
 <pre><code>sudo apt update
 sudo apt upgrade
 sudo apt install docker.io
 </code></pre>
 
-<p>start</p>
+<p>Docker 버전확인</p>
 
-<pre><code>sudo dockerd
+<pre><code>docker version
+</code></pre>
+
+<p>Docker 시작</p>
+
+<pre><code>sudo dockerd &amp;
 </code></pre>
 
   </div>
