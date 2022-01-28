@@ -6,21 +6,10 @@
     <description>Recent content in docker on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>윈도우 Docker Desktop 대체</title>
-      <link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
-      <description>Microsoft Store 에서 Window Terminal 설치
- https://docs.microsoft.com/ko-kr/windows/terminal/install  WSL2 설치
-wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store에서 Ubuntu 설치</description>
-    </item>
     
     <item>
       <title>Setting up development environments with docker-compose</title>

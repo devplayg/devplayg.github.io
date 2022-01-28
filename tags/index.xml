@@ -6,37 +6,10 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>docker</title>
-      <link>https://devplayg.com/tags/docker/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker desktop</title>
-      <link>https://devplayg.com/tags/docker-desktop/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker-desktop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://devplayg.com/tags/windows/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/windows/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>identify</title>
@@ -75,6 +48,15 @@
     </item>
     
     <item>
+      <title>docker</title>
+      <link>https://devplayg.com/tags/docker/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>openldap</title>
       <link>https://devplayg.com/tags/openldap/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
@@ -84,7 +66,7 @@
     </item>
     
     <item>
-      <title>docker compose</title>
+      <title>docker-compose</title>
       <link>https://devplayg.com/tags/docker-compose/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
       

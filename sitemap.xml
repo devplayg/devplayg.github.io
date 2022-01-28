@@ -3,71 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/docker/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/docker/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/docker-desktop/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/windows/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/windows/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/life/2021-11-07_memo/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
   </url>
   
   <url>
+    <loc>https://devplayg.com/</loc>
+    <lastmod>2021-11-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/life/</loc>
+    <lastmod>2021-11-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -97,8 +50,26 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/categories/</loc>
+    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/tech/setting-up-openldap-on-docker/</loc>
     <lastmod>2020-12-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/docker/</loc>
+    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -120,6 +91,12 @@
   
   <url>
     <loc>https://devplayg.com/categories/db/</loc>
+    <lastmod>2020-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/docker/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
