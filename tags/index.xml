@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,54 @@
     <item>
       <title>docker</title>
       <link>https://devplayg.com/tags/docker/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker compose</title>
+      <link>https://devplayg.com/tags/docker-compose/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ldap</title>
+      <link>https://devplayg.com/tags/ldap/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/ldap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://devplayg.com/tags/mysql/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://devplayg.com/tags/redis/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis-cluster</title>
+      <link>https://devplayg.com/tags/redis-cluster/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/redis-cluster/</guid>
       <description></description>
     </item>
     
@@ -93,29 +138,11 @@
     </item>
     
     <item>
-      <title>docker-compose</title>
-      <link>https://devplayg.com/tags/docker-compose/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/docker-compose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mariadb</title>
       <link>https://devplayg.com/tags/mariadb/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/mariadb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>redis</title>
-      <link>https://devplayg.com/tags/redis/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/redis/</guid>
       <description></description>
     </item>
     

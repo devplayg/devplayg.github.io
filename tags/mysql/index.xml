@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker-composed on Developer Playground</title>
-    <link>https://devplayg.com/categories/docker-composed/</link>
-    <description>Recent content in docker-composed on Developer Playground</description>
+    <title>mysql on Developer Playground</title>
+    <link>https://devplayg.com/tags/mysql/</link>
+    <description>Recent content in mysql on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/categories/docker-composed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

@@ -4,37 +4,96 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/docker/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://devplayg.com/tech/docker-compose_tips/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/docker/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/docker/</loc>
-    <lastmod>2022-01-28T00:00:00+09:00</lastmod>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/docker-compose/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/docker-composed/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/ldap/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/mysql/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/redis/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/redis-cluster/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/tips/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -114,24 +173,12 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/categories/tips/</loc>
-    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tech/config-dev-server-env-with-docker/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/db/</loc>
-    <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/docker-compose/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -144,12 +191,6 @@
   
   <url>
     <loc>https://devplayg.com/categories/redis/</loc>
-    <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/redis/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -281,20 +322,8 @@
   </url>
   
   <url>
-    <loc>https://devplayg.com/series/docker/</loc>
-    <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</loc>
     <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/</loc>
-    <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

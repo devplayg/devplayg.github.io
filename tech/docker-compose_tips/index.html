@@ -17,18 +17,24 @@
     
     
 
-<title> • Developer Playground</title>
+<title>Tips for Docker Compose • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Tips for Docker Compose"/>
+<meta name="twitter:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
+docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
+sudo docker-compose down  Remove containers for services not defined in the Compose file"/>
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="Tips for Docker Compose" />
+<meta property="og:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
+docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
+sudo docker-compose down  Remove containers for services not defined in the Compose file" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/docker-compose_tips/" />
-<meta property="og:site_name" content="Developer Playground" />
+<meta property="article:published_time" content="2022-01-29T00:28:15+09:00" />
+<meta property="article:modified_time" content="2022-01-29T00:28:15+09:00" /><meta property="og:site_name" content="Developer Playground" />
+
 
 
     
@@ -197,9 +203,11 @@
     
 <article>
   <header>
-    <h1 class="post__title">
+    <h1 class="post__title">Tips for Docker Compose
         <small>
         
+        
+            <span class="post__date">Sat, Jan 29, 2022</span>
         
         </small>
     </h1>
@@ -207,13 +215,59 @@
 <div class="post__meta">
     
     
+        
+        
+            
+            
+                <a class="badge badge-category" href="/categories/tips">tips</a>
+            
+                <a class="badge badge-category" href="/categories/docker">docker</a>
+            
+                <a class="badge badge-category" href="/categories/docker-composed">docker-composed</a>
+            
+        
+    
 
     
+    
+        
+        
+            
+            
+                <a class="badge badge-tag" href="/tags/docker">docker</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/docker-compose">docker-compose</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/redis">redis</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/redis-cluster">redis-cluster</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/ldap">ldap</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/mysql">mysql</a>
+                
+            
+        
     
 </div>
 
 
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
+        
+    </div>
+    
+
   </header>
   
   
@@ -231,23 +285,155 @@
 
 
   <div class="post">
-    
+    <p>Builds, (re)creates, starts, and attaches to containers for a service.</p>
+
+<pre><code>docker-compose up -d
+</code></pre>
+
+<p>Stops containers and removes containers, networks, volumes, and images created by up.</p>
+
+<pre><code>sudo docker-compose down
+</code></pre>
+
+<p>Remove containers for services not defined in the Compose file</p>
+
+<pre><code>sudo docker-compose down --remove-orphans
+</code></pre>
+
+<p><code>docker-compose.yaml</code></p>
+
+<pre><code class="language-yaml">version: &quot;3.1&quot;
+
+services:
+    db:
+        image: mysql:5.7.24
+        container_name: db
+        volumes:
+            - ./db/data:/var/lib/mysql
+            - ./db/conf.d:/etc/mysql/conf.d
+        environment:
+            - MYSQL_ROOT_PASSWORD=pa$$w0rd
+            - MYSQL_DATABASE=devdb
+            - MYSQL_USER=devplayg
+            - MYSQL_PASSWORD=userpa$$w0rd
+            - LANG=C.UTF-8
+            - TZ=Asia/Seoul
+        restart: unless-stopped
+        ports:
+            - &quot;127.0.0.1:3306:3306&quot;
+        command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+    redis-cluster:
+        image: grokzen/redis-cluster:6.0.12
+        container_name: redis-c
+        restart: unless-stopped
+        ports:
+            - 127.0.0.1:7000-7005:7000-7005
+
+    redis:
+        image: redis:6.0.12
+        container_name: redis
+        restart: unless-stopped
+        ports:
+            - &quot;127.0.0.1:6379:6379&quot;
+        volumes:
+            - ./redis/redis-data:/var/lib/redis
+            - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+        command: ['redis-server', '/usr/local/etc/redis/redis.conf']
+
+    ldap:
+        image: osixia/openldap:1.4.0
+        container_name: ldap
+        ports:
+            - 127.0.0.1:389:389
+        environment:
+            - LDAP_ORGANISATION=Developer Playground
+            - LDAP_DOMAIN=&quot;devplayg.com&quot;
+            - LDAP_ADMIN_PASSWORD=pa$$w0rd
+
+</code></pre>
+
+<p><code>docker-compose.yaml</code> with network</p>
+
+<pre><code class="language-yaml">services:
+  db:
+    image: mysql:5.7.24
+    container_name: db
+    volumes:
+      - ./db/data:/var/lib/mysql
+      - ./db/conf.d:/etc/mysql/conf.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=pa$$w0rd
+      - MYSQL_DATABASE=devdb
+      - MYSQL_USER=devplayg
+      - MYSQL_PASSWORD=userpa$$w0rd
+      - LANG=C.UTF-8
+      - TZ=Asia/Seoul
+    restart: unless-stopped
+    ports:
+      - &quot;127.0.0.1:3306:3306&quot;
+    networks:
+      - mynet
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+  redis-cluster:
+    image: grokzen/redis-cluster:6.0.12
+    container_name: redis-c
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:7000-7005:7000-7005
+    networks:
+      - mynet
+  redis:
+    image: redis:6.0.12
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - &quot;127.0.0.1:6379:6379&quot;
+    volumes:
+      - ./redis/redis-data:/var/lib/redis
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    command: ['redis-server', '/usr/local/etc/redis/redis.conf']
+    networks:
+      - mynet
+
+  ldap:
+    image: osixia/openldap:1.4.0
+    container_name: ldap
+    ports:
+      - 127.0.0.1:389:389
+    environment:
+      - LDAP_ORGANISATION=Developer Playground
+      - LDAP_DOMAIN=&quot;devplayg.com&quot;
+      - LDAP_ADMIN_PASSWORD=pa$$w0rd
+    networks:
+      - mynet
+
+networks:
+  mynet:
+</code></pre>
+
   </div>
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/" class="navigation-prev">
+    <a href="/tech/install-dockerio-on-windows-10-wsl2/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle"> Ubuntu 18.04에서 Java jar를 Service로 실행하기</span>
+      <span class="navigation-tittle">윈도우10, Docker Desktop 없이 사용하기</span>
     </a>
     
-    
-    <a href="/tech/ffmpeg_tips/" class="navigation-next">
-      <span class="navigation-tittle">FFmpeg tips</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 
