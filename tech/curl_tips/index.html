@@ -17,24 +17,19 @@
     
     
 
-<title>Tips for Docker Compose • Developer Playground</title>
+<title>CURL tips • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tips for Docker Compose"/>
-<meta name="twitter:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file"/>
+<meta name="twitter:title" content="CURL tips"/>
+<meta name="twitter:description" content="파일 전송 curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127."/>
 
-<meta property="og:title" content="Tips for Docker Compose" />
-<meta property="og:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file" />
+<meta property="og:title" content="CURL tips" />
+<meta property="og:description" content="파일 전송 curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/tech/curl_tips/" />
-<meta property="article:published_time" content="2022-01-29T00:28:15+09:00" />
-<meta property="article:modified_time" content="2022-01-29T00:28:15+09:00" /><meta property="og:site_name" content="Developer Playground" />
-
+<meta property="article:published_time" content="2019-08-19T00:00:00+09:00" />
+<meta property="article:modified_time" content="2019-08-19T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -203,11 +198,11 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
     
 <article>
   <header>
-    <h1 class="post__title">Tips for Docker Compose
+    <h1 class="post__title">CURL tips
         <small>
         
         
-            <span class="post__date">Sat, Jan 29, 2022</span>
+            <span class="post__date">Mon, Aug 19, 2019</span>
         
         </small>
     </h1>
@@ -221,29 +216,33 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
             
                 <a class="badge badge-category" href="/categories/tips">tips</a>
             
-                <a class="badge badge-category" href="/categories/docker">docker</a>
-            
-                <a class="badge badge-category" href="/categories/docker-composed">docker-composed</a>
-            
         
     
 
     
+    
+        
+        
+            
+            
+                <a class="badge badge-tag" href="/tags/curl">curl</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/tips">tips</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/post">post</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/get">get</a>
+                
+            
+        
     
 </div>
 
 
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
-        
-    </div>
-    
-
   </header>
   
   
@@ -261,42 +260,41 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
 
 
   <div class="post">
-    <p>Builds, (re)creates, starts, and attaches to containers for a service.</p>
+    
 
-<pre><code>docker-compose  up -d
+<h3 id="파일-전송">파일 전송</h3>
+
+<pre><code>curl -F &quot;file=@nssm.exe&quot; http://127.0.0.1/filestorage/uploadFile
 </code></pre>
 
-<p>Stops containers and removes containers, networks, volumes, and images created by up.</p>
+<h3 id="여러-파일-전송">여러 파일 전송</h3>
 
-<pre><code>sudo docker-compose   down
+<pre><code>curl -F &quot;files=@nssm.exe&quot; -F &quot;files=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
+curl -F &quot;files[]=@nssm.exe&quot; -F &quot;files[]=@c.txt&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
 </code></pre>
 
-<p>Remove containers for services not defined in the Compose file</p>
+<h4 id="파일과-파라메터-전송">파일과 파라메터 전송</h4>
 
-<pre><code>sudo docker-compose   down --remove-orphans
+<pre><code>curl -F &quot;files=@nssm.exe&quot; -F &quot;event_type=3&quot; http://127.0.0.1/filestorage/uploadMultipleFiles
+curl -F &quot;file=@nssm.exe&quot; -F &quot;event_type=3&quot; -F &quot;cameraId=109&quot; -F &quot;date=2019-01-02 12:34:56&quot; http://127.0.0.1/filestorage/uploadFile2
 </code></pre>
 
   </div>
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
-        
-    </div>
-    
-
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/install-dockerio-on-windows-10-wsl2/" class="navigation-prev">
+    <a href="/tech/ubuntu-18.04_tips/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">윈도우10, Docker Desktop 없이 사용하기</span>
+      <span class="navigation-tittle">Ubuntu 18.04 tips</span>
     </a>
     
+    
+    <a href="/tech/spring_boot-handling-timezone/" class="navigation-next">
+      <span class="navigation-tittle">Handling timezone in Spring Boot</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

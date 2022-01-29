@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,9 @@
     <item>
       <title>docker</title>
       <link>https://devplayg.com/categories/docker/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker-composed</title>
-      <link>https://devplayg.com/categories/docker-composed/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/docker-composed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://devplayg.com/categories/tips/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/categories/tips/</guid>
       <description></description>
     </item>
     
@@ -44,6 +26,15 @@
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://devplayg.com/categories/tips/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/tips/</guid>
       <description></description>
     </item>
     
