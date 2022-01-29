@@ -6,10 +6,21 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tips for Docker Compose</title>
+      <link>https://devplayg.com/tech/curl_tips/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/curl_tips/</guid>
+      <description>Builds, (re)creates, starts, and attaches to containers for a service.
+docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
+sudo docker-compose down  Remove containers for services not defined in the Compose file</description>
+    </item>
     
     <item>
       <title>윈도우10, Docker Desktop 없이 사용하기</title>
@@ -395,15 +406,6 @@ LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-
       <guid>https://devplayg.com/life/2019-07-25_refactoring/</guid>
       <description>요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
 함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.</description>
-    </item>
-    
-    <item>
-      <title>CURL tips</title>
-      <link>https://devplayg.com/tech/curl_tips/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/curl_tips/</guid>
-      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
     </item>
     
     <item>
@@ -825,6 +827,15 @@ file /tmp/file1.mp4 file /tmp/file2.</description>
 /tp 유저이름  플레이어 제외 생물 죽이기
 /kill @e[type=!minecraft:player]  날씨
 /weather clear /weather rain  건물</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devplayg.com/tech/docker-compose_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-compose_tips/</guid>
+      <description></description>
     </item>
     
     <item>

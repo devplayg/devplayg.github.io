@@ -6,10 +6,21 @@
     <description>Recent content in Tech on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tips for Docker Compose</title>
+      <link>https://devplayg.com/tech/curl_tips/</link>
+      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/curl_tips/</guid>
+      <description>Builds, (re)creates, starts, and attaches to containers for a service.
+docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
+sudo docker-compose down  Remove containers for services not defined in the Compose file</description>
+    </item>
     
     <item>
       <title>윈도우10, Docker Desktop 없이 사용하기</title>
@@ -259,15 +270,6 @@ evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Jso
       <description>LocalDateTime vs ZonedDateTime
  LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
 LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.</description>
-    </item>
-    
-    <item>
-      <title>CURL tips</title>
-      <link>https://devplayg.com/tech/curl_tips/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/curl_tips/</guid>
-      <description>파일 전송 curl -F &amp;quot;file=@nssm.exe&amp;quot; http://127.0.0.1/filestorage/uploadFile  여러 파일 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;files=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles curl -F &amp;quot;files[]=@nssm.exe&amp;quot; -F &amp;quot;files[]=@c.txt&amp;quot; http://127.0.0.1/filestorage/uploadMultipleFiles  파일과 파라메터 전송 curl -F &amp;quot;files=@nssm.exe&amp;quot; -F &amp;quot;event_type=3&amp;quot; http://127.</description>
     </item>
     
     <item>
@@ -553,6 +555,15 @@ docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  OpenJDK 8</de
       <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
 Concatenating video files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
 file /tmp/file1.mp4 file /tmp/file2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devplayg.com/tech/docker-compose_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devplayg.com/tech/docker-compose_tips/</guid>
+      <description></description>
     </item>
     
     <item>

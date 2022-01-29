@@ -363,6 +363,15 @@
     </item>
     
     <item>
+      <title>Jetson TX2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cuda</title>
       <link>https://devplayg.com/tags/cuda/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
@@ -395,15 +404,6 @@
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/deepstream-debug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jetson tx2</title>
-      <link>https://devplayg.com/tags/jetson-tx2/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
       <description></description>
     </item>
     
@@ -687,7 +687,7 @@
     </item>
     
     <item>
-      <title>Spring Boot</title>
+      <title>spring boot</title>
       <link>https://devplayg.com/tags/spring-boot/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
@@ -728,33 +728,6 @@
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CURL</title>
-      <link>https://devplayg.com/tags/curl/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/curl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>get</title>
-      <link>https://devplayg.com/tags/get/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/get/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>post</title>
-      <link>https://devplayg.com/tags/post/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/post/</guid>
       <description></description>
     </item>
     
