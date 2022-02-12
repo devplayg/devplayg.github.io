@@ -17,14 +17,14 @@
     
     
 
-<title>Design patterns • Developer Playground</title>
+<title>Design Patterns &gt; SOLID patterns • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Design patterns"/>
+<meta name="twitter:title" content="Design Patterns &gt; SOLID patterns"/>
 <meta name="twitter:description" content="SOLID 패턴  SR: Single Responsibility OC: Open/Closed LS: Liskov Substitution IS: Interface Segregation DI: Dependency Inversion  Single Responsibility(SRP)  &ldquo;should be open for extension, but closed for modification&rdquo;"/>
 
-<meta property="og:title" content="Design patterns" />
+<meta property="og:title" content="Design Patterns &gt; SOLID patterns" />
 <meta property="og:description" content="SOLID 패턴  SR: Single Responsibility OC: Open/Closed LS: Liskov Substitution IS: Interface Segregation DI: Dependency Inversion  Single Responsibility(SRP)  &ldquo;should be open for extension, but closed for modification&rdquo;" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/coding/design-pattern_solid-patterns/" />
@@ -199,7 +199,7 @@
     
 <article>
   <header>
-    <h1 class="post__title">Design patterns
+    <h1 class="post__title">Design Patterns &gt; SOLID patterns
         <small>
         
         
@@ -286,29 +286,29 @@
 <li><p><em>&ldquo;should be open for extension, but closed for modification&rdquo;</em></p>
 
 <pre><code class="language-kotlin">interface Language {
-run()
+    run()
 }
 
 class Golang: Language {
-run() {
-    println(&quot;gopher&quot;)
-}
+    run() {
+        println(&quot;gopher&quot;)
+    }
 }
 
 class Kotlin: Language {
-run() {
-    println(&quot;still on JVM&quot;)
-}
+    run() {
+        println(&quot;still on JVM&quot;)
+    }
 }
 
 class Javascript: Language {
-run() {
-    println(&quot;legendary&quot;)
-}
+    run() {
+        println(&quot;legendary&quot;)
+    }
 }
 
 fun run(language: Language) {
-language.run()
+    language.run()
 }
 
 val golang = Language(GOLANG)
@@ -337,16 +337,11 @@ javascript.run()
 
 <div class="navigation navigation-single">
     
-    <a href="/coding/baekjoon-1978/" class="navigation-prev">
+    <a href="/coding/design-pattern/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">BaekJoon 1978 / 소수 찾기</span>
-    </a>
-    
-    
-    <a href="/coding/design-pattern/" class="navigation-next">
       <span class="navigation-tittle">Design patterns</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
+    
     
 </div>
 
