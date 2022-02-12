@@ -17,20 +17,40 @@
     
     
 
-<title>BaekJoon 1978 / 소수 찾기 • Developer Playground</title>
+<title>Tips for Docker Compose • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="BaekJoon 1978 / 소수 찾기"/>
-<meta name="twitter:description" content="https://www.acmicpc.net/problem/1978
-package main import ( &quot;bufio&quot; &quot;fmt&quot; &quot;os&quot; &quot;strconv&quot; &quot;strings&quot; ) func main() { var input int fmt.Scanf(&quot;%d&quot;, &amp;input) if input &lt; 0 || input &gt; 100 { return } scanner := bufio."/>
+<meta name="twitter:title" content="Tips for Docker Compose"/>
+<meta name="twitter:description" content="Design Patterns in GOF
+ Factory Factory Method Abstract Factory Builder Singleton Prototype
+ Adapter
+ Proxy
+ Facade
+ Decorator
+ Bridge
+ Flyweight
+ Composite
+ Strategy
+ State"/>
 
-<meta property="og:title" content="BaekJoon 1978 / 소수 찾기" />
-<meta property="og:description" content="https://www.acmicpc.net/problem/1978
-package main import ( &quot;bufio&quot; &quot;fmt&quot; &quot;os&quot; &quot;strconv&quot; &quot;strings&quot; ) func main() { var input int fmt.Scanf(&quot;%d&quot;, &amp;input) if input &lt; 0 || input &gt; 100 { return } scanner := bufio." />
+<meta property="og:title" content="Tips for Docker Compose" />
+<meta property="og:description" content="Design Patterns in GOF
+ Factory Factory Method Abstract Factory Builder Singleton Prototype
+ Adapter
+ Proxy
+ Facade
+ Decorator
+ Bridge
+ Flyweight
+ Composite
+ Strategy
+ State" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/coding/baekjoon-1978/" />
-<meta property="og:site_name" content="Developer Playground" />
+<meta property="og:url" content="https://devplayg.com/coding/design-pattern/" />
+<meta property="article:published_time" content="2016-11-21T00:28:15+09:00" />
+<meta property="article:modified_time" content="2016-11-21T00:28:15+09:00" /><meta property="og:site_name" content="Developer Playground" />
+
 
 
     
@@ -199,9 +219,11 @@ package main import ( &quot;bufio&quot; &quot;fmt&quot; &quot;os&quot; &quot;str
     
 <article>
   <header>
-    <h1 class="post__title">BaekJoon 1978 / 소수 찾기
+    <h1 class="post__title">Tips for Docker Compose
         <small>
         
+        
+            <span class="post__date">Mon, Nov 21, 2016</span>
         
         </small>
     </h1>
@@ -209,13 +231,43 @@ package main import ( &quot;bufio&quot; &quot;fmt&quot; &quot;os&quot; &quot;str
 <div class="post__meta">
     
     
+        
+        
+            
+            
+                <a class="badge badge-category" href="/categories/coding">coding</a>
+            
+        
+    
 
     
+    
+        
+        
+            
+            
+                <a class="badge badge-tag" href="/tags/design-patterns">design patterns</a>
+                 
+            
+                <a class="badge badge-tag" href="/tags/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4">디자인 패턴</a>
+                
+            
+        
     
 </div>
 
 
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/design-patterns">Design Patterns</a>
+        
+    </div>
+    
+
   </header>
   
   
@@ -233,80 +285,75 @@ package main import ( &quot;bufio&quot; &quot;fmt&quot; &quot;os&quot; &quot;str
 
 
   <div class="post">
-    <p><a href="https://www.acmicpc.net/problem/1978">https://www.acmicpc.net/problem/1978</a></p>
+    <p>Design Patterns in GOF</p>
 
-<pre><code class="language-go">package main
+<ul>
+<li>Factory</li>
+<li>Factory Method</li>
+<li>Abstract Factory</li>
+<li>Builder</li>
+<li>Singleton</li>
 
-import (
-	&quot;bufio&quot;
-	&quot;fmt&quot;
-	&quot;os&quot;
-	&quot;strconv&quot;
-	&quot;strings&quot;
-)
+<li><p>Prototype</p></li>
 
-func main() {
-	var input int
-	fmt.Scanf(&quot;%d&quot;, &amp;input)
+<li><p>Adapter</p></li>
 
-	if input &lt; 0 || input &gt; 100 {
-		return
-	}
+<li><p>Proxy</p></li>
 
-	scanner := bufio.NewScanner(os.Stdin)
-	var line string
-	if scanner.Scan() {
-		line = scanner.Text()
-	}
-	nums := strings.SplitN(line, &quot; &quot;, input)
-	if len(nums) != input {
-		return
-	}
+<li><p>Facade</p></li>
 
-	var count int
-	for _, str := range nums {
-		n, err := strconv.Atoi(str)
-		//if n  &lt; 0 || n &gt; 1000 {
-		//	return
-		//}
-		if err != nil {
-			return
-		}
-		if isPrimeNumber(n) {
-			count++
-		}
-	}
-	fmt.Println(count)
-}
+<li><p>Decorator</p></li>
 
+<li><p>Bridge</p></li>
 
-func isPrimeNumber(n int) bool {
-	if n &lt; 2 {
-		return false
-	}
-	for i := 2; i &lt;= n; i++ {
-		if n%i == 0 {
-			if i != n {
-				return false
-			}
-			return true
-		}
-	}
-	return false
-}
-</code></pre>
+<li><p>Flyweight</p></li>
+
+<li><p>Composite</p></li>
+
+<li><p>Strategy</p></li>
+
+<li><p>State</p></li>
+
+<li><p>Template Method</p></li>
+
+<li><p>Command</p></li>
+
+<li><p>Chain of Responsibility</p></li>
+
+<li><p>Observer</p></li>
+
+<li><p>Memento</p></li>
+
+<li><p>Mediator</p></li>
+
+<li><p>Visitor</p></li>
+
+<li><p>Iterator</p></li>
+
+<li><p>Interpreter</p></li>
+</ul>
 
   </div>
     
+    
+    
+    <div class="post__series">
+        
+        
+            <span class="badge-series">Series</span>: <a class="series" href="/series/design-patterns">Design Patterns</a>
+        
+    </div>
+    
+
   
 
 <div class="navigation navigation-single">
     
-    
-    <a href="/coding/design-pattern/" class="navigation-next">
-      <span class="navigation-tittle">Tips for Docker Compose</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    <a href="/coding/baekjoon-1978/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">BaekJoon 1978 / 소수 찾기</span>
     </a>
+    
     
 </div>
 

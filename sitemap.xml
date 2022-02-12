@@ -1906,6 +1906,41 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/coding/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/series/design-patterns/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/coding/design-pattern/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/categories/coding/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/design-patterns/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/life/2021-12-10_minecraft/</loc>
   </url>
   
@@ -1915,11 +1950,6 @@
   
   <url>
     <loc>https://devplayg.com/coding/baekjoon-1978/</loc>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/coding/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
