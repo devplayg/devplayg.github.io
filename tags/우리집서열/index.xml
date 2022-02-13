@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>우리집서열 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</link>
+    <description>Recent content in 우리집서열 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 13 Feb 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>우리집서열</title>
+      <link>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</guid>
+      <description> 내가 느낀 우리집 서열
+엄마 &amp;gt; 지산,지수 &amp;gt; 달팽이 &amp;gt; 아빠 </description>
+    </item>
+    
+  </channel>
+</rss>

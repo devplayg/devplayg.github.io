@@ -17,7 +17,8 @@
       <pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/coding/design-pattern_solid-patterns/</guid>
-      <description>SOLID 패턴  SR: Single Responsibility OC: Open/Closed LS: Liskov Substitution IS: Interface Segregation DI: Dependency Inversion  Single Responsibility(SRP)  &amp;ldquo;should be open for extension, but closed for modification&amp;rdquo;</description>
+      <description>SOLID 패턴  SRP (Single Responsibility) OCP (Open/Closed) LSP (Liskov Substitution) ISP (Interface Segregation) DIP (Dependency Inversion)
+class Golang: Language { compile() { println(&amp;quot;gopher&amp;quot;) } } class Kotlin: Language { compile() { println(&amp;quot;still on JVM&amp;quot;) } } class Java: Language { compile() { println(&amp;quot;legendary&amp;quot;) } }   SRP (Single Responsibility)  &amp;ldquo;should be open for extension, but closed for modification&amp;rdquo;</description>
     </item>
     
     <item>
@@ -26,7 +27,15 @@
       <pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
       
       <guid>https://devplayg.com/coding/design-pattern/</guid>
-      <description> Design Patterns in GOF  Factory Factory Method Abstract Factory Builder Singleton Prototype   Adapter Proxy Facade Decorator Bridge Flyweight Composite   Strategy State Template Method Command Chain of Responsibility Observer Memento Mediator Visitor Iterator Interpreter  </description>
+      <description>Design Patterns in GOF  Factory Factory Method Abstract Factory Builder Singleton Prototype
+ Adapter
+ Proxy
+ Facade
+ Decorator
+ Bridge
+ Flyweight
+ Composite
+ Strategy</description>
     </item>
     
   </channel>

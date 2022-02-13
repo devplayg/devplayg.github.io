@@ -22,10 +22,12 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Design Patterns &gt; SOLID patterns"/>
-<meta name="twitter:description" content="SOLID 패턴  SR: Single Responsibility OC: Open/Closed LS: Liskov Substitution IS: Interface Segregation DI: Dependency Inversion  Single Responsibility(SRP)  &ldquo;should be open for extension, but closed for modification&rdquo;"/>
+<meta name="twitter:description" content="SOLID 패턴  SRP (Single Responsibility) OCP (Open/Closed) LSP (Liskov Substitution) ISP (Interface Segregation) DIP (Dependency Inversion)
+class Golang: Language { compile() { println(&quot;gopher&quot;) } } class Kotlin: Language { compile() { println(&quot;still on JVM&quot;) } } class Java: Language { compile() { println(&quot;legendary&quot;) } }   SRP (Single Responsibility)  &ldquo;should be open for extension, but closed for modification&rdquo;"/>
 
 <meta property="og:title" content="Design Patterns &gt; SOLID patterns" />
-<meta property="og:description" content="SOLID 패턴  SR: Single Responsibility OC: Open/Closed LS: Liskov Substitution IS: Interface Segregation DI: Dependency Inversion  Single Responsibility(SRP)  &ldquo;should be open for extension, but closed for modification&rdquo;" />
+<meta property="og:description" content="SOLID 패턴  SRP (Single Responsibility) OCP (Open/Closed) LSP (Liskov Substitution) ISP (Interface Segregation) DIP (Dependency Inversion)
+class Golang: Language { compile() { println(&quot;gopher&quot;) } } class Kotlin: Language { compile() { println(&quot;still on JVM&quot;) } } class Java: Language { compile() { println(&quot;legendary&quot;) } }   SRP (Single Responsibility)  &ldquo;should be open for extension, but closed for modification&rdquo;" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/coding/design-pattern_solid-patterns/" />
 <meta property="article:published_time" content="2016-11-21T00:28:15+09:00" />
@@ -36,7 +38,7 @@
     
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/agate.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/agate.min.css">
 
 
 
@@ -273,51 +275,65 @@
 <h3 id="solid-패턴">SOLID 패턴</h3>
 
 <ul>
-<li>SR: Single Responsibility</li>
-<li>OC: Open/Closed</li>
-<li>LS: Liskov Substitution</li>
-<li>IS: Interface Segregation</li>
-<li>DI: Dependency Inversion</li>
-</ul>
+<li>SRP (Single Responsibility)</li>
+<li>OCP (Open/Closed)</li>
+<li>LSP (Liskov Substitution)</li>
+<li>ISP (Interface Segregation)</li>
 
-<h3 id="single-responsibility-srp">Single Responsibility(SRP)</h3>
-
-<ul>
-<li><p><em>&ldquo;should be open for extension, but closed for modification&rdquo;</em></p>
+<li><p>DIP (Dependency Inversion)</p>
 
 <pre><code class="language-kotlin">class Golang: Language {
-    run() {
+    compile() {
         println(&quot;gopher&quot;)
     }
 }
 
 class Kotlin: Language {
-    run() {
+    compile() {
         println(&quot;still on JVM&quot;)
     }
 }
 
-class Javascript: Language {
-    run() {
+class Java: Language {
+    compile() {
         println(&quot;legendary&quot;)
     }
 }
-
-fun run(language: Language) {
-    language.run()
-}
-
-val golang = Language(GOLANG)
-val kotlin = Language(KOTLIN)
-val javascript = Language(JAVASCRIPT)
-
-golang.run()
-kotlin.run()
-javascript.run()
 </code></pre></li>
 </ul>
 
-<p>run() function is open for extension, but closed for modification</p>
+<h3 id="srp-single-responsibility">SRP (Single Responsibility)</h3>
+
+<ul>
+<li><p><em>&ldquo;should be open for extension, but closed for modification&rdquo;</em></p>
+
+<pre><code>fun run(language: Language) {
+    language.compile()
+}
+val golang = Language(GOLANG)
+val kotlin = Language(KOTLIN)
+val java = Language(JAVA)
+
+run(golang)
+run(kotlin)
+run(java)
+</code></pre></li>
+</ul>
+
+<p>compile() function is open for extension, but closed for modification</p>
+
+<h3 id="lsp-liskov-substitution">LSP: Liskov Substitution</h3>
+
+<pre><code class="language-kotlin">val golang = Language(GOLANG)
+val kotlin = Language(KOTLIN)
+val java = Language(JAVA)
+</code></pre>
+
+<h3 id="isp-interface-segregation">ISP (Interface Segregation)</h3>
+
+<h3 id="dip-dependency-inversion">DIP (Dependency Inversion)</h3>
+
+<p>ParkingLot</p>
 
   </div>
     
