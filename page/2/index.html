@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-02-13T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-01T21:34:36+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -195,6 +195,28 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/go_rand/" >Generating random number in Go</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go
+package grpcrand import ( &quot;math/rand&quot; &quot;sync&quot; &quot;time&quot; ) var ( r = rand.New(rand.NewSource(time.Now().UnixNano())) mu sync.Mutex ) // Int63n implements rand.Int63n on the grpcrand global source. func Int63n(n int64) int64 { mu.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_rand/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -378,29 +400,6 @@ $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.
          RTSP Viewer RTSP_PATH=rtsp://id:pwd@1.1.1.1:3000/Streaming/Channels/101/ gst-launch-1.0 rtspsrc location=&quot;$RTSP_PATH&quot; latency=500 ! rtph264depay ! h264parse ! nvv4l2decoder enable-max-performance=1 ! nvoverlaysink overlay-x=800 overlay-y=50 overlay-w=640 overlay-h=480 overlay=2  
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/docker-container_centos-6.10/" >Installing and using CentOS 6.10 via Docker</a>
-        </span>
-        <span class="item__date">
-          Wed, Jan 1, 2020
-        </span>
-        <span >
-        
-        Pulling and run image in general
-$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
-$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/docker-container_centos-6.10/">➦</a>
         
         </div>
         

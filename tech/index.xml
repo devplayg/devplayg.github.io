@@ -6,10 +6,19 @@
     <description>Recent content in Tech on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Apr 2022 21:34:36 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>엘레강트 오브젝트</title>
+      <link>https://devplayg.com/tech/book_elegant-object/</link>
+      <pubDate>Fri, 01 Apr 2022 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tech/book_elegant-object/</guid>
+      <description>1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.</description>
+    </item>
     
     <item>
       <title>Tips for Docker Compose</title>

@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 13 Feb 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Apr 2022 21:34:36 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>엘레강트 오브젝트</title>
+      <link>https://devplayg.com/categories/%EC%97%98%EB%A0%88%EA%B0%95%ED%8A%B8-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/</link>
+      <pubDate>Fri, 01 Apr 2022 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/%EC%97%98%EB%A0%88%EA%B0%95%ED%8A%B8-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>책</title>
+      <link>https://devplayg.com/categories/%EC%B1%85/</link>
+      <pubDate>Fri, 01 Apr 2022 21:34:36 +0900</pubDate>
+      
+      <guid>https://devplayg.com/categories/%EC%B1%85/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>life</title>

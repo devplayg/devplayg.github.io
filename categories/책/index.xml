@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on Developer Playground</title>
-    <link>https://devplayg.com/tags/bash/</link>
-    <description>Recent content in bash on Developer Playground</description>
+    <title>책 on Developer Playground</title>
+    <link>https://devplayg.com/categories/%EC%B1%85/</link>
+    <description>Recent content in 책 on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 01 Apr 2022 21:34:36 +0900</lastBuildDate>
     
-	<atom:link href="https://devplayg.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devplayg.com/categories/%EC%B1%85/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://devplayg.com/tech/book_elegant-object/</guid>
       <description>1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.</description>
-    </item>
-    
-    <item>
-      <title>Bash tips</title>
-      <link>https://devplayg.com/tech/bash_tips/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/bash_tips/</guid>
-      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
     </item>
     
   </channel>

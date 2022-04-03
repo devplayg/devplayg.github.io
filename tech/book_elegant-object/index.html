@@ -17,24 +17,19 @@
     
     
 
-<title>Tips for Docker Compose • Developer Playground</title>
+<title>엘레강트 오브젝트 • Developer Playground</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tips for Docker Compose"/>
-<meta name="twitter:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file"/>
+<meta name="twitter:title" content="엘레강트 오브젝트"/>
+<meta name="twitter:description" content="1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1."/>
 
-<meta property="og:title" content="Tips for Docker Compose" />
-<meta property="og:description" content="Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file" />
+<meta property="og:title" content="엘레강트 오브젝트" />
+<meta property="og:description" content="1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devplayg.com/tech/docker-compose_tips/" />
-<meta property="article:published_time" content="2022-01-29T00:28:15+09:00" />
-<meta property="article:modified_time" content="2022-01-29T00:28:15+09:00" /><meta property="og:site_name" content="Developer Playground" />
-
+<meta property="og:url" content="https://devplayg.com/tech/book_elegant-object/" />
+<meta property="article:published_time" content="2022-04-01T21:34:36+09:00" />
+<meta property="article:modified_time" content="2022-04-01T21:34:36+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -203,11 +198,11 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
     
 <article>
   <header>
-    <h1 class="post__title">Tips for Docker Compose
+    <h1 class="post__title">엘레강트 오브젝트
         <small>
         
         
-            <span class="post__date">Sat, Jan 29, 2022</span>
+            <span class="post__date">Fri, Apr 1, 2022</span>
         
         </small>
     </h1>
@@ -219,11 +214,9 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
         
             
             
-                <a class="badge badge-category" href="/categories/tips">tips</a>
+                <a class="badge badge-category" href="/categories/%EC%B1%85">책</a>
             
-                <a class="badge badge-category" href="/categories/docker">docker</a>
-            
-                <a class="badge badge-category" href="/categories/docker-composed">docker-composed</a>
+                <a class="badge badge-category" href="/categories/%EC%97%98%EB%A0%88%EA%B0%95%ED%8A%B8-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8">엘레강트 오브젝트</a>
             
         
     
@@ -234,22 +227,10 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
         
             
             
-                <a class="badge badge-tag" href="/tags/docker">docker</a>
+                <a class="badge badge-tag" href="/tags/bash">bash</a>
                  
             
-                <a class="badge badge-tag" href="/tags/docker-compose">docker-compose</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/redis">redis</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/redis-cluster">redis-cluster</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/ldap">ldap</a>
-                 
-            
-                <a class="badge badge-tag" href="/tags/mysql">mysql</a>
+                <a class="badge badge-tag" href="/tags/current-directory">current directory</a>
                 
             
         
@@ -258,16 +239,6 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
 
 
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
-        
-    </div>
-    
-
   </header>
   
   
@@ -285,160 +256,57 @@ sudo docker-compose down  Remove containers for services not defined in the Comp
 
 
   <div class="post">
-    <p>Builds, (re)creates, starts, and attaches to containers for a service.</p>
+    
 
-<pre><code>docker-compose up -d
-</code></pre>
+<h2 id="1-출생">1. 출생</h2>
 
-<p>Stops containers and removes containers, networks, volumes, and images created by up.</p>
+<h3 id="1-1-er로-끝나는-이름을-사용하지-마세요">1.1 -er로 끝나는 이름을 사용하지 마세요</h3>
 
-<pre><code>sudo docker-compose down
-</code></pre>
+<ul>
+<li>객체와 클래스의 차이점
 
-<p>Remove containers for services not defined in the Compose file</p>
+<ul>
+<li>클래스는 객체의 팩토리</li>
+<li>클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거</li>
+<li>종종 클래스를 객체의 템플릿으로 오해</li>
+<li>클래스를 객체의 능동적 관리자로 생각해야 함</li>
+<li>클래스가 객체를 인스턴스화한다</li>
+<li>클래스를 객체의 storage unit 또는 warehouse 라고 봐야함</li>
+</ul></li>
+</ul>
 
-<pre><code>sudo docker-compose down --remove-orphans
-</code></pre>
+<h3 id="1-2-생성자-하나를-주-생성자로-만드세요">1.2 생성자 하나를 주 생성자로 만드세요</h3>
 
-<p><code>docker-compose.yaml</code></p>
+<ul>
+<li>one primary, many secondary</li>
 
-<pre><code class="language-yaml">version: &quot;3.1&quot;
+<li><p>method overloading 의 중요성</p>
 
-services:
-    db:
-        image: mysql:5.7.24
-        container_name: db
-        volumes:
-            - ./db/data:/var/lib/mysql
-            - ./db/conf.d:/etc/mysql/conf.d
-        environment:
-            - MYSQL_ROOT_PASSWORD=pa$$w0rd
-            - MYSQL_DATABASE=devdb
-            - MYSQL_USER=devplayg
-            - MYSQL_PASSWORD=userpa$$w0rd
-            - LANG=C.UTF-8
-            - TZ=Asia/Seoul
-        restart: unless-stopped
-        ports:
-            - &quot;127.0.0.1:3306:3306&quot;
-        command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
-
-    redis-cluster:
-        image: grokzen/redis-cluster:6.0.12
-        container_name: redis-c
-        restart: unless-stopped
-        ports:
-            - 127.0.0.1:7000-7005:7000-7005
-
-    redis:
-        image: redis:6.0.12
-        container_name: redis
-        restart: unless-stopped
-        ports:
-            - &quot;127.0.0.1:6379:6379&quot;
-        volumes:
-            - ./redis/redis-data:/var/lib/redis
-            - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
-        command: ['redis-server', '/usr/local/etc/redis/redis.conf']
-
-    ldap:
-        image: osixia/openldap:1.4.0
-        container_name: ldap
-        ports:
-            - 127.0.0.1:389:389
-        environment:
-            - LDAP_ORGANISATION=Developer Playground
-            - LDAP_DOMAIN=&quot;devplayg.com&quot;
-            - LDAP_ADMIN_PASSWORD=pa$$w0rd
-
-</code></pre>
-
-<p><code>docker-compose.yaml</code> with network</p>
-
-<pre><code class="language-yaml">services:
-  db:
-    image: mysql:5.7.24
-    container_name: db
-    volumes:
-      - ./db/data:/var/lib/mysql
-      - ./db/conf.d:/etc/mysql/conf.d
-    environment:
-      - MYSQL_ROOT_PASSWORD=pa$$w0rd
-      - MYSQL_DATABASE=devdb
-      - MYSQL_USER=devplayg
-      - MYSQL_PASSWORD=userpa$$w0rd
-      - LANG=C.UTF-8
-      - TZ=Asia/Seoul
-    restart: unless-stopped
-    ports:
-      - &quot;127.0.0.1:3306:3306&quot;
-    networks:
-      - mynet
-    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
-
-  redis-cluster:
-    image: grokzen/redis-cluster:6.0.12
-    container_name: redis-c
-    restart: unless-stopped
-    ports:
-      - 127.0.0.1:7000-7005:7000-7005
-    networks:
-      - mynet
-  redis:
-    image: redis:6.0.12
-    container_name: redis
-    restart: unless-stopped
-    ports:
-      - &quot;127.0.0.1:6379:6379&quot;
-    volumes:
-      - ./redis/redis-data:/var/lib/redis
-      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
-    command: ['redis-server', '/usr/local/etc/redis/redis.conf']
-    networks:
-      - mynet
-
-  ldap:
-    image: osixia/openldap:1.4.0
-    container_name: ldap
-    ports:
-      - 127.0.0.1:389:389
-    environment:
-      - LDAP_ORGANISATION=Developer Playground
-      - LDAP_DOMAIN=&quot;devplayg.com&quot;
-      - LDAP_ADMIN_PASSWORD=pa$$w0rd
-    networks:
-      - mynet
-
-networks:
-  mynet:
-</code></pre>
+<p>class Cash {
+    private int dollors;
+    Cash(float dir) {
+        this((int) dlr);
+    }
+    Cash(float dir) {
+        this(Cache.parse(dlr));
+    }
+    Cash(int dlr) {
+        this.dollors = dlr;
+    }
+}</p></li>
+</ul>
 
   </div>
     
-    
-    
-    <div class="post__series">
-        
-        
-            <span class="badge-series">Series</span>: <a class="series" href="/series/docker">Docker</a>
-        
-    </div>
-    
-
   
 
 <div class="navigation navigation-single">
     
-    <a href="/tech/install-dockerio-on-windows-10-wsl2/" class="navigation-prev">
+    <a href="/tech/docker-compose_tips/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">윈도우10, Docker Desktop 없이 사용하기</span>
+      <span class="navigation-tittle">Tips for Docker Compose</span>
     </a>
     
-    
-    <a href="/tech/book_elegant-object/" class="navigation-next">
-      <span class="navigation-tittle">엘레강트 오브젝트</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 
