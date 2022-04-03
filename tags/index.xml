@@ -417,6 +417,15 @@
     </item>
     
     <item>
+      <title>Jetson TX2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cuda</title>
       <link>https://devplayg.com/tags/cuda/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
@@ -449,15 +458,6 @@
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/deepstream-debug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jetson tx2</title>
-      <link>https://devplayg.com/tags/jetson-tx2/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
       <description></description>
     </item>
     

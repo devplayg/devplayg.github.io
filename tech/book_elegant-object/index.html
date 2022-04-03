@@ -282,18 +282,22 @@
 
 <li><p>method overloading 의 중요성</p>
 
-<p>class Cash {
-    private int dollors;
-    Cash(float dir) {
-        this((int) dlr);
-    }
-    Cash(float dir) {
-        this(Cache.parse(dlr));
-    }
-    Cash(int dlr) {
-        this.dollors = dlr;
-    }
-}</p></li>
+<pre><code class="language-java">class Cash {
+private int dollors;
+
+Cash(float dir) {
+    this((int) dlr);
+}
+
+Cash(float dir) {
+    this(Cache.parse(dlr));
+}
+    
+Cash(int dlr) {
+    this.dollors = dlr;
+}
+}
+</code></pre></li>
 </ul>
 
   </div>
