@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>docker compose</title>
+      <title>docker-compose</title>
       <link>https://devplayg.com/tags/docker-compose/</link>
       <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
       
@@ -399,15 +399,6 @@
     </item>
     
     <item>
-      <title>Jetson TX2</title>
-      <link>https://devplayg.com/tags/jetson-tx2/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cuda</title>
       <link>https://devplayg.com/tags/cuda/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
@@ -440,6 +431,15 @@
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/deepstream-debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jetson tx2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
       <description></description>
     </item>
     
@@ -723,7 +723,7 @@
     </item>
     
     <item>
-      <title>Spring Boot</title>
+      <title>spring boot</title>
       <link>https://devplayg.com/tags/spring-boot/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
