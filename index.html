@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-04-01T21:34:36+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-17T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -102,6 +102,14 @@
             <li>
                 <a href="/music/">
                     <span>Music</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/cooking/">
+                    <span>Cooking</span>
                 </a>
             </li>
 			
@@ -195,6 +203,71 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/life/2022-04-17_dream_car/" >드림카</a>
+        </span>
+        <span class="item__date">
+          Sun, Apr 17, 2022
+        </span>
+        <span >
+        
+        Chevrolet Colorado 이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.
+Hyundai GV80 정말 잘만든 고급스런 차.
+KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/" >요리비결 - 마늘빵</a>
+        </span>
+        <span class="item__date">
+          Sun, Apr 17, 2022
+        </span>
+        <span >
+        
+         제육볶음 재료준비
+ 식빵 3개 가염버터 50g 설탕 1T 마늘 2T 꿀 2T 식빵 3등분해서 골고루 바르기  조리
+ 200도 오븐에 7~10분 정도 굽기  
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/" >요리비결 - 제육볶음</a>
+        </span>
+        <span class="item__date">
+          Sun, Apr 17, 2022
+        </span>
+        <span >
+        
+        제육볶음 재료준비
+ 기름기가 있는 부위(앞다리살 600g) 3~4인분 간장 3T 설탕 1.5T 후추 0.5T 조물조물해서 30분 숙성  양념
+ 고추장 3T 고추가로 1~2T 물엿 또는 올리고당 1.5T 다진마늘 2T 맛술 4T 양파 1&frasl;2 대파 1 청양고추 1~2  조리
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -344,72 +417,6 @@ docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts J
         </span>
         
           ... <a class="read-more-symbol" href="/tech/json_handling/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_remote-debugging/" >Go 원격 디버깅</a>
-        </span>
-        <span class="item__date">
-          Sun, May 24, 2020
-        </span>
-        <span >
-        
-        개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
-디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &ldquo;Run&rdquo; 실행하지 않음
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/go_remote-debugging/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/draft_go_http-server-down/" >How to shutdown HTTP server in Go</a>
-        </span>
-        <span class="item__date">
-          Sun, May 24, 2020
-        </span>
-        <span >
-        
-        https://golang.org/pkg/net/http/#pkg-examples
-package main import ( &quot;context&quot; &quot;log&quot; &quot;net/http&quot; &quot;os&quot; &quot;os/signal&quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/draft_go_http-server-down/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/minio_clustering/" >MinIO 클러스터링 with Docker</a>
-        </span>
-        <span class="item__date">
-          Sun, May 24, 2020
-        </span>
-        <span >
-        
-        환경 구성 Docker 네트워크 생성 docker network create minio-network  멀티 MinIO 컨테이너 설정 및 시작 포트는 9001~9004;
-docker run -p 9001:9000 --name minio1 --network minio-network -e &quot;MINIO_ACCESS_KEY=devplayg&quot; -e &quot;MINIO_SECRET_KEY=devplayg12!
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/minio_clustering/">➦</a>
         
         </div>
         

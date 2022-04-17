@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cooking on Developer Playground</title>
+    <link>https://devplayg.com/cooking/</link>
+    <description>Recent content in Cooking on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/cooking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>요리비결 - 마늘빵</title>
+      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</guid>
+      <description> 제육볶음 재료준비
+ 식빵 3개 가염버터 50g 설탕 1T 마늘 2T 꿀 2T 식빵 3등분해서 골고루 바르기  조리
+ 200도 오븐에 7~10분 정도 굽기  </description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 제육볶음</title>
+      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
+      <description>제육볶음 재료준비
+ 기름기가 있는 부위(앞다리살 600g) 3~4인분 간장 3T 설탕 1.5T 후추 0.5T 조물조물해서 30분 숙성  양념
+ 고추장 3T 고추가로 1~2T 물엿 또는 올리고당 1.5T 다진마늘 2T 맛술 4T 양파 1&amp;frasl;2 대파 1 청양고추 1~2  조리</description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 파절이</title>
+      <link>https://devplayg.com/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/</guid>
+      <description> 파절이 재료준비
+ 파 2대 잘게 썰어서, 찬 물에 2시간 담그기  양념
+ 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T  조리
+ 비비고 비비고 참기름 1T 통깨 느낌대로  </description>
+    </item>
+    
+  </channel>
+</rss>

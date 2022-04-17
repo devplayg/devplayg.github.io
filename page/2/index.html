@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-04-01T21:34:36+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-17T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -102,6 +102,14 @@
             <li>
                 <a href="/music/">
                     <span>Music</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/cooking/">
+                    <span>Cooking</span>
                 </a>
             </li>
 			
@@ -200,6 +208,72 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/go_remote-debugging/" >Go 원격 디버깅</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
+디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &ldquo;Run&rdquo; 실행하지 않음
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/go_remote-debugging/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/draft_go_http-server-down/" >How to shutdown HTTP server in Go</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        https://golang.org/pkg/net/http/#pkg-examples
+package main import ( &quot;context&quot; &quot;log&quot; &quot;net/http&quot; &quot;os&quot; &quot;os/signal&quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/draft_go_http-server-down/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/minio_clustering/" >MinIO 클러스터링 with Docker</a>
+        </span>
+        <span class="item__date">
+          Sun, May 24, 2020
+        </span>
+        <span >
+        
+        환경 구성 Docker 네트워크 생성 docker network create minio-network  멀티 MinIO 컨테이너 설정 및 시작 포트는 9001~9004;
+docker run -p 9001:9000 --name minio1 --network minio-network -e &quot;MINIO_ACCESS_KEY=devplayg&quot; -e &quot;MINIO_SECRET_KEY=devplayg12!
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/minio_clustering/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/go_rand/" >Generating random number in Go</a>
         </span>
         <span class="item__date">
@@ -286,14 +360,14 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/life/2020-04-06_cookbook/" >나의 요리비결</a>
+          <a href="/life/2020-04-06_best-restaurant/" >맛집 DB</a>
         </span>
         <span class="item__date">
           Mon, Apr 6, 2020
         </span>
         <span >
         
-         파절이  파 2대 잘게 썰어서, 찬 물에 2시간 담그기 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T 비비고 비비고 참기름 1T 통깨 느낌대로  
+         수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수 수지 미가: 중국음식  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비 분당 청담추어정: 추어탕  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타 역삼 이도곰탕  
         
         </span>
         
@@ -305,14 +379,17 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/life/2020-04-06_best-restaurant/" >맛집 DB</a>
+          <a href="/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/" >요리비결 - 파절이</a>
         </span>
         <span class="item__date">
           Mon, Apr 6, 2020
         </span>
         <span >
         
-         수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수 수지 미가: 중국음식  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비 분당 청담추어정: 추어탕  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타 역삼 이도곰탕  
+         파절이 재료준비
+ 파 2대 잘게 썰어서, 찬 물에 2시간 담그기  양념
+ 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T  조리
+ 비비고 비비고 참기름 1T 통깨 느낌대로  
         
         </span>
         
@@ -337,69 +414,6 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
         </span>
         
           ... <a class="read-more-symbol" href="/tech/cpp_compiling-on-linux/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/life/2020-03-03_something-making-my-heart-beat/" >Something making my heart beat</a>
-        </span>
-        <span class="item__date">
-          Tue, Mar 3, 2020
-        </span>
-        <span >
-        
-        Movies I can watch again and again  Little Miss Sunshine Samurai Champloo 24 The Equalizer 나의 아저씨 Game of Thrones 응답하라 1988 American Gangster Gladiator Love Actually Indiana Jones  Actors  Denzel Washington Russell Crowe 오나라 오정세  Music  Beatles - Let it be Billy Joel - She&rsquo;s Always A Woman Billy Joel - Piano Man Bob Marley - No Waman No Cry Bobby McFerrin - Don&rsquo;t Worry be happy Brian Kennedy - Crazy Love Cassandra Wilson - Fragile CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version) Charlie Hunter - No Woman No Cry Chie Ayado - Leaving On A Jet Plane Chie Ayado - Let It Be Eagles - Hotel California (Live) Earth, Wind and Fire - September George Michael - Star People - Unplugged Gregory Porter - Musical Genocide (Live) Jason Mraz - Everything Is Sound Justin Bieber - Love Yourself Kirk Franklin - Blessing in the storm Lionel Richie - Easy Los Lobos - Donna Los Lobos - El Gusto Mariah Carey - Dreamlover Marianne Faithful - Madame George Mark Ronson - Uptown Funk (Feat.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/life/2020-03-03_something-making-my-heart-beat/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/ai/jetson-tx2_system-info/" >Jetson TX2 - Check system information</a>
-        </span>
-        <span class="item__date">
-          Thu, Feb 27, 2020
-        </span>
-        <span >
-        
-        System Info System info
-$ uname -a Linux devplayg-desktop 4.9.140-tegra #1 SMP PREEMPT Mon Dec 9 22:52:02 PST 2019 aarch64 aarch64 aarch64 GNU/Linux  OS
-$ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=18.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/ai/jetson-tx2_system-info/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/ai/jetson-tx_tips/" >Jetson TX2 tips</a>
-        </span>
-        <span class="item__date">
-          Thu, Feb 27, 2020
-        </span>
-        <span >
-        
-         RTSP Viewer RTSP_PATH=rtsp://id:pwd@1.1.1.1:3000/Streaming/Channels/101/ gst-launch-1.0 rtspsrc location=&quot;$RTSP_PATH&quot; latency=500 ! rtph264depay ! h264parse ! nvv4l2decoder enable-max-performance=1 ! nvoverlaysink overlay-x=800 overlay-y=50 overlay-w=640 overlay-h=480 overlay=2  
-        
-        </span>
         
         </div>
         

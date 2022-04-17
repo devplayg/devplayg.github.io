@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>픽업트럭 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</link>
+    <description>Recent content in 픽업트럭 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>드림카</title>
+      <link>https://devplayg.com/life/2022-04-17_dream_car/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
+      <description>Chevrolet Colorado 이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.
+Hyundai GV80 정말 잘만든 고급스런 차.
+KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차</description>
+    </item>
+    
+  </channel>
+</rss>

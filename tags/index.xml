@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 01 Apr 2022 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cookbook</title>
+      <link>https://devplayg.com/tags/cookbook/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/cookbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>드림카</title>
+      <link>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>마늘빵</title>
+      <link>https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>제육볶음</title>
+      <link>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>픽업트럭</title>
+      <link>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bash</title>
@@ -48,7 +93,7 @@
     </item>
     
     <item>
-      <title>docker compose</title>
+      <title>docker-compose</title>
       <link>https://devplayg.com/tags/docker-compose/</link>
       <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
       
@@ -273,15 +318,6 @@
     </item>
     
     <item>
-      <title>cookbook</title>
-      <link>https://devplayg.com/tags/cookbook/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/cookbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>diary</title>
       <link>https://devplayg.com/tags/diary/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
@@ -417,15 +453,6 @@
     </item>
     
     <item>
-      <title>Jetson TX2</title>
-      <link>https://devplayg.com/tags/jetson-tx2/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cuda</title>
       <link>https://devplayg.com/tags/cuda/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
@@ -458,6 +485,15 @@
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/deepstream-debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jetson tx2</title>
+      <link>https://devplayg.com/tags/jetson-tx2/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/jetson-tx2/</guid>
       <description></description>
     </item>
     

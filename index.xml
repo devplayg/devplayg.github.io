@@ -6,10 +6,43 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 01 Apr 2022 21:34:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>드림카</title>
+      <link>https://devplayg.com/life/2022-04-17_dream_car/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
+      <description>Chevrolet Colorado 이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.
+Hyundai GV80 정말 잘만든 고급스런 차.
+KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차</description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 마늘빵</title>
+      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</guid>
+      <description> 제육볶음 재료준비
+ 식빵 3개 가염버터 50g 설탕 1T 마늘 2T 꿀 2T 식빵 3등분해서 골고루 바르기  조리
+ 200도 오븐에 7~10분 정도 굽기  </description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 제육볶음</title>
+      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
+      <description>제육볶음 재료준비
+ 기름기가 있는 부위(앞다리살 600g) 3~4인분 간장 3T 설탕 1.5T 후추 0.5T 조물조물해서 30분 숙성  양념
+ 고추장 3T 고추가로 1~2T 물엿 또는 올리고당 1.5T 다진마늘 2T 맛술 4T 양파 1&amp;frasl;2 대파 1 청양고추 1~2  조리</description>
+    </item>
     
     <item>
       <title>엘레강트 오브젝트</title>
@@ -175,21 +208,24 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*  <
     </item>
     
     <item>
-      <title>나의 요리비결</title>
-      <link>https://devplayg.com/life/2020-04-06_cookbook/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2020-04-06_cookbook/</guid>
-      <description> 파절이  파 2대 잘게 썰어서, 찬 물에 2시간 담그기 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T 비비고 비비고 참기름 1T 통깨 느낌대로  </description>
-    </item>
-    
-    <item>
       <title>맛집 DB</title>
       <link>https://devplayg.com/life/2020-04-06_best-restaurant/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/life/2020-04-06_best-restaurant/</guid>
       <description> 수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수 수지 미가: 중국음식  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비 분당 청담추어정: 추어탕  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타 역삼 이도곰탕  </description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 파절이</title>
+      <link>https://devplayg.com/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/</guid>
+      <description> 파절이 재료준비
+ 파 2대 잘게 썰어서, 찬 물에 2시간 담그기  양념
+ 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T  조리
+ 비비고 비비고 참기름 1T 통깨 느낌대로  </description>
     </item>
     
     <item>

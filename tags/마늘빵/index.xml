@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>마늘빵 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/</link>
+    <description>Recent content in 마늘빵 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>요리비결 - 마늘빵</title>
+      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</guid>
+      <description> 제육볶음 재료준비
+ 식빵 3개 가염버터 50g 설탕 1T 마늘 2T 꿀 2T 식빵 3등분해서 골고루 바르기  조리
+ 200도 오븐에 7~10분 정도 굽기  </description>
+    </item>
+    
+  </channel>
+</rss>

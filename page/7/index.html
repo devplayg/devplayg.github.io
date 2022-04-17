@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-04-01T21:34:36+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-17T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -102,6 +102,14 @@
             <li>
                 <a href="/music/">
                     <span>Music</span>
+                </a>
+            </li>
+			
+		
+			 
+            <li>
+                <a href="/cooking/">
+                    <span>Cooking</span>
                 </a>
             </li>
 			
@@ -195,6 +203,70 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka-on-docker_test/" >4. Kafka 테스트</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
+   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_test/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka_tips/" >Kafka tips</a>
+        </span>
+        <span class="item__date">
+          Tue, Jun 11, 2019
+        </span>
+        <span >
+        
+        Create topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --replication-factor 3 --partitions 5 --topic my-topic --create  List topics $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list  Describe topic $KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Delete topic $KAFKA_HOME/bin/kafka-topics.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka_tips/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/kafka-on-docker_setting-kafka/" >3. Kafka 설정</a>
+        </span>
+        <span class="item__date">
+          Sun, Jun 9, 2019
+        </span>
+        <span >
+        
+        Kafka 컨테이너 구성    호스트명 Broker ID IP     kafka1 1 172.17.0.5   kafka2 2 172.17.0.6   kafka3 3 172.17.0.7    컨테이너 개별 설정 디렉토리 생성
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_setting-kafka/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -343,69 +415,6 @@ docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  OpenJDK 8
         </span>
         
           ... <a class="read-more-symbol" href="/tech/docker_tips/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/kafka-on-docker_installation/" >1. Kafka 설치를 위한 Docker 환경구성</a>
-        </span>
-        <span class="item__date">
-          Thu, Jun 6, 2019
-        </span>
-        <span >
-        
-        설치 버전  Docker Ubuntu 18.04
- Kafka 2.2 [Download] Zookeeper 3.4.13 OpenJDK 11.0.3
-  Docker 컨테이너 구성    구분 호스트명 IP     Zookeeper zoo1 172.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/kafka-on-docker_installation/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/life/2019-06-06_markdown/" >Markdown 의 미학</a>
-        </span>
-        <span class="item__date">
-          Thu, Jun 6, 2019
-        </span>
-        <span >
-        
-        이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/life/2019-06-06_markdown/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/go_pseudo-random-permutation-of-the-integers-in-go/" >Pseudo-random permutation of the integers in Go</a>
-        </span>
-        <span class="item__date">
-          Wed, Jun 5, 2019
-        </span>
-        <span >
-        
-        package main import ( &quot;fmt&quot; &quot;math/rand&quot; &quot;time&quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  
-        
-        </span>
         
         </div>
         
