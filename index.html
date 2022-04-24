@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-04-17T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-24T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -208,6 +208,50 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/life/2022-04-24_amigo/" >아미고(Amigo)</a>
+        </span>
+        <span class="item__date">
+          Sun, Apr 24, 2022
+        </span>
+        <span >
+        
+        아미고(Amigo)는 내가 좋아하는 단어다. (스페인어로 &ldquo;친구&rdquo;) &ldquo;친구&rdquo;를 만들 기회가 이전보다 훨씬 적어진 나이다.  일단, 내가 일이 바빠서, 친구들을 만날 시간이 거의 없다  그래서 업무 외 친구들을 만나는 시간은 정말 소중하다 인맥을 만들기 위해 사람을 만나본 적은 없는 것 같다.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/life/2022-04-24_amigo/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/" >요리비결 - 제육볶음 V2</a>
+        </span>
+        <span class="item__date">
+          Sun, Apr 24, 2022
+        </span>
+        <span >
+        
+        드디어 성공했다.
+제육볶음 V2 재료준비
+ 기름기가 있는 부위(앞다리살 600g) 3~4인분 창양고추 2T 마늘 2T (넉넉하게) 고추가루 2T 설탕 2T 고추장 2T 간장 2T 매실청 2T 맛술 2T 조물조물해서 30분 숙성  조리
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/life/2022-04-17_dream_car/" >드림카</a>
         </span>
         <span class="item__date">
@@ -280,7 +324,7 @@ KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차
         </span>
         <span >
         
-        1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.
+        이 책 너무 극단적인 표현들이 많지만, 배울 점도 제법 많다. 저자의 입장에서 한 번 읽어보고, 장점만 배우자.  1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.
         
         </span>
         
@@ -370,53 +414,6 @@ wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Window
         docker run -p 389:389 -p 636:636 --name ldap --env LDAP_DOMAIN=&quot;devplayg.com&quot; --env LDAP_ORGANISATION=&quot;Devplayg&quot; --env LDAP_ADMIN_PASSWORD=grit --env LDAP_READONLY_USER_USERNAME=devplayg --env LDAP_READONLY_USER_PASSWORD=devplayg --detach osixia/openldap:1.4.0 docker exec ldap ldapsearch -x -H ldap://localhost -b dc=devplayg,dc=com -D &quot;cn=admin,dc=devplayg,dc=com&quot; -w grit  
         
         </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/config-dev-server-env-with-docker/" >Setting up development environments with docker-compose</a>
-        </span>
-        <span class="item__date">
-          Mon, Dec 7, 2020
-        </span>
-        <span >
-        
-        Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/config-dev-server-env-with-docker/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/json_handling/" >JSON Tips</a>
-        </span>
-        <span class="item__date">
-          Sat, Nov 28, 2020
-        </span>
-        <span >
-        
-        Minifier https://hub.docker.com/r/governmentpaas/json-minify
-DockerFile
-FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
-docker build -t json-minify .  Minify
-docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts JSON.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/json_handling/">➦</a>
         
         </div>
         
@@ -514,7 +511,16 @@ docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts J
         
     
     
-    <li class="page-item"><a class="page-link" href="/page/8/">8</a></li>
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/9/">9</a></li>
     
     
     <li class="page-item">
@@ -522,7 +528,7 @@ docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts J
     </li>
     
     <li class="page-item">
-        <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/9/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

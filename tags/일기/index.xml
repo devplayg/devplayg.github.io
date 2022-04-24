@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>일기 on Developer Playground</title>
+    <link>https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/</link>
+    <description>Recent content in 일기 on Developer Playground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>아미고(Amigo)</title>
+      <link>https://devplayg.com/life/2022-04-24_amigo/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2022-04-24_amigo/</guid>
+      <description>아미고(Amigo)는 내가 좋아하는 단어다. (스페인어로 &amp;ldquo;친구&amp;rdquo;) &amp;ldquo;친구&amp;rdquo;를 만들 기회가 이전보다 훨씬 적어진 나이다.  일단, 내가 일이 바빠서, 친구들을 만날 시간이 거의 없다  그래서 업무 외 친구들을 만나는 시간은 정말 소중하다 인맥을 만들기 위해 사람을 만나본 적은 없는 것 같다.</description>
+    </item>
+    
+  </channel>
+</rss>

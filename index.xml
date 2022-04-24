@@ -6,10 +6,30 @@
     <description>Recent content on Developer Playground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://devplayg.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>아미고(Amigo)</title>
+      <link>https://devplayg.com/life/2022-04-24_amigo/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/life/2022-04-24_amigo/</guid>
+      <description>아미고(Amigo)는 내가 좋아하는 단어다. (스페인어로 &amp;ldquo;친구&amp;rdquo;) &amp;ldquo;친구&amp;rdquo;를 만들 기회가 이전보다 훨씬 적어진 나이다.  일단, 내가 일이 바빠서, 친구들을 만날 시간이 거의 없다  그래서 업무 외 친구들을 만나는 시간은 정말 소중하다 인맥을 만들기 위해 사람을 만나본 적은 없는 것 같다.</description>
+    </item>
+    
+    <item>
+      <title>요리비결 - 제육볶음 V2</title>
+      <link>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</guid>
+      <description>드디어 성공했다.
+제육볶음 V2 재료준비
+ 기름기가 있는 부위(앞다리살 600g) 3~4인분 창양고추 2T 마늘 2T (넉넉하게) 고추가루 2T 설탕 2T 고추장 2T 간장 2T 매실청 2T 맛술 2T 조물조물해서 30분 숙성  조리</description>
+    </item>
     
     <item>
       <title>드림카</title>
@@ -50,7 +70,7 @@ KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차<
       <pubDate>Fri, 01 Apr 2022 21:34:36 +0900</pubDate>
       
       <guid>https://devplayg.com/tech/book_elegant-object/</guid>
-      <description>1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.</description>
+      <description>이 책 너무 극단적인 표현들이 많지만, 배울 점도 제법 많다. 저자의 입장에서 한 번 읽어보고, 장점만 배우자.  1. 출생 1.1 -er로 끝나는 이름을 사용하지 마세요  객체와 클래스의 차이점  클래스는 객체의 팩토리 클래스는 객체를 만들고, 추적하고, 적절한 시점에 제거 종종 클래스를 객체의 템플릿으로 오해 클래스를 객체의 능동적 관리자로 생각해야 함 클래스가 객체를 인스턴스화한다 클래스를 객체의 storage unit 또는 warehouse 라고 봐야함   1.</description>
     </item>
     
     <item>

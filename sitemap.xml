@@ -4,43 +4,65 @@
   
   <url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/cooking/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/life/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/tags/cookbook/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devplayg.com/categories/life/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/life/2022-04-24_amigo/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,12 +91,6 @@
   <url>
     <loc>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
     <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -574,6 +590,12 @@
   </url>
   
   <url>
+    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://devplayg.com/categories/ai/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -599,12 +621,6 @@
   
   <url>
     <loc>https://devplayg.com/tags/deepstream-debug/</loc>
-    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>

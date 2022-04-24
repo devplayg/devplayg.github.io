@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://devplayg.com/" />
 
-<meta property="og:updated_time" content="2022-04-17T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
+<meta property="og:updated_time" content="2022-04-24T00:00:00+09:00" /><meta property="og:site_name" content="Developer Playground" />
 
 
     
@@ -208,6 +208,53 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/tech/config-dev-server-env-with-docker/" >Setting up development environments with docker-compose</a>
+        </span>
+        <span class="item__date">
+          Mon, Dec 7, 2020
+        </span>
+        <span >
+        
+        Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
+networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/config-dev-server-env-with-docker/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/tech/json_handling/" >JSON Tips</a>
+        </span>
+        <span class="item__date">
+          Sat, Nov 28, 2020
+        </span>
+        <span >
+        
+        Minifier https://hub.docker.com/r/governmentpaas/json-minify
+DockerFile
+FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
+docker build -t json-minify .  Minify
+docker run --rm -v &quot;%CD%&quot;:/app json-minify ruby -rjson -e &quot;puts JSON.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/tech/json_handling/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/tech/go_remote-debugging/" >Go 원격 디버깅</a>
         </span>
         <span class="item__date">
@@ -374,50 +421,6 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
         </div>
         
      
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/" >요리비결 - 파절이</a>
-        </span>
-        <span class="item__date">
-          Mon, Apr 6, 2020
-        </span>
-        <span >
-        
-         파절이 재료준비
- 파 2대 잘게 썰어서, 찬 물에 2시간 담그기  양념
- 설탕 1T 다진마늘 1T 진간장 3T 식초 2T 고추가루 1~2T  조리
- 비비고 비비고 참기름 1T 통깨 느낌대로  
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/tech/cpp_compiling-on-linux/" >Compiling C&#43;&#43; on Linux</a>
-        </span>
-        <span class="item__date">
-          Tue, Mar 3, 2020
-        </span>
-        <span >
-        
-        Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
-#include &lt;iostream&gt; int main() { std::cout &lt;&lt; &quot;Hello World\n&quot;; }  $ g++ -o hello hello.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/tech/cpp_compiling-on-linux/">➦</a>
-        
-        </div>
-        
-     
   </div>
   
 
@@ -511,7 +514,16 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
         
     
     
-    <li class="page-item"><a class="page-link" href="/page/8/">8</a></li>
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/9/">9</a></li>
     
     
     <li class="page-item">
@@ -519,7 +531,7 @@ alias find=C:\Files\Programs\cmder\vendor\git-for-windows\usr\bin\find.exe $*
     </li>
     
     <li class="page-item">
-        <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/9/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

@@ -248,19 +248,6 @@
   </header>
   
   
-  <br>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-f9+5v+4m-d8+7b"
-     data-ad-client="ca-pub-3214416524399138"
-     data-ad-slot="6628502936"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
   <div class="post">
     <pre><code class="language-sh">docker run -p 389:389 -p 636:636 --name ldap --env LDAP_DOMAIN=&quot;devplayg.com&quot; --env LDAP_ORGANISATION=&quot;Devplayg&quot; --env LDAP_ADMIN_PASSWORD=grit --env LDAP_READONLY_USER_USERNAME=devplayg --env LDAP_READONLY_USER_PASSWORD=devplayg --detach osixia/openldap:1.4.0
 docker exec ldap ldapsearch -x -H ldap://localhost -b dc=devplayg,dc=com -D &quot;cn=admin,dc=devplayg,dc=com&quot; -w grit
