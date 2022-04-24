@@ -21,11 +21,20 @@
     </item>
     
     <item>
-      <title>일기</title>
-      <link>https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/</link>
+      <title>생각</title>
+      <link>https://devplayg.com/tags/%EC%83%9D%EA%B0%81/</link>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
       
-      <guid>https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/</guid>
+      <guid>https://devplayg.com/tags/%EC%83%9D%EA%B0%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>아미고</title>
+      <link>https://devplayg.com/tags/%EC%95%84%EB%AF%B8%EA%B3%A0/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EC%95%84%EB%AF%B8%EA%B3%A0/</guid>
       <description></description>
     </item>
     
@@ -35,6 +44,15 @@
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
       
       <guid>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>친구</title>
+      <link>https://devplayg.com/tags/%EC%B9%9C%EA%B5%AC/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://devplayg.com/tags/%EC%B9%9C%EA%B5%AC/</guid>
       <description></description>
     </item>
     
@@ -102,7 +120,7 @@
     </item>
     
     <item>
-      <title>docker compose</title>
+      <title>docker-compose</title>
       <link>https://devplayg.com/tags/docker-compose/</link>
       <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
       
@@ -786,7 +804,7 @@
     </item>
     
     <item>
-      <title>spring boot</title>
+      <title>Spring Boot</title>
       <link>https://devplayg.com/tags/spring-boot/</link>
       <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
       
