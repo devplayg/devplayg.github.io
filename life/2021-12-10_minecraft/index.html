@@ -26,14 +26,14 @@
 /tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
 /tp 유저이름  플레이어 제외 생물 죽이기
 /kill @e[type=!minecraft:player]  날씨
-/weather clear /weather rain  건물"/>
+/weather clear /weather rain  시간"/>
 
 <meta property="og:title" content="" />
 <meta property="og:description" content="크리에이트브 모드 유저 데려오기
 /tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
 /tp 유저이름  플레이어 제외 생물 죽이기
 /kill @e[type=!minecraft:player]  날씨
-/weather clear /weather rain  건물" />
+/weather clear /weather rain  시간" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://devplayg.com/life/2021-12-10_minecraft/" />
 <meta property="og:site_name" content="Developer Playground" />
@@ -253,6 +253,17 @@
 
 <pre><code>/weather clear
 /weather rain
+</code></pre>
+
+<p>시간</p>
+
+<pre><code>/time set day
+</code></pre>
+
+<p>날씨/시간 고정</p>
+
+<pre><code>/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
 </code></pre>
 
 <p>건물</p>

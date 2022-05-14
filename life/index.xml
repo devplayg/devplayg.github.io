@@ -160,7 +160,7 @@ KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차<
 /tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
 /tp 유저이름  플레이어 제외 생물 죽이기
 /kill @e[type=!minecraft:player]  날씨
-/weather clear /weather rain  건물</description>
+/weather clear /weather rain  시간</description>
     </item>
     
   </channel>
