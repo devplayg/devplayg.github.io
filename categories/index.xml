@@ -21,20 +21,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Mac</title>
-				<link>https://devplayg.com/categories/mac/</link>
-				<pubDate>Mon, 16 Sep 2024 21:34:36 +0900</pubDate>
-				<guid>https://devplayg.com/categories/mac/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Programming Language</title>
-				<link>https://devplayg.com/categories/programming-language/</link>
-				<pubDate>Mon, 16 Sep 2024 21:34:36 +0900</pubDate>
-				<guid>https://devplayg.com/categories/programming-language/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>엘레강트 오브젝트</title>
 				<link>https://devplayg.com/categories/%EC%97%98%EB%A0%88%EA%B0%95%ED%8A%B8-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/</link>
 				<pubDate>Fri, 01 Apr 2022 21:34:36 +0900</pubDate>
@@ -116,6 +102,13 @@
 				<link>https://devplayg.com/categories/tech/</link>
 				<pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
 				<guid>https://devplayg.com/categories/tech/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming Language</title>
+				<link>https://devplayg.com/categories/programming-language/</link>
+				<pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+				<guid>https://devplayg.com/categories/programming-language/</guid>
 				<description></description>
 			</item>
 			<item>

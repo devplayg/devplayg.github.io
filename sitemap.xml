@@ -26,22 +26,10 @@
     <loc>https://devplayg.com/cooking/2026-11-01_%EA%B9%80%EC%B9%98%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
     <lastmod>2026-11-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://devplayg.com/tags/bash/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/categories/mac/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+    <loc>https://devplayg.com/tech/mac_tips/</loc>
+    <lastmod>2022-10-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/tech/%EB%AF%B8%EB%9E%98%EC%97%90-%EC%A0%95%EB%A6%AC%ED%95%B4%EB%91%98%EA%B1%B0/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/tech/mac_tips/</loc>
     <lastmod>2022-10-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/life/</loc>
@@ -82,6 +70,9 @@
   </url><url>
     <loc>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</loc>
     <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/bash/</loc>
+    <lastmod>2022-04-01T21:34:36+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/tags/current-directory/</loc>
     <lastmod>2022-04-01T21:34:36+09:00</lastmod>
@@ -231,6 +222,9 @@
     <lastmod>2020-05-24T09:00:04+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/tags/http/</loc>
+    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
     <lastmod>2020-05-24T09:00:04+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/tags/minio/</loc>
