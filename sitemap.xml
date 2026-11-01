@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://devplayg.com/tags/bash/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
     <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/cookbook/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/life/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EA%B9%80%EC%B9%98%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/2026-11-01_%EA%B9%80%EC%B9%98%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2026-11-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/bash/</loc>
     <lastmod>2024-09-16T21:34:36+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/categories/mac/</loc>
     <lastmod>2024-09-16T21:34:36+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/categories/programming-language/</loc>
-    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/tags/</loc>
     <lastmod>2024-09-16T21:34:36+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/tech/</loc>
@@ -28,15 +43,6 @@
   </url><url>
     <loc>https://devplayg.com/tech/mac_tips/</loc>
     <lastmod>2022-10-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/tags/cookbook/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/cooking/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://devplayg.com/categories/life/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://devplayg.com/life/</loc>
     <lastmod>2022-04-24T00:00:00+09:00</lastmod>
