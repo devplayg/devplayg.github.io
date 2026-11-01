@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>powershell on Developer Playground</title>
-    <link>https://devplayg.com/tags/powershell/</link>
-    <description>Recent content in powershell on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
-      <link>https://devplayg.com/tech/snmp/</link>
-      <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/snmp/</guid>
-      <description>1. Windows 10 Pro Run powershell as Administrator
-Add-WindowsCapability -Online -Name “SNMP.Client~~~~0.0.1.0” Get-WindowsCapability -Online -Name “SNMP*”  Set Windows SNMP Trap Events
-evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;) CPU</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Powershell on devplayg</title>
+		<link>https://devplayg.com/tags/powershell/</link>
+		<description>Recent content in Powershell on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 03 Nov 2019 17:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
+				<link>https://devplayg.com/tech/snmp/</link>
+				<pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/snmp/</guid>
+				<description>&lt;h3 id=&#34;1-windows-10-pro&#34;&gt;1. Windows 10 Pro&lt;/h3&gt;&#xA;&lt;p&gt;Run powershell as Administrator&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Add-WindowsCapability -Online -Name &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;SNMP.Client~~~~&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;.1.&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-WindowsCapability -Online -Name &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;SNMP*&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Set Windows SNMP Trap Events&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;evntwin&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;powershell-commands-to-monitor-windows-use--convertto-json&#34;&gt;Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;)&lt;/h4&gt;&#xA;&lt;p&gt;CPU&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-WmiObject Win32_Processor&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Memory&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

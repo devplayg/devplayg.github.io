@@ -1,123 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>docker on Developer Playground</title>
-    <link>https://devplayg.com/categories/docker/</link>
-    <description>Recent content in docker on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tips for Docker Compose</title>
-      <link>https://devplayg.com/tech/docker-compose_tips/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-compose_tips/</guid>
-      <description>Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file</description>
-    </item>
-    
-    <item>
-      <title>윈도우10, Docker Desktop 없이 사용하기</title>
-      <link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
-      <description>Microsoft Store 에서 Window Terminal 설치
- https://docs.microsoft.com/ko-kr/windows/terminal/install  관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행
-wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store 에서 필요한 Ubuntu 설치</description>
-    </item>
-    
-    <item>
-      <title>Setting up development environments with docker-compose</title>
-      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
-      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
-    </item>
-    
-    <item>
-      <title>JSON Tips</title>
-      <link>https://devplayg.com/tech/json_handling/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/json_handling/</guid>
-      <description>Minifier https://hub.docker.com/r/governmentpaas/json-minify
-DockerFile
-FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
-docker build -t json-minify .  Minify
-docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.</description>
-    </item>
-    
-    <item>
-      <title>Docker, Ubuntu 18.04에 설치하기</title>
-      <link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
-      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
-      <description>https://docs.docker.com/engine/install/ubuntu/
-Docker 설치 apt 패키지 업데이트
-$ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common  Docker GPG 키 추가</description>
-    </item>
-    
-    <item>
-      <title>Installing and using CentOS 6.10 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
-      <description>Pulling and run image in general
-$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
-$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host</description>
-    </item>
-    
-    <item>
-      <title>Installing and using MariaDB 10.3 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
-      <description>https://hub.docker.com/_/mariadb
-Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.</description>
-    </item>
-    
-    <item>
-      <title>Installing and using Ubuntu 18.04 via Docker</title>
-      <link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
-      <description>Pulling and run image in general
-docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host</description>
-    </item>
-    
-    <item>
-      <title>Installing and using other containers via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_etc/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_etc/</guid>
-      <description> Pulling and run image Apache 2.4
-docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4  </description>
-    </item>
-    
-    <item>
-      <title>Docker tips</title>
-      <link>https://devplayg.com/tech/docker_tips/</link>
-      <pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_tips/</guid>
-      <description>Commands docker info docker logs [name] docker exec -it [name] bash  My favorites on Windows Ubuntu 18.04
-docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash  OpenJDK 8</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Docker on devplayg</title>
+		<link>https://devplayg.com/categories/docker/</link>
+		<description>Recent content in Docker on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tips for Docker Compose</title>
+				<link>https://devplayg.com/tech/docker-compose_tips/</link>
+				<pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-compose_tips/</guid>
+				<description>&lt;p&gt;Builds, (re)creates, starts, and attaches to containers for a service.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker-compose up -d&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Stops containers and removes containers, networks, volumes, and images created by up.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo docker-compose down&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Remove containers for services not defined in the Compose file&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>윈도우10, Docker Desktop 없이 사용하기</title>
+				<link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
+				<pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
+				<description>&lt;p&gt;Microsoft Store 에서 Window Terminal 설치&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/ko-kr/windows/terminal/install&#34;&gt;https://docs.microsoft.com/ko-kr/windows/terminal/install&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;wsl.exe --install&#xA;dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart&#xA;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Microsoft Store 에서 필요한 Ubuntu 설치&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Setting up development environments with docker-compose</title>
+				<link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+				<pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+				<description>&lt;h3 id=&#34;create-network&#34;&gt;Create network&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker network create -d bridge dev-net&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;build-environment&#34;&gt;Build environment&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;docker-compose.yaml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;networks:&#xA;  network1:&#xA;    name: dev-net&#xA;&#xA;services:&#xA;  db:&#xA;    image: mariadb:10.3&#xA;    container_name: db&#xA;    volumes:&#xA;      - /d/data/mariadb/data:/var/lib/mysql&#xA;      - /d/data/mariadb/conf.d:/etc/mysql/conf.d&#xA;    environment:&#xA;      - MYSQL_ROOT_PASSWORD=devplayg12!@&#xA;      - MYSQL_DATABASE=devplayg&#xA;      - MYSQL_USER=devplayg&#xA;      - MYSQL_PASSWORD=devplayg12!@&#xA;      - TZ=Asia/Seoul&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;3306:3306&amp;#34;&#xA;    command: [&amp;#39;mysqld&amp;#39;, &amp;#39;--character-set-server=utf8mb4&amp;#39;, &amp;#39;--collation-server=utf8mb4_unicode_ci&amp;#39;]&#xA;&#xA;  redis:&#xA;    image: redis:latest&#xA;    container_name: redis&#xA;    volumes:&#xA;      - /d/data/redis/redis-data:/var/lib/redis&#xA;      - /d/data/redis/redis.conf:/usr/local/etc/redis/redis.conf&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;6379:6379&amp;#34;&#xA;    command: [&amp;#39;redis-server&amp;#39;, &amp;#39;/usr/local/etc/redis/redis.conf&amp;#39;]&#xA;&#xA;  server:&#xA;    image: ubuntu:18.04&#xA;    container_name: server&#xA;    volumes:&#xA;      - /e/gohome:/gohome&#xA;    networks:&#xA;     - network1&#xA;    tty: true&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>JSON Tips</title>
+				<link>https://devplayg.com/tech/json_handling/</link>
+				<pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/json_handling/</guid>
+				<description>&lt;h3 id=&#34;minifier&#34;&gt;Minifier&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://hub.docker.com/r/governmentpaas/json-minify&#34;&gt;https://hub.docker.com/r/governmentpaas/json-minify&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DockerFile&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;FROM ruby:2.7-alpine3.11&#xA;RUN gem install json-minify -v 0.0.2 --no-document&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Build&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker build -t json-minify .&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Minify&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.parse(ARGF.read).to_json&amp;quot; /app/YOUR_FILE.json&#xA;docker run --rm -v &amp;quot;$PWD&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.parse(ARGF.read).to_json&amp;quot; /app/YOUR_FILE.json&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;beautifier&#34;&gt;Beautifier&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -it --rm  -v &amp;quot;%CD%&amp;quot;:/app python:3.7 python -mjson.tool /app/a.json&#xA;docker run -it --rm  -v &amp;quot;$PWD&amp;quot;:/app python:3.7 python -mjson.tool /app/YOUR_FILE.json&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Docker, Ubuntu 18.04에 설치하기</title>
+				<link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
+				<pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/install/ubuntu/&#34;&gt;https://docs.docker.com/engine/install/ubuntu/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;docker-설치&#34;&gt;Docker 설치&lt;/h2&gt;&#xA;&lt;p&gt;apt 패키지 업데이트&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt-get update&#xA;&#xA;$ sudo apt-get install \&#xA;    apt-transport-https \&#xA;    ca-certificates \&#xA;    curl \&#xA;    gnupg-agent \&#xA;    software-properties-common&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Docker GPG 키 추가&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;저장소 업데이트&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Installing and using CentOS 6.10 via Docker</title>
+				<link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
+				<description>&lt;h2 id=&#34;pulling-and-run-image&#34;&gt;Pulling and run image&lt;/h2&gt;&#xA;&lt;p&gt;in general&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker run -it --name c6 centos:6.10 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with sharing filesystem&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with binding container ports to the host&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Installing and using MariaDB 10.3 via Docker</title>
+				<link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://hub.docker.com/_/mariadb&#34;&gt;https://hub.docker.com/_/mariadb&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;pulling-and-run-image-from-command-line&#34;&gt;Pulling and run image from command-line&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;-e&lt;/strong&gt; MYSQL_ROOT_PASSWORD=YOUR_PASSWORD&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-e&lt;/strong&gt; TZ=Asia/Seoul&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-p&lt;/strong&gt; 3306:3306&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-d&lt;/strong&gt; mariadb:10.3&lt;/li&gt;&#xA;&lt;li&gt;&amp;ndash;character-set-server=utf8mb4&lt;/li&gt;&#xA;&lt;li&gt;&amp;ndash;collation-server=utf8mb4_unicode_ci&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;pulling-and-run-image-from-docker-composer&#34;&gt;Pulling and run image from docker-composer&lt;/h2&gt;&#xA;&lt;p&gt;docker-compose.yaml&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Installing and using other containers via Docker</title>
+				<link>https://devplayg.com/tech/docker-container_etc/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-container_etc/</guid>
+				<description>&lt;h2 id=&#34;pulling-and-run-image&#34;&gt;Pulling and run image&lt;/h2&gt;&#xA;&lt;p&gt;Apache 2.4&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -dit --name web -p 8080:80 -v E:/webhome/:/usr/local/apache2/htdocs/ httpd:2.4&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Installing and using Ubuntu 18.04 via Docker</title>
+				<link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
+				<description>&lt;h2 id=&#34;pulling-and-run-image&#34;&gt;Pulling and run image&lt;/h2&gt;&#xA;&lt;p&gt;in general&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it --name ubt ubuntu:18.04 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with sharing filesystem&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with binding container ports to the host&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Docker tips</title>
+				<link>https://devplayg.com/tech/docker_tips/</link>
+				<pubDate>Fri, 07 Jun 2019 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_tips/</guid>
+				<description>&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker info&#xA;docker logs [name]&#xA;docker exec -it [name] bash &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;my-favorites-on-windows&#34;&gt;My favorites on Windows&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu 18.04&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -dit --name ubt -v e:/gohome:/gohome ubuntu:18.04 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;OpenJDK 8&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -it -v e:/gohome:/gohome --name jdk8 openjdk:8-jdk&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Redis&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

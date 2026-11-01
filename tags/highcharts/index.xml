@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>highcharts on Developer Playground</title>
-    <link>https://devplayg.com/tags/highcharts/</link>
-    <description>Recent content in highcharts on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 15 Sep 2019 00:00:12 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Highcharts tips</title>
-      <link>https://devplayg.com/tech/highcharts_tips/</link>
-      <pubDate>Sun, 15 Sep 2019 00:00:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/highcharts_tips/</guid>
-      <description>xAxis.dateTimeLabelFormats https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats
-{ millisecond: &#39;%H:%M:%S.%L&#39;, second: &#39;%H:%M:%S&#39;, minute: &#39;%H:%M&#39;, hour: &#39;%H:%M&#39;, day: &#39;%e. %b&#39;, week: &#39;%e. %b&#39;, month: &#39;%b \&#39;%y&#39;, year: &#39;%Y&#39; }  Remove all series while(chart.series.length &amp;gt; 0) { chart.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Highcharts on devplayg</title>
+		<link>https://devplayg.com/tags/highcharts/</link>
+		<description>Recent content in Highcharts on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 15 Sep 2019 00:00:12 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Highcharts tips</title>
+				<link>https://devplayg.com/tech/highcharts_tips/</link>
+				<pubDate>Sun, 15 Sep 2019 00:00:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/highcharts_tips/</guid>
+				<description>&lt;h3 id=&#34;xaxisdatetimelabelformats&#34;&gt;xAxis.dateTimeLabelFormats&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats&#34;&gt;https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;{&#xA;    millisecond: &#39;%H:%M:%S.%L&#39;,&#xA;    second: &#39;%H:%M:%S&#39;,&#xA;    minute: &#39;%H:%M&#39;,&#xA;    hour: &#39;%H:%M&#39;,&#xA;    day: &#39;%e. %b&#39;,&#xA;    week: &#39;%e. %b&#39;,&#xA;    month: &#39;%b \&#39;%y&#39;,&#xA;    year: &#39;%Y&#39;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;remove-all-series&#34;&gt;Remove all series&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;while(chart.series.length &amp;gt; 0) {&#xA;    chart.series[0].remove(true);&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

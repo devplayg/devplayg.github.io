@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>heartbeat on Developer Playground</title>
-    <link>https://devplayg.com/tags/heartbeat/</link>
-    <description>Recent content in heartbeat on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/heartbeat/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Something making my heart beat</title>
-      <link>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</guid>
-      <description>Movies I can watch again and again  Little Miss Sunshine Samurai Champloo 24 The Equalizer 나의 아저씨 Game of Thrones 응답하라 1988 American Gangster Gladiator Love Actually Indiana Jones  Actors  Denzel Washington Russell Crowe 오나라 오정세  Music  Beatles - Let it be Billy Joel - She&amp;rsquo;s Always A Woman Billy Joel - Piano Man Bob Marley - No Waman No Cry Bobby McFerrin - Don&amp;rsquo;t Worry be happy Brian Kennedy - Crazy Love Cassandra Wilson - Fragile CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version) Charlie Hunter - No Woman No Cry Chie Ayado - Leaving On A Jet Plane Chie Ayado - Let It Be Eagles - Hotel California (Live) Earth, Wind and Fire - September George Michael - Star People - Unplugged Gregory Porter - Musical Genocide (Live) Jason Mraz - Everything Is Sound Justin Bieber - Love Yourself Kirk Franklin - Blessing in the storm Lionel Richie - Easy Los Lobos - Donna Los Lobos - El Gusto Mariah Carey - Dreamlover Marianne Faithful - Madame George Mark Ronson - Uptown Funk (Feat.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Heartbeat on devplayg</title>
+		<link>https://devplayg.com/tags/heartbeat/</link>
+		<description>Recent content in Heartbeat on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/heartbeat/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Something making my heart beat</title>
+				<link>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</link>
+				<pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</guid>
+				<description>&lt;h2 id=&#34;movies-i-can-watch-again-and-again&#34;&gt;Movies I can watch again and again&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Little Miss Sunshine&lt;/li&gt;&#xA;&lt;li&gt;Samurai Champloo&lt;/li&gt;&#xA;&lt;li&gt;24&lt;/li&gt;&#xA;&lt;li&gt;The Equalizer&lt;/li&gt;&#xA;&lt;li&gt;나의 아저씨&lt;/li&gt;&#xA;&lt;li&gt;Game of Thrones&lt;/li&gt;&#xA;&lt;li&gt;응답하라 1988&lt;/li&gt;&#xA;&lt;li&gt;American Gangster&lt;/li&gt;&#xA;&lt;li&gt;Gladiator&lt;/li&gt;&#xA;&lt;li&gt;Love Actually&lt;/li&gt;&#xA;&lt;li&gt;Indiana Jones&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;actors&#34;&gt;Actors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Denzel Washington&lt;/li&gt;&#xA;&lt;li&gt;Russell Crowe&lt;/li&gt;&#xA;&lt;li&gt;오나라&lt;/li&gt;&#xA;&lt;li&gt;오정세&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;music&#34;&gt;Music&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Beatles - Let it be&lt;/li&gt;&#xA;&lt;li&gt;Billy Joel -  She&amp;rsquo;s Always A Woman&lt;/li&gt;&#xA;&lt;li&gt;Billy Joel - Piano Man&lt;/li&gt;&#xA;&lt;li&gt;Bob Marley - No Waman No Cry&lt;/li&gt;&#xA;&lt;li&gt;Bobby McFerrin - Don&amp;rsquo;t Worry be happy&lt;/li&gt;&#xA;&lt;li&gt;Brian Kennedy - Crazy Love&lt;/li&gt;&#xA;&lt;li&gt;Cassandra Wilson - Fragile&lt;/li&gt;&#xA;&lt;li&gt;CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version)&lt;/li&gt;&#xA;&lt;li&gt;Charlie Hunter - No Woman No Cry&lt;/li&gt;&#xA;&lt;li&gt;Chie Ayado - Leaving On A Jet Plane&lt;/li&gt;&#xA;&lt;li&gt;Chie Ayado - Let It Be&lt;/li&gt;&#xA;&lt;li&gt;Eagles - Hotel California (Live)&lt;/li&gt;&#xA;&lt;li&gt;Earth, Wind and Fire - September&lt;/li&gt;&#xA;&lt;li&gt;George Michael - Star People - Unplugged&lt;/li&gt;&#xA;&lt;li&gt;Gregory Porter - Musical Genocide (Live)&lt;/li&gt;&#xA;&lt;li&gt;Jason Mraz - Everything Is Sound&lt;/li&gt;&#xA;&lt;li&gt;Justin Bieber - Love Yourself&lt;/li&gt;&#xA;&lt;li&gt;Kirk Franklin - Blessing in the storm&lt;/li&gt;&#xA;&lt;li&gt;Lionel Richie - Easy&lt;/li&gt;&#xA;&lt;li&gt;Los Lobos - Donna&lt;/li&gt;&#xA;&lt;li&gt;Los Lobos - El Gusto&lt;/li&gt;&#xA;&lt;li&gt;Mariah Carey - Dreamlover&lt;/li&gt;&#xA;&lt;li&gt;Marianne Faithful - Madame George&lt;/li&gt;&#xA;&lt;li&gt;Mark Ronson - Uptown Funk (Feat. Bruno Mars)&lt;/li&gt;&#xA;&lt;li&gt;Marvin Gaye - Let&amp;rsquo;s Get It On&lt;/li&gt;&#xA;&lt;li&gt;Marvin Gaye - What&amp;rsquo;s Going On&lt;/li&gt;&#xA;&lt;li&gt;Matoma - Thing Back (Feat. Ja Rule And Ralph Tresvant)&lt;/li&gt;&#xA;&lt;li&gt;Michael Jackson - Billie Jean&lt;/li&gt;&#xA;&lt;li&gt;Michael Jackson - Don&amp;rsquo;t Stop &amp;lsquo;Til You Get Enough&lt;/li&gt;&#xA;&lt;li&gt;Micheal Jackson - You Rock My World&lt;/li&gt;&#xA;&lt;li&gt;Natalie Merchant - One Fine Day&lt;/li&gt;&#xA;&lt;li&gt;Nick Cave - Let It Be&lt;/li&gt;&#xA;&lt;li&gt;Nujabes - Luv (sic.) pt2 (Ft. Shing02)&lt;/li&gt;&#xA;&lt;li&gt;Nujabes - Luv (sic.) pt3 (Ft. Shing02)&lt;/li&gt;&#xA;&lt;li&gt;Puff Daddy - I&amp;rsquo;ll Be Missing You&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - 3-Way Phone Call&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - Happy People&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - Number One Hit&lt;/li&gt;&#xA;&lt;li&gt;Sinead O&amp;rsquo;Connor - You Make Me Feel So Free&lt;/li&gt;&#xA;&lt;li&gt;Stevie Wonder - Superstition&lt;/li&gt;&#xA;&lt;li&gt;Sting - Every Breath You Take (Unplugged)&lt;/li&gt;&#xA;&lt;li&gt;Sting - Valparaiso ( White Squall )&lt;/li&gt;&#xA;&lt;li&gt;Sting - When We Dance&lt;/li&gt;&#xA;&lt;li&gt;UA - アントニオの唄&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Crazy Love&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Madame George&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Queen Of The Slipstream&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Someone Like You&lt;/li&gt;&#xA;&lt;li&gt;Wham - Last Christmas&lt;/li&gt;&#xA;&lt;li&gt;Will Smith - Wild Wild West&lt;/li&gt;&#xA;&lt;li&gt;김진표 - 유난히&lt;/li&gt;&#xA;&lt;li&gt;김현철 - 크리스마스에는 축복을(아이들)&lt;/li&gt;&#xA;&lt;li&gt;박정현 - 좋은 나라 (Live)&lt;/li&gt;&#xA;&lt;li&gt;박진영 - Honey&lt;/li&gt;&#xA;&lt;li&gt;박진영 - Kiss Me&lt;/li&gt;&#xA;&lt;li&gt;박진영 - 난 여자가 있는데&lt;/li&gt;&#xA;&lt;li&gt;아소토 유니온 - Think about&amp;rsquo;chu&lt;/li&gt;&#xA;&lt;li&gt;윈디시티 - Elnino Prodigo&lt;/li&gt;&#xA;&lt;li&gt;윤종신 - 이층집 소녀&lt;/li&gt;&#xA;&lt;li&gt;제이레빗 - 바람이 불어 오면&lt;/li&gt;&#xA;&lt;li&gt;Dok2 - 말조심&lt;/li&gt;&#xA;&lt;li&gt;Dok2 - Wattup&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - Save (Feat. 팔로알토)(Prod. 코드 쿤스트)&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - XXL (Feat. 딥플로우, Dok2)&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - 선빵 (Feat. 개코, 기리보이) (Prod. 기리보이)&lt;/li&gt;&#xA;&lt;li&gt;신승훈, 비와이 - Lullaby&lt;/li&gt;&#xA;&lt;li&gt;코드쿤스트 - Lounge (Feat. 화지)&lt;/li&gt;&#xA;&lt;li&gt;이하이 - 1,2,3,4&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

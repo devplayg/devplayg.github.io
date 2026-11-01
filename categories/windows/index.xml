@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>windows on Developer Playground</title>
-    <link>https://devplayg.com/categories/windows/</link>
-    <description>Recent content in windows on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>윈도우10, Docker Desktop 없이 사용하기</title>
-      <link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
-      <description>Microsoft Store 에서 Window Terminal 설치
- https://docs.microsoft.com/ko-kr/windows/terminal/install  관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행
-wsl.exe --install dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart  Microsoft Store 에서 필요한 Ubuntu 설치</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Windows on devplayg</title>
+		<link>https://devplayg.com/categories/windows/</link>
+		<description>Recent content in Windows on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>윈도우10, Docker Desktop 없이 사용하기</title>
+				<link>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</link>
+				<pubDate>Fri, 28 Jan 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</guid>
+				<description>&lt;p&gt;Microsoft Store 에서 Window Terminal 설치&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/ko-kr/windows/terminal/install&#34;&gt;https://docs.microsoft.com/ko-kr/windows/terminal/install&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;관리자 권한으로 Window Terminal 실행 후 WSL2 설치명령어 실행&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;wsl.exe --install&#xA;dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart&#xA;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Microsoft Store 에서 필요한 Ubuntu 설치&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

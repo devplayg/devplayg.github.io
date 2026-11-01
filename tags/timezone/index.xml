@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>timezone on Developer Playground</title>
-    <link>https://devplayg.com/tags/timezone/</link>
-    <description>Recent content in timezone on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 28 Aug 2019 13:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/timezone/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Handling timezone in Spring Boot</title>
-      <link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
-      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
-      <description>LocalDateTime vs ZonedDateTime
- LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
-LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Timezone on devplayg</title>
+		<link>https://devplayg.com/tags/timezone/</link>
+		<description>Recent content in Timezone on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 28 Aug 2019 13:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/timezone/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Handling timezone in Spring Boot</title>
+				<link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
+				<pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
+				<description>&lt;p&gt;&lt;code&gt;LocalDateTime&lt;/code&gt; vs &lt;code&gt;ZonedDateTime&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LocalDateTime: Time based on system timezone&lt;/li&gt;&#xA;&lt;li&gt;ZonedDateTime: Time based on system or user-defined timezone&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LocalDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;();                                 &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T06:48:56.623993&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;();                                 &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T06:48:56.616338Z[Etc/UTC]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;withZoneSameInstant&lt;/span&gt;(memberZone); &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.619674+09:00[Asia/Seoul]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;(memberZone);                       &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.622355+09:00[Asia/Seoul]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LocalDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;(memberZone);                       &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.625316&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;memberZone = Asia/Seoul&lt;/li&gt;&#xA;&lt;li&gt;System = UTC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;img src=&#34;timezone.png&#34;&gt;</description>
+			</item>
+	</channel>
 </rss>

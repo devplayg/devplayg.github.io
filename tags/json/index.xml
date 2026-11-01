@@ -1,28 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>json on Developer Playground</title>
-    <link>https://devplayg.com/tags/json/</link>
-    <description>Recent content in json on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>JSON Tips</title>
-      <link>https://devplayg.com/tech/json_handling/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/json_handling/</guid>
-      <description>Minifier https://hub.docker.com/r/governmentpaas/json-minify
-DockerFile
-FROM ruby:2.7-alpine3.11 RUN gem install json-minify -v 0.0.2 --no-document  Build
-docker build -t json-minify .  Minify
-docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Json on devplayg</title>
+		<link>https://devplayg.com/tags/json/</link>
+		<description>Recent content in Json on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>JSON Tips</title>
+				<link>https://devplayg.com/tech/json_handling/</link>
+				<pubDate>Sat, 28 Nov 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/json_handling/</guid>
+				<description>&lt;h3 id=&#34;minifier&#34;&gt;Minifier&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://hub.docker.com/r/governmentpaas/json-minify&#34;&gt;https://hub.docker.com/r/governmentpaas/json-minify&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DockerFile&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;FROM ruby:2.7-alpine3.11&#xA;RUN gem install json-minify -v 0.0.2 --no-document&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Build&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker build -t json-minify .&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Minify&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run --rm -v &amp;quot;%CD%&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.parse(ARGF.read).to_json&amp;quot; /app/YOUR_FILE.json&#xA;docker run --rm -v &amp;quot;$PWD&amp;quot;:/app json-minify ruby -rjson -e &amp;quot;puts JSON.parse(ARGF.read).to_json&amp;quot; /app/YOUR_FILE.json&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;beautifier&#34;&gt;Beautifier&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -it --rm  -v &amp;quot;%CD%&amp;quot;:/app python:3.7 python -mjson.tool /app/a.json&#xA;docker run -it --rm  -v &amp;quot;$PWD&amp;quot;:/app python:3.7 python -mjson.tool /app/YOUR_FILE.json&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,35 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ai on Developer Playground</title>
-    <link>https://devplayg.com/tags/ai/</link>
-    <description>Recent content in ai on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>FFmpeg compiling on ubuntu 18.04</title>
-      <link>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</link>
-      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</guid>
-      <description>https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
-mkdir -p ~/ffmpeg_sources ~/bin  Get the Dependencies apt -y install \ autoconf \ automake \ build-essential \ cmake \ git-core \ libass-dev \ libfreetype6-dev \ libsdl2-dev \ libtool \ libva-dev \ libvdpau-dev \ libvorbis-dev \ libxcb1-dev \ libxcb-shm0-dev \ libxcb-xfixes0-dev \ pkg-config \ texinfo \ wget \ zlib1g-dev apt install -y nasm yasm apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev cd ~/ffmpeg_sources &amp;amp;&amp;amp; \ git -C aom pull 2&amp;gt; /dev/null || git clone --depth 1 https://aomedia.</description>
-    </item>
-    
-    <item>
-      <title>Go-Media-Framework installation on Ubuntu 18.04</title>
-      <link>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</link>
-      <pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</guid>
-      <description> Installing Go Set env export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/  Check
-pkg-config --libs libavformat $ vi ~/.profile export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib  Install go get github.com/3d0c/gmf  </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Ai on devplayg</title>
+		<link>https://devplayg.com/tags/ai/</link>
+		<description>Recent content in Ai on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 Sep 2019 03:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>FFmpeg compiling on ubuntu 18.04</title>
+				<link>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</link>
+				<pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu&#34;&gt;https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;mkdir -p ~/ffmpeg_sources ~/bin&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;get-the-dependencies&#34;&gt;Get the Dependencies&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;apt -y install \&#xA;  autoconf \&#xA;  automake \&#xA;  build-essential \&#xA;  cmake \&#xA;  git-core \&#xA;  libass-dev \&#xA;  libfreetype6-dev \&#xA;  libsdl2-dev \&#xA;  libtool \&#xA;  libva-dev \&#xA;  libvdpau-dev \&#xA;  libvorbis-dev \&#xA;  libxcb1-dev \&#xA;  libxcb-shm0-dev \&#xA;  libxcb-xfixes0-dev \&#xA;  pkg-config \&#xA;  texinfo \&#xA;  wget \&#xA;  zlib1g-dev&#xA;&#xA;apt install -y nasm yasm&#xA;&#xA;apt install -y libx264-dev libx265-dev libnuma-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev libavfilter-dev&#xA;&#xA;cd ~/ffmpeg_sources &amp;amp;&amp;amp; \&#xA;git -C aom pull 2&amp;gt; /dev/null || git clone --depth 1 https://aomedia.googlesource.com/aom &amp;amp;&amp;amp; \&#xA;mkdir -p aom_build &amp;amp;&amp;amp; \&#xA;cd aom_build &amp;amp;&amp;amp; \&#xA;PATH=&amp;quot;$HOME/bin:$PATH&amp;quot; cmake -G &amp;quot;Unix Makefiles&amp;quot; -DCMAKE_INSTALL_PREFIX=&amp;quot;$HOME/ffmpeg_build&amp;quot; -DENABLE_SHARED=off -DENABLE_NASM=on ../aom &amp;amp;&amp;amp; \&#xA;PATH=&amp;quot;$HOME/bin:$PATH&amp;quot; make &amp;amp;&amp;amp; \&#xA;make install&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;compile&#34;&gt;Compile&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;cd ~/ffmpeg_sources &amp;amp;&amp;amp; \&#xA;wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2 &amp;amp;&amp;amp; \&#xA;tar xjvf ffmpeg-snapshot.tar.bz2 &amp;amp;&amp;amp; \&#xA;cd ffmpeg &amp;amp;&amp;amp; \&#xA;PATH=&amp;quot;$HOME/bin:$PATH&amp;quot; PKG_CONFIG_PATH=&amp;quot;$HOME/ffmpeg_build/lib/pkgconfig&amp;quot; ./configure \&#xA;  --prefix=&amp;quot;$HOME/ffmpeg_build&amp;quot; \&#xA;  --pkg-config-flags=&amp;quot;--static&amp;quot; \&#xA;  --extra-cflags=&amp;quot;-I$HOME/ffmpeg_build/include&amp;quot; \&#xA;  --extra-ldflags=&amp;quot;-L$HOME/ffmpeg_build/lib&amp;quot; \&#xA;  --extra-libs=&amp;quot;-lpthread -lm&amp;quot; \&#xA;  --bindir=&amp;quot;$HOME/bin&amp;quot; \&#xA;  --enable-gpl \&#xA;  --enable-libass \&#xA;  --enable-libfdk-aac \&#xA;  --enable-libfreetype \&#xA;  --enable-libmp3lame \&#xA;  --enable-libopus \&#xA;  --enable-libvorbis \&#xA;  --enable-libvpx \&#xA;  --enable-libx264 \&#xA;  --enable-libx265 \&#xA;  --enable-shared \&#xA;  --enable-nonfree &amp;amp;&amp;amp; \&#xA;PATH=&amp;quot;$HOME/bin:$PATH&amp;quot; make &amp;amp;&amp;amp; \&#xA;make install &amp;amp;&amp;amp; \&#xA;hash -r&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Go-Media-Framework installation on Ubuntu 18.04</title>
+				<link>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</link>
+				<pubDate>Sun, 01 Sep 2019 03:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</guid>
+				<description>&lt;h3 id=&#34;installing-go&#34;&gt;Installing Go&lt;/h3&gt;&#xA;&lt;h3 id=&#34;set-env&#34;&gt;Set env&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/ffmpeg_build/lib/pkgconfig/&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Check&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;pkg-config --libs libavformat&#xA;&#xA;$ vi ~/.profile&#xA;export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;install&#34;&gt;Install&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;go get github.com/3d0c/gmf&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

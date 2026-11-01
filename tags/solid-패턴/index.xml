@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>SOLID 패턴 on Developer Playground</title>
-    <link>https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/</link>
-    <description>Recent content in SOLID 패턴 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Mon, 21 Nov 2016 00:28:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Design Patterns &gt; SOLID patterns</title>
-      <link>https://devplayg.com/coding/design-pattern_solid-patterns/</link>
-      <pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/coding/design-pattern_solid-patterns/</guid>
-      <description>SOLID 패턴  SRP (Single Responsibility) OCP (Open/Closed) LSP (Liskov Substitution) ISP (Interface Segregation) DIP (Dependency Inversion)
-class Golang: Language { compile() { println(&amp;quot;gopher&amp;quot;) } } class Kotlin: Language { compile() { println(&amp;quot;still on JVM&amp;quot;) } } class Java: Language { compile() { println(&amp;quot;legendary&amp;quot;) } }   SRP (Single Responsibility)  &amp;ldquo;should be open for extension, but closed for modification&amp;rdquo;</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>SOLID 패턴 on devplayg</title>
+		<link>https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/</link>
+		<description>Recent content in SOLID 패턴 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 21 Nov 2016 00:28:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Design Patterns &gt; SOLID patterns</title>
+				<link>https://devplayg.com/coding/design-pattern_solid-patterns/</link>
+				<pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/coding/design-pattern_solid-patterns/</guid>
+				<description>&lt;h3 id=&#34;solid-패턴&#34;&gt;SOLID 패턴&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SRP (Single Responsibility)&lt;/li&gt;&#xA;&lt;li&gt;OCP (Open/Closed)&lt;/li&gt;&#xA;&lt;li&gt;LSP (Liskov Substitution)&lt;/li&gt;&#xA;&lt;li&gt;ISP (Interface Segregation)&lt;/li&gt;&#xA;&lt;li&gt;DIP (Dependency Inversion)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Golang&lt;/span&gt;: Language {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        compile() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            println(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gopher&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kotlin&lt;/span&gt;: Language {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        compile() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            println(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;still on JVM&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Java&lt;/span&gt;: Language {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        compile() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            println(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;legendary&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;srp-single-responsibility&#34;&gt;SRP (Single Responsibility)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;&amp;ldquo;should be open for extension, but closed for modification&amp;rdquo;&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;fun run(language: Language) {&#xA;        language.compile()&#xA;}&#xA;val golang = Language(GOLANG)&#xA;val kotlin = Language(KOTLIN)&#xA;val java = Language(JAVA)&#xA;&#xA;run(golang)&#xA;run(kotlin)&#xA;run(java)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;compile() function is open for extension, but closed for modification&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

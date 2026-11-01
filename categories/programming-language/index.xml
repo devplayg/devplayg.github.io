@@ -1,147 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>programming language on Developer Playground</title>
-    <link>https://devplayg.com/categories/programming-language/</link>
-    <description>Recent content in programming language on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/programming-language/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Go 원격 디버깅</title>
-      <link>https://devplayg.com/tech/go_remote-debugging/</link>
-      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_remote-debugging/</guid>
-      <description>개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
-디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &amp;ldquo;Run&amp;rdquo; 실행하지 않음</description>
-    </item>
-    
-    <item>
-      <title>How to shutdown HTTP server in Go</title>
-      <link>https://devplayg.com/tech/draft_go_http-server-down/</link>
-      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/draft_go_http-server-down/</guid>
-      <description>https://golang.org/pkg/net/http/#pkg-examples
-package main import ( &amp;quot;context&amp;quot; &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;os&amp;quot; &amp;quot;os/signal&amp;quot; ) func main() { var srv http.Server idleConnsClosed := make(chan struct{}) go func() { sigint := make(chan os.Signal, 1) signal.Notify(sigint, os.</description>
-    </item>
-    
-    <item>
-      <title>Generating random number in Go</title>
-      <link>https://devplayg.com/tech/go_rand/</link>
-      <pubDate>Sun, 24 May 2020 09:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_rand/</guid>
-      <description>https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go
-package grpcrand import ( &amp;quot;math/rand&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;time&amp;quot; ) var ( r = rand.New(rand.NewSource(time.Now().UnixNano())) mu sync.Mutex ) // Int63n implements rand.Int63n on the grpcrand global source. func Int63n(n int64) int64 { mu.</description>
-    </item>
-    
-    <item>
-      <title>Compiling C&#43;&#43; on Linux</title>
-      <link>https://devplayg.com/tech/cpp_compiling-on-linux/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/cpp_compiling-on-linux/</guid>
-      <description>Checking GLIBC version on Linux system $ ldd --version ldd (Ubuntu GLIBC 2.27-3ubuntu1) 2.27  Hello World hello.cpp
-#include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;quot;Hello World\n&amp;quot;; }  $ g++ -o hello hello.</description>
-    </item>
-    
-    <item>
-      <title>Handling timezone in Spring Boot</title>
-      <link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
-      <pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
-      <description>LocalDateTime vs ZonedDateTime
- LocalDateTime: Time based on system timezone ZonedDateTime: Time based on system or user-defined timezone
-LocalDateTime.now(); // 2020-03-02T06:48:56.623993 ZonedDateTime.now(); // 2020-03-02T06:48:56.616338Z[Etc/UTC] ZonedDateTime.now().withZoneSameInstant(memberZone); // 2020-03-02T15:48:56.619674+09:00[Asia/Seoul] ZonedDateTime.now(memberZone); // 2020-03-02T15:48:56.622355+09:00[Asia/Seoul] LocalDateTime.</description>
-    </item>
-    
-    <item>
-      <title>Java Lambda</title>
-      <link>https://devplayg.com/tech/java_lambda/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/java_lambda/</guid>
-      <description>Before using lamda
-Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda</description>
-    </item>
-    
-    <item>
-      <title>Sprint Boot tips</title>
-      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description>Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
-java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.</description>
-    </item>
-    
-    <item>
-      <title>Sorting slices and user-defined collections in Go</title>
-      <link>https://devplayg.com/tech/go_soring-slices/</link>
-      <pubDate>Tue, 11 Jun 2019 22:02:31 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_soring-slices/</guid>
-      <description>it couldn&amp;rsquo;t be better
-https://golang.org/pkg/sort/
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;sort&amp;quot; ) type Grams int func (g Grams) String() string { return fmt.Sprintf(&amp;quot;%dg&amp;quot;, int(g)) } type Organ struct { Name string Weight Grams } type Organs []*Organ func (s Organs) Len() int { return len(s) } func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // ByName implements sort.</description>
-    </item>
-    
-    <item>
-      <title>Spring Boot 용어 - Servlet &amp; Servlet Container</title>
-      <link>https://devplayg.com/tech/springboot_terms/</link>
-      <pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/springboot_terms/</guid>
-      <description>Spring Security 스프링 기반 어플리케이션의 인증과 권한을 담당하는 프레임워크 참고: https://sjh836.tistory.com/165
-서블릿(Servlet)  서블릿은 Java 클래스이다. 서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 의 기능을 확장하는데 사용되는 Java 클래스이다 서블릿은 클라이언트의 요청을 받고, 그 처리 결과를 다시 클라이언트에 전달한다.</description>
-    </item>
-    
-    <item>
-      <title>Go 언어</title>
-      <link>https://devplayg.com/tech/go_what-is-go/</link>
-      <pubDate>Sat, 08 Jun 2019 00:10:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_what-is-go/</guid>
-      <description>Go 언어는? 안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어
-&amp;ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
-    </item>
-    
-    <item>
-      <title>Benchmarks with Go</title>
-      <link>https://devplayg.com/tech/go_benchmark-test/</link>
-      <pubDate>Fri, 07 Jun 2019 23:45:41 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_benchmark-test/</guid>
-      <description>Benchmark test in Go hash_test.go
- Run code go test hash_test.go -bench .  Result
-goos: windows goarch: amd64 BenchmarkFNV32-8 3000000 415 ns/op BenchmarkFNV64-8 3000000 426 ns/op BenchmarkFNV128-8 3000000 428 ns/op BenchmarkMD5-8 2000000 589 ns/op BenchmarkSHA1-8 2000000 708 ns/op BenchmarkSHA224-8 2000000 883 ns/op BenchmarkSHA256-8 2000000 854 ns/op BenchmarkSHA512-8 2000000 991 ns/op PASS ok command-line-arguments 17.</description>
-    </item>
-    
-    <item>
-      <title>Pseudo-random permutation of the integers in Go</title>
-      <link>https://devplayg.com/tech/go_pseudo-random-permutation-of-the-integers-in-go/</link>
-      <pubDate>Wed, 05 Jun 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_pseudo-random-permutation-of-the-integers-in-go/</guid>
-      <description>package main import ( &amp;quot;fmt&amp;quot; &amp;quot;math/rand&amp;quot; &amp;quot;time&amp;quot; ) func main() { rand.Seed(time.Now().UnixNano()) p := rand.Perm(100) for _, r := range p[:10] { fmt.Println(r) } }  </description>
-    </item>
-    
-    <item>
-      <title>Bash tips</title>
-      <link>https://devplayg.com/tech/bash_tips/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/bash_tips/</guid>
-      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Programming Language on devplayg</title>
+		<link>https://devplayg.com/categories/programming-language/</link>
+		<description>Recent content in Programming Language on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 16 Sep 2024 21:34:36 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/programming-language/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>미래에 정리해둘거</title>
+				<link>https://devplayg.com/tech/%EB%AF%B8%EB%9E%98%EC%97%90-%EC%A0%95%EB%A6%AC%ED%95%B4%EB%91%98%EA%B1%B0/</link>
+				<pubDate>Mon, 16 Sep 2024 21:34:36 +0900</pubDate>
+				<guid>https://devplayg.com/tech/%EB%AF%B8%EB%9E%98%EC%97%90-%EC%A0%95%EB%A6%AC%ED%95%B4%EB%91%98%EA%B1%B0/</guid>
+				<description>&lt;h3 id=&#34;사용중의-포트의-pid-조회&#34;&gt;사용중의 포트의 pid 조회&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;lsof -i :8080&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Go 원격 디버깅</title>
+				<link>https://devplayg.com/tech/go_remote-debugging/</link>
+				<pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_remote-debugging/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;개발은 PC에서&lt;/li&gt;&#xA;&lt;li&gt;실행은 Server에서&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;1-개발-pc에서&#34;&gt;1. 개발 PC에서&lt;/h2&gt;&#xA;&lt;h3 id=&#34;goland-설정&#34;&gt;Goland 설정&lt;/h3&gt;&#xA;&lt;p&gt;[Run] - [Run] - [Edit configuration] 선택&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/01.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/02.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;디버깅-환경-추가&#34;&gt;디버깅 환경 추가&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/03.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;디버깅-호스트디버깅-대상-서버-설정&#34;&gt;디버깅 호스트(디버깅 대상 서버) 설정&lt;/h3&gt;&#xA;&lt;p&gt;호스트 이름만 입력; 아직 &amp;ldquo;Run&amp;rdquo; 실행하지 않음&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How to shutdown HTTP server in Go</title>
+				<link>https://devplayg.com/tech/draft_go_http-server-down/</link>
+				<pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+				<guid>https://devplayg.com/tech/draft_go_http-server-down/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/net/http/#pkg-examples&#34;&gt;https://golang.org/pkg/net/http/#pkg-examples&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;context&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;net/http&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;os&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;os/signal&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;srv&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Server&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;idleConnsClosed&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; make(&lt;span style=&#34;color:#66d9ef&#34;&gt;chan&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;sigint&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; make(&lt;span style=&#34;color:#66d9ef&#34;&gt;chan&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;os&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Signal&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;signal&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Notify&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;sigint&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;os&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Interrupt&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sigint&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// We received an interrupt signal, shut down.&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;srv&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Shutdown&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Background&lt;/span&gt;()); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// Error from closing listeners, or context timeout:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HTTP server Shutdown: %v&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        close(&lt;span style=&#34;color:#a6e22e&#34;&gt;idleConnsClosed&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;srv&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ListenAndServe&lt;/span&gt;(); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ErrServerClosed&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Error starting or closing listener:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatalf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HTTP server ListenAndServe: %v&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;idleConnsClosed&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Generating random number in Go</title>
+				<link>https://devplayg.com/tech/go_rand/</link>
+				<pubDate>Sun, 24 May 2020 09:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_rand/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go&#34;&gt;https://github.com/grpc/grpc-go/blob/master/internal/grpcrand/grpcrand.go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;grpcrand&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;math/rand&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sync&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;time&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; (&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;  = &lt;span style=&#34;color:#a6e22e&#34;&gt;rand&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;New&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;rand&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewSource&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;time&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Now&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;UnixNano&lt;/span&gt;()))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sync&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Mutex&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Int63n implements rand.Int63n on the grpcrand global source.&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Int63n&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int64&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;int64&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Lock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Int63n&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Unlock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Intn implements rand.Intn on the grpcrand global source.&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Intn&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Lock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Intn&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Unlock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Float64 implements rand.Float64 on the grpcrand global source.&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Float64&lt;/span&gt;() &lt;span style=&#34;color:#66d9ef&#34;&gt;float64&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Lock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Float64&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Unlock&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Compiling C&#43;&#43; on Linux</title>
+				<link>https://devplayg.com/tech/cpp_compiling-on-linux/</link>
+				<pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/cpp_compiling-on-linux/</guid>
+				<description>&lt;h2 id=&#34;checking-glibc-version-on-linux-system&#34;&gt;Checking &lt;code&gt;GLIBC&lt;/code&gt; version on Linux system&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ldd --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ldd &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;Ubuntu GLIBC 2.27-3ubuntu1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; 2.27&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;&#xA;&lt;p&gt;hello.cpp&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    std&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;cout &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt; g&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;o hello hello.cpp &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hello&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hello World with namespace&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Handling timezone in Spring Boot</title>
+				<link>https://devplayg.com/tech/spring_boot-handling-timezone/</link>
+				<pubDate>Wed, 28 Aug 2019 13:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/spring_boot-handling-timezone/</guid>
+				<description>&lt;p&gt;&lt;code&gt;LocalDateTime&lt;/code&gt; vs &lt;code&gt;ZonedDateTime&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LocalDateTime: Time based on system timezone&lt;/li&gt;&#xA;&lt;li&gt;ZonedDateTime: Time based on system or user-defined timezone&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LocalDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;();                                 &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T06:48:56.623993&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;();                                 &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T06:48:56.616338Z[Etc/UTC]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;withZoneSameInstant&lt;/span&gt;(memberZone); &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.619674+09:00[Asia/Seoul]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZonedDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;(memberZone);                       &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.622355+09:00[Asia/Seoul]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LocalDateTime.&lt;span style=&#34;color:#a6e22e&#34;&gt;now&lt;/span&gt;(memberZone);                       &lt;span style=&#34;color:#75715e&#34;&gt;// 2020-03-02T15:48:56.625316&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;memberZone = Asia/Seoul&lt;/li&gt;&#xA;&lt;li&gt;System = UTC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;img src=&#34;timezone.png&#34;&gt;</description>
+			</item>
+			<item>
+				<title>Java Lambda</title>
+				<link>https://devplayg.com/tech/java_lambda/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/java_lambda/</guid>
+				<description>&lt;p&gt;Before using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Comparator&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;FaceRecognition&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;compare&lt;/span&gt;(FaceRecognition o1, FaceRecognition o2) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, (o1, o2) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Sprint Boot tips</title>
+				<link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
+				<description>&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew bootjar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;listing-dependencies&#34;&gt;Listing dependencies&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew :hippo-api:dependencies --configuration compileClasspath&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;running&#34;&gt;Running&lt;/h3&gt;&#xA;&lt;p&gt;Normal&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Profile: dev&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -Dspring.profiles.active=dev -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;systemd-script&#34;&gt;Systemd script&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Unit]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Description&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;My client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;After&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;syslog.target network.target mysql.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Service]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;simple&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Group&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WorkingDirectory&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/home/devplayg/client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ExecStart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;SuccessExitStatus&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;143&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Restart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;on-failure&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;RestartSec&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;60&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Install]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WantedBy&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;multi-user.target&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Alias&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;smartfactory.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ldap&#34;&gt;LDAP&lt;/h3&gt;&#xA;&lt;p&gt;Spring boot + Security + LDAP&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sorting slices and user-defined collections in Go</title>
+				<link>https://devplayg.com/tech/go_soring-slices/</link>
+				<pubDate>Tue, 11 Jun 2019 22:02:31 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_soring-slices/</guid>
+				<description>&lt;p&gt;it couldn&amp;rsquo;t be better&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/sort/&#34;&gt;https://golang.org/pkg/sort/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;package main&#xA;&#xA;import (&#xA;&#x9;&amp;quot;fmt&amp;quot;&#xA;&#x9;&amp;quot;sort&amp;quot;&#xA;)&#xA;&#xA;type Grams int&#xA;&#xA;func (g Grams) String() string { return fmt.Sprintf(&amp;quot;%dg&amp;quot;, int(g)) }&#xA;&#xA;type Organ struct {&#xA;&#x9;Name   string&#xA;&#x9;Weight Grams&#xA;}&#xA;&#xA;type Organs []*Organ&#xA;&#xA;func (s Organs) Len() int      { return len(s) }&#xA;func (s Organs) Swap(i, j int) { s[i], s[j] = s[j], s[i] }&#xA;&#xA;// ByName implements sort.Interface by providing Less and using the Len and&#xA;// Swap methods of the embedded Organs value.&#xA;type ByName struct{ Organs }&#xA;&#xA;func (s ByName) Less(i, j int) bool { return s.Organs[i].Name &amp;lt; s.Organs[j].Name }&#xA;&#xA;// ByWeight implements sort.Interface by providing Less and using the Len and&#xA;// Swap methods of the embedded Organs value.&#xA;type ByWeight struct{ Organs }&#xA;&#xA;func (s ByWeight) Less(i, j int) bool { return s.Organs[i].Weight &amp;lt; s.Organs[j].Weight }&#xA;&#xA;func main() {&#xA;&#x9;s := []*Organ{&#xA;&#x9;&#x9;{&amp;quot;brain&amp;quot;, 1340},&#xA;&#x9;&#x9;{&amp;quot;heart&amp;quot;, 290},&#xA;&#x9;&#x9;{&amp;quot;liver&amp;quot;, 1494},&#xA;&#x9;&#x9;{&amp;quot;pancreas&amp;quot;, 131},&#xA;&#x9;&#x9;{&amp;quot;prostate&amp;quot;, 62},&#xA;&#x9;&#x9;{&amp;quot;spleen&amp;quot;, 162},&#xA;&#x9;}&#xA;&#xA;&#x9;sort.Sort(ByWeight{s})&#xA;&#x9;fmt.Println(&amp;quot;Organs by weight:&amp;quot;)&#xA;&#x9;printOrgans(s)&#xA;&#xA;&#x9;sort.Sort(ByName{s})&#xA;&#x9;fmt.Println(&amp;quot;Organs by name:&amp;quot;)&#xA;&#x9;printOrgans(s)&#xA;&#xA;}&#xA;&#xA;func printOrgans(s []*Organ) {&#xA;&#x9;for _, o := range s {&#xA;&#x9;&#x9;fmt.Printf(&amp;quot;%-8s (%v)\n&amp;quot;, o.Name, o.Weight)&#xA;&#x9;}&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Spring Boot 용어 - Servlet &amp; Servlet Container</title>
+				<link>https://devplayg.com/tech/springboot_terms/</link>
+				<pubDate>Sun, 09 Jun 2019 16:11:23 +0900</pubDate>
+				<guid>https://devplayg.com/tech/springboot_terms/</guid>
+				<description>&lt;h3 id=&#34;spring-security&#34;&gt;Spring Security&lt;/h3&gt;&#xA;&lt;p&gt;스프링 기반 어플리케이션의 인증과 권한을 담당하는 프레임워크&#xA;참고: &lt;a href=&#34;https://sjh836.tistory.com/165&#34;&gt;https://sjh836.tistory.com/165&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;서블릿servlet&#34;&gt;서블릿(Servlet)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;서블릿은 Java 클래스이다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;서블릿은 [요청-응답 모델]를 처리하기 위해 만들어진 Java Server 의 기능을 확장하는데 사용되는 Java 클래스이다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;서블릿은 클라이언트의 요청을 받고, 그 처리 결과를 다시 클라이언트에 전달한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;서블릿은 다양한 요청방식에 응답할 수 있지만, 일반적으로 웹서버에 호스트 되어 있는 응용프로그램을 확장하는데 사용된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;클라이언트가 서블릿에 요청을 보내면, 서블릿은 요청을 처리한 후 응답을 클라이언트에 돌려준다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;요청: 클라이언트 =&amp;gt; 서블릿&lt;/li&gt;&#xA;&lt;li&gt;응답: 서블릿 =&amp;gt; 클라이언트&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;예&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;사용자가 웹브라우저에서 &amp;ldquo;주문&amp;rdquo; 버튼을 클릭하면&lt;/li&gt;&#xA;&lt;li&gt;웹브라우저는 이 주문 요청을 웹서버에 보내고&lt;/li&gt;&#xA;&lt;li&gt;웹서버는 서블릿에 그 요청을 전달한다.&lt;/li&gt;&#xA;&lt;li&gt;서블릿은 받은 요청을 처리한 하고, 그 응답을 웹서버로 돌려주고,&lt;/li&gt;&#xA;&lt;li&gt;웹서버는 서블릿으로부터 받은 응답을 사용자 웹브라우저에 전달한다.&lt;/li&gt;&#xA;&lt;li&gt;사용자는 웹브라우저에서 &amp;ldquo;주문완료&amp;rdquo; 문구를 볼 수 있다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;A사용자 [주문] 클릭 ==&amp;gt; 웹서버 ==&amp;gt; [Servlet-A]&#xA;B사용자 [주문] 클릭 ==&amp;gt; 웹서버 ==&amp;gt; [Servlet-B]&#xA;B사용자 [주문] 클릭 ==&amp;gt; 웹서버 ==&amp;gt; [Servlet-C]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Go 언어</title>
+				<link>https://devplayg.com/tech/go_what-is-go/</link>
+				<pubDate>Sat, 08 Jun 2019 00:10:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_what-is-go/</guid>
+				<description>&lt;h3 id=&#34;go-언어는&#34;&gt;Go 언어는?&lt;/h3&gt;&#xA;&lt;p&gt;안정적고 강력한 소프트웨어를 쉽게 만들 수 있는 오픈소스 프로그래밍 언어&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Benchmarks with Go</title>
+				<link>https://devplayg.com/tech/go_benchmark-test/</link>
+				<pubDate>Fri, 07 Jun 2019 23:45:41 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_benchmark-test/</guid>
+				<description>&lt;h3 id=&#34;benchmark-test-in-go&#34;&gt;Benchmark test in Go&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;hash_test.go&lt;/code&gt;&lt;/p&gt;&#xA;&lt;script src=&#34;https://gist.github.com/devplayg/6fcf1f7dc69befe33bde5519f38dd3c6.js&#34;&gt;&lt;/script&gt;&#xA;&lt;h3 id=&#34;run-code&#34;&gt;Run code&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;go test hash_test.go -bench .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Result&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;goos: windows&#xA;goarch: amd64&#xA;BenchmarkFNV32-8         3000000               415 ns/op&#xA;BenchmarkFNV64-8         3000000               426 ns/op&#xA;BenchmarkFNV128-8        3000000               428 ns/op&#xA;BenchmarkMD5-8           2000000               589 ns/op&#xA;BenchmarkSHA1-8          2000000               708 ns/op&#xA;BenchmarkSHA224-8        2000000               883 ns/op&#xA;BenchmarkSHA256-8        2000000               854 ns/op&#xA;BenchmarkSHA512-8        2000000               991 ns/op&#xA;PASS&#xA;ok      command-line-arguments  17.893s&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Pseudo-random permutation of the integers in Go</title>
+				<link>https://devplayg.com/tech/go_pseudo-random-permutation-of-the-integers-in-go/</link>
+				<pubDate>Wed, 05 Jun 2019 21:34:36 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_pseudo-random-permutation-of-the-integers-in-go/</guid>
+				<description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main&#xA;&#xA;import (&#xA;    &amp;#34;fmt&amp;#34;&#xA;    &amp;#34;math/rand&amp;#34;&#xA;    &amp;#34;time&amp;#34;&#xA;)&#xA;&#xA;func main() {&#xA;    rand.Seed(time.Now().UnixNano())&#xA;    p := rand.Perm(100)&#xA;    for _, r := range p[:10] {&#xA;        fmt.Println(r)&#xA;    }&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Bash tips</title>
+				<link>https://devplayg.com/tech/bash_tips/</link>
+				<pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+				<guid>https://devplayg.com/tech/bash_tips/</guid>
+				<description>&lt;h3 id=&#34;get-current-directory&#34;&gt;Get current directory&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;how-to-count-number-of-files-in-each-directory&#34;&gt;How to count number of files in each directory&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -a | cut -d/ -f2 | sort | uniq -c | sort -nr &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

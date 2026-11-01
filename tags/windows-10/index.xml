@@ -1,37 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>windows 10 on Developer Playground</title>
-    <link>https://devplayg.com/tags/windows-10/</link>
-    <description>Recent content in windows 10 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Cannot start docker desktop on win 10 home 2004</title>
-      <link>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</guid>
-      <description> 윈도우 버전 확인 winver  WSL 2 Linux 커널 업데이트 https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel
-wsl -l -v
-WSL 2 로 변환Link to WSL 2 로 변환  wsl --set-version Ubuntu 2  Default wsl --set-default Ubuntu  Remove docker Install docker </description>
-    </item>
-    
-    <item>
-      <title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
-      <link>https://devplayg.com/tech/snmp/</link>
-      <pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/snmp/</guid>
-      <description>1. Windows 10 Pro Run powershell as Administrator
-Add-WindowsCapability -Online -Name “SNMP.Client~~~~0.0.1.0” Get-WindowsCapability -Online -Name “SNMP*”  Set Windows SNMP Trap Events
-evntwin  Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;) CPU</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Windows 10 on devplayg</title>
+		<link>https://devplayg.com/tags/windows-10/</link>
+		<description>Recent content in Windows 10 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cannot start docker desktop on win 10 home 2004</title>
+				<link>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</link>
+				<pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</guid>
+				<description>&lt;h2 id=&#34;윈도우-버전-확인&#34;&gt;윈도우 버전 확인&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;winver&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;wsl-2-linux-커널-업데이트&#34;&gt;WSL 2 Linux 커널 업데이트&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel&#34;&gt;https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;wsl -l -v&lt;/p&gt;&#xA;&lt;h2 id=&#34;wsl-2-로-변환link-to-wsl-2-로-변환&#34;&gt;WSL 2 로 변환Link to WSL 2 로 변환&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt; wsl --set-version Ubuntu 2&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;default&#34;&gt;Default&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;wsl --set-default Ubuntu&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;remove-docker&#34;&gt;Remove docker&lt;/h2&gt;&#xA;&lt;h2 id=&#34;install-docker&#34;&gt;Install docker&lt;/h2&gt;</description>
+			</item>
+			<item>
+				<title>Install &#34;SNMP Server&#34; on Windows 10 and Ubuntu 18.04</title>
+				<link>https://devplayg.com/tech/snmp/</link>
+				<pubDate>Sun, 03 Nov 2019 17:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/snmp/</guid>
+				<description>&lt;h3 id=&#34;1-windows-10-pro&#34;&gt;1. Windows 10 Pro&lt;/h3&gt;&#xA;&lt;p&gt;Run powershell as Administrator&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Add-WindowsCapability -Online -Name &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;SNMP.Client~~~~&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;.1.&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-WindowsCapability -Online -Name &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;SNMP*&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Set Windows SNMP Trap Events&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;evntwin&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;powershell-commands-to-monitor-windows-use--convertto-json&#34;&gt;Powershell commands to monitor windows. (Use &amp;ldquo;| ConvertTo-Json&amp;rdquo;)&lt;/h4&gt;&#xA;&lt;p&gt;CPU&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-WmiObject Win32_Processor&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Memory&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

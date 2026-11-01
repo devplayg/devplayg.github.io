@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>centos 6.10 on Developer Playground</title>
-    <link>https://devplayg.com/tags/centos-6.10/</link>
-    <description>Recent content in centos 6.10 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/centos-6.10/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Installing and using CentOS 6.10 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
-      <description>Pulling and run image in general
-$ docker run -it --name c6 centos:6.10 bash  with sharing filesystem
-$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash  with binding container ports to the host</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Centos 6.10 on devplayg</title>
+		<link>https://devplayg.com/tags/centos-6.10/</link>
+		<description>Recent content in Centos 6.10 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/centos-6.10/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Installing and using CentOS 6.10 via Docker</title>
+				<link>https://devplayg.com/tech/docker-container_centos-6.10/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-container_centos-6.10/</guid>
+				<description>&lt;h2 id=&#34;pulling-and-run-image&#34;&gt;Pulling and run image&lt;/h2&gt;&#xA;&lt;p&gt;in general&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker run -it --name c6 centos:6.10 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with sharing filesystem&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker run -it -v /host/dir:/container/dir --name c6 centos:6.10 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with binding container ports to the host&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,54 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Docker 환경에서 Kafka 설치 on Developer Playground</title>
-    <link>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</link>
-    <description>Recent content in Docker 환경에서 Kafka 설치 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>4. Kafka 테스트</title>
-      <link>https://devplayg.com/tech/kafka-on-docker_test/</link>
-      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
-      <description>Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
-   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
-    </item>
-    
-    <item>
-      <title>3. Kafka 설정</title>
-      <link>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</link>
-      <pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</guid>
-      <description>Kafka 컨테이너 구성    호스트명 Broker ID IP     kafka1 1 172.17.0.5   kafka2 2 172.17.0.6   kafka3 3 172.17.0.7    컨테이너 개별 설정 디렉토리 생성</description>
-    </item>
-    
-    <item>
-      <title>2. Zookeeper 설정</title>
-      <link>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</link>
-      <pubDate>Sun, 09 Jun 2019 15:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</guid>
-      <description>Zookeeper 컨테이너 구성    호스트명 ID IP     zoo1 1 172.17.0.2   zoo2 2 172.17.0.3   zoo3 3 172.17.0.4    컨테이너 공통 설정 Zookeeper 설정 vi /kafka/config/zookeeper.</description>
-    </item>
-    
-    <item>
-      <title>1. Kafka 설치를 위한 Docker 환경구성</title>
-      <link>https://devplayg.com/tech/kafka-on-docker_installation/</link>
-      <pubDate>Thu, 06 Jun 2019 17:14:41 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka-on-docker_installation/</guid>
-      <description>설치 버전  Docker Ubuntu 18.04
- Kafka 2.2 [Download] Zookeeper 3.4.13 OpenJDK 11.0.3
-  Docker 컨테이너 구성    구분 호스트명 IP     Zookeeper zoo1 172.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Docker 환경에서 Kafka 설치 on devplayg</title>
+		<link>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</link>
+		<description>Recent content in Docker 환경에서 Kafka 설치 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>4. Kafka 테스트</title>
+				<link>https://devplayg.com/tech/kafka-on-docker_test/</link>
+				<pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
+				<description>&lt;h3 id=&#34;kafka-상태확인-명령어&#34;&gt;Kafka 상태확인 명령어&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list&#xA;$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;kafka-장애-발생-시-상태변화-테스트&#34;&gt;Kafka 장애 발생 시, 상태변화 테스트&lt;/h3&gt;&#xA;&lt;p&gt;순차적 장애 발생 후, 순차적 복구&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Seq&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka1&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka2&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka3&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;설명&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;정상&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3 장애 발생&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2 장애 발생&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2 장애 복구&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;5&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3 장애 복구&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 1. 정상&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 3       Replicas: 2,1,3    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 1    Leader: 3       Replicas: 3,2,1    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 2    Leader: 3       Replicas: 1,3,2    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 3    Leader: 3       Replicas: 2,3,1    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 4    Leader: 3       Replicas: 3,1,2    Isr: 3,2,1    &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 2. kafka3 장애 발생&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 2       Replicas: 2,1,3    Isr: 2,1      &#xA;Topic: my-topic Partition: 1    Leader: 2       Replicas: 3,2,1    Isr: 2,1      &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 2,1      &#xA;Topic: my-topic Partition: 3    Leader: 2       Replicas: 2,3,1    Isr: 2,1      &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 2,1      &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 3. kafka2 장애 발생&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 4. kafka2 장애 복구&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1,2   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1,2   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1,2   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1,2   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1,2   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 5. 정상&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1,2,3   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>3. Kafka 설정</title>
+				<link>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</link>
+				<pubDate>Sun, 09 Jun 2019 18:55:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</guid>
+				<description>&lt;h3 id=&#34;kafka-컨테이너-구성&#34;&gt;Kafka 컨테이너 구성&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;호스트명&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Broker ID&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;IP&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.5&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.6&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.7&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;컨테이너-개별-설정&#34;&gt;컨테이너 개별 설정&lt;/h3&gt;&#xA;&lt;p&gt;디렉토리 생성&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;mkdir -p /data1 /data2 /data3&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;컨테이너-개별-설정-1&#34;&gt;컨테이너 개별 설정&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;vi /kafka/config/server.properties&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;kafka1&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;broker.id=1&#xA;log.dirs=/data1,/data2,/data3&#xA;zookeeper.connect=zoo1:2181,zoo2:2181,zoo3:2181/my-kafka&#xA;listeners=PLAINTEXT://0.0.0.0:9092&#xA;advertised.listeners=PLAINTEXT://kafka1:9092&#xA;..(생략)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;kafka2&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;broker.id=2&#xA;log.dirs=/data1,/data2,/data3&#xA;zookeeper.connect=zoo1:2181,zoo2:2181,zoo3:2181/my-kafka&#xA;listeners=PLAINTEXT://0.0.0.0:9092&#xA;advertised.listeners=PLAINTEXT://kafka2:9092&#xA;..(생략)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;kafka3&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;broker.id=3&#xA;log.dirs=/data1,/data2,/data3&#xA;zookeeper.connect=zoo1:2181,zoo2:2181,zoo3:2181/my-kafka&#xA;listeners=PLAINTEXT://0.0.0.0:9092&#xA;advertised.listeners=PLAINTEXT://kafka3:9092    &#xA;..(생략)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>2. Zookeeper 설정</title>
+				<link>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</link>
+				<pubDate>Sun, 09 Jun 2019 15:55:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</guid>
+				<description>&lt;h3 id=&#34;zookeeper-컨테이너-구성&#34;&gt;Zookeeper 컨테이너 구성&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;호스트명&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;ID&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;IP&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.4&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;컨테이너-공통-설정&#34;&gt;컨테이너 공통 설정&lt;/h3&gt;&#xA;&lt;h4 id=&#34;zookeeper-설정&#34;&gt;Zookeeper 설정&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;vi /kafka/config/zookeeper.properties&#xA;---&#xA;dataDir=/data&#xA;tickTime=2000&#xA;initLimit=5&#xA;syncLimit=2&#xA;server.1=zoo1:2888:3888&#xA;server.2=zoo2:2888:3888&#xA;server.3=zoo3:2888:3888&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;컨테이너-개별-설정&#34;&gt;컨테이너 개별 설정&lt;/h3&gt;&#xA;&lt;p&gt;Zookeeper 고유 ID 설정&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>1. Kafka 설치를 위한 Docker 환경구성</title>
+				<link>https://devplayg.com/tech/kafka-on-docker_installation/</link>
+				<pubDate>Thu, 06 Jun 2019 17:14:41 +0900</pubDate>
+				<guid>https://devplayg.com/tech/kafka-on-docker_installation/</guid>
+				<description>&lt;h3 id=&#34;설치-버전&#34;&gt;설치 버전&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Docker Ubuntu 18.04&lt;/li&gt;&#xA;&lt;li&gt;Kafka 2.2 &lt;a href=&#34;http://apache.mirror.cdnetworks.com/kafka/2.2.0/kafka_2.12-2.2.0.tgz&#34;&gt;[Download]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zookeeper 3.4.13&lt;/li&gt;&#xA;&lt;li&gt;OpenJDK 11.0.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;docker-컨테이너-구성&#34;&gt;Docker 컨테이너 구성&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;구분&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;호스트명&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;IP&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Zookeeper&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;zoo3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.4&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Kafka&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.5&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.6&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.7&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Producer&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;producer&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.x&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Consomer&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;consumer&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;172.17.0.x&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;포트-구성&#34;&gt;포트 구성&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;Kafka&lt;/code&gt;: 9092&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Zookeeper&lt;/code&gt;: 2181, 2888:3888&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;docker-os-이미지-다운로드&#34;&gt;Docker OS 이미지 다운로드&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker pull ubuntu&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;docker-컨테이너-생성&#34;&gt;Docker 컨테이너 생성&lt;/h2&gt;&#xA;&lt;h4 id=&#34;zookeeper-컨테이너-생성&#34;&gt;Zookeeper 컨테이너 생성&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run --name zoo1 -it ubuntu bash&#xA;docker run --name zoo2 -it ubuntu bash&#xA;docker run --name zoo3 -it ubuntu bash&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;kafka-컨테이너-생성&#34;&gt;Kafka 컨테이너 생성&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -p 8001:9092 --name kafka1 -it ubuntu bash&#xA;docker run -p 8002:9092 --name kafka2 -it ubuntu bash&#xA;docker run -p 8003:9092 --name kafka3 -it ubuntu bash&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;producerconsumer-컨테이너-생성&#34;&gt;Producer/Consumer 컨테이너 생성&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker run -p 8001:9092 --name producer -it ubuntu bash&#xA;docker run -p 8002:9092 --name consumer -it ubuntu bash&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;zookeeperkafka-컨테이너-ip-확인&#34;&gt;Zookeeper/Kafka 컨테이너 IP 확인&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ docker inspect -f &amp;quot;{{ .NetworkSettings.IPAddress }}&amp;quot; zoo1 zoo2 zoo3&#xA;172.17.0.2&#xA;172.17.0.3&#xA;172.17.0.4&#xA;$ docker inspect -f &amp;quot;{{ .NetworkSettings.IPAddress }}&amp;quot; kafka1 kafka2 kafka3&#xA;172.17.0.5&#xA;172.17.0.6&#xA;172.17.0.7&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;컨테이너-개별-설정&#34;&gt;컨테이너 개별 설정&lt;/h2&gt;&#xA;&lt;h4 id=&#34;kafkazookeeper-컨테이너-각각-접속&#34;&gt;Kafka/Zookeeper 컨테이너 각각 접속&lt;/h4&gt;&#xA;&lt;h4 id=&#34;선택-ubuntu-repository를-mirrorkakaocom으로-설정&#34;&gt;(선택) Ubuntu Repository를 mirror.kakao.com으로 설정&lt;/h4&gt;&#xA;&lt;p&gt;패키지 다운로드 시 속도가 빠름&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

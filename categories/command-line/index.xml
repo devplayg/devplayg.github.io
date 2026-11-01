@@ -1,57 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>command-line on Developer Playground</title>
-    <link>https://devplayg.com/categories/command-line/</link>
-    <description>Recent content in command-line on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/command-line/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Openssl, ROOT CA 인증서 생성</title>
-      <link>https://devplayg.com/tech/openssl_generate-cert/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/openssl_generate-cert/</guid>
-      <description>CA가 사용할 RSA Key 생성 암호가 불필요한 경우
-openssl genrsa -out private.key 2048  암호를 설정할 경우
-openssl genrsa -aes256 -out private.key 2048  인증성 생성 openssl req -new -key private.</description>
-    </item>
-    
-    <item>
-      <title>Sprint Boot tips</title>
-      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description>Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
-java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.</description>
-    </item>
-    
-    <item>
-      <title>Bash tips</title>
-      <link>https://devplayg.com/tech/bash_tips/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/bash_tips/</guid>
-      <description> Get current directory DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;  How to count number of files in each directory du -a | cut -d/ -f2 | sort | uniq -c | sort -nr  </description>
-    </item>
-    
-    <item>
-      <title>FFmpeg tips</title>
-      <link>https://devplayg.com/tech/ffmpeg_tips/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
-      <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating video files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-file /tmp/file1.mp4 file /tmp/file2.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Command-Line on devplayg</title>
+		<link>https://devplayg.com/categories/command-line/</link>
+		<description>Recent content in Command-Line on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 09 Aug 2019 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/command-line/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Openssl, ROOT CA 인증서 생성</title>
+				<link>https://devplayg.com/tech/openssl_generate-cert/</link>
+				<pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/openssl_generate-cert/</guid>
+				<description>&lt;h3 id=&#34;ca가-사용할-rsa-key-생성&#34;&gt;CA가 사용할 RSA Key 생성&lt;/h3&gt;&#xA;&lt;p&gt;암호가 불필요한 경우&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;openssl genrsa -out private.key 2048&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;암호를 설정할 경우&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;openssl genrsa -aes256 -out private.key 2048&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;인증성-생성&#34;&gt;인증성 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;openssl req -new -key private.key -out certificate.csr -subj &amp;quot;/C=KR/ST=Seoul/L=Pangyo/O=devplayg/OU=playground/CN=devplayg.com&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;self-signed-인증서-생성&#34;&gt;Self-signed 인증서 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in certificate.csr -signkey private.key -out certificate.crt &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;인증서-확인&#34;&gt;인증서 확인&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;openssl x509 -text -in certificate.crt&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Sprint Boot tips</title>
+				<link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
+				<description>&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew bootjar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;listing-dependencies&#34;&gt;Listing dependencies&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew :hippo-api:dependencies --configuration compileClasspath&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;running&#34;&gt;Running&lt;/h3&gt;&#xA;&lt;p&gt;Normal&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Profile: dev&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -Dspring.profiles.active=dev -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;systemd-script&#34;&gt;Systemd script&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Unit]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Description&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;My client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;After&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;syslog.target network.target mysql.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Service]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;simple&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Group&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WorkingDirectory&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/home/devplayg/client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ExecStart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;SuccessExitStatus&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;143&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Restart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;on-failure&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;RestartSec&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;60&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Install]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WantedBy&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;multi-user.target&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Alias&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;smartfactory.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ldap&#34;&gt;LDAP&lt;/h3&gt;&#xA;&lt;p&gt;Spring boot + Security + LDAP&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bash tips</title>
+				<link>https://devplayg.com/tech/bash_tips/</link>
+				<pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+				<guid>https://devplayg.com/tech/bash_tips/</guid>
+				<description>&lt;h3 id=&#34;get-current-directory&#34;&gt;Get current directory&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;DIR=&amp;quot;$( cd &amp;quot;$( dirname &amp;quot;${BASH_SOURCE[0]}&amp;quot; )&amp;quot; &amp;amp;&amp;amp; pwd )&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;how-to-count-number-of-files-in-each-directory&#34;&gt;How to count number of files in each directory&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -a | cut -d/ -f2 | sort | uniq -c | sort -nr &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>FFmpeg tips</title>
+				<link>https://devplayg.com/tech/ffmpeg_tips/</link>
+				<pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
+				<description>&lt;p&gt;A complete, cross-platform solution to record, convert and stream audio and video.&#xA;&lt;a href=&#34;https://ffmpeg.org/&#34;&gt;https://ffmpeg.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;concatenating-video-files&#34;&gt;Concatenating video files&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;ffmpeg -f concat -i list.txt -c copy output.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;code&gt;list.txt&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;file /tmp/file1.mp4&#xA;file /tmp/file2.mp4&#xA;file /tmp/file3.mp4&#xA;file /tmp/file4.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;listing-split-files-and-merging-them&#34;&gt;Listing split files and merging them&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt; ls -v *.mp4  | awk &#39;{print &amp;quot;file &amp;quot;$1}&#39; &amp;gt; list.txt &amp;amp;&amp;amp; ffmpeg -f concat -i list.txt -c copy output.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;cutting-video&#34;&gt;Cutting video&lt;/h3&gt;&#xA;&lt;p&gt;00:00:00 ~ 00:00:05&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

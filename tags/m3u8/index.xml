@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>m3u8 on Developer Playground</title>
-    <link>https://devplayg.com/tags/m3u8/</link>
-    <description>Recent content in m3u8 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 04 Sep 2019 01:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/m3u8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>잠이 안와서 테스트 해 본 HLS 스트리밍</title>
-      <link>https://devplayg.com/ai/streaming_hls/</link>
-      <pubDate>Wed, 04 Sep 2019 01:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/ai/streaming_hls/</guid>
-      <description>캐냐AA 커피원두가 도착했다. 밤 10시에 라떼를 한 잔 마셨더니 잠이 안온다. 그래서 HLS 스트리밍 테스트를 했는데, 잘 된다. 헐.
-Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치 $ apt-get install software-properties-common $ add-apt-repository ppa:jonathonf/ffmpeg-4 $ apt install ffmpeg $ ffmpeg -version $ apt install libfaac-dev  Step 2.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>M3u8 on devplayg</title>
+		<link>https://devplayg.com/tags/m3u8/</link>
+		<description>Recent content in M3u8 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 04 Sep 2019 01:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/m3u8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>잠이 안와서 테스트 해 본 HLS 스트리밍</title>
+				<link>https://devplayg.com/ai/streaming_hls/</link>
+				<pubDate>Wed, 04 Sep 2019 01:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/ai/streaming_hls/</guid>
+				<description>&lt;p&gt;캐냐AA 커피원두가 도착했다. 밤 10시에 라떼를 한 잔 마셨더니 잠이 안온다.&#xA;그래서 HLS 스트리밍 테스트를 했는데, 잘 된다. 헐.&lt;/p&gt;&#xA;&lt;h3 id=&#34;step-1-동영상-분할을-위한-ffmpeg-4x-설치&#34;&gt;Step 1. 동영상 분할을 위한 FFmpeg 4.x 설치&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ apt-get install software-properties-common&#xA;$ add-apt-repository ppa:jonathonf/ffmpeg-4&#xA;$ apt install ffmpeg &#xA;$ ffmpeg -version&#xA;$ apt install libfaac-dev&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;step-2-동영상-분할&#34;&gt;Step 2. 동영상 분할&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ ffmpeg -i sample.mp4 -map 0 -c:v libx264 -c:a aac -f ssegment -segment_list playlist.m3u8 -segment_list_flags +live -segment_time 10 out%03d.ts&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;또는&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

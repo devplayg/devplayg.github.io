@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>thymeleaf on Developer Playground</title>
-    <link>https://devplayg.com/tags/thymeleaf/</link>
-    <description>Recent content in thymeleaf on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/thymeleaf/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Thymeleaf tips</title>
-      <link>https://devplayg.com/tech/thymeleaf_tips/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/thymeleaf_tips/</guid>
-      <description>A list of integers: intList = ${ {1, 2, 3, 4} }  A list of strings: strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} } &amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  Locales &amp;lt;div th:text=&amp;quot;${#locale.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Thymeleaf on devplayg</title>
+		<link>https://devplayg.com/tags/thymeleaf/</link>
+		<description>Recent content in Thymeleaf on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/thymeleaf/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Thymeleaf tips</title>
+				<link>https://devplayg.com/tech/thymeleaf_tips/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/thymeleaf_tips/</guid>
+				<description>&lt;h3 id=&#34;a-list-of-integers&#34;&gt;A list of integers:&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;intList = ${ {1, 2, 3, 4} }&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;a-list-of-strings&#34;&gt;A list of strings:&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&#xA;&amp;lt;div th:with=&amp;quot;strList = ${ {&#39;netgloo&#39;, &#39;web&#39;, &#39;design&#39;} }&amp;quot;&amp;gt;&#xA;    &amp;lt;ul&amp;gt;&#xA;        &amp;lt;li th:each=&amp;quot;s : ${strList}&amp;quot; th:text=&amp;quot;|${s}|&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;&#xA;    &amp;lt;/ul&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;locales&#34;&gt;Locales&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;div th:text=&amp;quot;${#locale.country}&amp;quot;&amp;gt;US&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.displayCountry}&amp;quot;&amp;gt;미국&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.toLanguageTag()}&amp;quot;&amp;gt;en-US&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.ISO3Country}&amp;quot;&amp;gt;USA&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.ISO3Language}&amp;quot;&amp;gt;eng&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.displayName}&amp;quot;&amp;gt;영어 (미국)&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.language}&amp;quot;&amp;gt;en&amp;lt;/div&amp;gt;&#xA;&amp;lt;div th:text=&amp;quot;${#locale.default}&amp;quot;&amp;gt;ko_KR&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;access-applicationyaml&#34;&gt;Access &amp;ldquo;Application.yaml&amp;rdquo;&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;span th:text=&amp;quot;${@environment.getProperty(&#39;app.company&#39;)}&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

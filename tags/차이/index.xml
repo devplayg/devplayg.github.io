@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>차이 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EC%B0%A8%EC%9D%B4/</link>
-    <description>Recent content in 차이 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Tue, 18 Jun 2019 23:59:11 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%EC%B0%A8%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>아들과 딸</title>
-      <link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
-      <pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
-      <description>가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,
-어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.
-&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot;  결과는 기대했던 것과 같았다.
-산: (간식만 바라보고) 간식! 수: (간식을 바라보고) 아빠!</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>차이 on devplayg</title>
+		<link>https://devplayg.com/tags/%EC%B0%A8%EC%9D%B4/</link>
+		<description>Recent content in 차이 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 18 Jun 2019 23:59:11 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%EC%B0%A8%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>아들과 딸</title>
+				<link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
+				<pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
+				<description>&lt;p&gt;가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,&lt;/p&gt;&#xA;&lt;p&gt;어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot; &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결과는 기대했던 것과 같았다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;산: (간식만 바라보고) 간식!&#xA;수: (간식을 바라보고) 아빠!&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결론:&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

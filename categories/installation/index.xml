@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>installation on Developer Playground</title>
-    <link>https://devplayg.com/categories/installation/</link>
-    <description>Recent content in installation on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 23 May 2020 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/installation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Docker, Ubuntu 18.04에 설치하기</title>
-      <link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
-      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
-      <description>https://docs.docker.com/engine/install/ubuntu/
-Docker 설치 apt 패키지 업데이트
-$ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common  Docker GPG 키 추가</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Installation on devplayg</title>
+		<link>https://devplayg.com/categories/installation/</link>
+		<description>Recent content in Installation on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 23 May 2020 09:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/installation/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Docker, Ubuntu 18.04에 설치하기</title>
+				<link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
+				<pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/install/ubuntu/&#34;&gt;https://docs.docker.com/engine/install/ubuntu/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;docker-설치&#34;&gt;Docker 설치&lt;/h2&gt;&#xA;&lt;p&gt;apt 패키지 업데이트&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt-get update&#xA;&#xA;$ sudo apt-get install \&#xA;    apt-transport-https \&#xA;    ca-certificates \&#xA;    curl \&#xA;    gnupg-agent \&#xA;    software-properties-common&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Docker GPG 키 추가&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;저장소 업데이트&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lambda on Developer Playground</title>
-    <link>https://devplayg.com/tags/lambda/</link>
-    <description>Recent content in lambda on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Java Lambda</title>
-      <link>https://devplayg.com/tech/java_lambda/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/java_lambda/</guid>
-      <description>Before using lamda
-Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Lambda on devplayg</title>
+		<link>https://devplayg.com/tags/lambda/</link>
+		<description>Recent content in Lambda on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Java Lambda</title>
+				<link>https://devplayg.com/tech/java_lambda/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/java_lambda/</guid>
+				<description>&lt;p&gt;Before using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Comparator&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;FaceRecognition&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;compare&lt;/span&gt;(FaceRecognition o1, FaceRecognition o2) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, (o1, o2) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+	</channel>
 </rss>

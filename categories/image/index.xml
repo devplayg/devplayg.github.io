@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>image on Developer Playground</title>
-    <link>https://devplayg.com/categories/image/</link>
-    <description>Recent content in image on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 14:24:39 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/image/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축</title>
-      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
-      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
-      <description>테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Image on devplayg</title>
+		<link>https://devplayg.com/categories/image/</link>
+		<description>Recent content in Image on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 23 Jun 2019 22:22:39 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/image/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축</title>
+				<link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+				<pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+				<guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+				<description>&lt;h3 id=&#34;테스트-환경&#34;&gt;테스트 환경&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu 18.04 container on Docker&lt;/p&gt;&#xA;&lt;h3 id=&#34;필수-라이브러리-설치-requirements&#34;&gt;필수 라이브러리 설치 (Requirements)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo apt-get update&#xA;$ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;소스파일-다운로드-download-source&#34;&gt;소스파일 다운로드 (Download source)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/mozilla/mozjpeg.git&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;컴파일-compile&#34;&gt;컴파일 (Compile)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ cd mozjpeg&#xA;$ mkdir build &amp;amp;&amp;amp; cd build&#xA;$ sudo cmake ../&#xA;$ sudo make install&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;이미지-압축-테스트-test&#34;&gt;이미지 압축 테스트 (Test)&lt;/h3&gt;&#xA;&lt;p&gt;실행방법&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,36 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>java on Developer Playground</title>
-    <link>https://devplayg.com/categories/java/</link>
-    <description>Recent content in java on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Java Lambda</title>
-      <link>https://devplayg.com/tech/java_lambda/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/java_lambda/</guid>
-      <description>Before using lamda
-Collections.sort(logs, new Comparator&amp;lt;FaceRecognition&amp;gt;() { @Override public int compare(FaceRecognition o1, FaceRecognition o2) { Float f1 = o1.getScore(); Float f2 = o2.getScore(); return f2.compareTo(f1); } });  After using lamda</description>
-    </item>
-    
-    <item>
-      <title>Sprint Boot tips</title>
-      <link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
-      <description>Building gradlew bootjar  Listing dependencies gradlew :hippo-api:dependencies --configuration compileClasspath  Running Normal
-java -jar client.jar  Profile: dev
-java -Dspring.profiles.active=dev -jar client.jar  Systemd script [Unit] Description=My client After=syslog.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Java on devplayg</title>
+		<link>https://devplayg.com/categories/java/</link>
+		<description>Recent content in Java on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Java Lambda</title>
+				<link>https://devplayg.com/tech/java_lambda/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/java_lambda/</guid>
+				<description>&lt;p&gt;Before using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Comparator&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;FaceRecognition&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;compare&lt;/span&gt;(FaceRecognition o1, FaceRecognition o2) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After using lamda&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Collections.&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt;(logs, (o1, o2) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o1.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   Float f2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; o2.&lt;span style=&#34;color:#a6e22e&#34;&gt;getScore&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f2.&lt;span style=&#34;color:#a6e22e&#34;&gt;compareTo&lt;/span&gt;(f1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Sprint Boot tips</title>
+				<link>https://devplayg.com/tech/tips_spring-boot-dist/</link>
+				<pubDate>Thu, 25 Jul 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/tips_spring-boot-dist/</guid>
+				<description>&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew bootjar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;listing-dependencies&#34;&gt;Listing dependencies&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;gradlew :hippo-api:dependencies --configuration compileClasspath&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;running&#34;&gt;Running&lt;/h3&gt;&#xA;&lt;p&gt;Normal&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Profile: dev&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;java -Dspring.profiles.active=dev -jar client.jar&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;systemd-script&#34;&gt;Systemd script&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Unit]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Description&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;My client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;After&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;syslog.target network.target mysql.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Service]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;simple&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Group&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;devplayg&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WorkingDirectory&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/home/devplayg/client&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ExecStart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;SuccessExitStatus&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;143&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Restart&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;on-failure&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;RestartSec&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;60&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[Install]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;WantedBy&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;multi-user.target&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Alias&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;smartfactory.service&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ldap&#34;&gt;LDAP&lt;/h3&gt;&#xA;&lt;p&gt;Spring boot + Security + LDAP&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

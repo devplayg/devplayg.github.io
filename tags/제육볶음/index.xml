@@ -1,37 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>제육볶음 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
-    <description>Recent content in 제육볶음 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>요리비결 - 제육볶음 V2</title>
-      <link>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</link>
-      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</guid>
-      <description>드디어 성공했다.
-제육볶음 V2 재료준비
- 기름기가 있는 부위(앞다리살 600g) 3~4인분 창양고추 다져서 2T (고기잡내 제거용) 마늘 다져서 2T (넉넉하게) 고추가루 2T 설탕 2T 고추장 2T 간장 2T 매실청 2T 맛술 2T - 조물조물해서 30분 숙성  조리</description>
-    </item>
-    
-    <item>
-      <title>요리비결 - 제육볶음</title>
-      <link>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
-      <description>제육볶음 재료준비
- 기름기가 있는 부위(앞다리살 600g) 3~4인분 간장 3T 설탕 1.5T 후추 0.5T 조물조물해서 30분 숙성  양념
- 고추장 3T 고추가로 1~2T 물엿 또는 올리고당 1.5T 다진마늘 2T 맛술 4T 양파 1&amp;frasl;2 대파 1 청양고추 1~2  조리</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>제육볶음 on devplayg</title>
+		<link>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
+		<description>Recent content in 제육볶음 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>요리비결 - 제육볶음 V2</title>
+				<link>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</link>
+				<pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</guid>
+				<description>&lt;p&gt;드디어 성공했다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;제육볶음-v2&#34;&gt;제육볶음 V2&lt;/h3&gt;&#xA;&lt;p&gt;재료준비&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;기름기가 있는 부위(앞다리살 600g) 3~4인분&lt;/li&gt;&#xA;&lt;li&gt;창양고추 다져서 2T (고기잡내 제거용)&lt;/li&gt;&#xA;&lt;li&gt;마늘 다져서 2T (넉넉하게)&lt;/li&gt;&#xA;&lt;li&gt;고추가루 2T&lt;/li&gt;&#xA;&lt;li&gt;설탕 2T&lt;/li&gt;&#xA;&lt;li&gt;고추장 2T&lt;/li&gt;&#xA;&lt;li&gt;간장 2T&lt;/li&gt;&#xA;&lt;li&gt;매실청 2T&lt;/li&gt;&#xA;&lt;li&gt;맛술 2T&lt;/li&gt;&#xA;&lt;li&gt;조물조물해서 30분 숙성&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;조리&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>요리비결 - 제육볶음</title>
+				<link>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</link>
+				<pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</guid>
+				<description>&lt;h3 id=&#34;제육볶음&#34;&gt;제육볶음&lt;/h3&gt;&#xA;&lt;p&gt;재료준비&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;기름기가 있는 부위(앞다리살 600g) 3~4인분&lt;/li&gt;&#xA;&lt;li&gt;간장 3T&lt;/li&gt;&#xA;&lt;li&gt;설탕 1.5T&lt;/li&gt;&#xA;&lt;li&gt;후추 0.5T&lt;/li&gt;&#xA;&lt;li&gt;조물조물해서 30분 숙성&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;양념&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;고추장 3T&lt;/li&gt;&#xA;&lt;li&gt;고추가로 1~2T&lt;/li&gt;&#xA;&lt;li&gt;물엿 또는 올리고당 1.5T&lt;/li&gt;&#xA;&lt;li&gt;다진마늘 2T&lt;/li&gt;&#xA;&lt;li&gt;맛술 4T&lt;/li&gt;&#xA;&lt;li&gt;양파 1/2&lt;/li&gt;&#xA;&lt;li&gt;대파 1&lt;/li&gt;&#xA;&lt;li&gt;청양고추 1~2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;조리&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>windows 10 2004 on Developer Playground</title>
-    <link>https://devplayg.com/tags/windows-10-2004/</link>
-    <description>Recent content in windows 10 2004 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/windows-10-2004/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Cannot start docker desktop on win 10 home 2004</title>
-      <link>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</guid>
-      <description> 윈도우 버전 확인 winver  WSL 2 Linux 커널 업데이트 https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel
-wsl -l -v
-WSL 2 로 변환Link to WSL 2 로 변환  wsl --set-version Ubuntu 2  Default wsl --set-default Ubuntu  Remove docker Install docker </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Windows 10 2004 on devplayg</title>
+		<link>https://devplayg.com/tags/windows-10-2004/</link>
+		<description>Recent content in Windows 10 2004 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/windows-10-2004/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cannot start docker desktop on win 10 home 2004</title>
+				<link>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</link>
+				<pubDate>Fri, 10 Jul 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</guid>
+				<description>&lt;h2 id=&#34;윈도우-버전-확인&#34;&gt;윈도우 버전 확인&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;winver&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;wsl-2-linux-커널-업데이트&#34;&gt;WSL 2 Linux 커널 업데이트&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel&#34;&gt;https://docs.microsoft.com/ko-KR/windows/wsl/wsl2-kernel&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;wsl -l -v&lt;/p&gt;&#xA;&lt;h2 id=&#34;wsl-2-로-변환link-to-wsl-2-로-변환&#34;&gt;WSL 2 로 변환Link to WSL 2 로 변환&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt; wsl --set-version Ubuntu 2&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;default&#34;&gt;Default&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;wsl --set-default Ubuntu&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;remove-docker&#34;&gt;Remove docker&lt;/h2&gt;&#xA;&lt;h2 id=&#34;install-docker&#34;&gt;Install docker&lt;/h2&gt;</description>
+			</item>
+	</channel>
 </rss>

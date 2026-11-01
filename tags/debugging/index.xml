@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>debugging on Developer Playground</title>
-    <link>https://devplayg.com/tags/debugging/</link>
-    <description>Recent content in debugging on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Go 원격 디버깅</title>
-      <link>https://devplayg.com/tech/go_remote-debugging/</link>
-      <pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_remote-debugging/</guid>
-      <description>개발은 PC에서 실행은 Server에서  1. 개발 PC에서 Goland 설정 [Run] - [Run] - [Edit configuration] 선택
-디버깅 환경 추가 디버깅 호스트(디버깅 대상 서버) 설정 호스트 이름만 입력; 아직 &amp;ldquo;Run&amp;rdquo; 실행하지 않음</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Debugging on devplayg</title>
+		<link>https://devplayg.com/tags/debugging/</link>
+		<description>Recent content in Debugging on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 May 2020 09:00:04 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Go 원격 디버깅</title>
+				<link>https://devplayg.com/tech/go_remote-debugging/</link>
+				<pubDate>Sun, 24 May 2020 09:00:04 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_remote-debugging/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;개발은 PC에서&lt;/li&gt;&#xA;&lt;li&gt;실행은 Server에서&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;1-개발-pc에서&#34;&gt;1. 개발 PC에서&lt;/h2&gt;&#xA;&lt;h3 id=&#34;goland-설정&#34;&gt;Goland 설정&lt;/h3&gt;&#xA;&lt;p&gt;[Run] - [Run] - [Edit configuration] 선택&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/01.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/02.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;디버깅-환경-추가&#34;&gt;디버깅 환경 추가&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://devplayg.com/tech/go_remote-debugging/03.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;디버깅-호스트디버깅-대상-서버-설정&#34;&gt;디버깅 호스트(디버깅 대상 서버) 설정&lt;/h3&gt;&#xA;&lt;p&gt;호스트 이름만 입력; 아직 &amp;ldquo;Run&amp;rdquo; 실행하지 않음&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

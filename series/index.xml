@@ -1,60 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Series on Developer Playground</title>
-    <link>https://devplayg.com/series/</link>
-    <description>Recent content in Series on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Docker</title>
-      <link>https://devplayg.com/series/docker/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/series/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NVIDIA Jetson</title>
-      <link>https://devplayg.com/series/nvidia-jetson/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/series/nvidia-jetson/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축</title>
-      <link>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</link>
-      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker 환경에서 Kafka 설치</title>
-      <link>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</link>
-      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design Patterns</title>
-      <link>https://devplayg.com/series/design-patterns/</link>
-      <pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/series/design-patterns/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Series on devplayg</title>
+		<link>https://devplayg.com/series/</link>
+		<description>Recent content in Series on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Docker</title>
+				<link>https://devplayg.com/series/docker/</link>
+				<pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/series/docker/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>NVIDIA Jetson</title>
+				<link>https://devplayg.com/series/nvidia-jetson/</link>
+				<pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/series/nvidia-jetson/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축</title>
+				<link>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</link>
+				<pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
+				<guid>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Docker 환경에서 Kafka 설치</title>
+				<link>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</link>
+				<pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
+				<guid>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Design Patterns</title>
+				<link>https://devplayg.com/series/design-patterns/</link>
+				<pubDate>Mon, 21 Nov 2016 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/series/design-patterns/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

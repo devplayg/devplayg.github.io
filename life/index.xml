@@ -1,167 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Life on Developer Playground</title>
-    <link>https://devplayg.com/life/</link>
-    <description>Recent content in Life on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>생각</title>
-      <link>https://devplayg.com/life/2022-04-24_amigo/</link>
-      <pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2022-04-24_amigo/</guid>
-      <description>아미고(Amigo)  아미고(Amigo)는 내가 좋아하는 단어다. (스페인어로 &amp;ldquo;친구&amp;rdquo;) &amp;ldquo;친구&amp;rdquo;를 만들 기회가 이전보다 훨씬 적어진 나이다.  일단, 내가 일이 바빠서, 친구들을 만날 시간이 거의 없다  그래서 업무 외 친구들을 만나는 시간은 정말 소중하다 인맥을 만들기 위해 사람을 만나본 적은 없는 것 같다.</description>
-    </item>
-    
-    <item>
-      <title>드림카</title>
-      <link>https://devplayg.com/life/2022-04-17_dream_car/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
-      <description>Chevrolet Colorado 이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.
-Hyundai GV80 정말 잘만든 고급스런 차.
-KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차</description>
-    </item>
-    
-    <item>
-      <title>우리집서열</title>
-      <link>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</guid>
-      <description> 내가 느낀 우리집 서열
-엄마 &amp;gt; 지산,지수 &amp;gt; 달팽이 &amp;gt; 아빠 </description>
-    </item>
-    
-    <item>
-      <title>17년만에 듣는 My New I.V.P.</title>
-      <link>https://devplayg.com/life/2021-11-07_memo/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2021-11-07_memo/</guid>
-      <description>생각을 주장하며 살아갈 것인가, 감동을 나누며 살아갈 것인가</description>
-    </item>
-    
-    <item>
-      <title>가끔일기 - 2020년 4월초</title>
-      <link>https://devplayg.com/life/2020-04-05_diary/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2020-04-05_diary/</guid>
-      <description>요즘 평일  근무시간: Go, Java 로 설계 및 개발 점심시간: 식후 배그모바일 2~3판 근무 외 시간: Go 코드 리펙토링, 기술 테스트 자기 전: 지산이/지수한테 골탕먹어주고, 간지럽히기 자기 전: 구현 설계 (하다보면 자게 됨)  요즘 주말  주말: Go 코드 리팩토링, 기술 테스트 지산이 지수랑 놀아주기 (고객이 OK 할 때까지)  지수 &amp;amp; 지산  어느날 7살 딸 지수가 무엇 때문에 화가 났는지, 스케치북에 그림과 함께 어떤 문구를 비장하게 씀 처음보는 문구라서 뜻은 모르지만 의미심장 했음 옆에 그린 그림을 보니 살벌함을 인지하고 상황이 심상찮음을 짐작 와이프한테 즉각 뜻 해석 요청 알고보니 지산이한테 화가 나서 쓴 글 큰 사고(?</description>
-    </item>
-    
-    <item>
-      <title>맛집 DB</title>
-      <link>https://devplayg.com/life/2020-04-06_best-restaurant/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2020-04-06_best-restaurant/</guid>
-      <description> 수지  칠보냉면 코다리냉면 가람바지락칼국수: 칼국수 수지 미가: 중국음식  분당  오창은 군산집: 아구찜, 하얀 볶음밥 판교 진진반상: 기본세트 판교 천지연: 생돼지갈비 분당 청담추어정: 추어탕  서울  명동교자: 칼국수 강강술래 역삼점: 비빕밥 및 기타 역삼 이도곰탕  </description>
-    </item>
-    
-    <item>
-      <title>Something making my heart beat</title>
-      <link>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</guid>
-      <description>Movies I can watch again and again  Little Miss Sunshine Samurai Champloo 24 The Equalizer 나의 아저씨 Game of Thrones 응답하라 1988 American Gangster Gladiator Love Actually Indiana Jones  Actors  Denzel Washington Russell Crowe 오나라 오정세  Music  Beatles - Let it be Billy Joel - She&amp;rsquo;s Always A Woman Billy Joel - Piano Man Bob Marley - No Waman No Cry Bobby McFerrin - Don&amp;rsquo;t Worry be happy Brian Kennedy - Crazy Love Cassandra Wilson - Fragile CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version) Charlie Hunter - No Woman No Cry Chie Ayado - Leaving On A Jet Plane Chie Ayado - Let It Be Eagles - Hotel California (Live) Earth, Wind and Fire - September George Michael - Star People - Unplugged Gregory Porter - Musical Genocide (Live) Jason Mraz - Everything Is Sound Justin Bieber - Love Yourself Kirk Franklin - Blessing in the storm Lionel Richie - Easy Los Lobos - Donna Los Lobos - El Gusto Mariah Carey - Dreamlover Marianne Faithful - Madame George Mark Ronson - Uptown Funk (Feat.</description>
-    </item>
-    
-    <item>
-      <title>아이들과 함께 하는 뱀사다리 게임</title>
-      <link>https://devplayg.com/life/2019-08-28_snake-ladder-game/</link>
-      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-08-28_snake-ladder-game/</guid>
-      <description>지수가 얼마전, 하얀 종이에 뱀사다리 게임을 그려서 나에게 가져왔다.
-주사위를 굴려서, 나온 수만큼 이동하는데, 뱀을 만나면 미끄러지는 그런 게임인 것 같았다.
-좀 갖춰서 만들면 재미있을 것 같아서 엑셀로 만들어봤다.
-결과는 대성공.</description>
-    </item>
-    
-    <item>
-      <title>코드 리팩토링을 통해 얻은 것들</title>
-      <link>https://devplayg.com/life/2019-07-25_refactoring/</link>
-      <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-07-25_refactoring/</guid>
-      <description>요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다. 재미도 재미이지만 거기서 얻는 배움이 크다.
-함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다. 힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.</description>
-    </item>
-    
-    <item>
-      <title>아들과 딸</title>
-      <link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
-      <pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
-      <description>가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,
-어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.
-&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot;  결과는 기대했던 것과 같았다.
-산: (간식만 바라보고) 간식! 수: (간식을 바라보고) 아빠!</description>
-    </item>
-    
-    <item>
-      <title>산이의 빠마머리</title>
-      <link>https://devplayg.com/life/2019-06-18_hair-perming/</link>
-      <pubDate>Tue, 18 Jun 2019 23:49:43 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-18_hair-perming/</guid>
-      <description>지산이가 머리를 뽀글뽀글 머리를 했다. 녀석, 더 개구쟁이같다.
-안그래도 학교생활을 들어보니, 이 녀석은 맨날 학교에서 뛰어다녀서
-캠페인(&amp;ldquo;뛰지맙시다&amp;rdquo; 이런 푯말 들고 있는)한단다.
-내가 학교에서는 담임선생님 말씀을 제일 잘 들어야 한다고 신신당부 했는데도</description>
-    </item>
-    
-    <item>
-      <title>코딩 스타일의 변화</title>
-      <link>https://devplayg.com/life/2019-06-12_changing/</link>
-      <pubDate>Wed, 12 Jun 2019 22:08:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-12_changing/</guid>
-      <description>요즘 코딩 스타일을 한 번 바꿔보고 있다. 그런데, 거기서 얻는 배움이 생각보다 크다. 최근 Java 의 Spring Boot 를 깊게 접하면서 &amp;ldquo;우아한형제들&amp;rdquo;이란 회사의 기술블로그를 유심히 보게 되었는데, 그 중 &amp;ldquo;목적의식 있는 연습을 통한 효과적인 학습&amp;rdquo; 포스트를 읽은게 그 동기이다.</description>
-    </item>
-    
-    <item>
-      <title>레게음악</title>
-      <link>https://devplayg.com/life/2019-06-11_raggae/</link>
-      <pubDate>Tue, 11 Jun 2019 22:08:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-11_raggae/</guid>
-      <description>나는 음악을 참 좋아한다. 힙합, 재즈, 보사노바, 가요, 올드팝 등, 좋아하는 음악 장르도 다양하다. 그 중 하나는 레게음악이다. 나는 레게음악이 참 좋다. 자마이카 사람도 아닌데 말이다. 오늘은 Bob Marley의 Roots, Rock, Reggae 를 무한반복해서 들었다.</description>
-    </item>
-    
-    <item>
-      <title>Markdown 의 미학</title>
-      <link>https://devplayg.com/life/2019-06-06_markdown/</link>
-      <pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-06_markdown/</guid>
-      <description>이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://devplayg.com/life/2021-12-10_minecraft/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/life/2021-12-10_minecraft/</guid>
-      <description>크리에이트브 모드 유저 데려오기
-/tp @a[gamemode=creative] ~ ~ ~  다른 유저 위치로 순간이동
-/tp 유저이름  플레이어 제외 생물 죽이기
-/kill @e[type=!minecraft:player]  날씨
-/weather clear /weather rain  시간</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Life on devplayg</title>
+		<link>https://devplayg.com/life/</link>
+		<description>Recent content in Life on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/life/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>생각</title>
+				<link>https://devplayg.com/life/2022-04-24_amigo/</link>
+				<pubDate>Sun, 24 Apr 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2022-04-24_amigo/</guid>
+				<description>&lt;h3 id=&#34;아미고amigo&#34;&gt;아미고(Amigo)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;아미고(Amigo)는 내가 좋아하는 단어다. (스페인어로 &amp;ldquo;친구&amp;rdquo;)&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;친구&amp;quot;를 만들 기회가 이전보다 훨씬 적어진 나이다.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;일단, 내가 일이 바빠서, 친구들을 만날 시간이 거의 없다&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;그래서 업무 외 친구들을 만나는 시간은 정말 소중하다&lt;/li&gt;&#xA;&lt;li&gt;인맥을 만들기 위해 사람을 만나본 적은 없는 것 같다. (그럴 능력도 없다)&lt;/li&gt;&#xA;&lt;li&gt;업무 외로 누군가를 만나는 시간은, 그냥 가깝게 지내고 싶었을 뿐이었던 것 같다.&lt;/li&gt;&#xA;&lt;li&gt;누군가를 만날 때는, 항상 그 사람을 더 진심으로 대하려고 더 노력해보자&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;용어&#34;&gt;용어&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wage-price spiral&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rising prices =&amp;gt; Rising wages =&amp;gt; Rising prices =&amp;gt; &amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>드림카</title>
+				<link>https://devplayg.com/life/2022-04-17_dream_car/</link>
+				<pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
+				<description>&lt;h3 id=&#34;chevrolet-colorado&#34;&gt;Chevrolet Colorado&lt;/h3&gt;&#xA;&lt;p&gt;이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.&lt;/p&gt;&#xA;&lt;h3 id=&#34;hyundai-gv80&#34;&gt;Hyundai GV80&lt;/h3&gt;&#xA;&lt;p&gt;정말 잘만든 고급스런 차.&lt;/p&gt;&#xA;&lt;h3 id=&#34;kia-ray&#34;&gt;KIA Ray&lt;/h3&gt;&#xA;&lt;p&gt;작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>우리집서열</title>
+				<link>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</link>
+				<pubDate>Sun, 13 Feb 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</guid>
+				<description>&lt;p&gt;내가 느낀 우리집 서열&lt;/p&gt;&#xA;&lt;h5 id=&#34;엄마--지산지수--달팽이--아빠&#34;&gt;엄마 &amp;gt; 지산,지수 &amp;gt; 달팽이 &amp;gt; 아빠&lt;/h5&gt;</description>
+			</item>
+			<item>
+				<title>17년만에 듣는 My New I.V.P.</title>
+				<link>https://devplayg.com/life/2021-11-07_memo/</link>
+				<pubDate>Sun, 07 Nov 2021 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2021-11-07_memo/</guid>
+				<description>&lt;p&gt;생각을 주장하며 살아갈 것인가, 감동을 나누며 살아갈 것인가&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>가끔일기 - 2020년 4월초</title>
+				<link>https://devplayg.com/life/2020-04-05_diary/</link>
+				<pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2020-04-05_diary/</guid>
+				<description>&lt;h3 id=&#34;요즘-평일&#34;&gt;요즘 평일&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;근무시간: Go, Java 로 설계 및 개발&lt;/li&gt;&#xA;&lt;li&gt;점심시간: 식후 배그모바일 2~3판&lt;/li&gt;&#xA;&lt;li&gt;근무 외 시간: Go 코드 리펙토링, 기술 테스트&lt;/li&gt;&#xA;&lt;li&gt;자기 전: 지산이/지수한테 골탕먹어주고, 간지럽히기&lt;/li&gt;&#xA;&lt;li&gt;자기 전: 구현 설계 (하다보면 자게 됨)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;요즘-주말&#34;&gt;요즘 주말&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;주말: Go 코드 리팩토링, 기술 테스트&lt;/li&gt;&#xA;&lt;li&gt;지산이 지수랑 놀아주기 (고객이 OK 할 때까지)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;지수--지산&#34;&gt;지수 &amp;amp; 지산&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;어느날 7살 딸 지수가 무엇 때문에 화가 났는지, 스케치북에 그림과 함께 어떤 문구를 비장하게 씀&lt;/li&gt;&#xA;&lt;li&gt;처음보는 문구라서 뜻은 모르지만 의미심장 했음&lt;/li&gt;&#xA;&lt;li&gt;옆에 그린 그림을 보니 살벌함을 인지하고 상황이 심상찮음을 짐작&lt;/li&gt;&#xA;&lt;li&gt;와이프한테 즉각 뜻 해석 요청&lt;/li&gt;&#xA;&lt;li&gt;알고보니 지산이한테 화가 나서 쓴 글&lt;/li&gt;&#xA;&lt;li&gt;큰 사고(?) 나기 전에 긴급 화해모드 조성&lt;/li&gt;&#xA;&lt;li&gt;지수는 센티멘탈&lt;/li&gt;&#xA;&lt;li&gt;귀여운 지산이 지수&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;세상에서-가장-맛있는-파무침은&#34;&gt;세상에서 가장 맛있는 파무침은?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;내가 만든 파무침&lt;/li&gt;&#xA;&lt;li&gt;식초가 다했네&lt;/li&gt;&#xA;&lt;li&gt;식초는 좋은 제품으로 쓰자&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;내가-하는-요리&#34;&gt;내가 하는 요리&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;김치볶음밥&lt;/li&gt;&#xA;&lt;li&gt;마늘빵&lt;/li&gt;&#xA;&lt;li&gt;파무침 양념&lt;/li&gt;&#xA;&lt;li&gt;제육볶음 (다 까먹음)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;grpc&#34;&gt;gRPC&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A high-performance, open source universal RPC framework&lt;/li&gt;&#xA;&lt;li&gt;HTTP/2 방식을 차용하여 통신&lt;/li&gt;&#xA;&lt;li&gt;Google 은 HTTP/2 표준에 많은 기여함&lt;/li&gt;&#xA;&lt;li&gt;그랬던 Google이 HTTP/2 방식에서 통신하는 Framework까지 만듦&lt;/li&gt;&#xA;&lt;li&gt;안좋을 수 없음&lt;/li&gt;&#xA;&lt;li&gt;4 kinds of service method&#xA;&lt;ul&gt;&#xA;&lt;li&gt;single request &amp;amp; single response&lt;/li&gt;&#xA;&lt;li&gt;single request &amp;amp; stream response&lt;/li&gt;&#xA;&lt;li&gt;stream request &amp;amp; single response&lt;/li&gt;&#xA;&lt;li&gt;stream request &amp;amp; stream response&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;결론&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fantastic&lt;/li&gt;&#xA;&lt;li&gt;안쓰면 손해&lt;/li&gt;&#xA;&lt;li&gt;앞으론 Json을 이용한 Rest API 사용을 줄이고 gRPC를 사용해보자.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;버킷리스트가-생김&#34;&gt;버킷리스트가 생김&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;책 써보기&lt;/li&gt;&#xA;&lt;li&gt;작곡 해보기&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;react-native&#34;&gt;React Native&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;테스트 중&lt;/li&gt;&#xA;&lt;li&gt;Android 와 iOS 앱을 동시에?&lt;/li&gt;&#xA;&lt;li&gt;Facebook, Instagram 에서 쓴다고?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;드라마-스토브리그&#34;&gt;드라마 &amp;ldquo;스토브리그&amp;rdquo;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;재미있네. 1화 봄.&lt;/li&gt;&#xA;&lt;li&gt;드라마 시청은 지하철에서.&lt;/li&gt;&#xA;&lt;li&gt;보는데 2달 걸리려나..&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>맛집 DB</title>
+				<link>https://devplayg.com/life/2020-04-06_best-restaurant/</link>
+				<pubDate>Mon, 06 Apr 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2020-04-06_best-restaurant/</guid>
+				<description>&lt;h3 id=&#34;수지&#34;&gt;수지&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;칠보냉면 코다리냉면&lt;/li&gt;&#xA;&lt;li&gt;가람바지락칼국수: 칼국수&lt;/li&gt;&#xA;&lt;li&gt;수지 미가: 중국음식&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;분당&#34;&gt;분당&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;오창은 군산집: 아구찜, 하얀 볶음밥&lt;/li&gt;&#xA;&lt;li&gt;판교 진진반상: 기본세트&lt;/li&gt;&#xA;&lt;li&gt;판교 천지연: 생돼지갈비&lt;/li&gt;&#xA;&lt;li&gt;분당 청담추어정: 추어탕&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;서울&#34;&gt;서울&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;명동교자: 칼국수&lt;/li&gt;&#xA;&lt;li&gt;강강술래 역삼점: 비빕밥 및 기타&lt;/li&gt;&#xA;&lt;li&gt;역삼 이도곰탕&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Something making my heart beat</title>
+				<link>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</link>
+				<pubDate>Tue, 03 Mar 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</guid>
+				<description>&lt;h2 id=&#34;movies-i-can-watch-again-and-again&#34;&gt;Movies I can watch again and again&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Little Miss Sunshine&lt;/li&gt;&#xA;&lt;li&gt;Samurai Champloo&lt;/li&gt;&#xA;&lt;li&gt;24&lt;/li&gt;&#xA;&lt;li&gt;The Equalizer&lt;/li&gt;&#xA;&lt;li&gt;나의 아저씨&lt;/li&gt;&#xA;&lt;li&gt;Game of Thrones&lt;/li&gt;&#xA;&lt;li&gt;응답하라 1988&lt;/li&gt;&#xA;&lt;li&gt;American Gangster&lt;/li&gt;&#xA;&lt;li&gt;Gladiator&lt;/li&gt;&#xA;&lt;li&gt;Love Actually&lt;/li&gt;&#xA;&lt;li&gt;Indiana Jones&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;actors&#34;&gt;Actors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Denzel Washington&lt;/li&gt;&#xA;&lt;li&gt;Russell Crowe&lt;/li&gt;&#xA;&lt;li&gt;오나라&lt;/li&gt;&#xA;&lt;li&gt;오정세&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;music&#34;&gt;Music&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Beatles - Let it be&lt;/li&gt;&#xA;&lt;li&gt;Billy Joel -  She&amp;rsquo;s Always A Woman&lt;/li&gt;&#xA;&lt;li&gt;Billy Joel - Piano Man&lt;/li&gt;&#xA;&lt;li&gt;Bob Marley - No Waman No Cry&lt;/li&gt;&#xA;&lt;li&gt;Bobby McFerrin - Don&amp;rsquo;t Worry be happy&lt;/li&gt;&#xA;&lt;li&gt;Brian Kennedy - Crazy Love&lt;/li&gt;&#xA;&lt;li&gt;Cassandra Wilson - Fragile&lt;/li&gt;&#xA;&lt;li&gt;CB Mass - 휘파람 (Featuring T, 이주한) (Asoto Union Version)&lt;/li&gt;&#xA;&lt;li&gt;Charlie Hunter - No Woman No Cry&lt;/li&gt;&#xA;&lt;li&gt;Chie Ayado - Leaving On A Jet Plane&lt;/li&gt;&#xA;&lt;li&gt;Chie Ayado - Let It Be&lt;/li&gt;&#xA;&lt;li&gt;Eagles - Hotel California (Live)&lt;/li&gt;&#xA;&lt;li&gt;Earth, Wind and Fire - September&lt;/li&gt;&#xA;&lt;li&gt;George Michael - Star People - Unplugged&lt;/li&gt;&#xA;&lt;li&gt;Gregory Porter - Musical Genocide (Live)&lt;/li&gt;&#xA;&lt;li&gt;Jason Mraz - Everything Is Sound&lt;/li&gt;&#xA;&lt;li&gt;Justin Bieber - Love Yourself&lt;/li&gt;&#xA;&lt;li&gt;Kirk Franklin - Blessing in the storm&lt;/li&gt;&#xA;&lt;li&gt;Lionel Richie - Easy&lt;/li&gt;&#xA;&lt;li&gt;Los Lobos - Donna&lt;/li&gt;&#xA;&lt;li&gt;Los Lobos - El Gusto&lt;/li&gt;&#xA;&lt;li&gt;Mariah Carey - Dreamlover&lt;/li&gt;&#xA;&lt;li&gt;Marianne Faithful - Madame George&lt;/li&gt;&#xA;&lt;li&gt;Mark Ronson - Uptown Funk (Feat. Bruno Mars)&lt;/li&gt;&#xA;&lt;li&gt;Marvin Gaye - Let&amp;rsquo;s Get It On&lt;/li&gt;&#xA;&lt;li&gt;Marvin Gaye - What&amp;rsquo;s Going On&lt;/li&gt;&#xA;&lt;li&gt;Matoma - Thing Back (Feat. Ja Rule And Ralph Tresvant)&lt;/li&gt;&#xA;&lt;li&gt;Michael Jackson - Billie Jean&lt;/li&gt;&#xA;&lt;li&gt;Michael Jackson - Don&amp;rsquo;t Stop &amp;lsquo;Til You Get Enough&lt;/li&gt;&#xA;&lt;li&gt;Micheal Jackson - You Rock My World&lt;/li&gt;&#xA;&lt;li&gt;Natalie Merchant - One Fine Day&lt;/li&gt;&#xA;&lt;li&gt;Nick Cave - Let It Be&lt;/li&gt;&#xA;&lt;li&gt;Nujabes - Luv (sic.) pt2 (Ft. Shing02)&lt;/li&gt;&#xA;&lt;li&gt;Nujabes - Luv (sic.) pt3 (Ft. Shing02)&lt;/li&gt;&#xA;&lt;li&gt;Puff Daddy - I&amp;rsquo;ll Be Missing You&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - 3-Way Phone Call&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - Happy People&lt;/li&gt;&#xA;&lt;li&gt;R. Kelly - Number One Hit&lt;/li&gt;&#xA;&lt;li&gt;Sinead O&amp;rsquo;Connor - You Make Me Feel So Free&lt;/li&gt;&#xA;&lt;li&gt;Stevie Wonder - Superstition&lt;/li&gt;&#xA;&lt;li&gt;Sting - Every Breath You Take (Unplugged)&lt;/li&gt;&#xA;&lt;li&gt;Sting - Valparaiso ( White Squall )&lt;/li&gt;&#xA;&lt;li&gt;Sting - When We Dance&lt;/li&gt;&#xA;&lt;li&gt;UA - アントニオの唄&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Crazy Love&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Madame George&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Queen Of The Slipstream&lt;/li&gt;&#xA;&lt;li&gt;Van Morrison - Someone Like You&lt;/li&gt;&#xA;&lt;li&gt;Wham - Last Christmas&lt;/li&gt;&#xA;&lt;li&gt;Will Smith - Wild Wild West&lt;/li&gt;&#xA;&lt;li&gt;김진표 - 유난히&lt;/li&gt;&#xA;&lt;li&gt;김현철 - 크리스마스에는 축복을(아이들)&lt;/li&gt;&#xA;&lt;li&gt;박정현 - 좋은 나라 (Live)&lt;/li&gt;&#xA;&lt;li&gt;박진영 - Honey&lt;/li&gt;&#xA;&lt;li&gt;박진영 - Kiss Me&lt;/li&gt;&#xA;&lt;li&gt;박진영 - 난 여자가 있는데&lt;/li&gt;&#xA;&lt;li&gt;아소토 유니온 - Think about&amp;rsquo;chu&lt;/li&gt;&#xA;&lt;li&gt;윈디시티 - Elnino Prodigo&lt;/li&gt;&#xA;&lt;li&gt;윤종신 - 이층집 소녀&lt;/li&gt;&#xA;&lt;li&gt;제이레빗 - 바람이 불어 오면&lt;/li&gt;&#xA;&lt;li&gt;Dok2 - 말조심&lt;/li&gt;&#xA;&lt;li&gt;Dok2 - Wattup&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - Save (Feat. 팔로알토)(Prod. 코드 쿤스트)&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - XXL (Feat. 딥플로우, Dok2)&lt;/li&gt;&#xA;&lt;li&gt;쇼미더머니 777 - 선빵 (Feat. 개코, 기리보이) (Prod. 기리보이)&lt;/li&gt;&#xA;&lt;li&gt;신승훈, 비와이 - Lullaby&lt;/li&gt;&#xA;&lt;li&gt;코드쿤스트 - Lounge (Feat. 화지)&lt;/li&gt;&#xA;&lt;li&gt;이하이 - 1,2,3,4&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>아이들과 함께 하는 뱀사다리 게임</title>
+				<link>https://devplayg.com/life/2019-08-28_snake-ladder-game/</link>
+				<pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-08-28_snake-ladder-game/</guid>
+				<description>&lt;p&gt;지수가 얼마전, 하얀 종이에 뱀사다리 게임을 그려서 나에게 가져왔다.&lt;/p&gt;&#xA;&lt;p&gt;주사위를 굴려서, 나온 수만큼 이동하는데, 뱀을 만나면 미끄러지는 그런 게임인 것 같았다.&lt;/p&gt;&#xA;&lt;p&gt;좀 갖춰서 만들면 재미있을 것 같아서 엑셀로 만들어봤다.&lt;/p&gt;&#xA;&lt;p&gt;결과는 대성공. 아이들이 참 재미있어한다. 또 주사위 2개를 굴리면서 산수공부도 하게 되어서 좋은 것 같아.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>코드 리팩토링을 통해 얻은 것들</title>
+				<link>https://devplayg.com/life/2019-07-25_refactoring/</link>
+				<pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-07-25_refactoring/</guid>
+				<description>&lt;p&gt;요즘, 내가 짠 코드 리팩토링 하는 데 재미가 들렸다.&#xA;재미도 재미이지만 거기서 얻는 배움이 크다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;함수-내-코드들의-길이가-최대-15라인-정도로-짦아졌다&#34;&gt;함수 내 코드들의 길이가 최대 15라인 정도로 짦아졌다.&lt;/h3&gt;&#xA;&lt;p&gt;힘들었다. 그렇지만 결과는 대만족이었다. 나도 모르게 짠 내 코드들에 대한 가독성이 높아졌다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>아들과 딸</title>
+				<link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
+				<pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
+				<description>&lt;p&gt;가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,&lt;/p&gt;&#xA;&lt;p&gt;어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot; &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결과는 기대했던 것과 같았다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;산: (간식만 바라보고) 간식!&#xA;수: (간식을 바라보고) 아빠!&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결론:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>산이의 빠마머리</title>
+				<link>https://devplayg.com/life/2019-06-18_hair-perming/</link>
+				<pubDate>Tue, 18 Jun 2019 23:49:43 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-18_hair-perming/</guid>
+				<description>&lt;p&gt;지산이가 머리를 뽀글뽀글 머리를 했다. 녀석, 더 개구쟁이같다.&lt;/p&gt;&#xA;&lt;p&gt;안그래도 학교생활을 들어보니, 이 녀석은 맨날 학교에서 뛰어다녀서&lt;/p&gt;&#xA;&lt;p&gt;캠페인(&amp;ldquo;뛰지맙시다&amp;rdquo; 이런 푯말 들고 있는)한단다.&lt;/p&gt;&#xA;&lt;p&gt;내가 학교에서는 담임선생님 말씀을 제일 잘 들어야 한다고 신신당부 했는데도&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>코딩 스타일의 변화</title>
+				<link>https://devplayg.com/life/2019-06-12_changing/</link>
+				<pubDate>Wed, 12 Jun 2019 22:08:34 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-12_changing/</guid>
+				<description>&lt;p&gt;요즘 코딩 스타일을 한 번 바꿔보고 있다. 그런데, 거기서 얻는 배움이 생각보다 크다.&#xA;최근 Java 의 Spring Boot 를 깊게 접하면서 &amp;ldquo;우아한형제들&amp;quot;이란 회사의&#xA;기술블로그를 유심히 보게 되었는데, 그 중 &lt;a href=&#34;http://woowabros.github.io/woowabros/2019/05/02/techcourse.html&#34;&gt;&lt;em&gt;&amp;ldquo;목적의식 있는 연습을 통한 효과적인 학습&amp;rdquo;&lt;/em&gt;&lt;/a&gt;&#xA;포스트를 읽은게 그 동기이다. &amp;ldquo;우아한형제들&amp;quot;이 훈련자들에게 제시한 코딩 가이드라인은 아래와 비슷하다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>레게음악</title>
+				<link>https://devplayg.com/life/2019-06-11_raggae/</link>
+				<pubDate>Tue, 11 Jun 2019 22:08:34 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-11_raggae/</guid>
+				<description>&lt;p&gt;나는 음악을 참 좋아한다. 힙합, 재즈, 보사노바, 가요, 올드팝 등, 좋아하는 음악 장르도 다양하다. 그 중 하나는 레게음악이다. 나는 레게음악이 참 좋다. 자마이카 사람도 아닌데 말이다.&#xA;오늘은 Bob Marley의 &lt;em&gt;Roots, Rock, Reggae&lt;/em&gt; 를 무한반복해서 들었다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Markdown 의 미학</title>
+				<link>https://devplayg.com/life/2019-06-06_markdown/</link>
+				<pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-06_markdown/</guid>
+				<description>&lt;p&gt;이전부터 &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;Markdown&lt;/a&gt; 문서를 써오긴 했다.&#xA;Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고,&#xA;그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데,&#xA;생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.&#xA;그래서 앞으로 더 많이, 더 자주 사용해보려고 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>https://devplayg.com/life/2021-12-10_minecraft/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://devplayg.com/life/2021-12-10_minecraft/</guid>
+				<description>&lt;p&gt;크리에이트브 모드 유저 데려오기&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;/tp @a[gamemode=creative] ~ ~ ~&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;다른 유저 위치로 순간이동&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;/tp 유저이름&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;플레이어 제외  생물 죽이기&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;/kill @e[type=!minecraft:player]&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;날씨&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;/weather clear&#xD;&#xA;/weather rain&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;시간&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

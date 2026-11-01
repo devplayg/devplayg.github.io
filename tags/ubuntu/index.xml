@@ -1,46 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ubuntu on Developer Playground</title>
-    <link>https://devplayg.com/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Setting up development environments with docker-compose</title>
-      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
-      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
-    </item>
-    
-    <item>
-      <title>Installing and using Ubuntu 18.04 via Docker</title>
-      <link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
-      <description>Pulling and run image in general
-docker run -it --name ubt ubuntu:18.04 bash  with sharing filesystem
-docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash  with binding container ports to the host</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 18.04 tips</title>
-      <link>https://devplayg.com/tech/ubuntu-18.04_tips/</link>
-      <pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
-      <description>Check network interfaces $ ls /sys/class/net eno1 eno2 lo  Configuration Static IP /etc/netplan/01-netcfg.yaml
-network: version: 2 renderer: networkd ethernets: eno1: addresses: - 192.168.0.207/24 gateway4: 192.168.0.1 nameservers: addresses: [168.126.63.1,8.8.8.8] eno2: dhcp4: yes  Restart network</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Ubuntu on devplayg</title>
+		<link>https://devplayg.com/tags/ubuntu/</link>
+		<description>Recent content in Ubuntu on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Setting up development environments with docker-compose</title>
+				<link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+				<pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+				<description>&lt;h3 id=&#34;create-network&#34;&gt;Create network&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker network create -d bridge dev-net&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;build-environment&#34;&gt;Build environment&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;docker-compose.yaml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;networks:&#xA;  network1:&#xA;    name: dev-net&#xA;&#xA;services:&#xA;  db:&#xA;    image: mariadb:10.3&#xA;    container_name: db&#xA;    volumes:&#xA;      - /d/data/mariadb/data:/var/lib/mysql&#xA;      - /d/data/mariadb/conf.d:/etc/mysql/conf.d&#xA;    environment:&#xA;      - MYSQL_ROOT_PASSWORD=devplayg12!@&#xA;      - MYSQL_DATABASE=devplayg&#xA;      - MYSQL_USER=devplayg&#xA;      - MYSQL_PASSWORD=devplayg12!@&#xA;      - TZ=Asia/Seoul&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;3306:3306&amp;#34;&#xA;    command: [&amp;#39;mysqld&amp;#39;, &amp;#39;--character-set-server=utf8mb4&amp;#39;, &amp;#39;--collation-server=utf8mb4_unicode_ci&amp;#39;]&#xA;&#xA;  redis:&#xA;    image: redis:latest&#xA;    container_name: redis&#xA;    volumes:&#xA;      - /d/data/redis/redis-data:/var/lib/redis&#xA;      - /d/data/redis/redis.conf:/usr/local/etc/redis/redis.conf&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;6379:6379&amp;#34;&#xA;    command: [&amp;#39;redis-server&amp;#39;, &amp;#39;/usr/local/etc/redis/redis.conf&amp;#39;]&#xA;&#xA;  server:&#xA;    image: ubuntu:18.04&#xA;    container_name: server&#xA;    volumes:&#xA;      - /e/gohome:/gohome&#xA;    networks:&#xA;     - network1&#xA;    tty: true&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Installing and using Ubuntu 18.04 via Docker</title>
+				<link>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</guid>
+				<description>&lt;h2 id=&#34;pulling-and-run-image&#34;&gt;Pulling and run image&lt;/h2&gt;&#xA;&lt;p&gt;in general&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it --name ubt ubuntu:18.04 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with sharing filesystem&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it -v /host/dir:/container/dir --name ubt ubuntu:18.04 bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with binding container ports to the host&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ubuntu 18.04 tips</title>
+				<link>https://devplayg.com/tech/ubuntu-18.04_tips/</link>
+				<pubDate>Mon, 19 Aug 2019 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/ubuntu-18.04_tips/</guid>
+				<description>&lt;h3 id=&#34;check-network-interfaces&#34;&gt;Check network interfaces&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ls /sys/class/net&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eno1  eno2  lo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;configuration-static-ip&#34;&gt;Configuration Static IP&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;/etc/netplan/01-netcfg.yaml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;network&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;version&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;renderer&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;networkd&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;ethernets&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;eno1&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;addresses&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - &lt;span style=&#34;color:#ae81ff&#34;&gt;192.168.0.207&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/24&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;gateway4&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;192.168.0.1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;nameservers&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;addresses&lt;/span&gt;: [&lt;span style=&#34;color:#ae81ff&#34;&gt;168.126.63.1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;8.8.8.8&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;eno2&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;dhcp4&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;yes&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Restart network&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo netplan apply&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;sudoers-file-enable-nopasswd-for-user-all-commands&#34;&gt;Sudoers file, enable NOPASSWD for user, all commands&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo visudo -f /etc/sudoers.d/myOverrides &#xA;YOUR_USERNAME  ALL=NOPASSWD: ALL&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;ufw&#34;&gt;UFW&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo ufw allow OpenSSH&#xA;$ sudo ufw enable&#xA;$ sudo ufw allow 8808/tcp&#xA;$ sudo ufw allow 50000:50100/tcp&#xA;$ sudo ufw status verbose&#xA;$ sudo ufw allow from 1.1.1.1 to any port 22 proto tcp&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;changing-host-name&#34;&gt;Changing host name&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo hostnamectl set-hostname dpgserver&#xA;sudo vi /etc/hosts    &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;mplayer&#34;&gt;MPlayer&lt;/h2&gt;&#xA;&lt;p&gt;Install&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

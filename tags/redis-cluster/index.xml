@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>redis-cluster on Developer Playground</title>
-    <link>https://devplayg.com/tags/redis-cluster/</link>
-    <description>Recent content in redis-cluster on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/redis-cluster/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tips for Docker Compose</title>
-      <link>https://devplayg.com/tech/docker-compose_tips/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-compose_tips/</guid>
-      <description>Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Redis-Cluster on devplayg</title>
+		<link>https://devplayg.com/tags/redis-cluster/</link>
+		<description>Recent content in Redis-Cluster on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/redis-cluster/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tips for Docker Compose</title>
+				<link>https://devplayg.com/tech/docker-compose_tips/</link>
+				<pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-compose_tips/</guid>
+				<description>&lt;p&gt;Builds, (re)creates, starts, and attaches to containers for a service.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker-compose up -d&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Stops containers and removes containers, networks, volumes, and images created by up.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo docker-compose down&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Remove containers for services not defined in the Compose file&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

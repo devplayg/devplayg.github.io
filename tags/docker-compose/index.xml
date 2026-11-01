@@ -1,47 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>docker compose on Developer Playground</title>
-    <link>https://devplayg.com/tags/docker-compose/</link>
-    <description>Recent content in docker compose on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tips for Docker Compose</title>
-      <link>https://devplayg.com/tech/docker-compose_tips/</link>
-      <pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-compose_tips/</guid>
-      <description>Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose up -d  Stops containers and removes containers, networks, volumes, and images created by up.
-sudo docker-compose down  Remove containers for services not defined in the Compose file</description>
-    </item>
-    
-    <item>
-      <title>Setting up development environments with docker-compose</title>
-      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
-      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
-    </item>
-    
-    <item>
-      <title>Docker, Ubuntu 18.04에 설치하기</title>
-      <link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
-      <pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
-      <description>https://docs.docker.com/engine/install/ubuntu/
-Docker 설치 apt 패키지 업데이트
-$ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common  Docker GPG 키 추가</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Docker-Compose on devplayg</title>
+		<link>https://devplayg.com/tags/docker-compose/</link>
+		<description>Recent content in Docker-Compose on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Jan 2022 00:28:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tips for Docker Compose</title>
+				<link>https://devplayg.com/tech/docker-compose_tips/</link>
+				<pubDate>Sat, 29 Jan 2022 00:28:15 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-compose_tips/</guid>
+				<description>&lt;p&gt;Builds, (re)creates, starts, and attaches to containers for a service.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker-compose up -d&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Stops containers and removes containers, networks, volumes, and images created by up.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo docker-compose down&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Remove containers for services not defined in the Compose file&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Setting up development environments with docker-compose</title>
+				<link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+				<pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+				<description>&lt;h3 id=&#34;create-network&#34;&gt;Create network&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker network create -d bridge dev-net&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;build-environment&#34;&gt;Build environment&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;docker-compose.yaml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;networks:&#xA;  network1:&#xA;    name: dev-net&#xA;&#xA;services:&#xA;  db:&#xA;    image: mariadb:10.3&#xA;    container_name: db&#xA;    volumes:&#xA;      - /d/data/mariadb/data:/var/lib/mysql&#xA;      - /d/data/mariadb/conf.d:/etc/mysql/conf.d&#xA;    environment:&#xA;      - MYSQL_ROOT_PASSWORD=devplayg12!@&#xA;      - MYSQL_DATABASE=devplayg&#xA;      - MYSQL_USER=devplayg&#xA;      - MYSQL_PASSWORD=devplayg12!@&#xA;      - TZ=Asia/Seoul&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;3306:3306&amp;#34;&#xA;    command: [&amp;#39;mysqld&amp;#39;, &amp;#39;--character-set-server=utf8mb4&amp;#39;, &amp;#39;--collation-server=utf8mb4_unicode_ci&amp;#39;]&#xA;&#xA;  redis:&#xA;    image: redis:latest&#xA;    container_name: redis&#xA;    volumes:&#xA;      - /d/data/redis/redis-data:/var/lib/redis&#xA;      - /d/data/redis/redis.conf:/usr/local/etc/redis/redis.conf&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;6379:6379&amp;#34;&#xA;    command: [&amp;#39;redis-server&amp;#39;, &amp;#39;/usr/local/etc/redis/redis.conf&amp;#39;]&#xA;&#xA;  server:&#xA;    image: ubuntu:18.04&#xA;    container_name: server&#xA;    volumes:&#xA;      - /e/gohome:/gohome&#xA;    networks:&#xA;     - network1&#xA;    tty: true&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Docker, Ubuntu 18.04에 설치하기</title>
+				<link>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</link>
+				<pubDate>Sat, 23 May 2020 09:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/install/ubuntu/&#34;&gt;https://docs.docker.com/engine/install/ubuntu/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;docker-설치&#34;&gt;Docker 설치&lt;/h2&gt;&#xA;&lt;p&gt;apt 패키지 업데이트&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt-get update&#xA;&#xA;$ sudo apt-get install \&#xA;    apt-transport-https \&#xA;    ca-certificates \&#xA;    curl \&#xA;    gnupg-agent \&#xA;    software-properties-common&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Docker GPG 키 추가&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;저장소 업데이트&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

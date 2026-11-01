@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>systemd on Developer Playground</title>
-    <link>https://devplayg.com/categories/systemd/</link>
-    <description>Recent content in systemd on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    
-	<atom:link href="https://devplayg.com/categories/systemd/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
-      <link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
-      <description>Step1. 서비스 파일 생성 sudo vi /etc/systemd/system/smartfactory.service  smartfactory.service
-[Unit] Description=Smart Factory client After=syslog.target network.target mysql.service [Service] Type=simple User=devplayg Group=devplayg WorkingDirectory=/home/devplayg/client ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Systemd on devplayg</title>
+		<link>https://devplayg.com/categories/systemd/</link>
+		<description>Recent content in Systemd on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<atom:link href="https://devplayg.com/categories/systemd/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title> Ubuntu 18.04에서 Java jar를 Service로 실행하기</title>
+				<link>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</guid>
+				<description>&lt;h3 id=&#34;step1-서비스-파일-생성&#34;&gt;Step1. 서비스 파일 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo vi /etc/systemd/system/smartfactory.service&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;smartfactory.service&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Unit]&#xA;Description=Smart Factory client&#xA;After=syslog.target network.target mysql.service&#xA;&#xA;[Service]&#xA;Type=simple&#xA;User=devplayg&#xA;Group=devplayg&#xA;WorkingDirectory=/home/devplayg/client&#xA;ExecStart=/usr/local/jdk/bin/java -Xms128m -Xmx256m -jar smartfactory.jar&#xA;Restart=on-failure&#xA;RestartSec=10&#xA;&#xA;[Install]&#xA;WantedBy=multi-user.target&#xA;Alias=smartfactory.service&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;443포트나 80포트를 사용하려면, User와 Group 값을 &amp;ldquo;root&amp;quot;로 변경한다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

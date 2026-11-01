@@ -1,51 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>아들 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EC%95%84%EB%93%A4/</link>
-    <description>Recent content in 아들 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 22 Jun 2019 18:11:09 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%EC%95%84%EB%93%A4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>슈퍼밴드, Still Fighting It</title>
-      <link>https://devplayg.com/music/2019-06-22_supermand-still-fighting-it/</link>
-      <pubDate>Sat, 22 Jun 2019 18:11:09 +0900</pubDate>
-      
-      <guid>https://devplayg.com/music/2019-06-22_supermand-still-fighting-it/</guid>
-      <description>처음 듣는 곡인데, 들으면서 마음도 울고 눈도 울었다.
-슈퍼밴드, 정말 멋진 프로그램이다.
-Still fighting it
-  </description>
-    </item>
-    
-    <item>
-      <title>아들과 딸</title>
-      <link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
-      <pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
-      <description>가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,
-어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.
-&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot;  결과는 기대했던 것과 같았다.
-산: (간식만 바라보고) 간식! 수: (간식을 바라보고) 아빠!</description>
-    </item>
-    
-    <item>
-      <title>산이의 빠마머리</title>
-      <link>https://devplayg.com/life/2019-06-18_hair-perming/</link>
-      <pubDate>Tue, 18 Jun 2019 23:49:43 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-18_hair-perming/</guid>
-      <description>지산이가 머리를 뽀글뽀글 머리를 했다. 녀석, 더 개구쟁이같다.
-안그래도 학교생활을 들어보니, 이 녀석은 맨날 학교에서 뛰어다녀서
-캠페인(&amp;ldquo;뛰지맙시다&amp;rdquo; 이런 푯말 들고 있는)한단다.
-내가 학교에서는 담임선생님 말씀을 제일 잘 들어야 한다고 신신당부 했는데도</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>아들 on devplayg</title>
+		<link>https://devplayg.com/tags/%EC%95%84%EB%93%A4/</link>
+		<description>Recent content in 아들 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 22 Jun 2019 18:11:09 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%EC%95%84%EB%93%A4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>슈퍼밴드, Still Fighting It</title>
+				<link>https://devplayg.com/music/2019-06-22_supermand-still-fighting-it/</link>
+				<pubDate>Sat, 22 Jun 2019 18:11:09 +0900</pubDate>
+				<guid>https://devplayg.com/music/2019-06-22_supermand-still-fighting-it/</guid>
+				<description>&lt;p&gt;처음 듣는 곡인데, 들으면서 마음도 울고 눈도 울었다.&lt;/p&gt;&#xA;&lt;p&gt;슈퍼밴드, 정말 멋진 프로그램이다.&lt;/p&gt;&#xA;&lt;p&gt;Still fighting it&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; height:0; padding-bottom: 56.25%&#34;&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TIlssB0IJvU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen style=&#34;position: absolute; width:100%; height:100%;&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>아들과 딸</title>
+				<link>https://devplayg.com/life/2019-06-18_diff_son_daughter/</link>
+				<pubDate>Tue, 18 Jun 2019 23:59:11 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-18_diff_son_daughter/</guid>
+				<description>&lt;p&gt;가끔 퇴근하고 집에 들어갈 때 간식을 사들고 들어가는데,&lt;/p&gt;&#xA;&lt;p&gt;어느날은 산이와 수한테 간식을 주기 전에 장난삼아 질문을 해봤다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;quot;아빠가 좋아? 간식이 좋아?&amp;quot; &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결과는 기대했던 것과 같았다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;산: (간식만 바라보고) 간식!&#xA;수: (간식을 바라보고) 아빠!&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;결론:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>산이의 빠마머리</title>
+				<link>https://devplayg.com/life/2019-06-18_hair-perming/</link>
+				<pubDate>Tue, 18 Jun 2019 23:49:43 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-18_hair-perming/</guid>
+				<description>&lt;p&gt;지산이가 머리를 뽀글뽀글 머리를 했다. 녀석, 더 개구쟁이같다.&lt;/p&gt;&#xA;&lt;p&gt;안그래도 학교생활을 들어보니, 이 녀석은 맨날 학교에서 뛰어다녀서&lt;/p&gt;&#xA;&lt;p&gt;캠페인(&amp;ldquo;뛰지맙시다&amp;rdquo; 이런 푯말 들고 있는)한단다.&lt;/p&gt;&#xA;&lt;p&gt;내가 학교에서는 담임선생님 말씀을 제일 잘 들어야 한다고 신신당부 했는데도&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

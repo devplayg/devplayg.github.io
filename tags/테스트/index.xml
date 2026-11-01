@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>테스트 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/</link>
-    <description>Recent content in 테스트 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>4. Kafka 테스트</title>
-      <link>https://devplayg.com/tech/kafka-on-docker_test/</link>
-      <pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
-      <description>Kafka 상태확인 명령어 $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list $ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic  Kafka 장애 발생 시, 상태변화 테스트 순차적 장애 발생 후, 순차적 복구
-   Seq kafka1 kafka2 kafka3 설명     1 up up up 정상   2 up up down kafka3 장애 발생   3 up down down kafka2 장애 발생   4 up up down kafka2 장애 복구   5 up up up kafka3 장애 복구     Seq 1.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>테스트 on devplayg</title>
+		<link>https://devplayg.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/</link>
+		<description>Recent content in 테스트 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 11 Jun 2019 19:55:12 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>4. Kafka 테스트</title>
+				<link>https://devplayg.com/tech/kafka-on-docker_test/</link>
+				<pubDate>Tue, 11 Jun 2019 19:55:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/kafka-on-docker_test/</guid>
+				<description>&lt;h3 id=&#34;kafka-상태확인-명령어&#34;&gt;Kafka 상태확인 명령어&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --list&#xA;$ KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server $KAFKA --describe --topic my-topic&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;kafka-장애-발생-시-상태변화-테스트&#34;&gt;Kafka 장애 발생 시, 상태변화 테스트&lt;/h3&gt;&#xA;&lt;p&gt;순차적 장애 발생 후, 순차적 복구&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Seq&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka1&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka2&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;kafka3&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;설명&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;정상&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3 장애 발생&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2 장애 발생&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;del&gt;down&lt;/del&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka2 장애 복구&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;5&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;up&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;kafka3 장애 복구&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 1. 정상&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 3       Replicas: 2,1,3    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 1    Leader: 3       Replicas: 3,2,1    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 2    Leader: 3       Replicas: 1,3,2    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 3    Leader: 3       Replicas: 2,3,1    Isr: 3,2,1    &#xA;Topic: my-topic Partition: 4    Leader: 3       Replicas: 3,1,2    Isr: 3,2,1    &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 2. kafka3 장애 발생&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 2       Replicas: 2,1,3    Isr: 2,1      &#xA;Topic: my-topic Partition: 1    Leader: 2       Replicas: 3,2,1    Isr: 2,1      &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 2,1      &#xA;Topic: my-topic Partition: 3    Leader: 2       Replicas: 2,3,1    Isr: 2,1      &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 2,1      &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 3. kafka2 장애 발생&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 4. kafka2 장애 복구&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1,2   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1,2   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1,2   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1,2   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1,2   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Seq 5. 정상&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Topic: my-topic Partition: 0    Leader: 1       Replicas: 2,1,3    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 1    Leader: 1       Replicas: 3,2,1    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 2    Leader: 1       Replicas: 1,3,2    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 3    Leader: 1       Replicas: 2,3,1    Isr: 1,2,3   &#xA;Topic: my-topic Partition: 4    Leader: 1       Replicas: 3,1,2    Isr: 1,2,3   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

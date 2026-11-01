@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>about on Developer Playground</title>
-    <link>https://devplayg.com/categories/about/</link>
-    <description>Recent content in about on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>devplayg</title>
-      <link>https://devplayg.com/about/</link>
-      <pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
-      
-      <guid>https://devplayg.com/about/</guid>
-      <description>What makes me high Music, Coding, Walking, Thinking, Playing, Eating
-What makes me down Life without what makes me high
-Please tell me who you are.  iam := []byte(&amp;rdquo;devplayg&amp;rdquo;) Software engineer, especially Gopher  What&amp;rsquo;ve you been for a long time?</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>About on devplayg</title>
+		<link>https://devplayg.com/categories/about/</link>
+		<description>Recent content in About on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 18 Mar 2019 21:34:36 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/about/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>devplayg</title>
+				<link>https://devplayg.com/about/</link>
+				<pubDate>Mon, 18 Mar 2019 21:34:36 +0900</pubDate>
+				<guid>https://devplayg.com/about/</guid>
+				<description>&lt;h3 id=&#34;what-makes-me-high&#34;&gt;What makes me high&lt;/h3&gt;&#xA;&lt;p&gt;Music, Coding, Walking, Thinking, Playing, Eating&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-makes-me-down&#34;&gt;What makes me down&lt;/h3&gt;&#xA;&lt;p&gt;Life without what makes me high&lt;/p&gt;&#xA;&lt;h3 id=&#34;please-tell-me-who-you-are&#34;&gt;&lt;strong&gt;Please tell me who you are.&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;iam := []byte(&amp;quot;&lt;strong&gt;devplayg&lt;/strong&gt;&amp;quot;)&lt;/li&gt;&#xA;&lt;li&gt;Software engineer, especially Gopher&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;whatve-you-been-for-a-long-time&#34;&gt;&lt;strong&gt;What&amp;rsquo;ve you been for a long time?&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Making kinds of bugs since 2000&lt;/li&gt;&#xA;&lt;li&gt;Some stuff used to make bugs&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go&lt;/li&gt;&#xA;&lt;li&gt;Kotlin&lt;/li&gt;&#xA;&lt;li&gt;Perl&lt;/li&gt;&#xA;&lt;li&gt;Shell&lt;/li&gt;&#xA;&lt;li&gt;Spring Boot&lt;/li&gt;&#xA;&lt;li&gt;Etc.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/linux.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/gopher.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/kotlin.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/perl.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/java.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Linux&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Go&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Kotlin&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Perl&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Java&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;avatars&#34;&gt;Avatars&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_green.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_green_raggaeface.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_green_sunglasses.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_green_raggaehair.png&#34;&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_blue.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_blue_raggaeface.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_blue_sunglasses.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_olive.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_raggaebg.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;img src=&#34;https://devplayg.com/img/avatars/avatar_with_gopher.png&#34;&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;life-sayings-and-quotes&#34;&gt;&lt;strong&gt;Life Sayings and Quotes&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Golang, Little Miss Sunshine, If I could make the world dance,&#xA;One band one sound, No woman no cry,&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

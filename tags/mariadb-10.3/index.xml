@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mariadb 10.3 on Developer Playground</title>
-    <link>https://devplayg.com/tags/mariadb-10.3/</link>
-    <description>Recent content in mariadb 10.3 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/mariadb-10.3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Installing and using MariaDB 10.3 via Docker</title>
-      <link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
-      <pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
-      <description>https://hub.docker.com/_/mariadb
-Pulling and run image from command-line docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci   -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Mariadb 10.3 on devplayg</title>
+		<link>https://devplayg.com/tags/mariadb-10.3/</link>
+		<description>Recent content in Mariadb 10.3 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/mariadb-10.3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Installing and using MariaDB 10.3 via Docker</title>
+				<link>https://devplayg.com/tech/docker-container_mariadb-10.3/</link>
+				<pubDate>Wed, 01 Jan 2020 18:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/docker-container_mariadb-10.3/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://hub.docker.com/_/mariadb&#34;&gt;https://hub.docker.com/_/mariadb&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;pulling-and-run-image-from-command-line&#34;&gt;Pulling and run image from command-line&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run --name db -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -e TZ=Asia/Seoul -p 3306:3306 -d mariadb:10.3 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;-e&lt;/strong&gt; MYSQL_ROOT_PASSWORD=YOUR_PASSWORD&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-e&lt;/strong&gt; TZ=Asia/Seoul&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-p&lt;/strong&gt; 3306:3306&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;-d&lt;/strong&gt; mariadb:10.3&lt;/li&gt;&#xA;&lt;li&gt;&amp;ndash;character-set-server=utf8mb4&lt;/li&gt;&#xA;&lt;li&gt;&amp;ndash;collation-server=utf8mb4_unicode_ci&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;pulling-and-run-image-from-docker-composer&#34;&gt;Pulling and run image from docker-composer&lt;/h2&gt;&#xA;&lt;p&gt;docker-compose.yaml&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

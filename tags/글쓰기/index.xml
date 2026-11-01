@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>글쓰기 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</link>
-    <description>Recent content in 글쓰기 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Thu, 06 Jun 2019 01:00:42 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Markdown 의 미학</title>
-      <link>https://devplayg.com/life/2019-06-06_markdown/</link>
-      <pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2019-06-06_markdown/</guid>
-      <description>이전부터 Markdown 문서를 써오긴 했다. Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고, 그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데, 생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>글쓰기 on devplayg</title>
+		<link>https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</link>
+		<description>Recent content in 글쓰기 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 07 Jun 2019 01:00:42 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Markdown 의 미학</title>
+				<link>https://devplayg.com/life/2019-06-06_markdown/</link>
+				<pubDate>Thu, 06 Jun 2019 01:00:42 +0900</pubDate>
+				<guid>https://devplayg.com/life/2019-06-06_markdown/</guid>
+				<description>&lt;p&gt;이전부터 &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;Markdown&lt;/a&gt; 문서를 써오긴 했다.&#xA;Github 에 코드를 올리면서 README.md 파일을 만들어야 했기에 반강제(?)로 써야만 했고,&#xA;그래서 심플하게만(두~세줄 정도) 사용했었다. 그런데 최근에, 회사에서 코드리뷰 자료나 기능 자료들을 Markdown 으로 작성해봤는데,&#xA;생각과 표현이 굉장히 명확하게 정리되는 느낌을 받았다.&#xA;그래서 앞으로 더 많이, 더 자주 사용해보려고 한다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

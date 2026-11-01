@@ -1,2104 +1,1109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://devplayg.com/categories/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/cooking/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/life/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/cookbook/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/life/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%83%9D%EA%B0%81/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/life/2022-04-24_amigo/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%95%84%EB%AF%B8%EA%B3%A0/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%B9%9C%EA%B5%AC/</loc>
-    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/life/2022-04-17_dream_car/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</loc>
-    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/</loc>
-    <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>https://devplayg.com/tags/bash/</loc>
-    <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/mac/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/programming-language/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/%EB%AF%B8%EB%9E%98%EC%97%90-%EC%A0%95%EB%A6%AC%ED%95%B4%EB%91%98%EA%B1%B0/</loc>
+    <lastmod>2024-09-16T21:34:36+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/mac_tips/</loc>
+    <lastmod>2022-10-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/cookbook/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/categories/life/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/life/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/life/2022-04-24_amigo/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%83%9D%EA%B0%81/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%95%84%EB%AF%B8%EA%B3%A0/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/2022-04-24_%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C-v2/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%B9%9C%EA%B5%AC/</loc>
+    <lastmod>2022-04-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/life/2022-04-17_dream_car/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EB%A7%88%EB%8A%98%EB%B9%B5/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/2022-04-17_cooking-%EB%A7%88%EB%8A%98%EB%B9%B5/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/cooking/2022-04-17_cooking-%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/%ED%94%BD%EC%97%85%ED%8A%B8%EB%9F%AD/</loc>
+    <lastmod>2022-04-17T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/current-directory/</loc>
     <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/%EC%97%98%EB%A0%88%EA%B0%95%ED%8A%B8-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/</loc>
     <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/book_elegant-object/</loc>
     <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/%EC%B1%85/</loc>
     <lastmod>2022-04-01T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</loc>
-    <lastmod>2022-02-13T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2022-02-13_%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</loc>
     <lastmod>2022-02-13T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/docker/</loc>
-    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/</loc>
-    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker-compose_tips/</loc>
-    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%84%9C%EC%97%B4/</loc>
+    <lastmod>2022-02-13T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/docker/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/series/docker/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/docker/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/docker-compose/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/docker-composed/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ldap/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/mysql/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/redis/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/redis-cluster/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/series/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/tips/</loc>
     <lastmod>2022-01-29T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/docker-compose_tips/</loc>
+    <lastmod>2022-01-29T00:28:15+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/docker-desktop/</loc>
     <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/windows/</loc>
     <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/windows/</loc>
     <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-docker-desktop-%EB%8C%80%EC%B2%B4/</loc>
     <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/install-dockerio-on-windows-10-wsl2/</loc>
     <lastmod>2022-01-28T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2021-11-07_memo/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/identify/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ivp/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/paradigm/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/vision/</loc>
     <lastmod>2021-11-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/setting-up-openldap-on-docker/</loc>
-    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/openldap/</loc>
     <lastmod>2020-12-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/config-dev-server-env-with-docker/</loc>
-    <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/setting-up-openldap-on-docker/</loc>
+    <lastmod>2020-12-27T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/db/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/mariadb/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/redis/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/server/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/config-dev-server-env-with-docker/</loc>
+    <lastmod>2020-12-07T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/ubuntu/</loc>
     <lastmod>2020-12-07T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/json_handling/</loc>
-    <lastmod>2020-11-28T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/json/</loc>
     <lastmod>2020-11-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/json_handling/</loc>
+    <lastmod>2020-11-28T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/minifier/</loc>
     <lastmod>2020-11-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/prettify/</loc>
     <lastmod>2020-11-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/tips/</loc>
     <lastmod>2020-11-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/docker_fixing-bug-on-windows-10-2004/</loc>
     <lastmod>2020-07-10T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/tech/</loc>
     <lastmod>2020-07-10T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/windows-10/</loc>
     <lastmod>2020-07-10T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/windows-10-2004/</loc>
     <lastmod>2020-07-10T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/go_remote-debugging/</loc>
-    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/draft_go_http-server-down/</loc>
-    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/debugging/</loc>
     <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/go/</loc>
     <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/go_remote-debugging/</loc>
+    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/draft_go_http-server-down/</loc>
+    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/http/</loc>
     <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/categories/programming-language/</loc>
-    <lastmod>2020-05-24T09:00:04+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/minio_clustering/</loc>
-    <lastmod>2020-05-24T09:00:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/minio/</loc>
     <lastmod>2020-05-24T09:00:01+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/minio_clustering/</loc>
+    <lastmod>2020-05-24T09:00:01+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/storage/</loc>
     <lastmod>2020-05-24T09:00:01+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/go_rand/</loc>
     <lastmod>2020-05-24T09:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/random/</loc>
     <lastmod>2020-05-24T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/docker_installation-on-ubuntu-18.04/</loc>
     <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/installation/</loc>
     <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/linux/</loc>
     <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ubuntu-18.04/</loc>
     <lastmod>2020-05-23T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/cmder_tips/</loc>
-    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/cmder/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/cmder_tips/</loc>
+    <lastmod>2020-04-06T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/diary/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/foot/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/grpc/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/restaurant/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/utils/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/weekday/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/weekend/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2020-04-05_diary/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B0%9C%EC%B7%A8%EB%A7%9B%EC%A7%91/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%8F%BC%EC%A7%80%EA%B0%88%EB%B9%84/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%A7%9B%EC%A7%91/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2020-04-06_best-restaurant/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%B3%B6%EC%9D%8C%EB%B0%A5/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%95%84%EA%B5%AC%EC%B0%9C/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/cooking/2020-04-06_cooking-%ED%8C%8C%EC%A0%88%EC%9D%B4/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%A7%84%EC%A7%9C%EB%A7%9B%EC%A7%91/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%B9%BC%EA%B5%AD%EC%88%98/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%8C%8C%EC%A0%88%EC%9D%B4/</loc>
     <lastmod>2020-04-06T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/ai/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/cuda_check-version/</loc>
-    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</loc>
-    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
-    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/ai/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/cuda/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/cuda_check-version/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/cuda-version-check/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/deepstream/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/deepstream-debug/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/ai/draft_jetson-tx2-deepstream-debug-mode/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/jetson-tx2/</loc>
+    <lastmod>2020-03-08T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/nvidia/</loc>
     <lastmod>2020-03-08T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/cpp_compiling-on-linux/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</loc>
-    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/c&#43;&#43;/</loc>
     <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/cpp_compiling-on-linux/</loc>
+    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/heartbeat/</loc>
     <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/linux/</loc>
     <lastmod>2020-03-03T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/linux_system-info/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/life/2020-03-03_something-making-my-heart-beat/</loc>
+    <lastmod>2020-03-03T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/command/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/linux_system-info/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/resource/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/ai/jetson-tx2_system-info/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/ai/jetson-tx_tips/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/nvidia-jetson/</loc>
-    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/nvidia/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker-container_centos-6.10/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker-container_mariadb-10.3/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/docker-container_etc/</loc>
-    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/series/nvidia-jetson/</loc>
+    <lastmod>2020-02-27T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/apache-2.4/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/centos/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/centos-6.10/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/database/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/docker-container_centos-6.10/</loc>
+    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/docker-container_mariadb-10.3/</loc>
+    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/docker-container_etc/</loc>
+    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/docker_pulling-ubuntu-18.04/</loc>
+    <lastmod>2020-01-01T18:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/mariadb-10.3/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/os/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/web-server/</loc>
     <lastmod>2020-01-01T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/snmp/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/monitoring/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/os/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/powershell/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/snmp/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/snmp/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/udp/</loc>
     <lastmod>2019-11-03T17:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/web_template-bootstrap-3.3.7/</loc>
-    <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/web_template-bootstrap-4.3.1/</loc>
-    <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/bootstrap/</loc>
     <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/web_template-bootstrap-3.3.7/</loc>
+    <lastmod>2019-10-31T18:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/web_template-bootstrap-4.3.1/</loc>
+    <lastmod>2019-10-31T18:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/html/</loc>
     <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/template/</loc>
     <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/web/</loc>
     <lastmod>2019-10-31T18:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/postgresql_tips/</loc>
-    <lastmod>2019-10-31T15:13:27+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/database/</loc>
     <lastmod>2019-10-31T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/postgres/</loc>
     <lastmod>2019-10-31T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/postgresql/</loc>
     <lastmod>2019-10-31T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/highcharts_tips/</loc>
-    <lastmod>2019-09-15T00:00:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/postgresql_tips/</loc>
+    <lastmod>2019-10-31T15:13:27+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/api/</loc>
     <lastmod>2019-09-15T00:00:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/chart/</loc>
     <lastmod>2019-09-15T00:00:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/highcharts/</loc>
     <lastmod>2019-09-15T00:00:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/highcharts_tips/</loc>
+    <lastmod>2019-09-15T00:00:12+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/util/</loc>
     <lastmod>2019-09-15T00:00:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/lifeart/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B7%B8%EB%A6%BC/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9E%90%ED%99%94%EC%83%81/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/2019_09_08-jisoo-by-jisoo/</loc>
     <lastmod>2019-09-08T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ffmpeg/</loc>
     <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/m3u8/</loc>
     <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/streaming/</loc>
     <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/ai/streaming_hls/</loc>
     <lastmod>2019-09-04T01:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</loc>
-    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ai/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/compile/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/compile/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/ai/ffmpeg_compile-on-ubuntu-18.04/</loc>
+    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/gmf/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/ai/gmf_installation-on-ubuntu-18.04/</loc>
+    <lastmod>2019-09-01T03:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/golang/</loc>
     <lastmod>2019-09-01T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/spring_boot-handling-timezone/</loc>
     <lastmod>2019-08-28T13:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/spring-boot/</loc>
     <lastmod>2019-08-28T13:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/timezone/</loc>
     <lastmod>2019-08-28T13:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B2%8C%EC%9E%84/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/%EB%86%80%EC%9D%B4/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%B1%80%EC%82%AC%EB%8B%A4%EB%A6%AC/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-08-28_snake-ladder-game/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%BD%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-07-25_refactoring/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/%EC%BD%94%EB%94%A9%EC%83%9D%ED%99%9C/</loc>
     <lastmod>2019-08-28T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/curl/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/curl_tips/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/ubuntu-18.04_tips/</loc>
-    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/get/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/post/</loc>
     <lastmod>2019-08-19T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/ubuntu-18.04_tips/</loc>
+    <lastmod>2019-08-19T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</loc>
     <lastmod>2019-08-10T15:13:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/vxg-server_installation-on-windows/</loc>
-    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/vxg/</loc>
     <lastmod>2019-08-10T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/vxg-server/</loc>
     <lastmod>2019-08-10T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/openssl_generate-cert/</loc>
-    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/vxg-server_installation-on-windows/</loc>
+    <lastmod>2019-08-10T15:13:27+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/command-line/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/openssl/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/openssl_generate-cert/</loc>
+    <lastmod>2019-08-09T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/rsa/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/%EC%9D%B8%EC%A6%9D%EC%84%9C/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9D%B8%EC%A6%9D%EC%84%9C/</loc>
     <lastmod>2019-08-09T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/ssl/</loc>
-    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/spring-boot_ssl/</loc>
-    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/cert/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/java/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/keytool/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/spring-boot/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/spring-boot_ssl/</loc>
+    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/ssl/</loc>
     <lastmod>2019-08-02T22:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/java_lambda/</loc>
-    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/tips_spring-boot-dist/</loc>
-    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/thymeleaf_tips/</loc>
-    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tags/ssl/</loc>
+    <lastmod>2019-08-02T22:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/java/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/java_lambda/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/lambda/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/tips_spring-boot-dist/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/template-engine/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/thymeleaf/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</loc>
-    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/thymeleaf_tips/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/kafka/</loc>
     <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/openjdk/</loc>
     <lastmod>2019-06-26T13:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/kafka-on-ubuntu-18.04_installation/</loc>
+    <lastmod>2019-06-26T13:10:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/dad/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/mom/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/mother/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%95%84%EB%B9%A0/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/2019-06-26_dad/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%97%84%EB%A7%88/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/2019-06-26_mom/</loc>
     <lastmod>2019-06-26T06:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/brother/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/2019-06-24_brother/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%98%A4%EB%B9%A0/</loc>
     <lastmod>2019-06-24T05:39:05+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/mermaid/</loc>
     <lastmod>2019-06-24T05:38:52+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%AF%B8%EC%88%A0/</loc>
     <lastmod>2019-06-24T05:38:52+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9D%B8%EC%96%B4%EA%B3%B5%EC%A3%BC/</loc>
     <lastmod>2019-06-24T05:38:52+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/lifeart/2019-06-24_the-little-mermaid/</loc>
     <lastmod>2019-06-24T05:38:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/music/</loc>
-    <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/music/</loc>
     <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/music/</loc>
+    <lastmod>2019-06-22T18:11:09+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%8A%88%ED%8D%BC%EB%B0%B4%EB%93%9C/</loc>
     <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/music/2019-06-22_supermand-still-fighting-it/</loc>
     <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%95%84%EB%93%A4/</loc>
     <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%95%84%EB%B2%84%EC%A7%80/</loc>
     <lastmod>2019-06-22T18:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%94%B8/</loc>
     <lastmod>2019-06-18T23:59:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-06-18_diff_son_daughter/</loc>
     <lastmod>2019-06-18T23:59:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%B0%A8%EC%9D%B4/</loc>
     <lastmod>2019-06-18T23:59:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B7%80%EC%9A%94%EB%AF%B8/</loc>
     <lastmod>2019-06-18T23:49:43+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%A8%B8%EB%A6%AC%EB%BD%80%EA%B8%80%EC%9D%B4/</loc>
     <lastmod>2019-06-18T23:49:43+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-06-18_hair-perming/</loc>
     <lastmod>2019-06-18T23:49:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%8C%8C%EB%A7%88/</loc>
     <lastmod>2019-06-18T23:49:43+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/go_duplicate-file-finder/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/github/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/readme/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/repo/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%A3%BC%EC%84%9D/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%A4%91%EB%B3%B5%ED%8C%8C%EC%9D%BC-%EA%B2%80%EC%83%89/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%8C%8C%EC%9D%BC%EC%B0%BE%EA%B8%B0/</loc>
     <lastmod>2019-06-18T22:39:49+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</loc>
-    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</loc>
-    <lastmod>2019-06-16T14:25:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/imagemagic/</loc>
     <lastmod>2019-06-16T14:25:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/imgpresso/</loc>
     <lastmod>2019-06-16T14:25:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/jpeg-%EC%95%95%EC%B6%95/</loc>
     <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/</loc>
     <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/series/mozjpeg-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-jpeg-%EC%95%95%EC%B6%95/</loc>
+    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</loc>
+    <lastmod>2019-06-16T14:25:34+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%95%95%EC%B6%95/</loc>
     <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/mozjpeg_image-optimizing/</loc>
-    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/image/</loc>
     <lastmod>2019-06-23T22:22:39+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/hugo_tips/</loc>
-    <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/mozjpeg_image-optimizing/</loc>
+    <lastmod>2019-06-23T22:22:39+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/blog/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/hugo/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/hugo-link/</loc>
     <lastmod>2019-06-16T14:21:11+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/hugo_tips/</loc>
+    <lastmod>2019-06-16T14:21:11+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/command-line/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/download/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/go/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/torrent/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/torrent/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/torrent-client/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%AA%85%EB%A0%B9%EC%96%B4-%ED%86%A0%EB%A0%8C%ED%8A%B8-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/torrent_torrent-command-util/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%86%A0%EB%A0%8C%ED%8A%B8/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%86%A0%EB%A0%8C%ED%8A%B8-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/</loc>
     <lastmod>2019-06-16T13:11:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B3%B5%EB%B6%80/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%B0%B0%EC%9B%80/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%B3%80%ED%99%94/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%9E%AC%EB%AF%B8/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-06-12_changing/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%BD%94%EB%94%A9%EC%8A%A4%ED%83%80%EC%9D%BC/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%96%89%EB%B3%B5/</loc>
     <lastmod>2019-06-12T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/bob-marley/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/charlie-hunter/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/music/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/no-woman-no-cry/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/raggae/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2019-06-11_raggae/</loc>
     <lastmod>2019-06-11T22:08:34+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/go_soring-slices/</loc>
-    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/example/</loc>
     <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/sort/</loc>
     <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/sort-slices/</loc>
     <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/sorting/</loc>
     <lastmod>2019-06-11T22:02:31+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/go_soring-slices/</loc>
+    <lastmod>2019-06-11T22:02:31+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tech/kafka-on-docker_test/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</loc>
-    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/consumer/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/distributed-platform/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/series/docker-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-kafka-%EC%84%A4%EC%B9%98/</loc>
+    <lastmod>2019-06-11T19:55:12+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/categories/kafka/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/producer/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/test/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/zookeeper/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%A3%BC%ED%82%A4%ED%8D%BC/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%B9%B4%ED%94%84%EC%B9%B4/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/</loc>
     <lastmod>2019-06-11T19:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/kafka_tips/</loc>
     <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/messageq/</loc>
     <lastmod>2019-06-11T18:55:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/kafka-on-docker_setting-kafka/</loc>
     <lastmod>2019-06-09T18:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/springboot_terms/</loc>
-    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/spring/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/springboot_terms/</loc>
+    <lastmod>2019-07-25T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/spring-framework/</loc>
     <lastmod>2019-07-25T00:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/kafka-on-docker_setting-zookeepers/</loc>
     <lastmod>2019-06-09T15:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/mariadb_tips/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/profiling/</loc>
     <lastmod>2019-06-08T15:13:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/go_what-is-go/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/ken-thompson/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/rob-pike/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/robert-griesemer/</loc>
     <lastmod>2019-06-08T00:10:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/go_benchmark-test/</loc>
-    <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/git_tips/</loc>
-    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/history/</loc>
-    <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/algorithm/</loc>
     <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/benchmark/</loc>
     <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/go_benchmark-test/</loc>
+    <lastmod>2019-06-07T23:45:41+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/branch/</loc>
     <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/git/</loc>
     <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/git_tips/</loc>
+    <lastmod>2020-02-02T23:45:41+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/hash/</loc>
     <lastmod>2019-06-07T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/history/</loc>
+    <lastmod>2019-06-07T23:45:41+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/tag/</loc>
     <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/version/</loc>
     <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/version-control/</loc>
     <lastmod>2020-02-02T23:45:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/docker_tips/</loc>
     <lastmod>2019-06-19T09:43:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/kafka-on-docker_installation/</loc>
     <lastmod>2019-06-06T17:14:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/life/2019-06-06_markdown/</loc>
-    <lastmod>2019-06-07T01:00:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/markdown/</loc>
     <lastmod>2019-06-07T01:00:42+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/life/2019-06-06_markdown/</loc>
+    <lastmod>2019-06-07T01:00:42+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B8%80/</loc>
     <lastmod>2019-06-07T01:00:42+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2019-06-07T01:00:42+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/go_pseudo-random-permutation-of-the-integers-in-go/</loc>
     <lastmod>2019-06-05T21:34:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/bash_tips/</loc>
-    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/about/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/bash_tips/</loc>
+    <lastmod>2019-03-18T21:34:36+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/about/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%88%84%EA%B5%AC%EB%83%90%EB%84%8C/</loc>
     <lastmod>2019-03-18T21:34:36+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/2018/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/music/music_2018-awards/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/music-awards/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/songs/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%82%98%ED%94%8C%EB%9D%BC/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%A3%A8%ED%94%BC/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%87%BC%EB%AF%B8%EB%8D%94%EB%A8%B8%EB%8B%88/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%EC%BD%94%EB%93%9C%EC%BF%A4%EC%8A%A4%ED%8A%B8/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/%ED%9E%99%ED%95%A9/</loc>
     <lastmod>2019-03-03T17:14:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/ffmpeg_tips/</loc>
     <lastmod>2019-08-02T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/coding/</loc>
-    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/series/design-patterns/</loc>
-    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/coding/design-pattern_solid-patterns/</loc>
-    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/coding/design-pattern/</loc>
-    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/</loc>
-    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/coding/</loc>
     <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/coding/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/coding/design-pattern/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/series/design-patterns/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/design-patterns/</loc>
     <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/coding/design-pattern_solid-patterns/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url><url>
+    <loc>https://devplayg.com/tags/solid-%ED%8C%A8%ED%84%B4/</loc>
+    <lastmod>2016-11-21T00:28:15+09:00</lastmod>
+  </url><url>
     <loc>https://devplayg.com/tags/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4/</loc>
     <lastmod>2016-11-21T00:28:15+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/life/2021-12-10_minecraft/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tech/run-java-jar-application-with-systemd-on-ubuntu-18.04/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/coding/baekjoon-1978/</loc>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/java_java-time/</loc>
-  </url>
-  
-  <url>
-    <loc>https://devplayg.com/tech/redis_tips/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/jar/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/java_java-time/</loc>
+  </url><url>
     <loc>https://devplayg.com/tech/python_tips/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://devplayg.com/tech/redis_tips/</loc>
+  </url><url>
     <loc>https://devplayg.com/categories/service/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/service/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/categories/systemd/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://devplayg.com/tags/systemd/</loc>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://devplayg.com/tags/%EC%9D%BC%EA%B8%B0/</loc>
   </url>
-  
 </urlset>

@@ -1,34 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>jpeg 크키 줄이기 on Developer Playground</title>
-    <link>https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/</link>
-    <description>Recent content in jpeg 크키 줄이기 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 16 Jun 2019 14:25:34 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
-      <link>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</link>
-      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
-      <description>테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.</description>
-    </item>
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축</title>
-      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
-      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
-      <description>테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Jpeg 크키 줄이기 on devplayg</title>
+		<link>https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/</link>
+		<description>Recent content in Jpeg 크키 줄이기 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 23 Jun 2019 22:22:39 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/jpeg-%ED%81%AC%ED%82%A4-%EC%A4%84%EC%9D%B4%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
+				<link>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</link>
+				<pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
+				<guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
+				<description>&lt;h2 id=&#34;테스트-결과&#34;&gt;테스트 결과&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;압축 출처(라이브러리)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;용량(Bytes)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;품질(1~100)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;공간절약비율&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;다운로드 링크&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;원본&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1,030,997&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;-&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;0 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image.jpg&#34;&gt;my-image.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;989,923&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;100&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;4 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-100.jpg&#34;&gt;my-image_cjpeg-100.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;ImageMagic&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;941,883&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;9 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_perl.jpg&#34;&gt;my-image_perl.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Google Guetzli&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;425,256&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;84&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;59 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_google.jpg&#34;&gt;my-image_google.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;TinyJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;374,566&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;64 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image-tinyjpeg.jpg&#34;&gt;my-image-tinyjpeg.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;338,452&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;90&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;67 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-90.jpg&#34;&gt;my-image_cjpeg-90.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Compressor.io&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;268,780&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;74 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image-compressor.io.jpg&#34;&gt;my-image-compressor.io.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;215,319&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;80&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;79 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-80.jpg&#34;&gt;my-image_cjpeg-80.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;MozJPEG&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;207,723&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;80 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-default.jpg&#34;&gt;my-image_cjpeg-default.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;ImgPresso&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;192,394&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Very High&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;81 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_imgpresso.jpg&#34;&gt;my-image_imgpresso.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;MozJPEG&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;156,782&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;70&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;85 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-70.jpg&#34;&gt;my-image_cjpeg-70.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;129,378&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;60&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;87 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-60.jpg&#34;&gt;my-image_cjpeg-60.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;110,646&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;50&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;89 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-50.jpg&#34;&gt;my-image_cjpeg-50.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;93,594&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;40&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;91 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-40.jpg&#34;&gt;my-image_cjpeg-40.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;73,283&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;30&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;93 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-30.jpg&#34;&gt;my-image_cjpeg-30.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;51,743&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;20&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;95 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-20.jpg&#34;&gt;my-image_cjpeg-20.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;27,813&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;10&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;97 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-10.jpg&#34;&gt;my-image_cjpeg-10.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/mozilla/mozjpeg&#34;&gt;MozJPEG&lt;/a&gt; 추천&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축</title>
+				<link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+				<pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+				<guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+				<description>&lt;h3 id=&#34;테스트-환경&#34;&gt;테스트 환경&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu 18.04 container on Docker&lt;/p&gt;&#xA;&lt;h3 id=&#34;필수-라이브러리-설치-requirements&#34;&gt;필수 라이브러리 설치 (Requirements)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo apt-get update&#xA;$ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;소스파일-다운로드-download-source&#34;&gt;소스파일 다운로드 (Download source)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/mozilla/mozjpeg.git&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;컴파일-compile&#34;&gt;컴파일 (Compile)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ cd mozjpeg&#xA;$ mkdir build &amp;amp;&amp;amp; cd build&#xA;$ sudo cmake ../&#xA;$ sudo make install&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;이미지-압축-테스트-test&#34;&gt;이미지 압축 테스트 (Test)&lt;/h3&gt;&#xA;&lt;p&gt;실행방법&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

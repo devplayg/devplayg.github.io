@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>드림카 on Developer Playground</title>
-    <link>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</link>
-    <description>Recent content in 드림카 on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>드림카</title>
-      <link>https://devplayg.com/life/2022-04-17_dream_car/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
-      <description>Chevrolet Colorado 이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.
-Hyundai GV80 정말 잘만든 고급스런 차.
-KIA Ray 작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>드림카 on devplayg</title>
+		<link>https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/</link>
+		<description>Recent content in 드림카 on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/%EB%93%9C%EB%A6%BC%EC%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>드림카</title>
+				<link>https://devplayg.com/life/2022-04-17_dream_car/</link>
+				<pubDate>Sun, 17 Apr 2022 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/life/2022-04-17_dream_car/</guid>
+				<description>&lt;h3 id=&#34;chevrolet-colorado&#34;&gt;Chevrolet Colorado&lt;/h3&gt;&#xA;&lt;p&gt;이것이 진정한 자동차다. 사이드 미러는 손으로 접어야 제 맛.&lt;/p&gt;&#xA;&lt;h3 id=&#34;hyundai-gv80&#34;&gt;Hyundai GV80&lt;/h3&gt;&#xA;&lt;p&gt;정말 잘만든 고급스런 차.&lt;/p&gt;&#xA;&lt;h3 id=&#34;kia-ray&#34;&gt;KIA Ray&lt;/h3&gt;&#xA;&lt;p&gt;작지만, 외관은 귀엽고 내부는 넓어 정말 만족스런 차&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cert on Developer Playground</title>
-    <link>https://devplayg.com/tags/cert/</link>
-    <description>Recent content in cert on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/cert/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Spring Boot, SSL 인증서 만들기</title>
-      <link>https://devplayg.com/tech/spring-boot_ssl/</link>
-      <pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/spring-boot_ssl/</guid>
-      <description>Step 1. Key store 생성 비밀번호: devplayg
-keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650  Step 2. 인증서 생성 keytool -export -alias sb201 -storepass devplayg -file sb201.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Cert on devplayg</title>
+		<link>https://devplayg.com/tags/cert/</link>
+		<description>Recent content in Cert on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 02 Aug 2019 22:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/cert/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Spring Boot, SSL 인증서 만들기</title>
+				<link>https://devplayg.com/tech/spring-boot_ssl/</link>
+				<pubDate>Fri, 02 Aug 2019 22:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/spring-boot_ssl/</guid>
+				<description>&lt;h3 id=&#34;step-1-key-store-생성&#34;&gt;Step 1. Key store 생성&lt;/h3&gt;&#xA;&lt;p&gt;비밀번호: devplayg&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;keytool -genkey -v -keystore sb201.key -alias sb201 -keyalg RSA -keysize 2048 -validity 3650&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;step-2-인증서-생성&#34;&gt;Step 2. 인증서 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;keytool -export -alias sb201 -storepass devplayg -file sb201.cer -keystore sb201.key&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;step-3-trust-store-생성&#34;&gt;Step 3. Trust-Store 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;keytool -import -alias sb201 -file sb201.cer -keystore sb201.ts -storepass devplayg&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;step-4-생성된-파일들-확인-및-spring-boot-설정&#34;&gt;Step 4. 생성된 파일들 확인 및 Spring Boot 설정&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ ls -l&#xA;sb201.key&#xA;sb201.cer&#xA;sb201.ts&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Application.yaml 수정&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,35 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>vxg server on Developer Playground</title>
-    <link>https://devplayg.com/tags/vxg-server/</link>
-    <description>Recent content in vxg server on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sat, 10 Aug 2019 15:13:27 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/tags/vxg-server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ubuntu 18.04, VXG Video Server 설치</title>
-      <link>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</link>
-      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</guid>
-      <description>설치 버전  Ubuntu: 18.04 LTS VXG Server: 1.3.293 (2019-July-04)  영상이 저장될 디렉토리 생성 sudo mkdir -p /vxg/storage sudo mkdir -p /vxg/certificate sudo chown 755 -R /vxg sudo chown $USER:$USER -R /vxg  VXG Server 다운로드 https://dashboard.</description>
-    </item>
-    
-    <item>
-      <title>Windows 10, VXG Video Server 설치</title>
-      <link>https://devplayg.com/tech/vxg-server_installation-on-windows/</link>
-      <pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/vxg-server_installation-on-windows/</guid>
-      <description>VXG Server 다운로드 Download
-HTTPS 인증서 생성 (옵션) 생성 과정은 링크 참조
-$ dir E:\vxg\certificate certificate.crt certificate.csr private.key  VXG Server 설치 $ start.bat -h 127.0.0.1 -c e:\vxg\certificate ... (생략) CREATE TRIGGER Writing output to /opt/skyvr/nginx/bin/skyvr_conf.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Vxg Server on devplayg</title>
+		<link>https://devplayg.com/tags/vxg-server/</link>
+		<description>Recent content in Vxg Server on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 10 Aug 2019 15:13:27 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/tags/vxg-server/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ubuntu 18.04, VXG Video Server 설치</title>
+				<link>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</link>
+				<pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+				<guid>https://devplayg.com/tech/vxg-server_installation-on-ubuntu/</guid>
+				<description>&lt;h3 id=&#34;설치-버전&#34;&gt;설치 버전&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ubuntu: 18.04 LTS&lt;/li&gt;&#xA;&lt;li&gt;VXG Server: 1.3.293 (2019-July-04)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;영상이-저장될-디렉토리-생성&#34;&gt;영상이 저장될 디렉토리 생성&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo mkdir -p /vxg/storage&#xA;sudo mkdir -p /vxg/certificate&#xA;sudo chown 755 -R /vxg&#xA;sudo chown $USER:$USER -R /vxg&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;vxg-server-다운로드&#34;&gt;VXG Server 다운로드&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dashboard.videoexpertsgroup.com/?downloads=&#34;&gt;https://dashboard.videoexpertsgroup.com/?downloads=&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Windows 10, VXG Video Server 설치</title>
+				<link>https://devplayg.com/tech/vxg-server_installation-on-windows/</link>
+				<pubDate>Sat, 10 Aug 2019 15:13:27 +0900</pubDate>
+				<guid>https://devplayg.com/tech/vxg-server_installation-on-windows/</guid>
+				<description>&lt;h3 id=&#34;vxg-server-다운로드&#34;&gt;VXG Server 다운로드&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dashboard.videoexpertsgroup.com/?downloads=&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;https-인증서-생성-옵션&#34;&gt;HTTPS 인증서 생성 (옵션)&lt;/h3&gt;&#xA;&lt;p&gt;생성 과정은 &lt;a href=&#34;../openssl_generate-cert&#34;&gt;링크&lt;/a&gt; 참조&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ dir E:\vxg\certificate&#xA;certificate.crt  &#xA;certificate.csr  &#xA;private.key       &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;vxg-server-설치&#34;&gt;VXG Server 설치&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ start.bat -h 127.0.0.1 -c e:\vxg\certificate&#xA;... (생략)&#xA;CREATE TRIGGER&#xA;Writing output to /opt/skyvr/nginx/bin/skyvr_conf.lua&#xA;Writing output to /opt/skyvr/nginx/conf/nginx.conf&#xA; * Starting periodic command scheduler cron&#xA;   ...done.&#xA;accp_web is stopped&#xA;Starting accp_web ...&#xA;rename /var/log/vxg/svcp/accp_web.log.1 /var/log/vxg/svcp/accp_web.log.2&#xA;rename /var/log/vxg/svcp/accp_web.log /var/log/vxg/svcp/accp_web.log.1&#xA;&#xA;VXG Server version 1.3.293.20190704.077f5985853a on system D6D39390-FB1A-11E7-B880-6E66E9EE1C00 started, please visit http://127.0.0.1:8000/ or https://127.0.0.1:8443/ in your browser&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;vxg-동작-확인-및-접속&#34;&gt;VXG 동작 확인 및 접속&lt;/h3&gt;&#xA;&lt;p&gt;Docker 상태&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

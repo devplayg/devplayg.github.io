@@ -1,84 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>util on Developer Playground</title>
-    <link>https://devplayg.com/categories/util/</link>
-    <description>Recent content in util on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Sun, 15 Sep 2019 00:00:12 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/util/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Highcharts tips</title>
-      <link>https://devplayg.com/tech/highcharts_tips/</link>
-      <pubDate>Sun, 15 Sep 2019 00:00:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/highcharts_tips/</guid>
-      <description>xAxis.dateTimeLabelFormats https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats
-{ millisecond: &#39;%H:%M:%S.%L&#39;, second: &#39;%H:%M:%S&#39;, minute: &#39;%H:%M&#39;, hour: &#39;%H:%M&#39;, day: &#39;%e. %b&#39;, week: &#39;%e. %b&#39;, month: &#39;%b \&#39;%y&#39;, year: &#39;%Y&#39; }  Remove all series while(chart.series.length &amp;gt; 0) { chart.</description>
-    </item>
-    
-    <item>
-      <title>Duplicate file finder in Go</title>
-      <link>https://devplayg.com/tech/go_duplicate-file-finder/</link>
-      <pubDate>Tue, 18 Jun 2019 22:39:49 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/go_duplicate-file-finder/</guid>
-      <description>중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서 Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다. 그런데, 다른 github 사용자들의 README.md 파일을 보니, 사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!</description>
-    </item>
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
-      <link>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</link>
-      <pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
-      <description>테스트 결과    압축 출처(라이브러리) 용량(Bytes) 품질(1~100) 공간절약비율 다운로드 링크     원본 1,030,997 - 0 % my-image.jpg   MozJPEG 989,923 100 4 % my-image_cjpeg-100.</description>
-    </item>
-    
-    <item>
-      <title>MozJPEG 를 활용한 JPEG 압축</title>
-      <link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
-      <pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
-      <description>테스트 환경 Ubuntu 18.04 container on Docker
-필수 라이브러리 설치 (Requirements) $ sudo apt-get update $ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev  소스파일 다운로드 (Download source) $ git clone https://github.</description>
-    </item>
-    
-    <item>
-      <title>Hugo tips</title>
-      <link>https://devplayg.com/tech/hugo_tips/</link>
-      <pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/hugo_tips/</guid>
-      <description>Link {{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}} {{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}} {{&amp;lt; relref &amp;quot;document.</description>
-    </item>
-    
-    <item>
-      <title>명령어로 토렌트 다운로드</title>
-      <link>https://devplayg.com/tech/torrent_torrent-command-util/</link>
-      <pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/torrent_torrent-command-util/</guid>
-      <description>실행 환경 (Environment) Ubuntu 18.04
-소스 다운로드 (Clone the git repository) Torrent Library (https://github.com/anacrolix/torrent)
-$ go get github.com/anacrolix/torrent $ go get github.com/anacrolix/envpprof $ go get github.com/anacrolix/tagflag $ cd $GOPATH/src/github.com/anacrolix/torrent/cmd/torrent $ go build $ ls -l torrent -rwxr-xr-x 1 root root 17899680 Jun 14 00:55 torrent  토렌트 파일 다운로드 (Download .</description>
-    </item>
-    
-    <item>
-      <title>FFmpeg tips</title>
-      <link>https://devplayg.com/tech/ffmpeg_tips/</link>
-      <pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
-      <description>A complete, cross-platform solution to record, convert and stream audio and video. https://ffmpeg.org/
-Concatenating video files ffmpeg -f concat -i list.txt -c copy output.mp4  list.txt
-file /tmp/file1.mp4 file /tmp/file2.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Util on devplayg</title>
+		<link>https://devplayg.com/categories/util/</link>
+		<description>Recent content in Util on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 15 Sep 2019 00:00:12 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/util/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Highcharts tips</title>
+				<link>https://devplayg.com/tech/highcharts_tips/</link>
+				<pubDate>Sun, 15 Sep 2019 00:00:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/highcharts_tips/</guid>
+				<description>&lt;h3 id=&#34;xaxisdatetimelabelformats&#34;&gt;xAxis.dateTimeLabelFormats&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats&#34;&gt;https://api.highcharts.com/highcharts/xAxis.dateTimeLabelFormats&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;{&#xA;    millisecond: &#39;%H:%M:%S.%L&#39;,&#xA;    second: &#39;%H:%M:%S&#39;,&#xA;    minute: &#39;%H:%M&#39;,&#xA;    hour: &#39;%H:%M&#39;,&#xA;    day: &#39;%e. %b&#39;,&#xA;    week: &#39;%e. %b&#39;,&#xA;    month: &#39;%b \&#39;%y&#39;,&#xA;    year: &#39;%Y&#39;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;remove-all-series&#34;&gt;Remove all series&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;while(chart.series.length &amp;gt; 0) {&#xA;    chart.series[0].remove(true);&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Duplicate file finder in Go</title>
+				<link>https://devplayg.com/tech/go_duplicate-file-finder/</link>
+				<pubDate>Tue, 18 Jun 2019 22:39:49 +0900</pubDate>
+				<guid>https://devplayg.com/tech/go_duplicate-file-finder/</guid>
+				<description>&lt;p&gt;중복파일을 검색해서, 그 결과를 리턴해주는 코드를 Go 로 몇 줄 작성해서&#xA;Github repo 에 올려봤다. 처음에는 빌드 정도만 되도록 작성된 코드를 올렸다.&#xA;그런데, 다른 github 사용자들의 README.md 파일을 보니,&#xA;사용법도 잘 정리되어 있고, 훈장 같은 벳지들도 달려있지 않은가!!&#xA;그래서 나도 README.md 파일도 좀 고쳐보고, 벳지도 몇 개 달아봤다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축 테스트 결과</title>
+				<link>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</link>
+				<pubDate>Sun, 16 Jun 2019 14:25:34 +0900</pubDate>
+				<guid>https://devplayg.com/tech/mozjpeg_image-optimizing-result/</guid>
+				<description>&lt;h2 id=&#34;테스트-결과&#34;&gt;테스트 결과&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;압축 출처(라이브러리)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;용량(Bytes)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;품질(1~100)&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;공간절약비율&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;다운로드 링크&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;원본&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;1,030,997&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;-&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;0 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image.jpg&#34;&gt;my-image.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;989,923&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;100&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;4 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-100.jpg&#34;&gt;my-image_cjpeg-100.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;ImageMagic&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;941,883&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;9 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_perl.jpg&#34;&gt;my-image_perl.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Google Guetzli&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;425,256&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;84&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;59 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_google.jpg&#34;&gt;my-image_google.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;TinyJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;374,566&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;64 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image-tinyjpeg.jpg&#34;&gt;my-image-tinyjpeg.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;338,452&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;90&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;67 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-90.jpg&#34;&gt;my-image_cjpeg-90.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Compressor.io&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;268,780&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;74 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image-compressor.io.jpg&#34;&gt;my-image-compressor.io.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;215,319&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;80&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;79 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-80.jpg&#34;&gt;my-image_cjpeg-80.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;MozJPEG&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;207,723&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;기본&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;80 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-default.jpg&#34;&gt;my-image_cjpeg-default.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;ImgPresso&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;192,394&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Very High&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;81 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_imgpresso.jpg&#34;&gt;my-image_imgpresso.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;MozJPEG&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;156,782&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;70&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;85 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-70.jpg&#34;&gt;my-image_cjpeg-70.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;129,378&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;60&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;87 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-60.jpg&#34;&gt;my-image_cjpeg-60.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;110,646&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;50&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;89 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-50.jpg&#34;&gt;my-image_cjpeg-50.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;93,594&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;40&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;91 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-40.jpg&#34;&gt;my-image_cjpeg-40.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;73,283&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;30&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;93 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-30.jpg&#34;&gt;my-image_cjpeg-30.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;51,743&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;20&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;95 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-20.jpg&#34;&gt;my-image_cjpeg-20.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;MozJPEG&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;27,813&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;10&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;97 %&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://devplayg.com/tech/mozjpeg_image-optimizing-result/my-image_cjpeg-10.jpg&#34;&gt;my-image_cjpeg-10.jpg&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/mozilla/mozjpeg&#34;&gt;MozJPEG&lt;/a&gt; 추천&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MozJPEG 를 활용한 JPEG 압축</title>
+				<link>https://devplayg.com/tech/mozjpeg_image-optimizing/</link>
+				<pubDate>Sun, 16 Jun 2019 14:24:39 +0900</pubDate>
+				<guid>https://devplayg.com/tech/mozjpeg_image-optimizing/</guid>
+				<description>&lt;h3 id=&#34;테스트-환경&#34;&gt;테스트 환경&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu 18.04 container on Docker&lt;/p&gt;&#xA;&lt;h3 id=&#34;필수-라이브러리-설치-requirements&#34;&gt;필수 라이브러리 설치 (Requirements)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ sudo apt-get update&#xA;$ sudo apt-get install cmake autoconf automake libtool make pkg-config git nasm libpng-dev&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;소스파일-다운로드-download-source&#34;&gt;소스파일 다운로드 (Download source)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/mozilla/mozjpeg.git&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;컴파일-compile&#34;&gt;컴파일 (Compile)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ cd mozjpeg&#xA;$ mkdir build &amp;amp;&amp;amp; cd build&#xA;$ sudo cmake ../&#xA;$ sudo make install&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;이미지-압축-테스트-test&#34;&gt;이미지 압축 테스트 (Test)&lt;/h3&gt;&#xA;&lt;p&gt;실행방법&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hugo tips</title>
+				<link>https://devplayg.com/tech/hugo_tips/</link>
+				<pubDate>Sun, 16 Jun 2019 14:21:11 +0900</pubDate>
+				<guid>https://devplayg.com/tech/hugo_tips/</guid>
+				<description>&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;{{&amp;lt; ref &amp;quot;document.md&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; ref &amp;quot;#anchor&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; ref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; ref &amp;quot;/blog/my-post&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; ref &amp;quot;/blog/my-post.md&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; relref &amp;quot;document.md&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; relref &amp;quot;#anchor&amp;quot; &amp;gt;}}&#xA;{{&amp;lt; relref &amp;quot;document.md#anchor&amp;quot; &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;get-started&#34;&gt;Get started&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;git clone git@github.com:devplayg/blog.git&#xA;cd blog&#xA;git submodule init&#xA;git submodule update&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>명령어로 토렌트 다운로드</title>
+				<link>https://devplayg.com/tech/torrent_torrent-command-util/</link>
+				<pubDate>Sun, 16 Jun 2019 13:11:09 +0900</pubDate>
+				<guid>https://devplayg.com/tech/torrent_torrent-command-util/</guid>
+				<description>&lt;h3 id=&#34;실행-환경-environment&#34;&gt;실행 환경 (Environment)&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu 18.04&lt;/p&gt;&#xA;&lt;h3 id=&#34;소스-다운로드-clone-the-git-repository&#34;&gt;소스 다운로드 (Clone the git repository)&lt;/h3&gt;&#xA;&lt;p&gt;Torrent Library (&lt;a href=&#34;https://github.com/anacrolix/torrent&#34;&gt;https://github.com/anacrolix/torrent&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ go get github.com/anacrolix/torrent&#xA;$ go get github.com/anacrolix/envpprof&#xA;$ go get github.com/anacrolix/tagflag&#xA;&#xA;$ cd $GOPATH/src/github.com/anacrolix/torrent/cmd/torrent&#xA;$ go build&#xA;$ ls -l torrent&#xA;-rwxr-xr-x 1 root root 17899680 Jun 14 00:55 torrent&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;토렌트-파일-다운로드-download-torrent-file&#34;&gt;토렌트 파일 다운로드 (Download .torrent file)&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;$ wget http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso.torrent&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;토렌트-클라이언트-시작-run-torrent&#34;&gt;토렌트 클라이언트 시작 (Run torrent)&lt;/h3&gt;&#xA;&lt;p&gt;토렌트 파일을 사용하는 경우(.torrent)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FFmpeg tips</title>
+				<link>https://devplayg.com/tech/ffmpeg_tips/</link>
+				<pubDate>Tue, 22 Jan 2019 00:09:12 +0900</pubDate>
+				<guid>https://devplayg.com/tech/ffmpeg_tips/</guid>
+				<description>&lt;p&gt;A complete, cross-platform solution to record, convert and stream audio and video.&#xA;&lt;a href=&#34;https://ffmpeg.org/&#34;&gt;https://ffmpeg.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;concatenating-video-files&#34;&gt;Concatenating video files&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;ffmpeg -f concat -i list.txt -c copy output.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;code&gt;list.txt&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;file /tmp/file1.mp4&#xA;file /tmp/file2.mp4&#xA;file /tmp/file3.mp4&#xA;file /tmp/file4.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;listing-split-files-and-merging-them&#34;&gt;Listing split files and merging them&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt; ls -v *.mp4  | awk &#39;{print &amp;quot;file &amp;quot;$1}&#39; &amp;gt; list.txt &amp;amp;&amp;amp; ffmpeg -f concat -i list.txt -c copy output.mp4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;cutting-video&#34;&gt;Cutting video&lt;/h3&gt;&#xA;&lt;p&gt;00:00:00 ~ 00:00:05&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

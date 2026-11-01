@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>server on Developer Playground</title>
-    <link>https://devplayg.com/categories/server/</link>
-    <description>Recent content in server on Developer Playground</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://devplayg.com/categories/server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Setting up development environments with docker-compose</title>
-      <link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
-      <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
-      <description>Create network docker network create -d bridge dev-net  Build environment docker-compose.yaml
-networks: network1: name: dev-net services: db: image: mariadb:10.3 container_name: db volumes: - /d/data/mariadb/data:/var/lib/mysql - /d/data/mariadb/conf.d:/etc/mysql/conf.d environment: - MYSQL_ROOT_PASSWORD=devplayg12!</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Server on devplayg</title>
+		<link>https://devplayg.com/categories/server/</link>
+		<description>Recent content in Server on devplayg</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://devplayg.com/categories/server/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Setting up development environments with docker-compose</title>
+				<link>https://devplayg.com/tech/config-dev-server-env-with-docker/</link>
+				<pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+				<guid>https://devplayg.com/tech/config-dev-server-env-with-docker/</guid>
+				<description>&lt;h3 id=&#34;create-network&#34;&gt;Create network&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;docker network create -d bridge dev-net&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;build-environment&#34;&gt;Build environment&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;docker-compose.yaml&lt;/code&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;networks:&#xA;  network1:&#xA;    name: dev-net&#xA;&#xA;services:&#xA;  db:&#xA;    image: mariadb:10.3&#xA;    container_name: db&#xA;    volumes:&#xA;      - /d/data/mariadb/data:/var/lib/mysql&#xA;      - /d/data/mariadb/conf.d:/etc/mysql/conf.d&#xA;    environment:&#xA;      - MYSQL_ROOT_PASSWORD=devplayg12!@&#xA;      - MYSQL_DATABASE=devplayg&#xA;      - MYSQL_USER=devplayg&#xA;      - MYSQL_PASSWORD=devplayg12!@&#xA;      - TZ=Asia/Seoul&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;3306:3306&amp;#34;&#xA;    command: [&amp;#39;mysqld&amp;#39;, &amp;#39;--character-set-server=utf8mb4&amp;#39;, &amp;#39;--collation-server=utf8mb4_unicode_ci&amp;#39;]&#xA;&#xA;  redis:&#xA;    image: redis:latest&#xA;    container_name: redis&#xA;    volumes:&#xA;      - /d/data/redis/redis-data:/var/lib/redis&#xA;      - /d/data/redis/redis.conf:/usr/local/etc/redis/redis.conf&#xA;    restart: unless-stopped&#xA;    networks:&#xA;     - network1&#xA;    ports:&#xA;      - &amp;#34;6379:6379&amp;#34;&#xA;    command: [&amp;#39;redis-server&amp;#39;, &amp;#39;/usr/local/etc/redis/redis.conf&amp;#39;]&#xA;&#xA;  server:&#xA;    image: ubuntu:18.04&#xA;    container_name: server&#xA;    volumes:&#xA;      - /e/gohome:/gohome&#xA;    networks:&#xA;     - network1&#xA;    tty: true&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>
